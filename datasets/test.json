@@ -1,0 +1,41 @@
+{
+    "case_1": {
+        "【病案介绍】": {
+            "性别": "男",
+            "年龄": "50岁",
+            "主诉": [
+                "Chest pain"
+            ],
+            "现病史": [
+                "Pain for 2 hours"
+            ],
+            "查体": {
+                "体格检查": {
+                    "Blood Pressure": "140/90"
+                },
+                "辅助检查": {
+                    "ECG": "ST elevation"
+                }
+            },
+            "影像报告": [
+                "ECG abnormal"
+            ]
+        },
+        "tags": {
+            "科室": [
+                "Internal Medicine",
+                "Cardiology"
+            ],
+            "病种": [
+                "Myocardial Infarction"
+            ]
+        },
+        "【病例摘要】": [
+            "【基本信息】男, 50岁",
+            "【主诉】... "
+        ],
+        "【治疗项目】": [
+            "Aspirin"
+        ]
+    }
+}
