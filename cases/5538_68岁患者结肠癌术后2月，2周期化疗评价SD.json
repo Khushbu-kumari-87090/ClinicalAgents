@@ -1,0 +1,534 @@
+{
+  "case_id": "5538_68岁患者结肠癌术后2月，2周期化疗评价SD",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "68岁"
+  },
+  "chief_complaint": "结肠癌术后2月余，2周期化疗后20天。",
+  "present_illness": "患者2021-01-19因“脑梗死恢复期”于康复科接受康复治疗，行下腹部CT检查，结果示:符合肠梗阻CT表现，降结肠肠壁增厚，建议肠镜检查；膀胱充盈差；前列腺钙化灶；扫描野双肺炎症。立即前往上级医院，行增强CT：1、降结肠管壁增厚，官腔狭窄并肠梗阻表现，考虑降结肠癌，建议结合肠镜病理2.肝S8段动脉期异常强化灶考虑异常灌注3.左肾多发小囊肿；前列腺钙化灶4.右肺下叶局部支气管扩张5.左肺下叶实性微小结节。行肠镜病理提示：(结肠)腺癌.免疫组化p53-(倾向为无义突变)。2021-01-24日在内镜下行肠梗阻导管置入术。2021-01-26在全麻下行腹腔镜辅助结肠癌根治术，术后病理：(左半结肠)溃疡型中分化腺癌，切面积4x0.5 cm，侵及肠周组织；“上切线”及“下切线”均未查见癌；肠周淋巴结(4/15枚)查见转移癌免疫组化：msh2(+)，msh6(+)，mlh1(+)，pms2(+)，her2(2+)。2021年02月14日基因检测结果：MSS(微卫星稳定)，KRAS突变，余基因未见突变。该院建议化疗(奥沙利铂+卡培他滨)，可联合贝伐珠单抗，不建议免疫治疗.患者术后在家休养，恢复良好.2021年02月28日于山东省立医院复查，胸+全腹增强CT：双肺炎症、纤维灶；双肺小结节(部分磨玻璃结节)，建议随访；右肺下叶支气管扩张；双肺局限性肺气肿、肺大泡；主动脉及冠状动脉硬化；T12椎体内高密度灶，建议随诊:结肠术后改变；肝内异常强化灶，考虑异常灌注双侧肾上腺稍粗；双肾囊肿；前列腺增生并钙化.于2021-03-05、2021-03-2起给予“奥沙利铂230mgd1+卡培他滨早2.0晚1.5gd1-14q21d方案化疗2周期。为进一步治疗今日来我院，门诊以“结肠癌”收入院.患者自发病以来，神志清，精神可，饮食睡眠可，大小便正常，体重减轻约10千克。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "否认高血压、冠心病、糖尿病等慢性疾病病史否认肝炎、结核等传染性疾病病史及密切接触史.否认重大外伤史.否认食物、药物过敏史.否认输血史.预防接种史不详。 生于原籍，生活规律.否认近14内有国外、国内新冠肺炎病例报告社区的旅行史或居住史；否认14天内有进口冷链食品接触史否认近14天内与新型冠状病毒感染者(核酸检测阳性者)有接触史；否认近14天内曾接触过来自国外、国内来自有病例报告社区的发热或有呼吸道症状的患者；无外地久居史，无其他疫区居住史.饮酒史50年，用量不详，无其他不良生活嗜好.",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "5538_68岁患者结肠癌术后2月，2周期化疗评价SD",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "68岁"
+        },
+        "chief_complaint": "结肠癌术后2月余，2周期化疗后20天。",
+        "present_illness": "患者2021-01-19因“脑梗死恢复期”于康复科接受康复治疗，行下腹部CT检查，结果示:符合肠梗阻CT表现，降结肠肠壁增厚，建议肠镜检查；膀胱充盈差；前列腺钙化灶；扫描野双肺炎症。立即前往上级医院，行增强CT：1、降结肠管壁增厚，官腔狭窄并肠梗阻表现，考虑降结肠癌，建议结合肠镜病理2.肝S8段动脉期异常强化灶考虑异常灌注3.左肾多发小囊肿；前列腺钙化灶4.右肺下叶局部支气管扩张5.左肺下叶实性微小结节。行肠镜病理提示：(结肠)腺癌.免疫组化p53-(倾向为无义突变)。2021-01-24日在内镜下行肠梗阻导管置入术。2021-01-26在全麻下行腹腔镜辅助结肠癌根治术，术后病理：(左半结肠)溃疡型中分化腺癌，切面积4x0.5 cm，侵及肠周组织；“上切线”及“下切线”均未查见癌；肠周淋巴结(4/15枚)查见转移癌免疫组化：msh2(+)，msh6(+)，mlh1(+)，pms2(+)，her2(2+)。2021年02月14日基因检测结果：MSS(微卫星稳定)，KRAS突变，余基因未见突变。该院建议化疗(奥沙利铂+卡培他滨)，可联合贝伐珠单抗，不建议免疫治疗.患者术后在家休养，恢复良好.2021年02月28日于山东省立医院复查，胸+全腹增强CT：双肺炎症、纤维灶；双肺小结节(部分磨玻璃结节)，建议随访；右肺下叶支气管扩张；双肺局限性肺气肿、肺大泡；主动脉及冠状动脉硬化；T12椎体内高密度灶，建议随诊:结肠术后改变；肝内异常强化灶，考虑异常灌注双侧肾上腺稍粗；双肾囊肿；前列腺增生并钙化.于2021-03-05、2021-03-2起给予“奥沙利铂230mgd1+卡培他滨早2.0晚1.5gd1-14q21d方案化疗2周期。为进一步治疗今日来我院，门诊以“结肠癌”收入院.患者自发病以来，神志清，精神可，饮食睡眠可，大小便正常，体重减轻约10千克。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "否认高血压、冠心病、糖尿病等慢性疾病病史否认肝炎、结核等传染性疾病病史及密切接触史.否认重大外伤史.否认食物、药物过敏史.否认输血史.预防接种史不详。 生于原籍，生活规律.否认近14内有国外、国内新冠肺炎病例报告社区的旅行史或居住史；否认14天内有进口冷链食品接触史否认近14天内与新型冠状病毒感染者(核酸检测阳性者)有接触史；否认近14天内曾接触过来自国外、国内来自有病例报告社区的发热或有呼吸道症状的患者；无外地久居史，无其他疫区居住史.饮酒史50年，用量不详，无其他不良生活嗜好.",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "5538_68岁患者结肠癌术后2月，2周期化疗评价SD",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "68岁"
+        },
+        "chief_complaint": "结肠癌术后2月余，2周期化疗后20天。",
+        "present_illness": "患者2021-01-19因“脑梗死恢复期”于康复科接受康复治疗，行下腹部CT检查，结果示:符合肠梗阻CT表现，降结肠肠壁增厚，建议肠镜检查；膀胱充盈差；前列腺钙化灶；扫描野双肺炎症。立即前往上级医院，行增强CT：1、降结肠管壁增厚，官腔狭窄并肠梗阻表现，考虑降结肠癌，建议结合肠镜病理2.肝S8段动脉期异常强化灶考虑异常灌注3.左肾多发小囊肿；前列腺钙化灶4.右肺下叶局部支气管扩张5.左肺下叶实性微小结节。行肠镜病理提示：(结肠)腺癌.免疫组化p53-(倾向为无义突变)。2021-01-24日在内镜下行肠梗阻导管置入术。2021-01-26在全麻下行腹腔镜辅助结肠癌根治术，术后病理：(左半结肠)溃疡型中分化腺癌，切面积4x0.5 cm，侵及肠周组织；“上切线”及“下切线”均未查见癌；肠周淋巴结(4/15枚)查见转移癌免疫组化：msh2(+)，msh6(+)，mlh1(+)，pms2(+)，her2(2+)。2021年02月14日基因检测结果：MSS(微卫星稳定)，KRAS突变，余基因未见突变。该院建议化疗(奥沙利铂+卡培他滨)，可联合贝伐珠单抗，不建议免疫治疗.患者术后在家休养，恢复良好.2021年02月28日于山东省立医院复查，胸+全腹增强CT：双肺炎症、纤维灶；双肺小结节(部分磨玻璃结节)，建议随访；右肺下叶支气管扩张；双肺局限性肺气肿、肺大泡；主动脉及冠状动脉硬化；T12椎体内高密度灶，建议随诊:结肠术后改变；肝内异常强化灶，考虑异常灌注双侧肾上腺稍粗；双肾囊肿；前列腺增生并钙化.于2021-03-05、2021-03-2起给予“奥沙利铂230mgd1+卡培他滨早2.0晚1.5gd1-14q21d方案化疗2周期。为进一步治疗今日来我院，门诊以“结肠癌”收入院.患者自发病以来，神志清，精神可，饮食睡眠可，大小便正常，体重减轻约10千克。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认高血压、冠心病、糖尿病等慢性疾病病史否认肝炎、结核等传染性疾病病史及密切接触史.否认重大外伤史.否认食物、药物过敏史.否认输血史.预防接种史不详。 生于原籍，生活规律.否认近14内有国外、国内新冠肺炎病例报告社区的旅行史或居住史；否认14天内有进口冷链食品接触史否认近14天内与新型冠状病毒感染者(核酸检测阳性者)有接触史；否认近14天内曾接触过来自国外、国内来自有病例报告社区的发热或有呼吸道症状的患者；无外地久居史，无其他疫区居住史.饮酒史50年，用量不详，无其他不良生活嗜好.",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "5538_68岁患者结肠癌术后2月，2周期化疗评价SD",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "68岁"
+        },
+        "chief_complaint": "结肠癌术后2月余，2周期化疗后20天。",
+        "present_illness": "患者2021-01-19因“脑梗死恢复期”于康复科接受康复治疗，行下腹部CT检查，结果示:符合肠梗阻CT表现，降结肠肠壁增厚，建议肠镜检查；膀胱充盈差；前列腺钙化灶；扫描野双肺炎症。立即前往上级医院，行增强CT：1、降结肠管壁增厚，官腔狭窄并肠梗阻表现，考虑降结肠癌，建议结合肠镜病理2.肝S8段动脉期异常强化灶考虑异常灌注3.左肾多发小囊肿；前列腺钙化灶4.右肺下叶局部支气管扩张5.左肺下叶实性微小结节。行肠镜病理提示：(结肠)腺癌.免疫组化p53-(倾向为无义突变)。2021-01-24日在内镜下行肠梗阻导管置入术。2021-01-26在全麻下行腹腔镜辅助结肠癌根治术，术后病理：(左半结肠)溃疡型中分化腺癌，切面积4x0.5 cm，侵及肠周组织；“上切线”及“下切线”均未查见癌；肠周淋巴结(4/15枚)查见转移癌免疫组化：msh2(+)，msh6(+)，mlh1(+)，pms2(+)，her2(2+)。2021年02月14日基因检测结果：MSS(微卫星稳定)，KRAS突变，余基因未见突变。该院建议化疗(奥沙利铂+卡培他滨)，可联合贝伐珠单抗，不建议免疫治疗.患者术后在家休养，恢复良好.2021年02月28日于山东省立医院复查，胸+全腹增强CT：双肺炎症、纤维灶；双肺小结节(部分磨玻璃结节)，建议随访；右肺下叶支气管扩张；双肺局限性肺气肿、肺大泡；主动脉及冠状动脉硬化；T12椎体内高密度灶，建议随诊:结肠术后改变；肝内异常强化灶，考虑异常灌注双侧肾上腺稍粗；双肾囊肿；前列腺增生并钙化.于2021-03-05、2021-03-2起给予“奥沙利铂230mgd1+卡培他滨早2.0晚1.5gd1-14q21d方案化疗2周期。为进一步治疗今日来我院，门诊以“结肠癌”收入院.患者自发病以来，神志清，精神可，饮食睡眠可，大小便正常，体重减轻约10千克。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认高血压、冠心病、糖尿病等慢性疾病病史否认肝炎、结核等传染性疾病病史及密切接触史.否认重大外伤史.否认食物、药物过敏史.否认输血史.预防接种史不详。 生于原籍，生活规律.否认近14内有国外、国内新冠肺炎病例报告社区的旅行史或居住史；否认14天内有进口冷链食品接触史否认近14天内与新型冠状病毒感染者(核酸检测阳性者)有接触史；否认近14天内曾接触过来自国外、国内来自有病例报告社区的发热或有呼吸道症状的患者；无外地久居史，无其他疫区居住史.饮酒史50年，用量不详，无其他不良生活嗜好.",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "5538_68岁患者结肠癌术后2月，2周期化疗评价SD",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "68岁"
+        },
+        "chief_complaint": "结肠癌术后2月余，2周期化疗后20天。",
+        "present_illness": "患者2021-01-19因“脑梗死恢复期”于康复科接受康复治疗，行下腹部CT检查，结果示:符合肠梗阻CT表现，降结肠肠壁增厚，建议肠镜检查；膀胱充盈差；前列腺钙化灶；扫描野双肺炎症。立即前往上级医院，行增强CT：1、降结肠管壁增厚，官腔狭窄并肠梗阻表现，考虑降结肠癌，建议结合肠镜病理2.肝S8段动脉期异常强化灶考虑异常灌注3.左肾多发小囊肿；前列腺钙化灶4.右肺下叶局部支气管扩张5.左肺下叶实性微小结节。行肠镜病理提示：(结肠)腺癌.免疫组化p53-(倾向为无义突变)。2021-01-24日在内镜下行肠梗阻导管置入术。2021-01-26在全麻下行腹腔镜辅助结肠癌根治术，术后病理：(左半结肠)溃疡型中分化腺癌，切面积4x0.5 cm，侵及肠周组织；“上切线”及“下切线”均未查见癌；肠周淋巴结(4/15枚)查见转移癌免疫组化：msh2(+)，msh6(+)，mlh1(+)，pms2(+)，her2(2+)。2021年02月14日基因检测结果：MSS(微卫星稳定)，KRAS突变，余基因未见突变。该院建议化疗(奥沙利铂+卡培他滨)，可联合贝伐珠单抗，不建议免疫治疗.患者术后在家休养，恢复良好.2021年02月28日于山东省立医院复查，胸+全腹增强CT：双肺炎症、纤维灶；双肺小结节(部分磨玻璃结节)，建议随访；右肺下叶支气管扩张；双肺局限性肺气肿、肺大泡；主动脉及冠状动脉硬化；T12椎体内高密度灶，建议随诊:结肠术后改变；肝内异常强化灶，考虑异常灌注双侧肾上腺稍粗；双肾囊肿；前列腺增生并钙化.于2021-03-05、2021-03-2起给予“奥沙利铂230mgd1+卡培他滨早2.0晚1.5gd1-14q21d方案化疗2周期。为进一步治疗今日来我院，门诊以“结肠癌”收入院.患者自发病以来，神志清，精神可，饮食睡眠可，大小便正常，体重减轻约10千克。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认高血压、冠心病、糖尿病等慢性疾病病史否认肝炎、结核等传染性疾病病史及密切接触史.否认重大外伤史.否认食物、药物过敏史.否认输血史.预防接种史不详。 生于原籍，生活规律.否认近14内有国外、国内新冠肺炎病例报告社区的旅行史或居住史；否认14天内有进口冷链食品接触史否认近14天内与新型冠状病毒感染者(核酸检测阳性者)有接触史；否认近14天内曾接触过来自国外、国内来自有病例报告社区的发热或有呼吸道症状的患者；无外地久居史，无其他疫区居住史.饮酒史50年，用量不详，无其他不良生活嗜好.",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "5538_68岁患者结肠癌术后2月，2周期化疗评价SD",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "68岁"
+        },
+        "chief_complaint": "结肠癌术后2月余，2周期化疗后20天。",
+        "present_illness": "患者2021-01-19因“脑梗死恢复期”于康复科接受康复治疗，行下腹部CT检查，结果示:符合肠梗阻CT表现，降结肠肠壁增厚，建议肠镜检查；膀胱充盈差；前列腺钙化灶；扫描野双肺炎症。立即前往上级医院，行增强CT：1、降结肠管壁增厚，官腔狭窄并肠梗阻表现，考虑降结肠癌，建议结合肠镜病理2.肝S8段动脉期异常强化灶考虑异常灌注3.左肾多发小囊肿；前列腺钙化灶4.右肺下叶局部支气管扩张5.左肺下叶实性微小结节。行肠镜病理提示：(结肠)腺癌.免疫组化p53-(倾向为无义突变)。2021-01-24日在内镜下行肠梗阻导管置入术。2021-01-26在全麻下行腹腔镜辅助结肠癌根治术，术后病理：(左半结肠)溃疡型中分化腺癌，切面积4x0.5 cm，侵及肠周组织；“上切线”及“下切线”均未查见癌；肠周淋巴结(4/15枚)查见转移癌免疫组化：msh2(+)，msh6(+)，mlh1(+)，pms2(+)，her2(2+)。2021年02月14日基因检测结果：MSS(微卫星稳定)，KRAS突变，余基因未见突变。该院建议化疗(奥沙利铂+卡培他滨)，可联合贝伐珠单抗，不建议免疫治疗.患者术后在家休养，恢复良好.2021年02月28日于山东省立医院复查，胸+全腹增强CT：双肺炎症、纤维灶；双肺小结节(部分磨玻璃结节)，建议随访；右肺下叶支气管扩张；双肺局限性肺气肿、肺大泡；主动脉及冠状动脉硬化；T12椎体内高密度灶，建议随诊:结肠术后改变；肝内异常强化灶，考虑异常灌注双侧肾上腺稍粗；双肾囊肿；前列腺增生并钙化.于2021-03-05、2021-03-2起给予“奥沙利铂230mgd1+卡培他滨早2.0晚1.5gd1-14q21d方案化疗2周期。为进一步治疗今日来我院，门诊以“结肠癌”收入院.患者自发病以来，神志清，精神可，饮食睡眠可，大小便正常，体重减轻约10千克。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认高血压、冠心病、糖尿病等慢性疾病病史否认肝炎、结核等传染性疾病病史及密切接触史.否认重大外伤史.否认食物、药物过敏史.否认输血史.预防接种史不详。 生于原籍，生活规律.否认近14内有国外、国内新冠肺炎病例报告社区的旅行史或居住史；否认14天内有进口冷链食品接触史否认近14天内与新型冠状病毒感染者(核酸检测阳性者)有接触史；否认近14天内曾接触过来自国外、国内来自有病例报告社区的发热或有呼吸道症状的患者；无外地久居史，无其他疫区居住史.饮酒史50年，用量不详，无其他不良生活嗜好.",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

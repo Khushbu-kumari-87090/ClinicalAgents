@@ -1,0 +1,534 @@
+{
+  "case_id": "497_肺癌肩痛",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "68岁"
+  },
+  "chief_complaint": "男性，68岁，已婚，汉族，退休。 右肩痛2年余，诊肺癌1年10月余，纳差1周。",
+  "present_illness": "患者缘于2014-1无明显诱因出现右侧肩背部疼痛,当地诊所考虑“肩周炎”,给予物理治疗(具体不详)无明显缓解,未予关注。2014-6-30患者无明显诱因出现右侧胸痛,无咳嗽、咳痰,无胸闷及呼吸困难等,于2014-7-4就诊于当地三级医院查胸部+上腹部CT:右肺门大,右肺中叶及下叶高密度,考虑肺癌,伴肺内转移,左肺少许肺大泡,双侧胸腔积液,纵隔及双侧腋窝多发肿大淋巴结,右侧肩脚骨、双侧多发肋骨、多发胸椎椎体及其附件骨质多发溶骨性骨质破坏,考虑骨转移瘤,右侧局部肋骨骨质结构不连续,肝顶部低密度病变,考虑转移瘤,肝右叶钙化斑,局部腰椎椎体溶骨性骨质破坏,考虑骨转移瘤。忠者于该院放疗一次(具体不详)。2014-7-17患者就诊于我院行纤维支气管镜检查,病理回报:(肺)考虑中分化鳞癌,免疫组化:AEI/AE3(+),TTF-1(-),CK7(+),CK5/6(+),P63(-)Syn（-），CgA(-),Ki-67index约1%,于我科行TP方案化疗四周期,第四周期因骨髓抑制未行第八天化疗,疗效评价:SD。因TP方案患者骨髓抑制严重,更换化疗方案(吉西他滨+奈达铂)化疗两周期,第二周期因骨髓抑制未行第八天化疗,后间断复查示病情稳定。2015-8-28上腹部MRI示肝脏占位体积较前增大,考虑病情进展,家属拒绝静脉化疗、放疗及靶向药物治疗。后每28天规律输注唑来膦酸。入院前1周,患者纳差,进食量少,无胸闷、气短,无咳嗽咳痰痰中带血等不适,今日为进一步诊治***。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "既往“完全性右束支传导阻滞”1年10月,“主动脉壁间血肿伴多发溃疡”病史1年10月,“慢性非非萎缩性胃炎”病史1年余;“高脂血症”病史1年余,未规律治疗;否认“糖尿病、高血压”病史,无“肝炎、结核、伤寒、疟疾”等传染病史;既往输血史;无手术、外伤史;无药物及其他过史;预防接种史不详,系统回顾无特殊。",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "497_肺癌肩痛",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "68岁"
+        },
+        "chief_complaint": "男性，68岁，已婚，汉族，退休。 右肩痛2年余，诊肺癌1年10月余，纳差1周。",
+        "present_illness": "患者缘于2014-1无明显诱因出现右侧肩背部疼痛,当地诊所考虑“肩周炎”,给予物理治疗(具体不详)无明显缓解,未予关注。2014-6-30患者无明显诱因出现右侧胸痛,无咳嗽、咳痰,无胸闷及呼吸困难等,于2014-7-4就诊于当地三级医院查胸部+上腹部CT:右肺门大,右肺中叶及下叶高密度,考虑肺癌,伴肺内转移,左肺少许肺大泡,双侧胸腔积液,纵隔及双侧腋窝多发肿大淋巴结,右侧肩脚骨、双侧多发肋骨、多发胸椎椎体及其附件骨质多发溶骨性骨质破坏,考虑骨转移瘤,右侧局部肋骨骨质结构不连续,肝顶部低密度病变,考虑转移瘤,肝右叶钙化斑,局部腰椎椎体溶骨性骨质破坏,考虑骨转移瘤。忠者于该院放疗一次(具体不详)。2014-7-17患者就诊于我院行纤维支气管镜检查,病理回报:(肺)考虑中分化鳞癌,免疫组化:AEI/AE3(+),TTF-1(-),CK7(+),CK5/6(+),P63(-)Syn（-），CgA(-),Ki-67index约1%,于我科行TP方案化疗四周期,第四周期因骨髓抑制未行第八天化疗,疗效评价:SD。因TP方案患者骨髓抑制严重,更换化疗方案(吉西他滨+奈达铂)化疗两周期,第二周期因骨髓抑制未行第八天化疗,后间断复查示病情稳定。2015-8-28上腹部MRI示肝脏占位体积较前增大,考虑病情进展,家属拒绝静脉化疗、放疗及靶向药物治疗。后每28天规律输注唑来膦酸。入院前1周,患者纳差,进食量少,无胸闷、气短,无咳嗽咳痰痰中带血等不适,今日为进一步诊治***。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "既往“完全性右束支传导阻滞”1年10月,“主动脉壁间血肿伴多发溃疡”病史1年10月,“慢性非非萎缩性胃炎”病史1年余;“高脂血症”病史1年余,未规律治疗;否认“糖尿病、高血压”病史,无“肝炎、结核、伤寒、疟疾”等传染病史;既往输血史;无手术、外伤史;无药物及其他过史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "497_肺癌肩痛",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "68岁"
+        },
+        "chief_complaint": "男性，68岁，已婚，汉族，退休。 右肩痛2年余，诊肺癌1年10月余，纳差1周。",
+        "present_illness": "患者缘于2014-1无明显诱因出现右侧肩背部疼痛,当地诊所考虑“肩周炎”,给予物理治疗(具体不详)无明显缓解,未予关注。2014-6-30患者无明显诱因出现右侧胸痛,无咳嗽、咳痰,无胸闷及呼吸困难等,于2014-7-4就诊于当地三级医院查胸部+上腹部CT:右肺门大,右肺中叶及下叶高密度,考虑肺癌,伴肺内转移,左肺少许肺大泡,双侧胸腔积液,纵隔及双侧腋窝多发肿大淋巴结,右侧肩脚骨、双侧多发肋骨、多发胸椎椎体及其附件骨质多发溶骨性骨质破坏,考虑骨转移瘤,右侧局部肋骨骨质结构不连续,肝顶部低密度病变,考虑转移瘤,肝右叶钙化斑,局部腰椎椎体溶骨性骨质破坏,考虑骨转移瘤。忠者于该院放疗一次(具体不详)。2014-7-17患者就诊于我院行纤维支气管镜检查,病理回报:(肺)考虑中分化鳞癌,免疫组化:AEI/AE3(+),TTF-1(-),CK7(+),CK5/6(+),P63(-)Syn（-），CgA(-),Ki-67index约1%,于我科行TP方案化疗四周期,第四周期因骨髓抑制未行第八天化疗,疗效评价:SD。因TP方案患者骨髓抑制严重,更换化疗方案(吉西他滨+奈达铂)化疗两周期,第二周期因骨髓抑制未行第八天化疗,后间断复查示病情稳定。2015-8-28上腹部MRI示肝脏占位体积较前增大,考虑病情进展,家属拒绝静脉化疗、放疗及靶向药物治疗。后每28天规律输注唑来膦酸。入院前1周,患者纳差,进食量少,无胸闷、气短,无咳嗽咳痰痰中带血等不适,今日为进一步诊治***。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往“完全性右束支传导阻滞”1年10月,“主动脉壁间血肿伴多发溃疡”病史1年10月,“慢性非非萎缩性胃炎”病史1年余;“高脂血症”病史1年余,未规律治疗;否认“糖尿病、高血压”病史,无“肝炎、结核、伤寒、疟疾”等传染病史;既往输血史;无手术、外伤史;无药物及其他过史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "497_肺癌肩痛",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "68岁"
+        },
+        "chief_complaint": "男性，68岁，已婚，汉族，退休。 右肩痛2年余，诊肺癌1年10月余，纳差1周。",
+        "present_illness": "患者缘于2014-1无明显诱因出现右侧肩背部疼痛,当地诊所考虑“肩周炎”,给予物理治疗(具体不详)无明显缓解,未予关注。2014-6-30患者无明显诱因出现右侧胸痛,无咳嗽、咳痰,无胸闷及呼吸困难等,于2014-7-4就诊于当地三级医院查胸部+上腹部CT:右肺门大,右肺中叶及下叶高密度,考虑肺癌,伴肺内转移,左肺少许肺大泡,双侧胸腔积液,纵隔及双侧腋窝多发肿大淋巴结,右侧肩脚骨、双侧多发肋骨、多发胸椎椎体及其附件骨质多发溶骨性骨质破坏,考虑骨转移瘤,右侧局部肋骨骨质结构不连续,肝顶部低密度病变,考虑转移瘤,肝右叶钙化斑,局部腰椎椎体溶骨性骨质破坏,考虑骨转移瘤。忠者于该院放疗一次(具体不详)。2014-7-17患者就诊于我院行纤维支气管镜检查,病理回报:(肺)考虑中分化鳞癌,免疫组化:AEI/AE3(+),TTF-1(-),CK7(+),CK5/6(+),P63(-)Syn（-），CgA(-),Ki-67index约1%,于我科行TP方案化疗四周期,第四周期因骨髓抑制未行第八天化疗,疗效评价:SD。因TP方案患者骨髓抑制严重,更换化疗方案(吉西他滨+奈达铂)化疗两周期,第二周期因骨髓抑制未行第八天化疗,后间断复查示病情稳定。2015-8-28上腹部MRI示肝脏占位体积较前增大,考虑病情进展,家属拒绝静脉化疗、放疗及靶向药物治疗。后每28天规律输注唑来膦酸。入院前1周,患者纳差,进食量少,无胸闷、气短,无咳嗽咳痰痰中带血等不适,今日为进一步诊治***。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往“完全性右束支传导阻滞”1年10月,“主动脉壁间血肿伴多发溃疡”病史1年10月,“慢性非非萎缩性胃炎”病史1年余;“高脂血症”病史1年余,未规律治疗;否认“糖尿病、高血压”病史,无“肝炎、结核、伤寒、疟疾”等传染病史;既往输血史;无手术、外伤史;无药物及其他过史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "497_肺癌肩痛",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "68岁"
+        },
+        "chief_complaint": "男性，68岁，已婚，汉族，退休。 右肩痛2年余，诊肺癌1年10月余，纳差1周。",
+        "present_illness": "患者缘于2014-1无明显诱因出现右侧肩背部疼痛,当地诊所考虑“肩周炎”,给予物理治疗(具体不详)无明显缓解,未予关注。2014-6-30患者无明显诱因出现右侧胸痛,无咳嗽、咳痰,无胸闷及呼吸困难等,于2014-7-4就诊于当地三级医院查胸部+上腹部CT:右肺门大,右肺中叶及下叶高密度,考虑肺癌,伴肺内转移,左肺少许肺大泡,双侧胸腔积液,纵隔及双侧腋窝多发肿大淋巴结,右侧肩脚骨、双侧多发肋骨、多发胸椎椎体及其附件骨质多发溶骨性骨质破坏,考虑骨转移瘤,右侧局部肋骨骨质结构不连续,肝顶部低密度病变,考虑转移瘤,肝右叶钙化斑,局部腰椎椎体溶骨性骨质破坏,考虑骨转移瘤。忠者于该院放疗一次(具体不详)。2014-7-17患者就诊于我院行纤维支气管镜检查,病理回报:(肺)考虑中分化鳞癌,免疫组化:AEI/AE3(+),TTF-1(-),CK7(+),CK5/6(+),P63(-)Syn（-），CgA(-),Ki-67index约1%,于我科行TP方案化疗四周期,第四周期因骨髓抑制未行第八天化疗,疗效评价:SD。因TP方案患者骨髓抑制严重,更换化疗方案(吉西他滨+奈达铂)化疗两周期,第二周期因骨髓抑制未行第八天化疗,后间断复查示病情稳定。2015-8-28上腹部MRI示肝脏占位体积较前增大,考虑病情进展,家属拒绝静脉化疗、放疗及靶向药物治疗。后每28天规律输注唑来膦酸。入院前1周,患者纳差,进食量少,无胸闷、气短,无咳嗽咳痰痰中带血等不适,今日为进一步诊治***。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往“完全性右束支传导阻滞”1年10月,“主动脉壁间血肿伴多发溃疡”病史1年10月,“慢性非非萎缩性胃炎”病史1年余;“高脂血症”病史1年余,未规律治疗;否认“糖尿病、高血压”病史,无“肝炎、结核、伤寒、疟疾”等传染病史;既往输血史;无手术、外伤史;无药物及其他过史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "497_肺癌肩痛",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "68岁"
+        },
+        "chief_complaint": "男性，68岁，已婚，汉族，退休。 右肩痛2年余，诊肺癌1年10月余，纳差1周。",
+        "present_illness": "患者缘于2014-1无明显诱因出现右侧肩背部疼痛,当地诊所考虑“肩周炎”,给予物理治疗(具体不详)无明显缓解,未予关注。2014-6-30患者无明显诱因出现右侧胸痛,无咳嗽、咳痰,无胸闷及呼吸困难等,于2014-7-4就诊于当地三级医院查胸部+上腹部CT:右肺门大,右肺中叶及下叶高密度,考虑肺癌,伴肺内转移,左肺少许肺大泡,双侧胸腔积液,纵隔及双侧腋窝多发肿大淋巴结,右侧肩脚骨、双侧多发肋骨、多发胸椎椎体及其附件骨质多发溶骨性骨质破坏,考虑骨转移瘤,右侧局部肋骨骨质结构不连续,肝顶部低密度病变,考虑转移瘤,肝右叶钙化斑,局部腰椎椎体溶骨性骨质破坏,考虑骨转移瘤。忠者于该院放疗一次(具体不详)。2014-7-17患者就诊于我院行纤维支气管镜检查,病理回报:(肺)考虑中分化鳞癌,免疫组化:AEI/AE3(+),TTF-1(-),CK7(+),CK5/6(+),P63(-)Syn（-），CgA(-),Ki-67index约1%,于我科行TP方案化疗四周期,第四周期因骨髓抑制未行第八天化疗,疗效评价:SD。因TP方案患者骨髓抑制严重,更换化疗方案(吉西他滨+奈达铂)化疗两周期,第二周期因骨髓抑制未行第八天化疗,后间断复查示病情稳定。2015-8-28上腹部MRI示肝脏占位体积较前增大,考虑病情进展,家属拒绝静脉化疗、放疗及靶向药物治疗。后每28天规律输注唑来膦酸。入院前1周,患者纳差,进食量少,无胸闷、气短,无咳嗽咳痰痰中带血等不适,今日为进一步诊治***。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往“完全性右束支传导阻滞”1年10月,“主动脉壁间血肿伴多发溃疡”病史1年10月,“慢性非非萎缩性胃炎”病史1年余;“高脂血症”病史1年余,未规律治疗;否认“糖尿病、高血压”病史,无“肝炎、结核、伤寒、疟疾”等传染病史;既往输血史;无手术、外伤史;无药物及其他过史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

@@ -1,0 +1,534 @@
+{
+  "case_id": "5370_治疗鼻咽癌复发1例",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "69岁"
+  },
+  "chief_complaint": "男性，69岁，汉族，已婚，退休。 鼻咽癌放化疗后16年，确诊二次复发1月余。",
+  "present_illness": "患者缘于1999年体检时发现右颈部肿物,直径约2cm,无痛,伴鼻塞,具体症状患者不能回忆,于当地三级医院切取右颈部淋巴结活检后确诊为“鼻咽癌”,行常规放疗及化疗(具体不详),治疗结束后患者痊愈出院,未规律复查。2014-2患者无明显诱因出现咽痛,进食时加重,自诉咽部未见明显肿物,上述症状持续不缓解,2014-6患者右侧咽后壁处出现溃疡,溃疡不愈合且持续加重形成深溃疡,进食痛较前明显加重,遂于2014-7-3于我院取溃病处病理送北京某三级医院会诊诊断为:(扁桃体)低分化鱗状细胞癌,于该院查头颅增强CT示:硬颚骨质改变伴软组织增厚,颈区未见肿大淋巴结。患者2014-7-11于我院查骨扫描未见异常,肝胆胰脾双肾输尿管膀胱前列腺超声:前列腺增大伴钙化;颈部淋巴结超声:左侧颈部淋巴结可见,左侧锁骨上低回声,考虑淋巴结:胸片:两肺纹理强,主动脉硬化。2014-7-15患者为进一步诊治就诊于北京某医院耳鼻喉科查喉镜示:双侧咽隐窝、咽鼓管口未见明显异常,喉腔可见大量分泌物附着,会厌结构正常,右侧声带固定,左侧声带活动好,右侧梨状窝内见少许唾液潴留,左侧梨状窝(-),诊断为:右咽侧壁肿物,鼻咽癌复发可能性大,建议放疗。2014-7-23患者于当地某三级医院行放射治疗,放疗靶区为:右侧咽后壁可见肿瘤,处方剂量DT50Gy/25f,患者放疗DT34Gy/17f,未诉特殊不适,后于2014-8-25再次就诊于该院行二程放疗(具体不详)后回家。2014-10患者无明显诱因出现声音嘶哑,2015-2患者出现进食后偶有呛咳,流食明显,就诊于当地某三级医院考虑“声带麻痹”,未进一步治疗。2015-5-29患者于我院行颈部平扫+增强CT:鼻咽癌放疗术后改变,甲状腺左叶水平团块,向右侧长入气管内,向后下侵及食管,考虑受侵、转移可能性大,喉咽腔形态异常,局部异常信号影,考虑受侵改变,左肺内多发结节,考虑转移。食管造影:考虑右上纵隔占位性病变,心影增大,会厌溪征阳性,右主支气管受压破坏,胸部CT:气管左后方占位性病变,双肺、纵隔淋巴结转移,双肺条索影伴牽引性肺气肿,主动脉冠状动脉硬化,肝脏异常密度影。甲状腺彩超:甲状腺左叶低回声区伴钙化。2015-7-3患者再次于我院行肺CT检查:与2015-5-29日CT比较:气管左后方占位性病变,大致同前,双肺、纵隔淋巴结转移,肺内病灶较前增多,双肺条索影伴牵引性肺气肿,大致同前,主动脉冠状动脉硬化,同前,肝脏异常密度影,较前增大。患者就诊于当地三级医院建议口服替吉奥治疗,今日患者为进一步诊治***。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "既往“脑梗死”病史20年,行“颅内血管支架术”,现未遗留后遗症，“高血压”病史10余年,最高血压200/110mmHg,目前口服“硝苯地平缓释片半片/次2/日”控制,血压基本维持于160-170/90mmHg左右,自诉血压低于160mmHg后出现不适，“冠状动脉粥样硬化性心脏病”病史1月余,否认糖尿病史;无“肝炎、结核、伤寒、疟疾”等传染病史;无手术及输血史;无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "5370_治疗鼻咽癌复发1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "69岁"
+        },
+        "chief_complaint": "男性，69岁，汉族，已婚，退休。 鼻咽癌放化疗后16年，确诊二次复发1月余。",
+        "present_illness": "患者缘于1999年体检时发现右颈部肿物,直径约2cm,无痛,伴鼻塞,具体症状患者不能回忆,于当地三级医院切取右颈部淋巴结活检后确诊为“鼻咽癌”,行常规放疗及化疗(具体不详),治疗结束后患者痊愈出院,未规律复查。2014-2患者无明显诱因出现咽痛,进食时加重,自诉咽部未见明显肿物,上述症状持续不缓解,2014-6患者右侧咽后壁处出现溃疡,溃疡不愈合且持续加重形成深溃疡,进食痛较前明显加重,遂于2014-7-3于我院取溃病处病理送北京某三级医院会诊诊断为:(扁桃体)低分化鱗状细胞癌,于该院查头颅增强CT示:硬颚骨质改变伴软组织增厚,颈区未见肿大淋巴结。患者2014-7-11于我院查骨扫描未见异常,肝胆胰脾双肾输尿管膀胱前列腺超声:前列腺增大伴钙化;颈部淋巴结超声:左侧颈部淋巴结可见,左侧锁骨上低回声,考虑淋巴结:胸片:两肺纹理强,主动脉硬化。2014-7-15患者为进一步诊治就诊于北京某医院耳鼻喉科查喉镜示:双侧咽隐窝、咽鼓管口未见明显异常,喉腔可见大量分泌物附着,会厌结构正常,右侧声带固定,左侧声带活动好,右侧梨状窝内见少许唾液潴留,左侧梨状窝(-),诊断为:右咽侧壁肿物,鼻咽癌复发可能性大,建议放疗。2014-7-23患者于当地某三级医院行放射治疗,放疗靶区为:右侧咽后壁可见肿瘤,处方剂量DT50Gy/25f,患者放疗DT34Gy/17f,未诉特殊不适,后于2014-8-25再次就诊于该院行二程放疗(具体不详)后回家。2014-10患者无明显诱因出现声音嘶哑,2015-2患者出现进食后偶有呛咳,流食明显,就诊于当地某三级医院考虑“声带麻痹”,未进一步治疗。2015-5-29患者于我院行颈部平扫+增强CT:鼻咽癌放疗术后改变,甲状腺左叶水平团块,向右侧长入气管内,向后下侵及食管,考虑受侵、转移可能性大,喉咽腔形态异常,局部异常信号影,考虑受侵改变,左肺内多发结节,考虑转移。食管造影:考虑右上纵隔占位性病变,心影增大,会厌溪征阳性,右主支气管受压破坏,胸部CT:气管左后方占位性病变,双肺、纵隔淋巴结转移,双肺条索影伴牽引性肺气肿,主动脉冠状动脉硬化,肝脏异常密度影。甲状腺彩超:甲状腺左叶低回声区伴钙化。2015-7-3患者再次于我院行肺CT检查:与2015-5-29日CT比较:气管左后方占位性病变,大致同前,双肺、纵隔淋巴结转移,肺内病灶较前增多,双肺条索影伴牵引性肺气肿,大致同前,主动脉冠状动脉硬化,同前,肝脏异常密度影,较前增大。患者就诊于当地三级医院建议口服替吉奥治疗,今日患者为进一步诊治***。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "既往“脑梗死”病史20年,行“颅内血管支架术”,现未遗留后遗症，“高血压”病史10余年,最高血压200/110mmHg,目前口服“硝苯地平缓释片半片/次2/日”控制,血压基本维持于160-170/90mmHg左右,自诉血压低于160mmHg后出现不适，“冠状动脉粥样硬化性心脏病”病史1月余,否认糖尿病史;无“肝炎、结核、伤寒、疟疾”等传染病史;无手术及输血史;无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "5370_治疗鼻咽癌复发1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "69岁"
+        },
+        "chief_complaint": "男性，69岁，汉族，已婚，退休。 鼻咽癌放化疗后16年，确诊二次复发1月余。",
+        "present_illness": "患者缘于1999年体检时发现右颈部肿物,直径约2cm,无痛,伴鼻塞,具体症状患者不能回忆,于当地三级医院切取右颈部淋巴结活检后确诊为“鼻咽癌”,行常规放疗及化疗(具体不详),治疗结束后患者痊愈出院,未规律复查。2014-2患者无明显诱因出现咽痛,进食时加重,自诉咽部未见明显肿物,上述症状持续不缓解,2014-6患者右侧咽后壁处出现溃疡,溃疡不愈合且持续加重形成深溃疡,进食痛较前明显加重,遂于2014-7-3于我院取溃病处病理送北京某三级医院会诊诊断为:(扁桃体)低分化鱗状细胞癌,于该院查头颅增强CT示:硬颚骨质改变伴软组织增厚,颈区未见肿大淋巴结。患者2014-7-11于我院查骨扫描未见异常,肝胆胰脾双肾输尿管膀胱前列腺超声:前列腺增大伴钙化;颈部淋巴结超声:左侧颈部淋巴结可见,左侧锁骨上低回声,考虑淋巴结:胸片:两肺纹理强,主动脉硬化。2014-7-15患者为进一步诊治就诊于北京某医院耳鼻喉科查喉镜示:双侧咽隐窝、咽鼓管口未见明显异常,喉腔可见大量分泌物附着,会厌结构正常,右侧声带固定,左侧声带活动好,右侧梨状窝内见少许唾液潴留,左侧梨状窝(-),诊断为:右咽侧壁肿物,鼻咽癌复发可能性大,建议放疗。2014-7-23患者于当地某三级医院行放射治疗,放疗靶区为:右侧咽后壁可见肿瘤,处方剂量DT50Gy/25f,患者放疗DT34Gy/17f,未诉特殊不适,后于2014-8-25再次就诊于该院行二程放疗(具体不详)后回家。2014-10患者无明显诱因出现声音嘶哑,2015-2患者出现进食后偶有呛咳,流食明显,就诊于当地某三级医院考虑“声带麻痹”,未进一步治疗。2015-5-29患者于我院行颈部平扫+增强CT:鼻咽癌放疗术后改变,甲状腺左叶水平团块,向右侧长入气管内,向后下侵及食管,考虑受侵、转移可能性大,喉咽腔形态异常,局部异常信号影,考虑受侵改变,左肺内多发结节,考虑转移。食管造影:考虑右上纵隔占位性病变,心影增大,会厌溪征阳性,右主支气管受压破坏,胸部CT:气管左后方占位性病变,双肺、纵隔淋巴结转移,双肺条索影伴牽引性肺气肿,主动脉冠状动脉硬化,肝脏异常密度影。甲状腺彩超:甲状腺左叶低回声区伴钙化。2015-7-3患者再次于我院行肺CT检查:与2015-5-29日CT比较:气管左后方占位性病变,大致同前,双肺、纵隔淋巴结转移,肺内病灶较前增多,双肺条索影伴牵引性肺气肿,大致同前,主动脉冠状动脉硬化,同前,肝脏异常密度影,较前增大。患者就诊于当地三级医院建议口服替吉奥治疗,今日患者为进一步诊治***。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往“脑梗死”病史20年,行“颅内血管支架术”,现未遗留后遗症，“高血压”病史10余年,最高血压200/110mmHg,目前口服“硝苯地平缓释片半片/次2/日”控制,血压基本维持于160-170/90mmHg左右,自诉血压低于160mmHg后出现不适，“冠状动脉粥样硬化性心脏病”病史1月余,否认糖尿病史;无“肝炎、结核、伤寒、疟疾”等传染病史;无手术及输血史;无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "5370_治疗鼻咽癌复发1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "69岁"
+        },
+        "chief_complaint": "男性，69岁，汉族，已婚，退休。 鼻咽癌放化疗后16年，确诊二次复发1月余。",
+        "present_illness": "患者缘于1999年体检时发现右颈部肿物,直径约2cm,无痛,伴鼻塞,具体症状患者不能回忆,于当地三级医院切取右颈部淋巴结活检后确诊为“鼻咽癌”,行常规放疗及化疗(具体不详),治疗结束后患者痊愈出院,未规律复查。2014-2患者无明显诱因出现咽痛,进食时加重,自诉咽部未见明显肿物,上述症状持续不缓解,2014-6患者右侧咽后壁处出现溃疡,溃疡不愈合且持续加重形成深溃疡,进食痛较前明显加重,遂于2014-7-3于我院取溃病处病理送北京某三级医院会诊诊断为:(扁桃体)低分化鱗状细胞癌,于该院查头颅增强CT示:硬颚骨质改变伴软组织增厚,颈区未见肿大淋巴结。患者2014-7-11于我院查骨扫描未见异常,肝胆胰脾双肾输尿管膀胱前列腺超声:前列腺增大伴钙化;颈部淋巴结超声:左侧颈部淋巴结可见,左侧锁骨上低回声,考虑淋巴结:胸片:两肺纹理强,主动脉硬化。2014-7-15患者为进一步诊治就诊于北京某医院耳鼻喉科查喉镜示:双侧咽隐窝、咽鼓管口未见明显异常,喉腔可见大量分泌物附着,会厌结构正常,右侧声带固定,左侧声带活动好,右侧梨状窝内见少许唾液潴留,左侧梨状窝(-),诊断为:右咽侧壁肿物,鼻咽癌复发可能性大,建议放疗。2014-7-23患者于当地某三级医院行放射治疗,放疗靶区为:右侧咽后壁可见肿瘤,处方剂量DT50Gy/25f,患者放疗DT34Gy/17f,未诉特殊不适,后于2014-8-25再次就诊于该院行二程放疗(具体不详)后回家。2014-10患者无明显诱因出现声音嘶哑,2015-2患者出现进食后偶有呛咳,流食明显,就诊于当地某三级医院考虑“声带麻痹”,未进一步治疗。2015-5-29患者于我院行颈部平扫+增强CT:鼻咽癌放疗术后改变,甲状腺左叶水平团块,向右侧长入气管内,向后下侵及食管,考虑受侵、转移可能性大,喉咽腔形态异常,局部异常信号影,考虑受侵改变,左肺内多发结节,考虑转移。食管造影:考虑右上纵隔占位性病变,心影增大,会厌溪征阳性,右主支气管受压破坏,胸部CT:气管左后方占位性病变,双肺、纵隔淋巴结转移,双肺条索影伴牽引性肺气肿,主动脉冠状动脉硬化,肝脏异常密度影。甲状腺彩超:甲状腺左叶低回声区伴钙化。2015-7-3患者再次于我院行肺CT检查:与2015-5-29日CT比较:气管左后方占位性病变,大致同前,双肺、纵隔淋巴结转移,肺内病灶较前增多,双肺条索影伴牵引性肺气肿,大致同前,主动脉冠状动脉硬化,同前,肝脏异常密度影,较前增大。患者就诊于当地三级医院建议口服替吉奥治疗,今日患者为进一步诊治***。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往“脑梗死”病史20年,行“颅内血管支架术”,现未遗留后遗症，“高血压”病史10余年,最高血压200/110mmHg,目前口服“硝苯地平缓释片半片/次2/日”控制,血压基本维持于160-170/90mmHg左右,自诉血压低于160mmHg后出现不适，“冠状动脉粥样硬化性心脏病”病史1月余,否认糖尿病史;无“肝炎、结核、伤寒、疟疾”等传染病史;无手术及输血史;无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "5370_治疗鼻咽癌复发1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "69岁"
+        },
+        "chief_complaint": "男性，69岁，汉族，已婚，退休。 鼻咽癌放化疗后16年，确诊二次复发1月余。",
+        "present_illness": "患者缘于1999年体检时发现右颈部肿物,直径约2cm,无痛,伴鼻塞,具体症状患者不能回忆,于当地三级医院切取右颈部淋巴结活检后确诊为“鼻咽癌”,行常规放疗及化疗(具体不详),治疗结束后患者痊愈出院,未规律复查。2014-2患者无明显诱因出现咽痛,进食时加重,自诉咽部未见明显肿物,上述症状持续不缓解,2014-6患者右侧咽后壁处出现溃疡,溃疡不愈合且持续加重形成深溃疡,进食痛较前明显加重,遂于2014-7-3于我院取溃病处病理送北京某三级医院会诊诊断为:(扁桃体)低分化鱗状细胞癌,于该院查头颅增强CT示:硬颚骨质改变伴软组织增厚,颈区未见肿大淋巴结。患者2014-7-11于我院查骨扫描未见异常,肝胆胰脾双肾输尿管膀胱前列腺超声:前列腺增大伴钙化;颈部淋巴结超声:左侧颈部淋巴结可见,左侧锁骨上低回声,考虑淋巴结:胸片:两肺纹理强,主动脉硬化。2014-7-15患者为进一步诊治就诊于北京某医院耳鼻喉科查喉镜示:双侧咽隐窝、咽鼓管口未见明显异常,喉腔可见大量分泌物附着,会厌结构正常,右侧声带固定,左侧声带活动好,右侧梨状窝内见少许唾液潴留,左侧梨状窝(-),诊断为:右咽侧壁肿物,鼻咽癌复发可能性大,建议放疗。2014-7-23患者于当地某三级医院行放射治疗,放疗靶区为:右侧咽后壁可见肿瘤,处方剂量DT50Gy/25f,患者放疗DT34Gy/17f,未诉特殊不适,后于2014-8-25再次就诊于该院行二程放疗(具体不详)后回家。2014-10患者无明显诱因出现声音嘶哑,2015-2患者出现进食后偶有呛咳,流食明显,就诊于当地某三级医院考虑“声带麻痹”,未进一步治疗。2015-5-29患者于我院行颈部平扫+增强CT:鼻咽癌放疗术后改变,甲状腺左叶水平团块,向右侧长入气管内,向后下侵及食管,考虑受侵、转移可能性大,喉咽腔形态异常,局部异常信号影,考虑受侵改变,左肺内多发结节,考虑转移。食管造影:考虑右上纵隔占位性病变,心影增大,会厌溪征阳性,右主支气管受压破坏,胸部CT:气管左后方占位性病变,双肺、纵隔淋巴结转移,双肺条索影伴牽引性肺气肿,主动脉冠状动脉硬化,肝脏异常密度影。甲状腺彩超:甲状腺左叶低回声区伴钙化。2015-7-3患者再次于我院行肺CT检查:与2015-5-29日CT比较:气管左后方占位性病变,大致同前,双肺、纵隔淋巴结转移,肺内病灶较前增多,双肺条索影伴牵引性肺气肿,大致同前,主动脉冠状动脉硬化,同前,肝脏异常密度影,较前增大。患者就诊于当地三级医院建议口服替吉奥治疗,今日患者为进一步诊治***。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往“脑梗死”病史20年,行“颅内血管支架术”,现未遗留后遗症，“高血压”病史10余年,最高血压200/110mmHg,目前口服“硝苯地平缓释片半片/次2/日”控制,血压基本维持于160-170/90mmHg左右,自诉血压低于160mmHg后出现不适，“冠状动脉粥样硬化性心脏病”病史1月余,否认糖尿病史;无“肝炎、结核、伤寒、疟疾”等传染病史;无手术及输血史;无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "5370_治疗鼻咽癌复发1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "69岁"
+        },
+        "chief_complaint": "男性，69岁，汉族，已婚，退休。 鼻咽癌放化疗后16年，确诊二次复发1月余。",
+        "present_illness": "患者缘于1999年体检时发现右颈部肿物,直径约2cm,无痛,伴鼻塞,具体症状患者不能回忆,于当地三级医院切取右颈部淋巴结活检后确诊为“鼻咽癌”,行常规放疗及化疗(具体不详),治疗结束后患者痊愈出院,未规律复查。2014-2患者无明显诱因出现咽痛,进食时加重,自诉咽部未见明显肿物,上述症状持续不缓解,2014-6患者右侧咽后壁处出现溃疡,溃疡不愈合且持续加重形成深溃疡,进食痛较前明显加重,遂于2014-7-3于我院取溃病处病理送北京某三级医院会诊诊断为:(扁桃体)低分化鱗状细胞癌,于该院查头颅增强CT示:硬颚骨质改变伴软组织增厚,颈区未见肿大淋巴结。患者2014-7-11于我院查骨扫描未见异常,肝胆胰脾双肾输尿管膀胱前列腺超声:前列腺增大伴钙化;颈部淋巴结超声:左侧颈部淋巴结可见,左侧锁骨上低回声,考虑淋巴结:胸片:两肺纹理强,主动脉硬化。2014-7-15患者为进一步诊治就诊于北京某医院耳鼻喉科查喉镜示:双侧咽隐窝、咽鼓管口未见明显异常,喉腔可见大量分泌物附着,会厌结构正常,右侧声带固定,左侧声带活动好,右侧梨状窝内见少许唾液潴留,左侧梨状窝(-),诊断为:右咽侧壁肿物,鼻咽癌复发可能性大,建议放疗。2014-7-23患者于当地某三级医院行放射治疗,放疗靶区为:右侧咽后壁可见肿瘤,处方剂量DT50Gy/25f,患者放疗DT34Gy/17f,未诉特殊不适,后于2014-8-25再次就诊于该院行二程放疗(具体不详)后回家。2014-10患者无明显诱因出现声音嘶哑,2015-2患者出现进食后偶有呛咳,流食明显,就诊于当地某三级医院考虑“声带麻痹”,未进一步治疗。2015-5-29患者于我院行颈部平扫+增强CT:鼻咽癌放疗术后改变,甲状腺左叶水平团块,向右侧长入气管内,向后下侵及食管,考虑受侵、转移可能性大,喉咽腔形态异常,局部异常信号影,考虑受侵改变,左肺内多发结节,考虑转移。食管造影:考虑右上纵隔占位性病变,心影增大,会厌溪征阳性,右主支气管受压破坏,胸部CT:气管左后方占位性病变,双肺、纵隔淋巴结转移,双肺条索影伴牽引性肺气肿,主动脉冠状动脉硬化,肝脏异常密度影。甲状腺彩超:甲状腺左叶低回声区伴钙化。2015-7-3患者再次于我院行肺CT检查:与2015-5-29日CT比较:气管左后方占位性病变,大致同前,双肺、纵隔淋巴结转移,肺内病灶较前增多,双肺条索影伴牵引性肺气肿,大致同前,主动脉冠状动脉硬化,同前,肝脏异常密度影,较前增大。患者就诊于当地三级医院建议口服替吉奥治疗,今日患者为进一步诊治***。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往“脑梗死”病史20年,行“颅内血管支架术”,现未遗留后遗症，“高血压”病史10余年,最高血压200/110mmHg,目前口服“硝苯地平缓释片半片/次2/日”控制,血压基本维持于160-170/90mmHg左右,自诉血压低于160mmHg后出现不适，“冠状动脉粥样硬化性心脏病”病史1月余,否认糖尿病史;无“肝炎、结核、伤寒、疟疾”等传染病史;无手术及输血史;无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

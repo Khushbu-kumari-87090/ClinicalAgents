@@ -1,0 +1,534 @@
+{
+  "case_id": "5176_冠状动脉粥样硬化性心脏病·心绞痛伴2型糖尿病1例",
+  "personal_info": {
+    "性别": "女",
+    "年龄": "71岁"
+  },
+  "chief_complaint": "女性，71岁，农民 主因:间断胸部不适1个月,加重6天入院。",
+  "present_illness": "患者缘于入院前1个月出现间断胸部不适,偶向背部放射,活动后加重,休息后减轻,每次发作时间30分钟。不伴有胸痛、大汗,无恶心、呕吐,无咳嗽、咳痰,无咯血、盗汗,无气短,曾到河北医科大学第二医院住院诊治,诊断为“冠状动脉粥样硬化性心脏病心绞痛”,给予治疗后病情好转出院,在家规律口服“倍他乐克阿司匹林肠溶片”药物治疗。患者近6天来患者病情较前加重,今日患者为进一步治疗来我院就诊,入院后查心电图示窦性心律·心律66次/分T波异常。遂以“冠状动脉粥样硬化性心脏病·心绞痛”收住我科患者自发病来,神志清,精神尚可,饮食可,睡眠可,二便正常。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "既往2型糖尿病史10年,未规律口服药物;否认高血压病史,否认慢性支气管炎等慢性病史,否认肝炎、结核及其他慢惯性传染病病史,无外伤、手术及输血史,无食物及药物过敏史预防接种史不详。",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "5176_冠状动脉粥样硬化性心脏病·心绞痛伴2型糖尿病1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "71岁"
+        },
+        "chief_complaint": "女性，71岁，农民 主因:间断胸部不适1个月,加重6天入院。",
+        "present_illness": "患者缘于入院前1个月出现间断胸部不适,偶向背部放射,活动后加重,休息后减轻,每次发作时间30分钟。不伴有胸痛、大汗,无恶心、呕吐,无咳嗽、咳痰,无咯血、盗汗,无气短,曾到河北医科大学第二医院住院诊治,诊断为“冠状动脉粥样硬化性心脏病心绞痛”,给予治疗后病情好转出院,在家规律口服“倍他乐克阿司匹林肠溶片”药物治疗。患者近6天来患者病情较前加重,今日患者为进一步治疗来我院就诊,入院后查心电图示窦性心律·心律66次/分T波异常。遂以“冠状动脉粥样硬化性心脏病·心绞痛”收住我科患者自发病来,神志清,精神尚可,饮食可,睡眠可,二便正常。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "既往2型糖尿病史10年,未规律口服药物;否认高血压病史,否认慢性支气管炎等慢性病史,否认肝炎、结核及其他慢惯性传染病病史,无外伤、手术及输血史,无食物及药物过敏史预防接种史不详。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "5176_冠状动脉粥样硬化性心脏病·心绞痛伴2型糖尿病1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "71岁"
+        },
+        "chief_complaint": "女性，71岁，农民 主因:间断胸部不适1个月,加重6天入院。",
+        "present_illness": "患者缘于入院前1个月出现间断胸部不适,偶向背部放射,活动后加重,休息后减轻,每次发作时间30分钟。不伴有胸痛、大汗,无恶心、呕吐,无咳嗽、咳痰,无咯血、盗汗,无气短,曾到河北医科大学第二医院住院诊治,诊断为“冠状动脉粥样硬化性心脏病心绞痛”,给予治疗后病情好转出院,在家规律口服“倍他乐克阿司匹林肠溶片”药物治疗。患者近6天来患者病情较前加重,今日患者为进一步治疗来我院就诊,入院后查心电图示窦性心律·心律66次/分T波异常。遂以“冠状动脉粥样硬化性心脏病·心绞痛”收住我科患者自发病来,神志清,精神尚可,饮食可,睡眠可,二便正常。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往2型糖尿病史10年,未规律口服药物;否认高血压病史,否认慢性支气管炎等慢性病史,否认肝炎、结核及其他慢惯性传染病病史,无外伤、手术及输血史,无食物及药物过敏史预防接种史不详。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "5176_冠状动脉粥样硬化性心脏病·心绞痛伴2型糖尿病1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "71岁"
+        },
+        "chief_complaint": "女性，71岁，农民 主因:间断胸部不适1个月,加重6天入院。",
+        "present_illness": "患者缘于入院前1个月出现间断胸部不适,偶向背部放射,活动后加重,休息后减轻,每次发作时间30分钟。不伴有胸痛、大汗,无恶心、呕吐,无咳嗽、咳痰,无咯血、盗汗,无气短,曾到河北医科大学第二医院住院诊治,诊断为“冠状动脉粥样硬化性心脏病心绞痛”,给予治疗后病情好转出院,在家规律口服“倍他乐克阿司匹林肠溶片”药物治疗。患者近6天来患者病情较前加重,今日患者为进一步治疗来我院就诊,入院后查心电图示窦性心律·心律66次/分T波异常。遂以“冠状动脉粥样硬化性心脏病·心绞痛”收住我科患者自发病来,神志清,精神尚可,饮食可,睡眠可,二便正常。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往2型糖尿病史10年,未规律口服药物;否认高血压病史,否认慢性支气管炎等慢性病史,否认肝炎、结核及其他慢惯性传染病病史,无外伤、手术及输血史,无食物及药物过敏史预防接种史不详。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "5176_冠状动脉粥样硬化性心脏病·心绞痛伴2型糖尿病1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "71岁"
+        },
+        "chief_complaint": "女性，71岁，农民 主因:间断胸部不适1个月,加重6天入院。",
+        "present_illness": "患者缘于入院前1个月出现间断胸部不适,偶向背部放射,活动后加重,休息后减轻,每次发作时间30分钟。不伴有胸痛、大汗,无恶心、呕吐,无咳嗽、咳痰,无咯血、盗汗,无气短,曾到河北医科大学第二医院住院诊治,诊断为“冠状动脉粥样硬化性心脏病心绞痛”,给予治疗后病情好转出院,在家规律口服“倍他乐克阿司匹林肠溶片”药物治疗。患者近6天来患者病情较前加重,今日患者为进一步治疗来我院就诊,入院后查心电图示窦性心律·心律66次/分T波异常。遂以“冠状动脉粥样硬化性心脏病·心绞痛”收住我科患者自发病来,神志清,精神尚可,饮食可,睡眠可,二便正常。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往2型糖尿病史10年,未规律口服药物;否认高血压病史,否认慢性支气管炎等慢性病史,否认肝炎、结核及其他慢惯性传染病病史,无外伤、手术及输血史,无食物及药物过敏史预防接种史不详。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "5176_冠状动脉粥样硬化性心脏病·心绞痛伴2型糖尿病1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "71岁"
+        },
+        "chief_complaint": "女性，71岁，农民 主因:间断胸部不适1个月,加重6天入院。",
+        "present_illness": "患者缘于入院前1个月出现间断胸部不适,偶向背部放射,活动后加重,休息后减轻,每次发作时间30分钟。不伴有胸痛、大汗,无恶心、呕吐,无咳嗽、咳痰,无咯血、盗汗,无气短,曾到河北医科大学第二医院住院诊治,诊断为“冠状动脉粥样硬化性心脏病心绞痛”,给予治疗后病情好转出院,在家规律口服“倍他乐克阿司匹林肠溶片”药物治疗。患者近6天来患者病情较前加重,今日患者为进一步治疗来我院就诊,入院后查心电图示窦性心律·心律66次/分T波异常。遂以“冠状动脉粥样硬化性心脏病·心绞痛”收住我科患者自发病来,神志清,精神尚可,饮食可,睡眠可,二便正常。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往2型糖尿病史10年,未规律口服药物;否认高血压病史,否认慢性支气管炎等慢性病史,否认肝炎、结核及其他慢惯性传染病病史,无外伤、手术及输血史,无食物及药物过敏史预防接种史不详。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

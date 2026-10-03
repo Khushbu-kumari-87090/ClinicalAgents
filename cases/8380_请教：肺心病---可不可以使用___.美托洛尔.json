@@ -1,0 +1,534 @@
+{
+  "case_id": "8380_请教：肺心病---可不可以使用***.美托洛尔",
+  "personal_info": {
+    "性别": "女",
+    "年龄": "73岁"
+  },
+  "chief_complaint": "女，73岁，农民，体重62公斤。居住地海拔1300米。 心累气紧，泛力，汗多，精神差，头部闷痛二周。",
+  "present_illness": "40多年前患者因感冒后出现咳嗽，喘息，痰多，每年发作二至三次，每次持续一至二三月不等，7---8年前咳嗽痰多症状好转，心累气紧喘息症状加重，有时伴面部和下肢水肿，每到冬天病情可加重，每次经抗炎对症治疗可好转。4年前开始病情发作频繁，2010年7月因病情严重到某三乙医院诊治，胸片示慢支炎肺气肿肺心病征象，心脏彩超示：右房右室增大，肺动脉及其分支显著扩张，主动脉硬化，三尖瓣口大量返流，二尖瓣少量返流，重度肺动肺高压，左室舒张功能降低。血尿酸520umol/L.甲状腺功能正常，经治疗好转出院。出院诊断：（1）慢性喘息性支气管炎，肺气肿，肺部感染。（2）慢性肺愿性心脏病，房性紊乱性心律，偶发房早，心功能Ⅳ级。（3）高血压三级，级高危。（4）高尿酸血症，脑委缩。11年10月份因肺部感染引发心衰，在某二乙医院治疗，检查WBC16.7×109/L,中性粒细胞13.7×109/L,血红蛋白187g/L,RBC6.63×1012/L,心电图示频发房早，阵发房颤，肝肾功能正常，胸片示右肺近肺门肺野内见一园形3.8x3.8致密影，上缘边界清晰，下缘不清，考虑肺部肿瘤，病人病情不许可，也就没有继续查下去了。12年十月复查胸片与11年10月胸片无任何变化。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "患者喹诺酮类过敏，无关节疼痛史，无泌尿系结石史，无糖尿病史，无传染病史，",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "8380_请教：肺心病---可不可以使用***.美托洛尔",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "73岁"
+        },
+        "chief_complaint": "女，73岁，农民，体重62公斤。居住地海拔1300米。 心累气紧，泛力，汗多，精神差，头部闷痛二周。",
+        "present_illness": "40多年前患者因感冒后出现咳嗽，喘息，痰多，每年发作二至三次，每次持续一至二三月不等，7---8年前咳嗽痰多症状好转，心累气紧喘息症状加重，有时伴面部和下肢水肿，每到冬天病情可加重，每次经抗炎对症治疗可好转。4年前开始病情发作频繁，2010年7月因病情严重到某三乙医院诊治，胸片示慢支炎肺气肿肺心病征象，心脏彩超示：右房右室增大，肺动脉及其分支显著扩张，主动脉硬化，三尖瓣口大量返流，二尖瓣少量返流，重度肺动肺高压，左室舒张功能降低。血尿酸520umol/L.甲状腺功能正常，经治疗好转出院。出院诊断：（1）慢性喘息性支气管炎，肺气肿，肺部感染。（2）慢性肺愿性心脏病，房性紊乱性心律，偶发房早，心功能Ⅳ级。（3）高血压三级，级高危。（4）高尿酸血症，脑委缩。11年10月份因肺部感染引发心衰，在某二乙医院治疗，检查WBC16.7×109/L,中性粒细胞13.7×109/L,血红蛋白187g/L,RBC6.63×1012/L,心电图示频发房早，阵发房颤，肝肾功能正常，胸片示右肺近肺门肺野内见一园形3.8x3.8致密影，上缘边界清晰，下缘不清，考虑肺部肿瘤，病人病情不许可，也就没有继续查下去了。12年十月复查胸片与11年10月胸片无任何变化。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "患者喹诺酮类过敏，无关节疼痛史，无泌尿系结石史，无糖尿病史，无传染病史，",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "8380_请教：肺心病---可不可以使用***.美托洛尔",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "73岁"
+        },
+        "chief_complaint": "女，73岁，农民，体重62公斤。居住地海拔1300米。 心累气紧，泛力，汗多，精神差，头部闷痛二周。",
+        "present_illness": "40多年前患者因感冒后出现咳嗽，喘息，痰多，每年发作二至三次，每次持续一至二三月不等，7---8年前咳嗽痰多症状好转，心累气紧喘息症状加重，有时伴面部和下肢水肿，每到冬天病情可加重，每次经抗炎对症治疗可好转。4年前开始病情发作频繁，2010年7月因病情严重到某三乙医院诊治，胸片示慢支炎肺气肿肺心病征象，心脏彩超示：右房右室增大，肺动脉及其分支显著扩张，主动脉硬化，三尖瓣口大量返流，二尖瓣少量返流，重度肺动肺高压，左室舒张功能降低。血尿酸520umol/L.甲状腺功能正常，经治疗好转出院。出院诊断：（1）慢性喘息性支气管炎，肺气肿，肺部感染。（2）慢性肺愿性心脏病，房性紊乱性心律，偶发房早，心功能Ⅳ级。（3）高血压三级，级高危。（4）高尿酸血症，脑委缩。11年10月份因肺部感染引发心衰，在某二乙医院治疗，检查WBC16.7×109/L,中性粒细胞13.7×109/L,血红蛋白187g/L,RBC6.63×1012/L,心电图示频发房早，阵发房颤，肝肾功能正常，胸片示右肺近肺门肺野内见一园形3.8x3.8致密影，上缘边界清晰，下缘不清，考虑肺部肿瘤，病人病情不许可，也就没有继续查下去了。12年十月复查胸片与11年10月胸片无任何变化。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "患者喹诺酮类过敏，无关节疼痛史，无泌尿系结石史，无糖尿病史，无传染病史，",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "8380_请教：肺心病---可不可以使用***.美托洛尔",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "73岁"
+        },
+        "chief_complaint": "女，73岁，农民，体重62公斤。居住地海拔1300米。 心累气紧，泛力，汗多，精神差，头部闷痛二周。",
+        "present_illness": "40多年前患者因感冒后出现咳嗽，喘息，痰多，每年发作二至三次，每次持续一至二三月不等，7---8年前咳嗽痰多症状好转，心累气紧喘息症状加重，有时伴面部和下肢水肿，每到冬天病情可加重，每次经抗炎对症治疗可好转。4年前开始病情发作频繁，2010年7月因病情严重到某三乙医院诊治，胸片示慢支炎肺气肿肺心病征象，心脏彩超示：右房右室增大，肺动脉及其分支显著扩张，主动脉硬化，三尖瓣口大量返流，二尖瓣少量返流，重度肺动肺高压，左室舒张功能降低。血尿酸520umol/L.甲状腺功能正常，经治疗好转出院。出院诊断：（1）慢性喘息性支气管炎，肺气肿，肺部感染。（2）慢性肺愿性心脏病，房性紊乱性心律，偶发房早，心功能Ⅳ级。（3）高血压三级，级高危。（4）高尿酸血症，脑委缩。11年10月份因肺部感染引发心衰，在某二乙医院治疗，检查WBC16.7×109/L,中性粒细胞13.7×109/L,血红蛋白187g/L,RBC6.63×1012/L,心电图示频发房早，阵发房颤，肝肾功能正常，胸片示右肺近肺门肺野内见一园形3.8x3.8致密影，上缘边界清晰，下缘不清，考虑肺部肿瘤，病人病情不许可，也就没有继续查下去了。12年十月复查胸片与11年10月胸片无任何变化。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "患者喹诺酮类过敏，无关节疼痛史，无泌尿系结石史，无糖尿病史，无传染病史，",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "8380_请教：肺心病---可不可以使用***.美托洛尔",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "73岁"
+        },
+        "chief_complaint": "女，73岁，农民，体重62公斤。居住地海拔1300米。 心累气紧，泛力，汗多，精神差，头部闷痛二周。",
+        "present_illness": "40多年前患者因感冒后出现咳嗽，喘息，痰多，每年发作二至三次，每次持续一至二三月不等，7---8年前咳嗽痰多症状好转，心累气紧喘息症状加重，有时伴面部和下肢水肿，每到冬天病情可加重，每次经抗炎对症治疗可好转。4年前开始病情发作频繁，2010年7月因病情严重到某三乙医院诊治，胸片示慢支炎肺气肿肺心病征象，心脏彩超示：右房右室增大，肺动脉及其分支显著扩张，主动脉硬化，三尖瓣口大量返流，二尖瓣少量返流，重度肺动肺高压，左室舒张功能降低。血尿酸520umol/L.甲状腺功能正常，经治疗好转出院。出院诊断：（1）慢性喘息性支气管炎，肺气肿，肺部感染。（2）慢性肺愿性心脏病，房性紊乱性心律，偶发房早，心功能Ⅳ级。（3）高血压三级，级高危。（4）高尿酸血症，脑委缩。11年10月份因肺部感染引发心衰，在某二乙医院治疗，检查WBC16.7×109/L,中性粒细胞13.7×109/L,血红蛋白187g/L,RBC6.63×1012/L,心电图示频发房早，阵发房颤，肝肾功能正常，胸片示右肺近肺门肺野内见一园形3.8x3.8致密影，上缘边界清晰，下缘不清，考虑肺部肿瘤，病人病情不许可，也就没有继续查下去了。12年十月复查胸片与11年10月胸片无任何变化。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "患者喹诺酮类过敏，无关节疼痛史，无泌尿系结石史，无糖尿病史，无传染病史，",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "8380_请教：肺心病---可不可以使用***.美托洛尔",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "73岁"
+        },
+        "chief_complaint": "女，73岁，农民，体重62公斤。居住地海拔1300米。 心累气紧，泛力，汗多，精神差，头部闷痛二周。",
+        "present_illness": "40多年前患者因感冒后出现咳嗽，喘息，痰多，每年发作二至三次，每次持续一至二三月不等，7---8年前咳嗽痰多症状好转，心累气紧喘息症状加重，有时伴面部和下肢水肿，每到冬天病情可加重，每次经抗炎对症治疗可好转。4年前开始病情发作频繁，2010年7月因病情严重到某三乙医院诊治，胸片示慢支炎肺气肿肺心病征象，心脏彩超示：右房右室增大，肺动脉及其分支显著扩张，主动脉硬化，三尖瓣口大量返流，二尖瓣少量返流，重度肺动肺高压，左室舒张功能降低。血尿酸520umol/L.甲状腺功能正常，经治疗好转出院。出院诊断：（1）慢性喘息性支气管炎，肺气肿，肺部感染。（2）慢性肺愿性心脏病，房性紊乱性心律，偶发房早，心功能Ⅳ级。（3）高血压三级，级高危。（4）高尿酸血症，脑委缩。11年10月份因肺部感染引发心衰，在某二乙医院治疗，检查WBC16.7×109/L,中性粒细胞13.7×109/L,血红蛋白187g/L,RBC6.63×1012/L,心电图示频发房早，阵发房颤，肝肾功能正常，胸片示右肺近肺门肺野内见一园形3.8x3.8致密影，上缘边界清晰，下缘不清，考虑肺部肿瘤，病人病情不许可，也就没有继续查下去了。12年十月复查胸片与11年10月胸片无任何变化。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "患者喹诺酮类过敏，无关节疼痛史，无泌尿系结石史，无糖尿病史，无传染病史，",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

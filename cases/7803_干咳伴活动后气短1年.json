@@ -1,0 +1,534 @@
+{
+  "case_id": "7803_干咳伴活动后气短1年",
+  "personal_info": {
+    "性别": "女",
+    "年龄": "44岁"
+  },
+  "chief_complaint": "患者女性，44岁 因干咳伴活动后气短1年入本院",
+  "present_illness": "患者1年前在从事中等体力活动时出现气短，伴干咳，无胸痛、发热、咯痰；查心电图和超声心动图未见异常，X线胸片亦未见异常，初步诊断为“神经官能症”,未治疗。5个月前患者症状逐渐加重，从事轻体力活动时即出现气短，伴干咳，再次复查胸片（图2），双下肺出现网格样改变，诊断“肺炎”.外院先后用多种抗生素治疗无效，遂入专科医院治疗，查支气管肺泡灌洗液，中性粒细胞8%,淋巴细胞10%,巨噬细胞80%,嗜酸细胞2%,诊断为“肺泡炎”,给予**30mg治疗2周，症状无明显缓解。查血常规未见异常，类风湿因子（RF）阴性。肺功能检查示，肺一氧化碳弥散量（DLCO）16.6%,胸部高分辨（HR）CT示两肺可见边界清楚的大小不等的云雾状阴影，呈地图状分布，并可见多发浅淡片状实变影（图3），建议除外“肺泡蛋白沉积症”.经支气管镜肺活检，病理报告“慢性炎症”（图4），给予对症治疗。由于患者症状加重，故入本院诊治。患者发病以来体重下降约5kg.",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "7803_干咳伴活动后气短1年",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "44岁"
+        },
+        "chief_complaint": "患者女性，44岁 因干咳伴活动后气短1年入本院",
+        "present_illness": "患者1年前在从事中等体力活动时出现气短，伴干咳，无胸痛、发热、咯痰；查心电图和超声心动图未见异常，X线胸片亦未见异常，初步诊断为“神经官能症”,未治疗。5个月前患者症状逐渐加重，从事轻体力活动时即出现气短，伴干咳，再次复查胸片（图2），双下肺出现网格样改变，诊断“肺炎”.外院先后用多种抗生素治疗无效，遂入专科医院治疗，查支气管肺泡灌洗液，中性粒细胞8%,淋巴细胞10%,巨噬细胞80%,嗜酸细胞2%,诊断为“肺泡炎”,给予**30mg治疗2周，症状无明显缓解。查血常规未见异常，类风湿因子（RF）阴性。肺功能检查示，肺一氧化碳弥散量（DLCO）16.6%,胸部高分辨（HR）CT示两肺可见边界清楚的大小不等的云雾状阴影，呈地图状分布，并可见多发浅淡片状实变影（图3），建议除外“肺泡蛋白沉积症”.经支气管镜肺活检，病理报告“慢性炎症”（图4），给予对症治疗。由于患者症状加重，故入本院诊治。患者发病以来体重下降约5kg.",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "7803_干咳伴活动后气短1年",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "44岁"
+        },
+        "chief_complaint": "患者女性，44岁 因干咳伴活动后气短1年入本院",
+        "present_illness": "患者1年前在从事中等体力活动时出现气短，伴干咳，无胸痛、发热、咯痰；查心电图和超声心动图未见异常，X线胸片亦未见异常，初步诊断为“神经官能症”,未治疗。5个月前患者症状逐渐加重，从事轻体力活动时即出现气短，伴干咳，再次复查胸片（图2），双下肺出现网格样改变，诊断“肺炎”.外院先后用多种抗生素治疗无效，遂入专科医院治疗，查支气管肺泡灌洗液，中性粒细胞8%,淋巴细胞10%,巨噬细胞80%,嗜酸细胞2%,诊断为“肺泡炎”,给予**30mg治疗2周，症状无明显缓解。查血常规未见异常，类风湿因子（RF）阴性。肺功能检查示，肺一氧化碳弥散量（DLCO）16.6%,胸部高分辨（HR）CT示两肺可见边界清楚的大小不等的云雾状阴影，呈地图状分布，并可见多发浅淡片状实变影（图3），建议除外“肺泡蛋白沉积症”.经支气管镜肺活检，病理报告“慢性炎症”（图4），给予对症治疗。由于患者症状加重，故入本院诊治。患者发病以来体重下降约5kg.",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "7803_干咳伴活动后气短1年",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "44岁"
+        },
+        "chief_complaint": "患者女性，44岁 因干咳伴活动后气短1年入本院",
+        "present_illness": "患者1年前在从事中等体力活动时出现气短，伴干咳，无胸痛、发热、咯痰；查心电图和超声心动图未见异常，X线胸片亦未见异常，初步诊断为“神经官能症”,未治疗。5个月前患者症状逐渐加重，从事轻体力活动时即出现气短，伴干咳，再次复查胸片（图2），双下肺出现网格样改变，诊断“肺炎”.外院先后用多种抗生素治疗无效，遂入专科医院治疗，查支气管肺泡灌洗液，中性粒细胞8%,淋巴细胞10%,巨噬细胞80%,嗜酸细胞2%,诊断为“肺泡炎”,给予**30mg治疗2周，症状无明显缓解。查血常规未见异常，类风湿因子（RF）阴性。肺功能检查示，肺一氧化碳弥散量（DLCO）16.6%,胸部高分辨（HR）CT示两肺可见边界清楚的大小不等的云雾状阴影，呈地图状分布，并可见多发浅淡片状实变影（图3），建议除外“肺泡蛋白沉积症”.经支气管镜肺活检，病理报告“慢性炎症”（图4），给予对症治疗。由于患者症状加重，故入本院诊治。患者发病以来体重下降约5kg.",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "7803_干咳伴活动后气短1年",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "44岁"
+        },
+        "chief_complaint": "患者女性，44岁 因干咳伴活动后气短1年入本院",
+        "present_illness": "患者1年前在从事中等体力活动时出现气短，伴干咳，无胸痛、发热、咯痰；查心电图和超声心动图未见异常，X线胸片亦未见异常，初步诊断为“神经官能症”,未治疗。5个月前患者症状逐渐加重，从事轻体力活动时即出现气短，伴干咳，再次复查胸片（图2），双下肺出现网格样改变，诊断“肺炎”.外院先后用多种抗生素治疗无效，遂入专科医院治疗，查支气管肺泡灌洗液，中性粒细胞8%,淋巴细胞10%,巨噬细胞80%,嗜酸细胞2%,诊断为“肺泡炎”,给予**30mg治疗2周，症状无明显缓解。查血常规未见异常，类风湿因子（RF）阴性。肺功能检查示，肺一氧化碳弥散量（DLCO）16.6%,胸部高分辨（HR）CT示两肺可见边界清楚的大小不等的云雾状阴影，呈地图状分布，并可见多发浅淡片状实变影（图3），建议除外“肺泡蛋白沉积症”.经支气管镜肺活检，病理报告“慢性炎症”（图4），给予对症治疗。由于患者症状加重，故入本院诊治。患者发病以来体重下降约5kg.",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "7803_干咳伴活动后气短1年",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "44岁"
+        },
+        "chief_complaint": "患者女性，44岁 因干咳伴活动后气短1年入本院",
+        "present_illness": "患者1年前在从事中等体力活动时出现气短，伴干咳，无胸痛、发热、咯痰；查心电图和超声心动图未见异常，X线胸片亦未见异常，初步诊断为“神经官能症”,未治疗。5个月前患者症状逐渐加重，从事轻体力活动时即出现气短，伴干咳，再次复查胸片（图2），双下肺出现网格样改变，诊断“肺炎”.外院先后用多种抗生素治疗无效，遂入专科医院治疗，查支气管肺泡灌洗液，中性粒细胞8%,淋巴细胞10%,巨噬细胞80%,嗜酸细胞2%,诊断为“肺泡炎”,给予**30mg治疗2周，症状无明显缓解。查血常规未见异常，类风湿因子（RF）阴性。肺功能检查示，肺一氧化碳弥散量（DLCO）16.6%,胸部高分辨（HR）CT示两肺可见边界清楚的大小不等的云雾状阴影，呈地图状分布，并可见多发浅淡片状实变影（图3），建议除外“肺泡蛋白沉积症”.经支气管镜肺活检，病理报告“慢性炎症”（图4），给予对症治疗。由于患者症状加重，故入本院诊治。患者发病以来体重下降约5kg.",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

@@ -1,0 +1,534 @@
+{
+  "case_id": "753_组合型非生物人工肝成功救治亚急性肝衰竭 晚期患者一例报告",
+  "personal_info": {
+    "性别": "女",
+    "年龄": "19岁"
+  },
+  "chief_complaint": "患者朱×，女，19岁， 主因乏力、食欲不振、尿黄1月于2006年8月28日9点30分收入院。",
+  "present_illness": "患者于1月前无明显诱因出现乏力、食欲不振，尿黄，颜色渐深如浓茶，伴厌油感，偶餐后腹胀，无恶心、呕吐。于当地某中心医院就诊，拟诊为黄疸原因待查，经治疗10天后化验ALT1317U/L，TBIL134.3umol/L，遂转入当地某医学院附属医院住院治疗。入院后化验甲、乙、丙、丁、戊肝炎病毒标志均为阴性，肝功能明显异常，于眼科查Kayser-Fleischer环阴性，诊断为黄疸原因待查，肝损害。予保肝、退黄治疗后，症状无缓解，乏力进行性加重，黄染明显加深，腹胀明显，8月24日化验肝功ALT57U/L，TBIL806umol/L．DB598umol/L，TAP51.3g/L，ALB37g/L，Glu1.31ummol/L。为进一步治疗，今来我院。发病来近5天出现发热，体温波动于37.5C~38.5℃之间，多下午体温高，大便颜色稍白，无皮肤瘙痒、腹绞痛等不适，体重变化不明显。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "既往体健，否认肝炎患者密切接触史，否认输血及应用血制品史，无不洁注射史。 曾接种过甲、乙肝疫苗。否认糖尿病、高血压、手术外伤史，否认性病史，无烟酒等不良嗜好。",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "753_组合型非生物人工肝成功救治亚急性肝衰竭 晚期患者一例报告",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "19岁"
+        },
+        "chief_complaint": "患者朱×，女，19岁， 主因乏力、食欲不振、尿黄1月于2006年8月28日9点30分收入院。",
+        "present_illness": "患者于1月前无明显诱因出现乏力、食欲不振，尿黄，颜色渐深如浓茶，伴厌油感，偶餐后腹胀，无恶心、呕吐。于当地某中心医院就诊，拟诊为黄疸原因待查，经治疗10天后化验ALT1317U/L，TBIL134.3umol/L，遂转入当地某医学院附属医院住院治疗。入院后化验甲、乙、丙、丁、戊肝炎病毒标志均为阴性，肝功能明显异常，于眼科查Kayser-Fleischer环阴性，诊断为黄疸原因待查，肝损害。予保肝、退黄治疗后，症状无缓解，乏力进行性加重，黄染明显加深，腹胀明显，8月24日化验肝功ALT57U/L，TBIL806umol/L．DB598umol/L，TAP51.3g/L，ALB37g/L，Glu1.31ummol/L。为进一步治疗，今来我院。发病来近5天出现发热，体温波动于37.5C~38.5℃之间，多下午体温高，大便颜色稍白，无皮肤瘙痒、腹绞痛等不适，体重变化不明显。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "既往体健，否认肝炎患者密切接触史，否认输血及应用血制品史，无不洁注射史。 曾接种过甲、乙肝疫苗。否认糖尿病、高血压、手术外伤史，否认性病史，无烟酒等不良嗜好。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "753_组合型非生物人工肝成功救治亚急性肝衰竭 晚期患者一例报告",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "19岁"
+        },
+        "chief_complaint": "患者朱×，女，19岁， 主因乏力、食欲不振、尿黄1月于2006年8月28日9点30分收入院。",
+        "present_illness": "患者于1月前无明显诱因出现乏力、食欲不振，尿黄，颜色渐深如浓茶，伴厌油感，偶餐后腹胀，无恶心、呕吐。于当地某中心医院就诊，拟诊为黄疸原因待查，经治疗10天后化验ALT1317U/L，TBIL134.3umol/L，遂转入当地某医学院附属医院住院治疗。入院后化验甲、乙、丙、丁、戊肝炎病毒标志均为阴性，肝功能明显异常，于眼科查Kayser-Fleischer环阴性，诊断为黄疸原因待查，肝损害。予保肝、退黄治疗后，症状无缓解，乏力进行性加重，黄染明显加深，腹胀明显，8月24日化验肝功ALT57U/L，TBIL806umol/L．DB598umol/L，TAP51.3g/L，ALB37g/L，Glu1.31ummol/L。为进一步治疗，今来我院。发病来近5天出现发热，体温波动于37.5C~38.5℃之间，多下午体温高，大便颜色稍白，无皮肤瘙痒、腹绞痛等不适，体重变化不明显。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往体健，否认肝炎患者密切接触史，否认输血及应用血制品史，无不洁注射史。 曾接种过甲、乙肝疫苗。否认糖尿病、高血压、手术外伤史，否认性病史，无烟酒等不良嗜好。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "753_组合型非生物人工肝成功救治亚急性肝衰竭 晚期患者一例报告",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "19岁"
+        },
+        "chief_complaint": "患者朱×，女，19岁， 主因乏力、食欲不振、尿黄1月于2006年8月28日9点30分收入院。",
+        "present_illness": "患者于1月前无明显诱因出现乏力、食欲不振，尿黄，颜色渐深如浓茶，伴厌油感，偶餐后腹胀，无恶心、呕吐。于当地某中心医院就诊，拟诊为黄疸原因待查，经治疗10天后化验ALT1317U/L，TBIL134.3umol/L，遂转入当地某医学院附属医院住院治疗。入院后化验甲、乙、丙、丁、戊肝炎病毒标志均为阴性，肝功能明显异常，于眼科查Kayser-Fleischer环阴性，诊断为黄疸原因待查，肝损害。予保肝、退黄治疗后，症状无缓解，乏力进行性加重，黄染明显加深，腹胀明显，8月24日化验肝功ALT57U/L，TBIL806umol/L．DB598umol/L，TAP51.3g/L，ALB37g/L，Glu1.31ummol/L。为进一步治疗，今来我院。发病来近5天出现发热，体温波动于37.5C~38.5℃之间，多下午体温高，大便颜色稍白，无皮肤瘙痒、腹绞痛等不适，体重变化不明显。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往体健，否认肝炎患者密切接触史，否认输血及应用血制品史，无不洁注射史。 曾接种过甲、乙肝疫苗。否认糖尿病、高血压、手术外伤史，否认性病史，无烟酒等不良嗜好。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "753_组合型非生物人工肝成功救治亚急性肝衰竭 晚期患者一例报告",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "19岁"
+        },
+        "chief_complaint": "患者朱×，女，19岁， 主因乏力、食欲不振、尿黄1月于2006年8月28日9点30分收入院。",
+        "present_illness": "患者于1月前无明显诱因出现乏力、食欲不振，尿黄，颜色渐深如浓茶，伴厌油感，偶餐后腹胀，无恶心、呕吐。于当地某中心医院就诊，拟诊为黄疸原因待查，经治疗10天后化验ALT1317U/L，TBIL134.3umol/L，遂转入当地某医学院附属医院住院治疗。入院后化验甲、乙、丙、丁、戊肝炎病毒标志均为阴性，肝功能明显异常，于眼科查Kayser-Fleischer环阴性，诊断为黄疸原因待查，肝损害。予保肝、退黄治疗后，症状无缓解，乏力进行性加重，黄染明显加深，腹胀明显，8月24日化验肝功ALT57U/L，TBIL806umol/L．DB598umol/L，TAP51.3g/L，ALB37g/L，Glu1.31ummol/L。为进一步治疗，今来我院。发病来近5天出现发热，体温波动于37.5C~38.5℃之间，多下午体温高，大便颜色稍白，无皮肤瘙痒、腹绞痛等不适，体重变化不明显。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往体健，否认肝炎患者密切接触史，否认输血及应用血制品史，无不洁注射史。 曾接种过甲、乙肝疫苗。否认糖尿病、高血压、手术外伤史，否认性病史，无烟酒等不良嗜好。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "753_组合型非生物人工肝成功救治亚急性肝衰竭 晚期患者一例报告",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "19岁"
+        },
+        "chief_complaint": "患者朱×，女，19岁， 主因乏力、食欲不振、尿黄1月于2006年8月28日9点30分收入院。",
+        "present_illness": "患者于1月前无明显诱因出现乏力、食欲不振，尿黄，颜色渐深如浓茶，伴厌油感，偶餐后腹胀，无恶心、呕吐。于当地某中心医院就诊，拟诊为黄疸原因待查，经治疗10天后化验ALT1317U/L，TBIL134.3umol/L，遂转入当地某医学院附属医院住院治疗。入院后化验甲、乙、丙、丁、戊肝炎病毒标志均为阴性，肝功能明显异常，于眼科查Kayser-Fleischer环阴性，诊断为黄疸原因待查，肝损害。予保肝、退黄治疗后，症状无缓解，乏力进行性加重，黄染明显加深，腹胀明显，8月24日化验肝功ALT57U/L，TBIL806umol/L．DB598umol/L，TAP51.3g/L，ALB37g/L，Glu1.31ummol/L。为进一步治疗，今来我院。发病来近5天出现发热，体温波动于37.5C~38.5℃之间，多下午体温高，大便颜色稍白，无皮肤瘙痒、腹绞痛等不适，体重变化不明显。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往体健，否认肝炎患者密切接触史，否认输血及应用血制品史，无不洁注射史。 曾接种过甲、乙肝疫苗。否认糖尿病、高血压、手术外伤史，否认性病史，无烟酒等不良嗜好。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

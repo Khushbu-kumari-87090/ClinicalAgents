@@ -1,0 +1,534 @@
+{
+  "case_id": "8831_Reed色素性梭形细胞痣诊断及鉴别",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "未知"
+  },
+  "chief_complaint": "1慢性支气管炎2慢性肺源性心脏病；这个是个很平常，很常见的病例，现在发出来只是想征集下大家平时的治疗方案而已，希望专业的人事可以用医嘱格式跟帖，千万不要以其他方式的跟帖，以方便大家学习，医学交流贴。下面我自己先举个例子，治疗方案长期医嘱:内科护理常规2级卧床休息吸氧半流饮食多参数心电血氧血压监护(1)10%葡萄糖液500ml+10%氯化钾10ml+R28U+门冬20MLivd**qd(2)0.9%NS100ml+PG-NA480Uivd**Bid(3)5%葡萄糖氯化钠液250ml+生脉30MLivd**qd(4)0.9%NS10ML+r糜蛋白酶4000U+庆大霉素4U+氨茶碱0.2+地米10MG雾化吸入bid中药口服qd咳特灵胶囊2#potid环丙沙星2#potid非那根糖浆10mlpotid卡托普利1/4#PObid倍他乐克1/2#PObid医嘱说明：这个医嘱用的只是极化液改善心功能，同时也对康复起促进的作用，注射西林联用口服环丙沙星作为抗炎的主体，特点价格极为便宜，而且2种药抗菌谱交叉基本能覆盖慢支的致病菌，在没做培养和其他禁忌下先选用，雾化吸入的有平喘和抗炎作用，还能让痰容易咳出，非那根糖浆+咳特灵胶囊止咳嗽，因病人辨证为气阴两亏，脉虚欲脱所以加用生脉益气养阴，复脉固脱，小剂量卡托普利改善心功能，外加倍他乐克缓慢心律，防止心衰的出现。",
+  "present_illness": "",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "8831_Reed色素性梭形细胞痣诊断及鉴别",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "未知"
+        },
+        "chief_complaint": "1慢性支气管炎2慢性肺源性心脏病；这个是个很平常，很常见的病例，现在发出来只是想征集下大家平时的治疗方案而已，希望专业的人事可以用医嘱格式跟帖，千万不要以其他方式的跟帖，以方便大家学习，医学交流贴。下面我自己先举个例子，治疗方案长期医嘱:内科护理常规2级卧床休息吸氧半流饮食多参数心电血氧血压监护(1)10%葡萄糖液500ml+10%氯化钾10ml+R28U+门冬20MLivd**qd(2)0.9%NS100ml+PG-NA480Uivd**Bid(3)5%葡萄糖氯化钠液250ml+生脉30MLivd**qd(4)0.9%NS10ML+r糜蛋白酶4000U+庆大霉素4U+氨茶碱0.2+地米10MG雾化吸入bid中药口服qd咳特灵胶囊2#potid环丙沙星2#potid非那根糖浆10mlpotid卡托普利1/4#PObid倍他乐克1/2#PObid医嘱说明：这个医嘱用的只是极化液改善心功能，同时也对康复起促进的作用，注射西林联用口服环丙沙星作为抗炎的主体，特点价格极为便宜，而且2种药抗菌谱交叉基本能覆盖慢支的致病菌，在没做培养和其他禁忌下先选用，雾化吸入的有平喘和抗炎作用，还能让痰容易咳出，非那根糖浆+咳特灵胶囊止咳嗽，因病人辨证为气阴两亏，脉虚欲脱所以加用生脉益气养阴，复脉固脱，小剂量卡托普利改善心功能，外加倍他乐克缓慢心律，防止心衰的出现。",
+        "present_illness": "",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "8831_Reed色素性梭形细胞痣诊断及鉴别",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "未知"
+        },
+        "chief_complaint": "1慢性支气管炎2慢性肺源性心脏病；这个是个很平常，很常见的病例，现在发出来只是想征集下大家平时的治疗方案而已，希望专业的人事可以用医嘱格式跟帖，千万不要以其他方式的跟帖，以方便大家学习，医学交流贴。下面我自己先举个例子，治疗方案长期医嘱:内科护理常规2级卧床休息吸氧半流饮食多参数心电血氧血压监护(1)10%葡萄糖液500ml+10%氯化钾10ml+R28U+门冬20MLivd**qd(2)0.9%NS100ml+PG-NA480Uivd**Bid(3)5%葡萄糖氯化钠液250ml+生脉30MLivd**qd(4)0.9%NS10ML+r糜蛋白酶4000U+庆大霉素4U+氨茶碱0.2+地米10MG雾化吸入bid中药口服qd咳特灵胶囊2#potid环丙沙星2#potid非那根糖浆10mlpotid卡托普利1/4#PObid倍他乐克1/2#PObid医嘱说明：这个医嘱用的只是极化液改善心功能，同时也对康复起促进的作用，注射西林联用口服环丙沙星作为抗炎的主体，特点价格极为便宜，而且2种药抗菌谱交叉基本能覆盖慢支的致病菌，在没做培养和其他禁忌下先选用，雾化吸入的有平喘和抗炎作用，还能让痰容易咳出，非那根糖浆+咳特灵胶囊止咳嗽，因病人辨证为气阴两亏，脉虚欲脱所以加用生脉益气养阴，复脉固脱，小剂量卡托普利改善心功能，外加倍他乐克缓慢心律，防止心衰的出现。",
+        "present_illness": "",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "8831_Reed色素性梭形细胞痣诊断及鉴别",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "未知"
+        },
+        "chief_complaint": "1慢性支气管炎2慢性肺源性心脏病；这个是个很平常，很常见的病例，现在发出来只是想征集下大家平时的治疗方案而已，希望专业的人事可以用医嘱格式跟帖，千万不要以其他方式的跟帖，以方便大家学习，医学交流贴。下面我自己先举个例子，治疗方案长期医嘱:内科护理常规2级卧床休息吸氧半流饮食多参数心电血氧血压监护(1)10%葡萄糖液500ml+10%氯化钾10ml+R28U+门冬20MLivd**qd(2)0.9%NS100ml+PG-NA480Uivd**Bid(3)5%葡萄糖氯化钠液250ml+生脉30MLivd**qd(4)0.9%NS10ML+r糜蛋白酶4000U+庆大霉素4U+氨茶碱0.2+地米10MG雾化吸入bid中药口服qd咳特灵胶囊2#potid环丙沙星2#potid非那根糖浆10mlpotid卡托普利1/4#PObid倍他乐克1/2#PObid医嘱说明：这个医嘱用的只是极化液改善心功能，同时也对康复起促进的作用，注射西林联用口服环丙沙星作为抗炎的主体，特点价格极为便宜，而且2种药抗菌谱交叉基本能覆盖慢支的致病菌，在没做培养和其他禁忌下先选用，雾化吸入的有平喘和抗炎作用，还能让痰容易咳出，非那根糖浆+咳特灵胶囊止咳嗽，因病人辨证为气阴两亏，脉虚欲脱所以加用生脉益气养阴，复脉固脱，小剂量卡托普利改善心功能，外加倍他乐克缓慢心律，防止心衰的出现。",
+        "present_illness": "",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "8831_Reed色素性梭形细胞痣诊断及鉴别",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "未知"
+        },
+        "chief_complaint": "1慢性支气管炎2慢性肺源性心脏病；这个是个很平常，很常见的病例，现在发出来只是想征集下大家平时的治疗方案而已，希望专业的人事可以用医嘱格式跟帖，千万不要以其他方式的跟帖，以方便大家学习，医学交流贴。下面我自己先举个例子，治疗方案长期医嘱:内科护理常规2级卧床休息吸氧半流饮食多参数心电血氧血压监护(1)10%葡萄糖液500ml+10%氯化钾10ml+R28U+门冬20MLivd**qd(2)0.9%NS100ml+PG-NA480Uivd**Bid(3)5%葡萄糖氯化钠液250ml+生脉30MLivd**qd(4)0.9%NS10ML+r糜蛋白酶4000U+庆大霉素4U+氨茶碱0.2+地米10MG雾化吸入bid中药口服qd咳特灵胶囊2#potid环丙沙星2#potid非那根糖浆10mlpotid卡托普利1/4#PObid倍他乐克1/2#PObid医嘱说明：这个医嘱用的只是极化液改善心功能，同时也对康复起促进的作用，注射西林联用口服环丙沙星作为抗炎的主体，特点价格极为便宜，而且2种药抗菌谱交叉基本能覆盖慢支的致病菌，在没做培养和其他禁忌下先选用，雾化吸入的有平喘和抗炎作用，还能让痰容易咳出，非那根糖浆+咳特灵胶囊止咳嗽，因病人辨证为气阴两亏，脉虚欲脱所以加用生脉益气养阴，复脉固脱，小剂量卡托普利改善心功能，外加倍他乐克缓慢心律，防止心衰的出现。",
+        "present_illness": "",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "8831_Reed色素性梭形细胞痣诊断及鉴别",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "未知"
+        },
+        "chief_complaint": "1慢性支气管炎2慢性肺源性心脏病；这个是个很平常，很常见的病例，现在发出来只是想征集下大家平时的治疗方案而已，希望专业的人事可以用医嘱格式跟帖，千万不要以其他方式的跟帖，以方便大家学习，医学交流贴。下面我自己先举个例子，治疗方案长期医嘱:内科护理常规2级卧床休息吸氧半流饮食多参数心电血氧血压监护(1)10%葡萄糖液500ml+10%氯化钾10ml+R28U+门冬20MLivd**qd(2)0.9%NS100ml+PG-NA480Uivd**Bid(3)5%葡萄糖氯化钠液250ml+生脉30MLivd**qd(4)0.9%NS10ML+r糜蛋白酶4000U+庆大霉素4U+氨茶碱0.2+地米10MG雾化吸入bid中药口服qd咳特灵胶囊2#potid环丙沙星2#potid非那根糖浆10mlpotid卡托普利1/4#PObid倍他乐克1/2#PObid医嘱说明：这个医嘱用的只是极化液改善心功能，同时也对康复起促进的作用，注射西林联用口服环丙沙星作为抗炎的主体，特点价格极为便宜，而且2种药抗菌谱交叉基本能覆盖慢支的致病菌，在没做培养和其他禁忌下先选用，雾化吸入的有平喘和抗炎作用，还能让痰容易咳出，非那根糖浆+咳特灵胶囊止咳嗽，因病人辨证为气阴两亏，脉虚欲脱所以加用生脉益气养阴，复脉固脱，小剂量卡托普利改善心功能，外加倍他乐克缓慢心律，防止心衰的出现。",
+        "present_illness": "",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

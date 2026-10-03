@@ -1,0 +1,534 @@
+{
+  "case_id": "1956_想不到的病症导致腹痛腹泻2天一例",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "12岁"
+  },
+  "chief_complaint": "患者男性，12岁，学生。因腹痛腹泻就诊。",
+  "present_illness": "",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "现服药:**片，美托洛尔片，肠溶阿斯匹林片已经服用两年。具体剂量没细问。中式体检：饮食尚可，面白体瘦，肢凉舌淡苔薄白舌边有齿痕及瘀斑，左脉偏弦大，右脉缓小无结代。因无病历无辅检只能隔皮猜瓜了西诊:高心病？心衰二度？病态窦综合证？中诊：喘病？？？，心肾阳气虚衰型？西医怎么说先不管它，实验性开方一副方药如下：黄芪20仙鹤草50附子20红花10丹参30川芎10炙甘草20瓜蒌30半夏10桂枝20夏枯草15给病号熬上了，家属拿走后越想越后怕，半蒌贝蔹及攻乌，附子不是乌头但也是它的子根啊，好在今天家属来说昨夜病号睡眠平稳，今天的精神也很好。原方不变，又煎一副，待观.只是想给同道提个醒，开完方后一定要审审方啊，不要等病号走了，自己又担惊受怕的。",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "1956_想不到的病症导致腹痛腹泻2天一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "12岁"
+        },
+        "chief_complaint": "患者男性，12岁，学生。因腹痛腹泻就诊。",
+        "present_illness": "",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "现服药:**片，美托洛尔片，肠溶阿斯匹林片已经服用两年。具体剂量没细问。中式体检：饮食尚可，面白体瘦，肢凉舌淡苔薄白舌边有齿痕及瘀斑，左脉偏弦大，右脉缓小无结代。因无病历无辅检只能隔皮猜瓜了西诊:高心病？心衰二度？病态窦综合证？中诊：喘病？？？，心肾阳气虚衰型？西医怎么说先不管它，实验性开方一副方药如下：黄芪20仙鹤草50附子20红花10丹参30川芎10炙甘草20瓜蒌30半夏10桂枝20夏枯草15给病号熬上了，家属拿走后越想越后怕，半蒌贝蔹及攻乌，附子不是乌头但也是它的子根啊，好在今天家属来说昨夜病号睡眠平稳，今天的精神也很好。原方不变，又煎一副，待观.只是想给同道提个醒，开完方后一定要审审方啊，不要等病号走了，自己又担惊受怕的。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "1956_想不到的病症导致腹痛腹泻2天一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "12岁"
+        },
+        "chief_complaint": "患者男性，12岁，学生。因腹痛腹泻就诊。",
+        "present_illness": "",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "现服药:**片，美托洛尔片，肠溶阿斯匹林片已经服用两年。具体剂量没细问。中式体检：饮食尚可，面白体瘦，肢凉舌淡苔薄白舌边有齿痕及瘀斑，左脉偏弦大，右脉缓小无结代。因无病历无辅检只能隔皮猜瓜了西诊:高心病？心衰二度？病态窦综合证？中诊：喘病？？？，心肾阳气虚衰型？西医怎么说先不管它，实验性开方一副方药如下：黄芪20仙鹤草50附子20红花10丹参30川芎10炙甘草20瓜蒌30半夏10桂枝20夏枯草15给病号熬上了，家属拿走后越想越后怕，半蒌贝蔹及攻乌，附子不是乌头但也是它的子根啊，好在今天家属来说昨夜病号睡眠平稳，今天的精神也很好。原方不变，又煎一副，待观.只是想给同道提个醒，开完方后一定要审审方啊，不要等病号走了，自己又担惊受怕的。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "1956_想不到的病症导致腹痛腹泻2天一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "12岁"
+        },
+        "chief_complaint": "患者男性，12岁，学生。因腹痛腹泻就诊。",
+        "present_illness": "",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "现服药:**片，美托洛尔片，肠溶阿斯匹林片已经服用两年。具体剂量没细问。中式体检：饮食尚可，面白体瘦，肢凉舌淡苔薄白舌边有齿痕及瘀斑，左脉偏弦大，右脉缓小无结代。因无病历无辅检只能隔皮猜瓜了西诊:高心病？心衰二度？病态窦综合证？中诊：喘病？？？，心肾阳气虚衰型？西医怎么说先不管它，实验性开方一副方药如下：黄芪20仙鹤草50附子20红花10丹参30川芎10炙甘草20瓜蒌30半夏10桂枝20夏枯草15给病号熬上了，家属拿走后越想越后怕，半蒌贝蔹及攻乌，附子不是乌头但也是它的子根啊，好在今天家属来说昨夜病号睡眠平稳，今天的精神也很好。原方不变，又煎一副，待观.只是想给同道提个醒，开完方后一定要审审方啊，不要等病号走了，自己又担惊受怕的。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "1956_想不到的病症导致腹痛腹泻2天一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "12岁"
+        },
+        "chief_complaint": "患者男性，12岁，学生。因腹痛腹泻就诊。",
+        "present_illness": "",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "现服药:**片，美托洛尔片，肠溶阿斯匹林片已经服用两年。具体剂量没细问。中式体检：饮食尚可，面白体瘦，肢凉舌淡苔薄白舌边有齿痕及瘀斑，左脉偏弦大，右脉缓小无结代。因无病历无辅检只能隔皮猜瓜了西诊:高心病？心衰二度？病态窦综合证？中诊：喘病？？？，心肾阳气虚衰型？西医怎么说先不管它，实验性开方一副方药如下：黄芪20仙鹤草50附子20红花10丹参30川芎10炙甘草20瓜蒌30半夏10桂枝20夏枯草15给病号熬上了，家属拿走后越想越后怕，半蒌贝蔹及攻乌，附子不是乌头但也是它的子根啊，好在今天家属来说昨夜病号睡眠平稳，今天的精神也很好。原方不变，又煎一副，待观.只是想给同道提个醒，开完方后一定要审审方啊，不要等病号走了，自己又担惊受怕的。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "1956_想不到的病症导致腹痛腹泻2天一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "12岁"
+        },
+        "chief_complaint": "患者男性，12岁，学生。因腹痛腹泻就诊。",
+        "present_illness": "",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "现服药:**片，美托洛尔片，肠溶阿斯匹林片已经服用两年。具体剂量没细问。中式体检：饮食尚可，面白体瘦，肢凉舌淡苔薄白舌边有齿痕及瘀斑，左脉偏弦大，右脉缓小无结代。因无病历无辅检只能隔皮猜瓜了西诊:高心病？心衰二度？病态窦综合证？中诊：喘病？？？，心肾阳气虚衰型？西医怎么说先不管它，实验性开方一副方药如下：黄芪20仙鹤草50附子20红花10丹参30川芎10炙甘草20瓜蒌30半夏10桂枝20夏枯草15给病号熬上了，家属拿走后越想越后怕，半蒌贝蔹及攻乌，附子不是乌头但也是它的子根啊，好在今天家属来说昨夜病号睡眠平稳，今天的精神也很好。原方不变，又煎一副，待观.只是想给同道提个醒，开完方后一定要审审方啊，不要等病号走了，自己又担惊受怕的。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

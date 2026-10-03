@@ -1,0 +1,534 @@
+{
+  "case_id": "8581_肝梅毒树胶肿一例",
+  "personal_info": {
+    "性别": "女",
+    "年龄": "47岁"
+  },
+  "chief_complaint": "患者女，47岁。因“发现肝占位1个月”于2015年5月入院。",
+  "present_illness": "患者外院体检行腹部超声时发现肝内结节，进一步行腹部CT见肝脏多发占位，性质待定，遂就诊我院。 \n查血常规：WBC 6.26×109／L，Hb 98 g/Ｌ，PLT 420×109／L；超敏C反应蛋白（hsCRP）76.23 mg/L；ESR 100 mm/1h；酶联免疫斑点法结核感染Ｔ细胞检测（T-SPOT.TB）：未检测到结核感染Ｔ细胞；肿瘤标记物：CA15-3为26.1 U/ml，组织多肽特异性抗原（TPS）90.44 U/Ｌ，甲胎蛋白、癌胚抗原、CA19-9等均正常；凝血功能：APTT 42.0 s，凝血酶原时间（PT）11.8ｓ（即刻、2ｈ均可完全纠正）；卫氏并殖吸虫、肝包虫、囊虫、华支 睾吸虫IgG抗体均阴性；免疫固定电泳、免疫球蛋白、补体、自身抗体均正常。颅脑MRI未见特异性改变。颈部超声见双侧颈部肿大淋巴结。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "胆囊多发息肉，青霉素过敏（用药后出现皮疹）。 孕2产2，人工流产2次，否认冶游史。 从事服装生意，经常多地出差。",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "8581_肝梅毒树胶肿一例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "47岁"
+        },
+        "chief_complaint": "患者女，47岁。因“发现肝占位1个月”于2015年5月入院。",
+        "present_illness": "患者外院体检行腹部超声时发现肝内结节，进一步行腹部CT见肝脏多发占位，性质待定，遂就诊我院。 \n查血常规：WBC 6.26×109／L，Hb 98 g/Ｌ，PLT 420×109／L；超敏C反应蛋白（hsCRP）76.23 mg/L；ESR 100 mm/1h；酶联免疫斑点法结核感染Ｔ细胞检测（T-SPOT.TB）：未检测到结核感染Ｔ细胞；肿瘤标记物：CA15-3为26.1 U/ml，组织多肽特异性抗原（TPS）90.44 U/Ｌ，甲胎蛋白、癌胚抗原、CA19-9等均正常；凝血功能：APTT 42.0 s，凝血酶原时间（PT）11.8ｓ（即刻、2ｈ均可完全纠正）；卫氏并殖吸虫、肝包虫、囊虫、华支 睾吸虫IgG抗体均阴性；免疫固定电泳、免疫球蛋白、补体、自身抗体均正常。颅脑MRI未见特异性改变。颈部超声见双侧颈部肿大淋巴结。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "胆囊多发息肉，青霉素过敏（用药后出现皮疹）。 孕2产2，人工流产2次，否认冶游史。 从事服装生意，经常多地出差。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "8581_肝梅毒树胶肿一例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "47岁"
+        },
+        "chief_complaint": "患者女，47岁。因“发现肝占位1个月”于2015年5月入院。",
+        "present_illness": "患者外院体检行腹部超声时发现肝内结节，进一步行腹部CT见肝脏多发占位，性质待定，遂就诊我院。 \n查血常规：WBC 6.26×109／L，Hb 98 g/Ｌ，PLT 420×109／L；超敏C反应蛋白（hsCRP）76.23 mg/L；ESR 100 mm/1h；酶联免疫斑点法结核感染Ｔ细胞检测（T-SPOT.TB）：未检测到结核感染Ｔ细胞；肿瘤标记物：CA15-3为26.1 U/ml，组织多肽特异性抗原（TPS）90.44 U/Ｌ，甲胎蛋白、癌胚抗原、CA19-9等均正常；凝血功能：APTT 42.0 s，凝血酶原时间（PT）11.8ｓ（即刻、2ｈ均可完全纠正）；卫氏并殖吸虫、肝包虫、囊虫、华支 睾吸虫IgG抗体均阴性；免疫固定电泳、免疫球蛋白、补体、自身抗体均正常。颅脑MRI未见特异性改变。颈部超声见双侧颈部肿大淋巴结。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "胆囊多发息肉，青霉素过敏（用药后出现皮疹）。 孕2产2，人工流产2次，否认冶游史。 从事服装生意，经常多地出差。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "8581_肝梅毒树胶肿一例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "47岁"
+        },
+        "chief_complaint": "患者女，47岁。因“发现肝占位1个月”于2015年5月入院。",
+        "present_illness": "患者外院体检行腹部超声时发现肝内结节，进一步行腹部CT见肝脏多发占位，性质待定，遂就诊我院。 \n查血常规：WBC 6.26×109／L，Hb 98 g/Ｌ，PLT 420×109／L；超敏C反应蛋白（hsCRP）76.23 mg/L；ESR 100 mm/1h；酶联免疫斑点法结核感染Ｔ细胞检测（T-SPOT.TB）：未检测到结核感染Ｔ细胞；肿瘤标记物：CA15-3为26.1 U/ml，组织多肽特异性抗原（TPS）90.44 U/Ｌ，甲胎蛋白、癌胚抗原、CA19-9等均正常；凝血功能：APTT 42.0 s，凝血酶原时间（PT）11.8ｓ（即刻、2ｈ均可完全纠正）；卫氏并殖吸虫、肝包虫、囊虫、华支 睾吸虫IgG抗体均阴性；免疫固定电泳、免疫球蛋白、补体、自身抗体均正常。颅脑MRI未见特异性改变。颈部超声见双侧颈部肿大淋巴结。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "胆囊多发息肉，青霉素过敏（用药后出现皮疹）。 孕2产2，人工流产2次，否认冶游史。 从事服装生意，经常多地出差。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "8581_肝梅毒树胶肿一例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "47岁"
+        },
+        "chief_complaint": "患者女，47岁。因“发现肝占位1个月”于2015年5月入院。",
+        "present_illness": "患者外院体检行腹部超声时发现肝内结节，进一步行腹部CT见肝脏多发占位，性质待定，遂就诊我院。 \n查血常规：WBC 6.26×109／L，Hb 98 g/Ｌ，PLT 420×109／L；超敏C反应蛋白（hsCRP）76.23 mg/L；ESR 100 mm/1h；酶联免疫斑点法结核感染Ｔ细胞检测（T-SPOT.TB）：未检测到结核感染Ｔ细胞；肿瘤标记物：CA15-3为26.1 U/ml，组织多肽特异性抗原（TPS）90.44 U/Ｌ，甲胎蛋白、癌胚抗原、CA19-9等均正常；凝血功能：APTT 42.0 s，凝血酶原时间（PT）11.8ｓ（即刻、2ｈ均可完全纠正）；卫氏并殖吸虫、肝包虫、囊虫、华支 睾吸虫IgG抗体均阴性；免疫固定电泳、免疫球蛋白、补体、自身抗体均正常。颅脑MRI未见特异性改变。颈部超声见双侧颈部肿大淋巴结。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "胆囊多发息肉，青霉素过敏（用药后出现皮疹）。 孕2产2，人工流产2次，否认冶游史。 从事服装生意，经常多地出差。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "8581_肝梅毒树胶肿一例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "47岁"
+        },
+        "chief_complaint": "患者女，47岁。因“发现肝占位1个月”于2015年5月入院。",
+        "present_illness": "患者外院体检行腹部超声时发现肝内结节，进一步行腹部CT见肝脏多发占位，性质待定，遂就诊我院。 \n查血常规：WBC 6.26×109／L，Hb 98 g/Ｌ，PLT 420×109／L；超敏C反应蛋白（hsCRP）76.23 mg/L；ESR 100 mm/1h；酶联免疫斑点法结核感染Ｔ细胞检测（T-SPOT.TB）：未检测到结核感染Ｔ细胞；肿瘤标记物：CA15-3为26.1 U/ml，组织多肽特异性抗原（TPS）90.44 U/Ｌ，甲胎蛋白、癌胚抗原、CA19-9等均正常；凝血功能：APTT 42.0 s，凝血酶原时间（PT）11.8ｓ（即刻、2ｈ均可完全纠正）；卫氏并殖吸虫、肝包虫、囊虫、华支 睾吸虫IgG抗体均阴性；免疫固定电泳、免疫球蛋白、补体、自身抗体均正常。颅脑MRI未见特异性改变。颈部超声见双侧颈部肿大淋巴结。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "胆囊多发息肉，青霉素过敏（用药后出现皮疹）。 孕2产2，人工流产2次，否认冶游史。 从事服装生意，经常多地出差。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

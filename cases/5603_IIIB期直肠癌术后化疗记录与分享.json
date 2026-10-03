@@ -1,0 +1,534 @@
+{
+  "case_id": "5603_IIIB期直肠癌术后化疗记录与分享",
+  "personal_info": {
+    "性别": "女",
+    "年龄": "52岁"
+  },
+  "chief_complaint": "确诊直肠癌5月余，拟行化疗。",
+  "present_illness": "患者因“便血反复发作半年”于2020-12-19来我院就诊，行电子结肠镜病理示：(直肠)腺癌，于2020-12-29行“直肠癌根治术+结肠造术”。术后病理示:大肠一段，长12.0 cm，直径3.5 cm。一端为肛门，剖开，见一溃疡型肿物，表面积3.5×2.7 cm，切面积3.5×0.5 cm，灰白，质硬，浸达肌层。肿物距两端切线分别为2.1、8.0 cm肠系膜查见淋巴结14枚，直径0.2-1.1 cm。(直肠)中分化腺癌，溃疡型，侵及肌层，切面积3.5×0.5 cm，两端切缘、环周切缘未见癌；肠系膜淋巴结5枚(5/14)查见转移癌。术后家人述已行基因检测(具体不详)。术后恢复可。于2021-01-29、2021-02-19、2021-03-12、2021-04-02。今为继续化疗来院.门诊以“直肠癌术后化疗后”收入住院.患者目前饮食、睡眠可，小便未见明显异常，大便结肠造瘘.自发病来，体重无明显减轻。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "否认高血压、冠心病、糖尿病等慢性疾病病史否认肝炎、结核等传染性疾病病史及密切接触史.否认重大外伤史.否认食物、药物过敏史.否认输血史.预防接种史不详. 生于原籍，否认近14天内有国外及国内中高风险疫情地区、其他有病例报告社区的旅行史或居住史；否认近14天内与新型冠状病毒感染者(核酸检测阳性者)有接触史；否认近14天内曾接触过来自国外、国外中高风险疫情区及周边地区、来自有病例报告社区的发热有呼吸道症状的患者；否认有冷链运输物品及运输人员接触史无外地久居史，无其他疫区居住史.否认职业病史及治游史.生活规律，无烟酒嗜好。",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "5603_IIIB期直肠癌术后化疗记录与分享",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "52岁"
+        },
+        "chief_complaint": "确诊直肠癌5月余，拟行化疗。",
+        "present_illness": "患者因“便血反复发作半年”于2020-12-19来我院就诊，行电子结肠镜病理示：(直肠)腺癌，于2020-12-29行“直肠癌根治术+结肠造术”。术后病理示:大肠一段，长12.0 cm，直径3.5 cm。一端为肛门，剖开，见一溃疡型肿物，表面积3.5×2.7 cm，切面积3.5×0.5 cm，灰白，质硬，浸达肌层。肿物距两端切线分别为2.1、8.0 cm肠系膜查见淋巴结14枚，直径0.2-1.1 cm。(直肠)中分化腺癌，溃疡型，侵及肌层，切面积3.5×0.5 cm，两端切缘、环周切缘未见癌；肠系膜淋巴结5枚(5/14)查见转移癌。术后家人述已行基因检测(具体不详)。术后恢复可。于2021-01-29、2021-02-19、2021-03-12、2021-04-02。今为继续化疗来院.门诊以“直肠癌术后化疗后”收入住院.患者目前饮食、睡眠可，小便未见明显异常，大便结肠造瘘.自发病来，体重无明显减轻。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "否认高血压、冠心病、糖尿病等慢性疾病病史否认肝炎、结核等传染性疾病病史及密切接触史.否认重大外伤史.否认食物、药物过敏史.否认输血史.预防接种史不详. 生于原籍，否认近14天内有国外及国内中高风险疫情地区、其他有病例报告社区的旅行史或居住史；否认近14天内与新型冠状病毒感染者(核酸检测阳性者)有接触史；否认近14天内曾接触过来自国外、国外中高风险疫情区及周边地区、来自有病例报告社区的发热有呼吸道症状的患者；否认有冷链运输物品及运输人员接触史无外地久居史，无其他疫区居住史.否认职业病史及治游史.生活规律，无烟酒嗜好。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "5603_IIIB期直肠癌术后化疗记录与分享",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "52岁"
+        },
+        "chief_complaint": "确诊直肠癌5月余，拟行化疗。",
+        "present_illness": "患者因“便血反复发作半年”于2020-12-19来我院就诊，行电子结肠镜病理示：(直肠)腺癌，于2020-12-29行“直肠癌根治术+结肠造术”。术后病理示:大肠一段，长12.0 cm，直径3.5 cm。一端为肛门，剖开，见一溃疡型肿物，表面积3.5×2.7 cm，切面积3.5×0.5 cm，灰白，质硬，浸达肌层。肿物距两端切线分别为2.1、8.0 cm肠系膜查见淋巴结14枚，直径0.2-1.1 cm。(直肠)中分化腺癌，溃疡型，侵及肌层，切面积3.5×0.5 cm，两端切缘、环周切缘未见癌；肠系膜淋巴结5枚(5/14)查见转移癌。术后家人述已行基因检测(具体不详)。术后恢复可。于2021-01-29、2021-02-19、2021-03-12、2021-04-02。今为继续化疗来院.门诊以“直肠癌术后化疗后”收入住院.患者目前饮食、睡眠可，小便未见明显异常，大便结肠造瘘.自发病来，体重无明显减轻。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认高血压、冠心病、糖尿病等慢性疾病病史否认肝炎、结核等传染性疾病病史及密切接触史.否认重大外伤史.否认食物、药物过敏史.否认输血史.预防接种史不详. 生于原籍，否认近14天内有国外及国内中高风险疫情地区、其他有病例报告社区的旅行史或居住史；否认近14天内与新型冠状病毒感染者(核酸检测阳性者)有接触史；否认近14天内曾接触过来自国外、国外中高风险疫情区及周边地区、来自有病例报告社区的发热有呼吸道症状的患者；否认有冷链运输物品及运输人员接触史无外地久居史，无其他疫区居住史.否认职业病史及治游史.生活规律，无烟酒嗜好。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "5603_IIIB期直肠癌术后化疗记录与分享",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "52岁"
+        },
+        "chief_complaint": "确诊直肠癌5月余，拟行化疗。",
+        "present_illness": "患者因“便血反复发作半年”于2020-12-19来我院就诊，行电子结肠镜病理示：(直肠)腺癌，于2020-12-29行“直肠癌根治术+结肠造术”。术后病理示:大肠一段，长12.0 cm，直径3.5 cm。一端为肛门，剖开，见一溃疡型肿物，表面积3.5×2.7 cm，切面积3.5×0.5 cm，灰白，质硬，浸达肌层。肿物距两端切线分别为2.1、8.0 cm肠系膜查见淋巴结14枚，直径0.2-1.1 cm。(直肠)中分化腺癌，溃疡型，侵及肌层，切面积3.5×0.5 cm，两端切缘、环周切缘未见癌；肠系膜淋巴结5枚(5/14)查见转移癌。术后家人述已行基因检测(具体不详)。术后恢复可。于2021-01-29、2021-02-19、2021-03-12、2021-04-02。今为继续化疗来院.门诊以“直肠癌术后化疗后”收入住院.患者目前饮食、睡眠可，小便未见明显异常，大便结肠造瘘.自发病来，体重无明显减轻。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认高血压、冠心病、糖尿病等慢性疾病病史否认肝炎、结核等传染性疾病病史及密切接触史.否认重大外伤史.否认食物、药物过敏史.否认输血史.预防接种史不详. 生于原籍，否认近14天内有国外及国内中高风险疫情地区、其他有病例报告社区的旅行史或居住史；否认近14天内与新型冠状病毒感染者(核酸检测阳性者)有接触史；否认近14天内曾接触过来自国外、国外中高风险疫情区及周边地区、来自有病例报告社区的发热有呼吸道症状的患者；否认有冷链运输物品及运输人员接触史无外地久居史，无其他疫区居住史.否认职业病史及治游史.生活规律，无烟酒嗜好。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "5603_IIIB期直肠癌术后化疗记录与分享",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "52岁"
+        },
+        "chief_complaint": "确诊直肠癌5月余，拟行化疗。",
+        "present_illness": "患者因“便血反复发作半年”于2020-12-19来我院就诊，行电子结肠镜病理示：(直肠)腺癌，于2020-12-29行“直肠癌根治术+结肠造术”。术后病理示:大肠一段，长12.0 cm，直径3.5 cm。一端为肛门，剖开，见一溃疡型肿物，表面积3.5×2.7 cm，切面积3.5×0.5 cm，灰白，质硬，浸达肌层。肿物距两端切线分别为2.1、8.0 cm肠系膜查见淋巴结14枚，直径0.2-1.1 cm。(直肠)中分化腺癌，溃疡型，侵及肌层，切面积3.5×0.5 cm，两端切缘、环周切缘未见癌；肠系膜淋巴结5枚(5/14)查见转移癌。术后家人述已行基因检测(具体不详)。术后恢复可。于2021-01-29、2021-02-19、2021-03-12、2021-04-02。今为继续化疗来院.门诊以“直肠癌术后化疗后”收入住院.患者目前饮食、睡眠可，小便未见明显异常，大便结肠造瘘.自发病来，体重无明显减轻。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认高血压、冠心病、糖尿病等慢性疾病病史否认肝炎、结核等传染性疾病病史及密切接触史.否认重大外伤史.否认食物、药物过敏史.否认输血史.预防接种史不详. 生于原籍，否认近14天内有国外及国内中高风险疫情地区、其他有病例报告社区的旅行史或居住史；否认近14天内与新型冠状病毒感染者(核酸检测阳性者)有接触史；否认近14天内曾接触过来自国外、国外中高风险疫情区及周边地区、来自有病例报告社区的发热有呼吸道症状的患者；否认有冷链运输物品及运输人员接触史无外地久居史，无其他疫区居住史.否认职业病史及治游史.生活规律，无烟酒嗜好。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "5603_IIIB期直肠癌术后化疗记录与分享",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "52岁"
+        },
+        "chief_complaint": "确诊直肠癌5月余，拟行化疗。",
+        "present_illness": "患者因“便血反复发作半年”于2020-12-19来我院就诊，行电子结肠镜病理示：(直肠)腺癌，于2020-12-29行“直肠癌根治术+结肠造术”。术后病理示:大肠一段，长12.0 cm，直径3.5 cm。一端为肛门，剖开，见一溃疡型肿物，表面积3.5×2.7 cm，切面积3.5×0.5 cm，灰白，质硬，浸达肌层。肿物距两端切线分别为2.1、8.0 cm肠系膜查见淋巴结14枚，直径0.2-1.1 cm。(直肠)中分化腺癌，溃疡型，侵及肌层，切面积3.5×0.5 cm，两端切缘、环周切缘未见癌；肠系膜淋巴结5枚(5/14)查见转移癌。术后家人述已行基因检测(具体不详)。术后恢复可。于2021-01-29、2021-02-19、2021-03-12、2021-04-02。今为继续化疗来院.门诊以“直肠癌术后化疗后”收入住院.患者目前饮食、睡眠可，小便未见明显异常，大便结肠造瘘.自发病来，体重无明显减轻。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认高血压、冠心病、糖尿病等慢性疾病病史否认肝炎、结核等传染性疾病病史及密切接触史.否认重大外伤史.否认食物、药物过敏史.否认输血史.预防接种史不详. 生于原籍，否认近14天内有国外及国内中高风险疫情地区、其他有病例报告社区的旅行史或居住史；否认近14天内与新型冠状病毒感染者(核酸检测阳性者)有接触史；否认近14天内曾接触过来自国外、国外中高风险疫情区及周边地区、来自有病例报告社区的发热有呼吸道症状的患者；否认有冷链运输物品及运输人员接触史无外地久居史，无其他疫区居住史.否认职业病史及治游史.生活规律，无烟酒嗜好。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

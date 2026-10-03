@@ -1,0 +1,534 @@
+{
+  "case_id": "3025_梗阻性难产、先兆子宫破裂的处理措施",
+  "personal_info": {
+    "性别": "女",
+    "年龄": "31岁"
+  },
+  "chief_complaint": "孕9月余，下腹阵发性胀痛、阴道流水样液2小时余",
+  "present_illness": "诉平素月经规律，末次月经2019-07-05，预产期：2020-04-12，停经6周左右出现轻微恶心、厌食、嗜睡、乏力、嗜酸等早孕反应。孕早期有感冒病史，无高热经过，未服用任何药物治疗。孕期否认有毒物质、X线、CT等有害放射线接触史，无头晕、眼花、视物模糊、下肢抽搐等不适。孕12周建卡产检，初诊血压为91/64mmHg，建卡时查血尿常规、肾功能、电解质、G6PD、优生五项、乙肝两对半、血三检、心电图、血糖等正常。产前筛查示低危，地中海贫血筛查阴性、B超查胎儿NT1.7mm。孕22周胎儿大排畸四维B超检查未见异常结果。孕28周行OGTT检查：4.5-10.1-6.2mmol/L考虑“妊娠期糖尿病”，予控制饮食。孕20周自觉胎动并活跃至今，孕期无双下肢水肿。孕34周B超复查一次提示脐带绕颈，其他无异常。今日00：10时左右开始出现下腹胀痛，阵发性，无规律，少量**流水样液，色淡黄，无**流血，因腹部阵痛变频繁自觉临产而到我院就诊，急诊于02时40分拟“先兆临产”收入院。入院时一般情况：神清，精神好，有腹部阵痛，少量阴道流水样液，无出血，胎动存。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "既往体健，否认有“高血压病”、“糖尿病”及“冠心病”史。否认有“肝炎”、“结核病”等传染病史，否认有重大外伤、中毒、输血史。否认有药物及食物过敏史。预防接种史不详。 出生生长于原籍，未到过流行病区，居住环境可，无不良生活嗜好。月经及婚育史：月经初潮12岁，行经5天，周期2天，量中，色暗红，无痛经，末次月经2019年07月05日，已婚，孕1产0，人流1次，爱人体健。",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "3025_梗阻性难产、先兆子宫破裂的处理措施",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "31岁"
+        },
+        "chief_complaint": "孕9月余，下腹阵发性胀痛、阴道流水样液2小时余",
+        "present_illness": "诉平素月经规律，末次月经2019-07-05，预产期：2020-04-12，停经6周左右出现轻微恶心、厌食、嗜睡、乏力、嗜酸等早孕反应。孕早期有感冒病史，无高热经过，未服用任何药物治疗。孕期否认有毒物质、X线、CT等有害放射线接触史，无头晕、眼花、视物模糊、下肢抽搐等不适。孕12周建卡产检，初诊血压为91/64mmHg，建卡时查血尿常规、肾功能、电解质、G6PD、优生五项、乙肝两对半、血三检、心电图、血糖等正常。产前筛查示低危，地中海贫血筛查阴性、B超查胎儿NT1.7mm。孕22周胎儿大排畸四维B超检查未见异常结果。孕28周行OGTT检查：4.5-10.1-6.2mmol/L考虑“妊娠期糖尿病”，予控制饮食。孕20周自觉胎动并活跃至今，孕期无双下肢水肿。孕34周B超复查一次提示脐带绕颈，其他无异常。今日00：10时左右开始出现下腹胀痛，阵发性，无规律，少量**流水样液，色淡黄，无**流血，因腹部阵痛变频繁自觉临产而到我院就诊，急诊于02时40分拟“先兆临产”收入院。入院时一般情况：神清，精神好，有腹部阵痛，少量阴道流水样液，无出血，胎动存。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "既往体健，否认有“高血压病”、“糖尿病”及“冠心病”史。否认有“肝炎”、“结核病”等传染病史，否认有重大外伤、中毒、输血史。否认有药物及食物过敏史。预防接种史不详。 出生生长于原籍，未到过流行病区，居住环境可，无不良生活嗜好。月经及婚育史：月经初潮12岁，行经5天，周期2天，量中，色暗红，无痛经，末次月经2019年07月05日，已婚，孕1产0，人流1次，爱人体健。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "3025_梗阻性难产、先兆子宫破裂的处理措施",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "31岁"
+        },
+        "chief_complaint": "孕9月余，下腹阵发性胀痛、阴道流水样液2小时余",
+        "present_illness": "诉平素月经规律，末次月经2019-07-05，预产期：2020-04-12，停经6周左右出现轻微恶心、厌食、嗜睡、乏力、嗜酸等早孕反应。孕早期有感冒病史，无高热经过，未服用任何药物治疗。孕期否认有毒物质、X线、CT等有害放射线接触史，无头晕、眼花、视物模糊、下肢抽搐等不适。孕12周建卡产检，初诊血压为91/64mmHg，建卡时查血尿常规、肾功能、电解质、G6PD、优生五项、乙肝两对半、血三检、心电图、血糖等正常。产前筛查示低危，地中海贫血筛查阴性、B超查胎儿NT1.7mm。孕22周胎儿大排畸四维B超检查未见异常结果。孕28周行OGTT检查：4.5-10.1-6.2mmol/L考虑“妊娠期糖尿病”，予控制饮食。孕20周自觉胎动并活跃至今，孕期无双下肢水肿。孕34周B超复查一次提示脐带绕颈，其他无异常。今日00：10时左右开始出现下腹胀痛，阵发性，无规律，少量**流水样液，色淡黄，无**流血，因腹部阵痛变频繁自觉临产而到我院就诊，急诊于02时40分拟“先兆临产”收入院。入院时一般情况：神清，精神好，有腹部阵痛，少量阴道流水样液，无出血，胎动存。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往体健，否认有“高血压病”、“糖尿病”及“冠心病”史。否认有“肝炎”、“结核病”等传染病史，否认有重大外伤、中毒、输血史。否认有药物及食物过敏史。预防接种史不详。 出生生长于原籍，未到过流行病区，居住环境可，无不良生活嗜好。月经及婚育史：月经初潮12岁，行经5天，周期2天，量中，色暗红，无痛经，末次月经2019年07月05日，已婚，孕1产0，人流1次，爱人体健。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "3025_梗阻性难产、先兆子宫破裂的处理措施",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "31岁"
+        },
+        "chief_complaint": "孕9月余，下腹阵发性胀痛、阴道流水样液2小时余",
+        "present_illness": "诉平素月经规律，末次月经2019-07-05，预产期：2020-04-12，停经6周左右出现轻微恶心、厌食、嗜睡、乏力、嗜酸等早孕反应。孕早期有感冒病史，无高热经过，未服用任何药物治疗。孕期否认有毒物质、X线、CT等有害放射线接触史，无头晕、眼花、视物模糊、下肢抽搐等不适。孕12周建卡产检，初诊血压为91/64mmHg，建卡时查血尿常规、肾功能、电解质、G6PD、优生五项、乙肝两对半、血三检、心电图、血糖等正常。产前筛查示低危，地中海贫血筛查阴性、B超查胎儿NT1.7mm。孕22周胎儿大排畸四维B超检查未见异常结果。孕28周行OGTT检查：4.5-10.1-6.2mmol/L考虑“妊娠期糖尿病”，予控制饮食。孕20周自觉胎动并活跃至今，孕期无双下肢水肿。孕34周B超复查一次提示脐带绕颈，其他无异常。今日00：10时左右开始出现下腹胀痛，阵发性，无规律，少量**流水样液，色淡黄，无**流血，因腹部阵痛变频繁自觉临产而到我院就诊，急诊于02时40分拟“先兆临产”收入院。入院时一般情况：神清，精神好，有腹部阵痛，少量阴道流水样液，无出血，胎动存。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往体健，否认有“高血压病”、“糖尿病”及“冠心病”史。否认有“肝炎”、“结核病”等传染病史，否认有重大外伤、中毒、输血史。否认有药物及食物过敏史。预防接种史不详。 出生生长于原籍，未到过流行病区，居住环境可，无不良生活嗜好。月经及婚育史：月经初潮12岁，行经5天，周期2天，量中，色暗红，无痛经，末次月经2019年07月05日，已婚，孕1产0，人流1次，爱人体健。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "3025_梗阻性难产、先兆子宫破裂的处理措施",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "31岁"
+        },
+        "chief_complaint": "孕9月余，下腹阵发性胀痛、阴道流水样液2小时余",
+        "present_illness": "诉平素月经规律，末次月经2019-07-05，预产期：2020-04-12，停经6周左右出现轻微恶心、厌食、嗜睡、乏力、嗜酸等早孕反应。孕早期有感冒病史，无高热经过，未服用任何药物治疗。孕期否认有毒物质、X线、CT等有害放射线接触史，无头晕、眼花、视物模糊、下肢抽搐等不适。孕12周建卡产检，初诊血压为91/64mmHg，建卡时查血尿常规、肾功能、电解质、G6PD、优生五项、乙肝两对半、血三检、心电图、血糖等正常。产前筛查示低危，地中海贫血筛查阴性、B超查胎儿NT1.7mm。孕22周胎儿大排畸四维B超检查未见异常结果。孕28周行OGTT检查：4.5-10.1-6.2mmol/L考虑“妊娠期糖尿病”，予控制饮食。孕20周自觉胎动并活跃至今，孕期无双下肢水肿。孕34周B超复查一次提示脐带绕颈，其他无异常。今日00：10时左右开始出现下腹胀痛，阵发性，无规律，少量**流水样液，色淡黄，无**流血，因腹部阵痛变频繁自觉临产而到我院就诊，急诊于02时40分拟“先兆临产”收入院。入院时一般情况：神清，精神好，有腹部阵痛，少量阴道流水样液，无出血，胎动存。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往体健，否认有“高血压病”、“糖尿病”及“冠心病”史。否认有“肝炎”、“结核病”等传染病史，否认有重大外伤、中毒、输血史。否认有药物及食物过敏史。预防接种史不详。 出生生长于原籍，未到过流行病区，居住环境可，无不良生活嗜好。月经及婚育史：月经初潮12岁，行经5天，周期2天，量中，色暗红，无痛经，末次月经2019年07月05日，已婚，孕1产0，人流1次，爱人体健。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "3025_梗阻性难产、先兆子宫破裂的处理措施",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "31岁"
+        },
+        "chief_complaint": "孕9月余，下腹阵发性胀痛、阴道流水样液2小时余",
+        "present_illness": "诉平素月经规律，末次月经2019-07-05，预产期：2020-04-12，停经6周左右出现轻微恶心、厌食、嗜睡、乏力、嗜酸等早孕反应。孕早期有感冒病史，无高热经过，未服用任何药物治疗。孕期否认有毒物质、X线、CT等有害放射线接触史，无头晕、眼花、视物模糊、下肢抽搐等不适。孕12周建卡产检，初诊血压为91/64mmHg，建卡时查血尿常规、肾功能、电解质、G6PD、优生五项、乙肝两对半、血三检、心电图、血糖等正常。产前筛查示低危，地中海贫血筛查阴性、B超查胎儿NT1.7mm。孕22周胎儿大排畸四维B超检查未见异常结果。孕28周行OGTT检查：4.5-10.1-6.2mmol/L考虑“妊娠期糖尿病”，予控制饮食。孕20周自觉胎动并活跃至今，孕期无双下肢水肿。孕34周B超复查一次提示脐带绕颈，其他无异常。今日00：10时左右开始出现下腹胀痛，阵发性，无规律，少量**流水样液，色淡黄，无**流血，因腹部阵痛变频繁自觉临产而到我院就诊，急诊于02时40分拟“先兆临产”收入院。入院时一般情况：神清，精神好，有腹部阵痛，少量阴道流水样液，无出血，胎动存。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往体健，否认有“高血压病”、“糖尿病”及“冠心病”史。否认有“肝炎”、“结核病”等传染病史，否认有重大外伤、中毒、输血史。否认有药物及食物过敏史。预防接种史不详。 出生生长于原籍，未到过流行病区，居住环境可，无不良生活嗜好。月经及婚育史：月经初潮12岁，行经5天，周期2天，量中，色暗红，无痛经，末次月经2019年07月05日，已婚，孕1产0，人流1次，爱人体健。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

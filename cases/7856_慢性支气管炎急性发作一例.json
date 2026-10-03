@@ -1,0 +1,534 @@
+{
+  "case_id": "7856_慢性支气管炎急性发作一例",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "68岁"
+  },
+  "chief_complaint": "一般情况体温36.7℃，脉搏90/min，呼吸18/min，身高162cm，体重75kg。发育正常，营养良好，平卧位，表情安静，神志清晰，应答切题，检查合作。皮肤色泽正常，弹性好，双下肢水肿至踝上两指，无皮疹、色素沉着、肝脏、血管蛛、黄染、紫癜。淋巴结全身浅表淋巴结未触及。头部头颅：无畸形、压痛，发黑有光泽，分布均匀，无外伤、疤痕、疮疖。眼部：大小正常，眉毛无脱落，睫毛无倒生，两眼具无浮肿，眼球无突出，运动自如，结膜无充血水肿，巩膜无黄染，角膜透明，双瞳孔同大等圆，两侧对光反应良好。耳部：耳郭无畸形，外耳道无溢脓、出血，乳突无压痛，听力正常。鼻部：无鼻翼动，无鼻阻塞、流涕，鼻中隔无偏曲，嗅觉正常，各鼻窦无压痛。口腔：呼气无臭味，口唇无发绀及疱疹，无缺齿、龋病，齿龈无肿胀、出血、溢脓。舌苔白腻，乱质淡红，舌无震颤，伸舌居中。口腔粘膜无出血及溃疡。扁桃体不肿大，无脓性分泌物。咽后壁无充血。咽反射正常，悬雍垂居中。颈部对称，柔软，无结节，无触痛，未闻及血管杂音，颈静脉无怒张，未见异常动脉搏动，甲状腺不肿大。胸部胸廓形状正常，双侧对称，肋间平坦，运动正常，肋弓角约90°，胸壁无肿块及扩张血管。双乳对称，未见异常。肺脏视诊：呈胸式呼吸，节律及深浅正常，呼吸运动双侧对称。触诊：语音震颤两侧相等，无摩擦感。叩诊：反响正常，肺下界在肩胛下角线第10肋间，呼吸移动度4cm。听诊：呼吸音及语音传导双侧对称，无干、湿啰音及摩擦音。心脏视诊：未见心尖搏动，心前区无膨隆。触诊：心尖搏动在第5肋间、锁骨中线内侧1cm处最强，无抬举性搏动、震颤及摩擦感。叩诊：左、右心界正常，如右表。锁骨中线距前正中线9cm。右（cm）肋间左（cm）2.0Ⅱ2.52.0Ⅲ4.03.0Ⅳ6.5Ⅴ8.5听诊：心律90/min，律齐，各瓣音区心音正常，P2>A2，未闻及杂音，无心包摩擦音。腹部视诊：全腹部膨隆，腹壁对称，无静脉曲张及蠕动波，脐部平坦。触诊：肝浊音上界锁骨中线第5肋间，上下全长11cm，肝肋缘下未触及。叩诊：肝脾区均无叩击痛，无过度回响及移动性浊音。听诊：肠蠕动3～4/min，胃区无振水声，肝脾区无摩擦音，未闻及血管杂音。外阴及**外阴发育正常，无红肿，溃疡及异常分泌物。**未见裂创、瘘管、皮疹、无外痔。脊柱及四肢脊柱无畸形、压痛及叩击痛；肋脊角无压痛及叩击痛；四肢无畸形、杵状指趾、外伤、骨折、静脉曲张；双下肢水肿至踝上2横指，加压有凹陷；肌张力及肌力正常；关节无红肿、畸形及运动障碍；甲床无微血管搏动；股动脉及肱动脉无枪击音；桡动脉搏动正常，血管硬度无特殊。神经系四肢运动及感觉良好。二头肌腱反射、腹壁反射、膝腱反射、膝腱反射均可引出，两侧对称；巴彬斯奇征及克尼格征阴性。",
+  "present_illness": "",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "7856_慢性支气管炎急性发作一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "68岁"
+        },
+        "chief_complaint": "一般情况体温36.7℃，脉搏90/min，呼吸18/min，身高162cm，体重75kg。发育正常，营养良好，平卧位，表情安静，神志清晰，应答切题，检查合作。皮肤色泽正常，弹性好，双下肢水肿至踝上两指，无皮疹、色素沉着、肝脏、血管蛛、黄染、紫癜。淋巴结全身浅表淋巴结未触及。头部头颅：无畸形、压痛，发黑有光泽，分布均匀，无外伤、疤痕、疮疖。眼部：大小正常，眉毛无脱落，睫毛无倒生，两眼具无浮肿，眼球无突出，运动自如，结膜无充血水肿，巩膜无黄染，角膜透明，双瞳孔同大等圆，两侧对光反应良好。耳部：耳郭无畸形，外耳道无溢脓、出血，乳突无压痛，听力正常。鼻部：无鼻翼动，无鼻阻塞、流涕，鼻中隔无偏曲，嗅觉正常，各鼻窦无压痛。口腔：呼气无臭味，口唇无发绀及疱疹，无缺齿、龋病，齿龈无肿胀、出血、溢脓。舌苔白腻，乱质淡红，舌无震颤，伸舌居中。口腔粘膜无出血及溃疡。扁桃体不肿大，无脓性分泌物。咽后壁无充血。咽反射正常，悬雍垂居中。颈部对称，柔软，无结节，无触痛，未闻及血管杂音，颈静脉无怒张，未见异常动脉搏动，甲状腺不肿大。胸部胸廓形状正常，双侧对称，肋间平坦，运动正常，肋弓角约90°，胸壁无肿块及扩张血管。双乳对称，未见异常。肺脏视诊：呈胸式呼吸，节律及深浅正常，呼吸运动双侧对称。触诊：语音震颤两侧相等，无摩擦感。叩诊：反响正常，肺下界在肩胛下角线第10肋间，呼吸移动度4cm。听诊：呼吸音及语音传导双侧对称，无干、湿啰音及摩擦音。心脏视诊：未见心尖搏动，心前区无膨隆。触诊：心尖搏动在第5肋间、锁骨中线内侧1cm处最强，无抬举性搏动、震颤及摩擦感。叩诊：左、右心界正常，如右表。锁骨中线距前正中线9cm。右（cm）肋间左（cm）2.0Ⅱ2.52.0Ⅲ4.03.0Ⅳ6.5Ⅴ8.5听诊：心律90/min，律齐，各瓣音区心音正常，P2>A2，未闻及杂音，无心包摩擦音。腹部视诊：全腹部膨隆，腹壁对称，无静脉曲张及蠕动波，脐部平坦。触诊：肝浊音上界锁骨中线第5肋间，上下全长11cm，肝肋缘下未触及。叩诊：肝脾区均无叩击痛，无过度回响及移动性浊音。听诊：肠蠕动3～4/min，胃区无振水声，肝脾区无摩擦音，未闻及血管杂音。外阴及**外阴发育正常，无红肿，溃疡及异常分泌物。**未见裂创、瘘管、皮疹、无外痔。脊柱及四肢脊柱无畸形、压痛及叩击痛；肋脊角无压痛及叩击痛；四肢无畸形、杵状指趾、外伤、骨折、静脉曲张；双下肢水肿至踝上2横指，加压有凹陷；肌张力及肌力正常；关节无红肿、畸形及运动障碍；甲床无微血管搏动；股动脉及肱动脉无枪击音；桡动脉搏动正常，血管硬度无特殊。神经系四肢运动及感觉良好。二头肌腱反射、腹壁反射、膝腱反射、膝腱反射均可引出，两侧对称；巴彬斯奇征及克尼格征阴性。",
+        "present_illness": "",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "7856_慢性支气管炎急性发作一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "68岁"
+        },
+        "chief_complaint": "一般情况体温36.7℃，脉搏90/min，呼吸18/min，身高162cm，体重75kg。发育正常，营养良好，平卧位，表情安静，神志清晰，应答切题，检查合作。皮肤色泽正常，弹性好，双下肢水肿至踝上两指，无皮疹、色素沉着、肝脏、血管蛛、黄染、紫癜。淋巴结全身浅表淋巴结未触及。头部头颅：无畸形、压痛，发黑有光泽，分布均匀，无外伤、疤痕、疮疖。眼部：大小正常，眉毛无脱落，睫毛无倒生，两眼具无浮肿，眼球无突出，运动自如，结膜无充血水肿，巩膜无黄染，角膜透明，双瞳孔同大等圆，两侧对光反应良好。耳部：耳郭无畸形，外耳道无溢脓、出血，乳突无压痛，听力正常。鼻部：无鼻翼动，无鼻阻塞、流涕，鼻中隔无偏曲，嗅觉正常，各鼻窦无压痛。口腔：呼气无臭味，口唇无发绀及疱疹，无缺齿、龋病，齿龈无肿胀、出血、溢脓。舌苔白腻，乱质淡红，舌无震颤，伸舌居中。口腔粘膜无出血及溃疡。扁桃体不肿大，无脓性分泌物。咽后壁无充血。咽反射正常，悬雍垂居中。颈部对称，柔软，无结节，无触痛，未闻及血管杂音，颈静脉无怒张，未见异常动脉搏动，甲状腺不肿大。胸部胸廓形状正常，双侧对称，肋间平坦，运动正常，肋弓角约90°，胸壁无肿块及扩张血管。双乳对称，未见异常。肺脏视诊：呈胸式呼吸，节律及深浅正常，呼吸运动双侧对称。触诊：语音震颤两侧相等，无摩擦感。叩诊：反响正常，肺下界在肩胛下角线第10肋间，呼吸移动度4cm。听诊：呼吸音及语音传导双侧对称，无干、湿啰音及摩擦音。心脏视诊：未见心尖搏动，心前区无膨隆。触诊：心尖搏动在第5肋间、锁骨中线内侧1cm处最强，无抬举性搏动、震颤及摩擦感。叩诊：左、右心界正常，如右表。锁骨中线距前正中线9cm。右（cm）肋间左（cm）2.0Ⅱ2.52.0Ⅲ4.03.0Ⅳ6.5Ⅴ8.5听诊：心律90/min，律齐，各瓣音区心音正常，P2>A2，未闻及杂音，无心包摩擦音。腹部视诊：全腹部膨隆，腹壁对称，无静脉曲张及蠕动波，脐部平坦。触诊：肝浊音上界锁骨中线第5肋间，上下全长11cm，肝肋缘下未触及。叩诊：肝脾区均无叩击痛，无过度回响及移动性浊音。听诊：肠蠕动3～4/min，胃区无振水声，肝脾区无摩擦音，未闻及血管杂音。外阴及**外阴发育正常，无红肿，溃疡及异常分泌物。**未见裂创、瘘管、皮疹、无外痔。脊柱及四肢脊柱无畸形、压痛及叩击痛；肋脊角无压痛及叩击痛；四肢无畸形、杵状指趾、外伤、骨折、静脉曲张；双下肢水肿至踝上2横指，加压有凹陷；肌张力及肌力正常；关节无红肿、畸形及运动障碍；甲床无微血管搏动；股动脉及肱动脉无枪击音；桡动脉搏动正常，血管硬度无特殊。神经系四肢运动及感觉良好。二头肌腱反射、腹壁反射、膝腱反射、膝腱反射均可引出，两侧对称；巴彬斯奇征及克尼格征阴性。",
+        "present_illness": "",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "7856_慢性支气管炎急性发作一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "68岁"
+        },
+        "chief_complaint": "一般情况体温36.7℃，脉搏90/min，呼吸18/min，身高162cm，体重75kg。发育正常，营养良好，平卧位，表情安静，神志清晰，应答切题，检查合作。皮肤色泽正常，弹性好，双下肢水肿至踝上两指，无皮疹、色素沉着、肝脏、血管蛛、黄染、紫癜。淋巴结全身浅表淋巴结未触及。头部头颅：无畸形、压痛，发黑有光泽，分布均匀，无外伤、疤痕、疮疖。眼部：大小正常，眉毛无脱落，睫毛无倒生，两眼具无浮肿，眼球无突出，运动自如，结膜无充血水肿，巩膜无黄染，角膜透明，双瞳孔同大等圆，两侧对光反应良好。耳部：耳郭无畸形，外耳道无溢脓、出血，乳突无压痛，听力正常。鼻部：无鼻翼动，无鼻阻塞、流涕，鼻中隔无偏曲，嗅觉正常，各鼻窦无压痛。口腔：呼气无臭味，口唇无发绀及疱疹，无缺齿、龋病，齿龈无肿胀、出血、溢脓。舌苔白腻，乱质淡红，舌无震颤，伸舌居中。口腔粘膜无出血及溃疡。扁桃体不肿大，无脓性分泌物。咽后壁无充血。咽反射正常，悬雍垂居中。颈部对称，柔软，无结节，无触痛，未闻及血管杂音，颈静脉无怒张，未见异常动脉搏动，甲状腺不肿大。胸部胸廓形状正常，双侧对称，肋间平坦，运动正常，肋弓角约90°，胸壁无肿块及扩张血管。双乳对称，未见异常。肺脏视诊：呈胸式呼吸，节律及深浅正常，呼吸运动双侧对称。触诊：语音震颤两侧相等，无摩擦感。叩诊：反响正常，肺下界在肩胛下角线第10肋间，呼吸移动度4cm。听诊：呼吸音及语音传导双侧对称，无干、湿啰音及摩擦音。心脏视诊：未见心尖搏动，心前区无膨隆。触诊：心尖搏动在第5肋间、锁骨中线内侧1cm处最强，无抬举性搏动、震颤及摩擦感。叩诊：左、右心界正常，如右表。锁骨中线距前正中线9cm。右（cm）肋间左（cm）2.0Ⅱ2.52.0Ⅲ4.03.0Ⅳ6.5Ⅴ8.5听诊：心律90/min，律齐，各瓣音区心音正常，P2>A2，未闻及杂音，无心包摩擦音。腹部视诊：全腹部膨隆，腹壁对称，无静脉曲张及蠕动波，脐部平坦。触诊：肝浊音上界锁骨中线第5肋间，上下全长11cm，肝肋缘下未触及。叩诊：肝脾区均无叩击痛，无过度回响及移动性浊音。听诊：肠蠕动3～4/min，胃区无振水声，肝脾区无摩擦音，未闻及血管杂音。外阴及**外阴发育正常，无红肿，溃疡及异常分泌物。**未见裂创、瘘管、皮疹、无外痔。脊柱及四肢脊柱无畸形、压痛及叩击痛；肋脊角无压痛及叩击痛；四肢无畸形、杵状指趾、外伤、骨折、静脉曲张；双下肢水肿至踝上2横指，加压有凹陷；肌张力及肌力正常；关节无红肿、畸形及运动障碍；甲床无微血管搏动；股动脉及肱动脉无枪击音；桡动脉搏动正常，血管硬度无特殊。神经系四肢运动及感觉良好。二头肌腱反射、腹壁反射、膝腱反射、膝腱反射均可引出，两侧对称；巴彬斯奇征及克尼格征阴性。",
+        "present_illness": "",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "7856_慢性支气管炎急性发作一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "68岁"
+        },
+        "chief_complaint": "一般情况体温36.7℃，脉搏90/min，呼吸18/min，身高162cm，体重75kg。发育正常，营养良好，平卧位，表情安静，神志清晰，应答切题，检查合作。皮肤色泽正常，弹性好，双下肢水肿至踝上两指，无皮疹、色素沉着、肝脏、血管蛛、黄染、紫癜。淋巴结全身浅表淋巴结未触及。头部头颅：无畸形、压痛，发黑有光泽，分布均匀，无外伤、疤痕、疮疖。眼部：大小正常，眉毛无脱落，睫毛无倒生，两眼具无浮肿，眼球无突出，运动自如，结膜无充血水肿，巩膜无黄染，角膜透明，双瞳孔同大等圆，两侧对光反应良好。耳部：耳郭无畸形，外耳道无溢脓、出血，乳突无压痛，听力正常。鼻部：无鼻翼动，无鼻阻塞、流涕，鼻中隔无偏曲，嗅觉正常，各鼻窦无压痛。口腔：呼气无臭味，口唇无发绀及疱疹，无缺齿、龋病，齿龈无肿胀、出血、溢脓。舌苔白腻，乱质淡红，舌无震颤，伸舌居中。口腔粘膜无出血及溃疡。扁桃体不肿大，无脓性分泌物。咽后壁无充血。咽反射正常，悬雍垂居中。颈部对称，柔软，无结节，无触痛，未闻及血管杂音，颈静脉无怒张，未见异常动脉搏动，甲状腺不肿大。胸部胸廓形状正常，双侧对称，肋间平坦，运动正常，肋弓角约90°，胸壁无肿块及扩张血管。双乳对称，未见异常。肺脏视诊：呈胸式呼吸，节律及深浅正常，呼吸运动双侧对称。触诊：语音震颤两侧相等，无摩擦感。叩诊：反响正常，肺下界在肩胛下角线第10肋间，呼吸移动度4cm。听诊：呼吸音及语音传导双侧对称，无干、湿啰音及摩擦音。心脏视诊：未见心尖搏动，心前区无膨隆。触诊：心尖搏动在第5肋间、锁骨中线内侧1cm处最强，无抬举性搏动、震颤及摩擦感。叩诊：左、右心界正常，如右表。锁骨中线距前正中线9cm。右（cm）肋间左（cm）2.0Ⅱ2.52.0Ⅲ4.03.0Ⅳ6.5Ⅴ8.5听诊：心律90/min，律齐，各瓣音区心音正常，P2>A2，未闻及杂音，无心包摩擦音。腹部视诊：全腹部膨隆，腹壁对称，无静脉曲张及蠕动波，脐部平坦。触诊：肝浊音上界锁骨中线第5肋间，上下全长11cm，肝肋缘下未触及。叩诊：肝脾区均无叩击痛，无过度回响及移动性浊音。听诊：肠蠕动3～4/min，胃区无振水声，肝脾区无摩擦音，未闻及血管杂音。外阴及**外阴发育正常，无红肿，溃疡及异常分泌物。**未见裂创、瘘管、皮疹、无外痔。脊柱及四肢脊柱无畸形、压痛及叩击痛；肋脊角无压痛及叩击痛；四肢无畸形、杵状指趾、外伤、骨折、静脉曲张；双下肢水肿至踝上2横指，加压有凹陷；肌张力及肌力正常；关节无红肿、畸形及运动障碍；甲床无微血管搏动；股动脉及肱动脉无枪击音；桡动脉搏动正常，血管硬度无特殊。神经系四肢运动及感觉良好。二头肌腱反射、腹壁反射、膝腱反射、膝腱反射均可引出，两侧对称；巴彬斯奇征及克尼格征阴性。",
+        "present_illness": "",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "7856_慢性支气管炎急性发作一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "68岁"
+        },
+        "chief_complaint": "一般情况体温36.7℃，脉搏90/min，呼吸18/min，身高162cm，体重75kg。发育正常，营养良好，平卧位，表情安静，神志清晰，应答切题，检查合作。皮肤色泽正常，弹性好，双下肢水肿至踝上两指，无皮疹、色素沉着、肝脏、血管蛛、黄染、紫癜。淋巴结全身浅表淋巴结未触及。头部头颅：无畸形、压痛，发黑有光泽，分布均匀，无外伤、疤痕、疮疖。眼部：大小正常，眉毛无脱落，睫毛无倒生，两眼具无浮肿，眼球无突出，运动自如，结膜无充血水肿，巩膜无黄染，角膜透明，双瞳孔同大等圆，两侧对光反应良好。耳部：耳郭无畸形，外耳道无溢脓、出血，乳突无压痛，听力正常。鼻部：无鼻翼动，无鼻阻塞、流涕，鼻中隔无偏曲，嗅觉正常，各鼻窦无压痛。口腔：呼气无臭味，口唇无发绀及疱疹，无缺齿、龋病，齿龈无肿胀、出血、溢脓。舌苔白腻，乱质淡红，舌无震颤，伸舌居中。口腔粘膜无出血及溃疡。扁桃体不肿大，无脓性分泌物。咽后壁无充血。咽反射正常，悬雍垂居中。颈部对称，柔软，无结节，无触痛，未闻及血管杂音，颈静脉无怒张，未见异常动脉搏动，甲状腺不肿大。胸部胸廓形状正常，双侧对称，肋间平坦，运动正常，肋弓角约90°，胸壁无肿块及扩张血管。双乳对称，未见异常。肺脏视诊：呈胸式呼吸，节律及深浅正常，呼吸运动双侧对称。触诊：语音震颤两侧相等，无摩擦感。叩诊：反响正常，肺下界在肩胛下角线第10肋间，呼吸移动度4cm。听诊：呼吸音及语音传导双侧对称，无干、湿啰音及摩擦音。心脏视诊：未见心尖搏动，心前区无膨隆。触诊：心尖搏动在第5肋间、锁骨中线内侧1cm处最强，无抬举性搏动、震颤及摩擦感。叩诊：左、右心界正常，如右表。锁骨中线距前正中线9cm。右（cm）肋间左（cm）2.0Ⅱ2.52.0Ⅲ4.03.0Ⅳ6.5Ⅴ8.5听诊：心律90/min，律齐，各瓣音区心音正常，P2>A2，未闻及杂音，无心包摩擦音。腹部视诊：全腹部膨隆，腹壁对称，无静脉曲张及蠕动波，脐部平坦。触诊：肝浊音上界锁骨中线第5肋间，上下全长11cm，肝肋缘下未触及。叩诊：肝脾区均无叩击痛，无过度回响及移动性浊音。听诊：肠蠕动3～4/min，胃区无振水声，肝脾区无摩擦音，未闻及血管杂音。外阴及**外阴发育正常，无红肿，溃疡及异常分泌物。**未见裂创、瘘管、皮疹、无外痔。脊柱及四肢脊柱无畸形、压痛及叩击痛；肋脊角无压痛及叩击痛；四肢无畸形、杵状指趾、外伤、骨折、静脉曲张；双下肢水肿至踝上2横指，加压有凹陷；肌张力及肌力正常；关节无红肿、畸形及运动障碍；甲床无微血管搏动；股动脉及肱动脉无枪击音；桡动脉搏动正常，血管硬度无特殊。神经系四肢运动及感觉良好。二头肌腱反射、腹壁反射、膝腱反射、膝腱反射均可引出，两侧对称；巴彬斯奇征及克尼格征阴性。",
+        "present_illness": "",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

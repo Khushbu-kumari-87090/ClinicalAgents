@@ -1,0 +1,534 @@
+{
+  "case_id": "8823_舌恶性黑色素瘤术后12年出现颈部转移1例",
+  "personal_info": {
+    "性别": "女",
+    "年龄": "47岁"
+  },
+  "chief_complaint": "患者女性，47岁 主因“左侧舌根部黑色肿物4年余”入院。",
+  "present_illness": "患者5年前发现左舌根部有一约米粒大小黑色肿物，曾请中医院诊治称为“胃内热火”，未做治疗。1年前因患高血压服用降压药（药名不详）致并发咳嗽，咳出一黑色肿块，始感舌根部有异物，自行检查发现原舌根部黑色肿物突出舌表面。分别去无锡市多家医院就诊，曾诊断为“黑色素瘤”、“血管瘤”等，后于无锡市四院做舌部肿物切除术，切除瘤体病理检查报告为恶性黑色素瘤，术后行化疗1周出院。再次到上海九院诊治，给予局部冷冻，全身化疗1疗程，建议患者再次手术治疗。遂入住我院口腔科。专科检查：左侧舌根表面可见一绿豆大小黑色肿物，突出于舌根表面，与四周界限清楚，质地硬，活动度差，舌体稍大，舌活动未见功能障碍，双侧颌下及颈部未及明显肿大淋巴结。辅助检查及全身检查：血常规、血生化、尿常规、粪常规均未见异常，肝脾B超未见异常，颈部超声检查示淋巴门结构尚清，心电图检查示窦性心动过速。胸部平片示肺部未见转移病灶。患者于2001-04-25在气管插管全麻下行“左舌根部恶性黑色素瘤扩大切除术+左侧颈淋巴结清扫术”，术中切断胸锁乳突肌、肩胛舌骨肌、颈横动脉、颈外静脉和颈内静脉，保存副神经。分别于2001-05-18、2001-5-25和2001-06-02在无锡市北塘区防疫站,给予患者左上臂外侧皮内划痕卡介苗接种3次，2001-05-29DTIC（甲氮咪胺）化疗1次，疗程7d，患者全身情况好转出院。术后病理报告：左舌根部恶性黑色素瘤，淋巴结未见转移（0/18）。第二次住院情况（2013-08-05至2013-08-31）入院情况：右颈部肿块2周余入院，患者2周前无意中发现有颈部多个肿块，最大约有鸽蛋大小，无疼痛不适，未重视。近1周来，患者感进食时稍有不适，肿块逐渐增大，来我院口腔科就诊。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "8823_舌恶性黑色素瘤术后12年出现颈部转移1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "47岁"
+        },
+        "chief_complaint": "患者女性，47岁 主因“左侧舌根部黑色肿物4年余”入院。",
+        "present_illness": "患者5年前发现左舌根部有一约米粒大小黑色肿物，曾请中医院诊治称为“胃内热火”，未做治疗。1年前因患高血压服用降压药（药名不详）致并发咳嗽，咳出一黑色肿块，始感舌根部有异物，自行检查发现原舌根部黑色肿物突出舌表面。分别去无锡市多家医院就诊，曾诊断为“黑色素瘤”、“血管瘤”等，后于无锡市四院做舌部肿物切除术，切除瘤体病理检查报告为恶性黑色素瘤，术后行化疗1周出院。再次到上海九院诊治，给予局部冷冻，全身化疗1疗程，建议患者再次手术治疗。遂入住我院口腔科。专科检查：左侧舌根表面可见一绿豆大小黑色肿物，突出于舌根表面，与四周界限清楚，质地硬，活动度差，舌体稍大，舌活动未见功能障碍，双侧颌下及颈部未及明显肿大淋巴结。辅助检查及全身检查：血常规、血生化、尿常规、粪常规均未见异常，肝脾B超未见异常，颈部超声检查示淋巴门结构尚清，心电图检查示窦性心动过速。胸部平片示肺部未见转移病灶。患者于2001-04-25在气管插管全麻下行“左舌根部恶性黑色素瘤扩大切除术+左侧颈淋巴结清扫术”，术中切断胸锁乳突肌、肩胛舌骨肌、颈横动脉、颈外静脉和颈内静脉，保存副神经。分别于2001-05-18、2001-5-25和2001-06-02在无锡市北塘区防疫站,给予患者左上臂外侧皮内划痕卡介苗接种3次，2001-05-29DTIC（甲氮咪胺）化疗1次，疗程7d，患者全身情况好转出院。术后病理报告：左舌根部恶性黑色素瘤，淋巴结未见转移（0/18）。第二次住院情况（2013-08-05至2013-08-31）入院情况：右颈部肿块2周余入院，患者2周前无意中发现有颈部多个肿块，最大约有鸽蛋大小，无疼痛不适，未重视。近1周来，患者感进食时稍有不适，肿块逐渐增大，来我院口腔科就诊。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "8823_舌恶性黑色素瘤术后12年出现颈部转移1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "47岁"
+        },
+        "chief_complaint": "患者女性，47岁 主因“左侧舌根部黑色肿物4年余”入院。",
+        "present_illness": "患者5年前发现左舌根部有一约米粒大小黑色肿物，曾请中医院诊治称为“胃内热火”，未做治疗。1年前因患高血压服用降压药（药名不详）致并发咳嗽，咳出一黑色肿块，始感舌根部有异物，自行检查发现原舌根部黑色肿物突出舌表面。分别去无锡市多家医院就诊，曾诊断为“黑色素瘤”、“血管瘤”等，后于无锡市四院做舌部肿物切除术，切除瘤体病理检查报告为恶性黑色素瘤，术后行化疗1周出院。再次到上海九院诊治，给予局部冷冻，全身化疗1疗程，建议患者再次手术治疗。遂入住我院口腔科。专科检查：左侧舌根表面可见一绿豆大小黑色肿物，突出于舌根表面，与四周界限清楚，质地硬，活动度差，舌体稍大，舌活动未见功能障碍，双侧颌下及颈部未及明显肿大淋巴结。辅助检查及全身检查：血常规、血生化、尿常规、粪常规均未见异常，肝脾B超未见异常，颈部超声检查示淋巴门结构尚清，心电图检查示窦性心动过速。胸部平片示肺部未见转移病灶。患者于2001-04-25在气管插管全麻下行“左舌根部恶性黑色素瘤扩大切除术+左侧颈淋巴结清扫术”，术中切断胸锁乳突肌、肩胛舌骨肌、颈横动脉、颈外静脉和颈内静脉，保存副神经。分别于2001-05-18、2001-5-25和2001-06-02在无锡市北塘区防疫站,给予患者左上臂外侧皮内划痕卡介苗接种3次，2001-05-29DTIC（甲氮咪胺）化疗1次，疗程7d，患者全身情况好转出院。术后病理报告：左舌根部恶性黑色素瘤，淋巴结未见转移（0/18）。第二次住院情况（2013-08-05至2013-08-31）入院情况：右颈部肿块2周余入院，患者2周前无意中发现有颈部多个肿块，最大约有鸽蛋大小，无疼痛不适，未重视。近1周来，患者感进食时稍有不适，肿块逐渐增大，来我院口腔科就诊。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "8823_舌恶性黑色素瘤术后12年出现颈部转移1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "47岁"
+        },
+        "chief_complaint": "患者女性，47岁 主因“左侧舌根部黑色肿物4年余”入院。",
+        "present_illness": "患者5年前发现左舌根部有一约米粒大小黑色肿物，曾请中医院诊治称为“胃内热火”，未做治疗。1年前因患高血压服用降压药（药名不详）致并发咳嗽，咳出一黑色肿块，始感舌根部有异物，自行检查发现原舌根部黑色肿物突出舌表面。分别去无锡市多家医院就诊，曾诊断为“黑色素瘤”、“血管瘤”等，后于无锡市四院做舌部肿物切除术，切除瘤体病理检查报告为恶性黑色素瘤，术后行化疗1周出院。再次到上海九院诊治，给予局部冷冻，全身化疗1疗程，建议患者再次手术治疗。遂入住我院口腔科。专科检查：左侧舌根表面可见一绿豆大小黑色肿物，突出于舌根表面，与四周界限清楚，质地硬，活动度差，舌体稍大，舌活动未见功能障碍，双侧颌下及颈部未及明显肿大淋巴结。辅助检查及全身检查：血常规、血生化、尿常规、粪常规均未见异常，肝脾B超未见异常，颈部超声检查示淋巴门结构尚清，心电图检查示窦性心动过速。胸部平片示肺部未见转移病灶。患者于2001-04-25在气管插管全麻下行“左舌根部恶性黑色素瘤扩大切除术+左侧颈淋巴结清扫术”，术中切断胸锁乳突肌、肩胛舌骨肌、颈横动脉、颈外静脉和颈内静脉，保存副神经。分别于2001-05-18、2001-5-25和2001-06-02在无锡市北塘区防疫站,给予患者左上臂外侧皮内划痕卡介苗接种3次，2001-05-29DTIC（甲氮咪胺）化疗1次，疗程7d，患者全身情况好转出院。术后病理报告：左舌根部恶性黑色素瘤，淋巴结未见转移（0/18）。第二次住院情况（2013-08-05至2013-08-31）入院情况：右颈部肿块2周余入院，患者2周前无意中发现有颈部多个肿块，最大约有鸽蛋大小，无疼痛不适，未重视。近1周来，患者感进食时稍有不适，肿块逐渐增大，来我院口腔科就诊。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "8823_舌恶性黑色素瘤术后12年出现颈部转移1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "47岁"
+        },
+        "chief_complaint": "患者女性，47岁 主因“左侧舌根部黑色肿物4年余”入院。",
+        "present_illness": "患者5年前发现左舌根部有一约米粒大小黑色肿物，曾请中医院诊治称为“胃内热火”，未做治疗。1年前因患高血压服用降压药（药名不详）致并发咳嗽，咳出一黑色肿块，始感舌根部有异物，自行检查发现原舌根部黑色肿物突出舌表面。分别去无锡市多家医院就诊，曾诊断为“黑色素瘤”、“血管瘤”等，后于无锡市四院做舌部肿物切除术，切除瘤体病理检查报告为恶性黑色素瘤，术后行化疗1周出院。再次到上海九院诊治，给予局部冷冻，全身化疗1疗程，建议患者再次手术治疗。遂入住我院口腔科。专科检查：左侧舌根表面可见一绿豆大小黑色肿物，突出于舌根表面，与四周界限清楚，质地硬，活动度差，舌体稍大，舌活动未见功能障碍，双侧颌下及颈部未及明显肿大淋巴结。辅助检查及全身检查：血常规、血生化、尿常规、粪常规均未见异常，肝脾B超未见异常，颈部超声检查示淋巴门结构尚清，心电图检查示窦性心动过速。胸部平片示肺部未见转移病灶。患者于2001-04-25在气管插管全麻下行“左舌根部恶性黑色素瘤扩大切除术+左侧颈淋巴结清扫术”，术中切断胸锁乳突肌、肩胛舌骨肌、颈横动脉、颈外静脉和颈内静脉，保存副神经。分别于2001-05-18、2001-5-25和2001-06-02在无锡市北塘区防疫站,给予患者左上臂外侧皮内划痕卡介苗接种3次，2001-05-29DTIC（甲氮咪胺）化疗1次，疗程7d，患者全身情况好转出院。术后病理报告：左舌根部恶性黑色素瘤，淋巴结未见转移（0/18）。第二次住院情况（2013-08-05至2013-08-31）入院情况：右颈部肿块2周余入院，患者2周前无意中发现有颈部多个肿块，最大约有鸽蛋大小，无疼痛不适，未重视。近1周来，患者感进食时稍有不适，肿块逐渐增大，来我院口腔科就诊。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "8823_舌恶性黑色素瘤术后12年出现颈部转移1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "47岁"
+        },
+        "chief_complaint": "患者女性，47岁 主因“左侧舌根部黑色肿物4年余”入院。",
+        "present_illness": "患者5年前发现左舌根部有一约米粒大小黑色肿物，曾请中医院诊治称为“胃内热火”，未做治疗。1年前因患高血压服用降压药（药名不详）致并发咳嗽，咳出一黑色肿块，始感舌根部有异物，自行检查发现原舌根部黑色肿物突出舌表面。分别去无锡市多家医院就诊，曾诊断为“黑色素瘤”、“血管瘤”等，后于无锡市四院做舌部肿物切除术，切除瘤体病理检查报告为恶性黑色素瘤，术后行化疗1周出院。再次到上海九院诊治，给予局部冷冻，全身化疗1疗程，建议患者再次手术治疗。遂入住我院口腔科。专科检查：左侧舌根表面可见一绿豆大小黑色肿物，突出于舌根表面，与四周界限清楚，质地硬，活动度差，舌体稍大，舌活动未见功能障碍，双侧颌下及颈部未及明显肿大淋巴结。辅助检查及全身检查：血常规、血生化、尿常规、粪常规均未见异常，肝脾B超未见异常，颈部超声检查示淋巴门结构尚清，心电图检查示窦性心动过速。胸部平片示肺部未见转移病灶。患者于2001-04-25在气管插管全麻下行“左舌根部恶性黑色素瘤扩大切除术+左侧颈淋巴结清扫术”，术中切断胸锁乳突肌、肩胛舌骨肌、颈横动脉、颈外静脉和颈内静脉，保存副神经。分别于2001-05-18、2001-5-25和2001-06-02在无锡市北塘区防疫站,给予患者左上臂外侧皮内划痕卡介苗接种3次，2001-05-29DTIC（甲氮咪胺）化疗1次，疗程7d，患者全身情况好转出院。术后病理报告：左舌根部恶性黑色素瘤，淋巴结未见转移（0/18）。第二次住院情况（2013-08-05至2013-08-31）入院情况：右颈部肿块2周余入院，患者2周前无意中发现有颈部多个肿块，最大约有鸽蛋大小，无疼痛不适，未重视。近1周来，患者感进食时稍有不适，肿块逐渐增大，来我院口腔科就诊。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

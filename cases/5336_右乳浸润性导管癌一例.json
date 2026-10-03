@@ -1,0 +1,534 @@
+{
+  "case_id": "5336_右乳浸润性导管癌一例",
+  "personal_info": {
+    "性别": "女",
+    "年龄": "58岁"
+  },
+  "chief_complaint": "女性，58岁，已婚，汉族，农民。 发现右乳占位1年余，右乳癌术后2月余。",
+  "present_illness": "患者缘于1年余前无意间发现右侧乳腺占位,位于右侧乳腺内上象限,直径约0.5cm左右,表面皮肤正常,质硬,边界不清,轻压痛,活动度差,无**溢血、溢液,无发热,一直未予诊治。后该肿物逐渐增大,大小约3*2cm大小,性质同前,伴\n皮肤发红、发烫,于当地医院行乳腺彩超示右乳内不均质肿物,BI-RADS4级。后就诊于我科,完善相关检查后不除外恶性占位可能。故转入普外科在静吸复合全麻下行右乳肿物切除、右乳癌改良根治术。术后出现切口部分皮瓣坏\n死,予以间断换药治疗后明显好转。术后病理:(右乳)乳腺浸润性导管癌(III级),**、近肿物皮肤切缘、原瘤床、乳腺周切缘、底切缘未见癌,余乳腺组织伴非典型增生。淋巴结未见癌转移(腋窝0/16)。免疫组化:ER(-),PR(-),C-erbB-2(-),p53(-),Ki-67(+,50%),CK5/6(-),EGFR(-),p120(膜+),E-cadherin(+)。后转入我科行AC方案化疗二周期,末次化疗日期为2018-05-29,现患者为行进一步诊治而入我院。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "既往“高血压”病史17年,血压最高达190/100mmHg,规律口服吲哒帕胺片1片1/日,血压控制可；“冠心病”病史17年,规律口服心可舒片4片3/日；“糖尿病”病史10年,规律口服二甲双胍片1片3/日,血糖控制不详;“无肝炎、结核、伤寒、疟疾”等传染病史;无外伤及输血史;无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "5336_右乳浸润性导管癌一例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "58岁"
+        },
+        "chief_complaint": "女性，58岁，已婚，汉族，农民。 发现右乳占位1年余，右乳癌术后2月余。",
+        "present_illness": "患者缘于1年余前无意间发现右侧乳腺占位,位于右侧乳腺内上象限,直径约0.5cm左右,表面皮肤正常,质硬,边界不清,轻压痛,活动度差,无**溢血、溢液,无发热,一直未予诊治。后该肿物逐渐增大,大小约3*2cm大小,性质同前,伴\n皮肤发红、发烫,于当地医院行乳腺彩超示右乳内不均质肿物,BI-RADS4级。后就诊于我科,完善相关检查后不除外恶性占位可能。故转入普外科在静吸复合全麻下行右乳肿物切除、右乳癌改良根治术。术后出现切口部分皮瓣坏\n死,予以间断换药治疗后明显好转。术后病理:(右乳)乳腺浸润性导管癌(III级),**、近肿物皮肤切缘、原瘤床、乳腺周切缘、底切缘未见癌,余乳腺组织伴非典型增生。淋巴结未见癌转移(腋窝0/16)。免疫组化:ER(-),PR(-),C-erbB-2(-),p53(-),Ki-67(+,50%),CK5/6(-),EGFR(-),p120(膜+),E-cadherin(+)。后转入我科行AC方案化疗二周期,末次化疗日期为2018-05-29,现患者为行进一步诊治而入我院。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "既往“高血压”病史17年,血压最高达190/100mmHg,规律口服吲哒帕胺片1片1/日,血压控制可；“冠心病”病史17年,规律口服心可舒片4片3/日；“糖尿病”病史10年,规律口服二甲双胍片1片3/日,血糖控制不详;“无肝炎、结核、伤寒、疟疾”等传染病史;无外伤及输血史;无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "5336_右乳浸润性导管癌一例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "58岁"
+        },
+        "chief_complaint": "女性，58岁，已婚，汉族，农民。 发现右乳占位1年余，右乳癌术后2月余。",
+        "present_illness": "患者缘于1年余前无意间发现右侧乳腺占位,位于右侧乳腺内上象限,直径约0.5cm左右,表面皮肤正常,质硬,边界不清,轻压痛,活动度差,无**溢血、溢液,无发热,一直未予诊治。后该肿物逐渐增大,大小约3*2cm大小,性质同前,伴\n皮肤发红、发烫,于当地医院行乳腺彩超示右乳内不均质肿物,BI-RADS4级。后就诊于我科,完善相关检查后不除外恶性占位可能。故转入普外科在静吸复合全麻下行右乳肿物切除、右乳癌改良根治术。术后出现切口部分皮瓣坏\n死,予以间断换药治疗后明显好转。术后病理:(右乳)乳腺浸润性导管癌(III级),**、近肿物皮肤切缘、原瘤床、乳腺周切缘、底切缘未见癌,余乳腺组织伴非典型增生。淋巴结未见癌转移(腋窝0/16)。免疫组化:ER(-),PR(-),C-erbB-2(-),p53(-),Ki-67(+,50%),CK5/6(-),EGFR(-),p120(膜+),E-cadherin(+)。后转入我科行AC方案化疗二周期,末次化疗日期为2018-05-29,现患者为行进一步诊治而入我院。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往“高血压”病史17年,血压最高达190/100mmHg,规律口服吲哒帕胺片1片1/日,血压控制可；“冠心病”病史17年,规律口服心可舒片4片3/日；“糖尿病”病史10年,规律口服二甲双胍片1片3/日,血糖控制不详;“无肝炎、结核、伤寒、疟疾”等传染病史;无外伤及输血史;无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "5336_右乳浸润性导管癌一例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "58岁"
+        },
+        "chief_complaint": "女性，58岁，已婚，汉族，农民。 发现右乳占位1年余，右乳癌术后2月余。",
+        "present_illness": "患者缘于1年余前无意间发现右侧乳腺占位,位于右侧乳腺内上象限,直径约0.5cm左右,表面皮肤正常,质硬,边界不清,轻压痛,活动度差,无**溢血、溢液,无发热,一直未予诊治。后该肿物逐渐增大,大小约3*2cm大小,性质同前,伴\n皮肤发红、发烫,于当地医院行乳腺彩超示右乳内不均质肿物,BI-RADS4级。后就诊于我科,完善相关检查后不除外恶性占位可能。故转入普外科在静吸复合全麻下行右乳肿物切除、右乳癌改良根治术。术后出现切口部分皮瓣坏\n死,予以间断换药治疗后明显好转。术后病理:(右乳)乳腺浸润性导管癌(III级),**、近肿物皮肤切缘、原瘤床、乳腺周切缘、底切缘未见癌,余乳腺组织伴非典型增生。淋巴结未见癌转移(腋窝0/16)。免疫组化:ER(-),PR(-),C-erbB-2(-),p53(-),Ki-67(+,50%),CK5/6(-),EGFR(-),p120(膜+),E-cadherin(+)。后转入我科行AC方案化疗二周期,末次化疗日期为2018-05-29,现患者为行进一步诊治而入我院。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往“高血压”病史17年,血压最高达190/100mmHg,规律口服吲哒帕胺片1片1/日,血压控制可；“冠心病”病史17年,规律口服心可舒片4片3/日；“糖尿病”病史10年,规律口服二甲双胍片1片3/日,血糖控制不详;“无肝炎、结核、伤寒、疟疾”等传染病史;无外伤及输血史;无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "5336_右乳浸润性导管癌一例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "58岁"
+        },
+        "chief_complaint": "女性，58岁，已婚，汉族，农民。 发现右乳占位1年余，右乳癌术后2月余。",
+        "present_illness": "患者缘于1年余前无意间发现右侧乳腺占位,位于右侧乳腺内上象限,直径约0.5cm左右,表面皮肤正常,质硬,边界不清,轻压痛,活动度差,无**溢血、溢液,无发热,一直未予诊治。后该肿物逐渐增大,大小约3*2cm大小,性质同前,伴\n皮肤发红、发烫,于当地医院行乳腺彩超示右乳内不均质肿物,BI-RADS4级。后就诊于我科,完善相关检查后不除外恶性占位可能。故转入普外科在静吸复合全麻下行右乳肿物切除、右乳癌改良根治术。术后出现切口部分皮瓣坏\n死,予以间断换药治疗后明显好转。术后病理:(右乳)乳腺浸润性导管癌(III级),**、近肿物皮肤切缘、原瘤床、乳腺周切缘、底切缘未见癌,余乳腺组织伴非典型增生。淋巴结未见癌转移(腋窝0/16)。免疫组化:ER(-),PR(-),C-erbB-2(-),p53(-),Ki-67(+,50%),CK5/6(-),EGFR(-),p120(膜+),E-cadherin(+)。后转入我科行AC方案化疗二周期,末次化疗日期为2018-05-29,现患者为行进一步诊治而入我院。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往“高血压”病史17年,血压最高达190/100mmHg,规律口服吲哒帕胺片1片1/日,血压控制可；“冠心病”病史17年,规律口服心可舒片4片3/日；“糖尿病”病史10年,规律口服二甲双胍片1片3/日,血糖控制不详;“无肝炎、结核、伤寒、疟疾”等传染病史;无外伤及输血史;无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "5336_右乳浸润性导管癌一例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "58岁"
+        },
+        "chief_complaint": "女性，58岁，已婚，汉族，农民。 发现右乳占位1年余，右乳癌术后2月余。",
+        "present_illness": "患者缘于1年余前无意间发现右侧乳腺占位,位于右侧乳腺内上象限,直径约0.5cm左右,表面皮肤正常,质硬,边界不清,轻压痛,活动度差,无**溢血、溢液,无发热,一直未予诊治。后该肿物逐渐增大,大小约3*2cm大小,性质同前,伴\n皮肤发红、发烫,于当地医院行乳腺彩超示右乳内不均质肿物,BI-RADS4级。后就诊于我科,完善相关检查后不除外恶性占位可能。故转入普外科在静吸复合全麻下行右乳肿物切除、右乳癌改良根治术。术后出现切口部分皮瓣坏\n死,予以间断换药治疗后明显好转。术后病理:(右乳)乳腺浸润性导管癌(III级),**、近肿物皮肤切缘、原瘤床、乳腺周切缘、底切缘未见癌,余乳腺组织伴非典型增生。淋巴结未见癌转移(腋窝0/16)。免疫组化:ER(-),PR(-),C-erbB-2(-),p53(-),Ki-67(+,50%),CK5/6(-),EGFR(-),p120(膜+),E-cadherin(+)。后转入我科行AC方案化疗二周期,末次化疗日期为2018-05-29,现患者为行进一步诊治而入我院。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往“高血压”病史17年,血压最高达190/100mmHg,规律口服吲哒帕胺片1片1/日,血压控制可；“冠心病”病史17年,规律口服心可舒片4片3/日；“糖尿病”病史10年,规律口服二甲双胍片1片3/日,血糖控制不详;“无肝炎、结核、伤寒、疟疾”等传染病史;无外伤及输血史;无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

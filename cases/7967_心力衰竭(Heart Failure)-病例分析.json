@@ -1,0 +1,534 @@
+{
+  "case_id": "7967_心力衰竭(Heart Failure)-病例分析",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "65岁"
+  },
+  "chief_complaint": "心力衰竭(HeartFailure)-病例分析患者，男，65岁。",
+  "present_illness": "该患者以颈前痛性肿块伴发热急性起病，血常规显示白细胞和中性粒细胞明显升高，抗生素治疗有效，故首先考虑为细菌感染性疾病。但抗感染治疗1周余后肿块无缩小，仍有血白细胞和中性粒细胞增高和血沉增快，而考虑亚急性甲状腺炎。该诊断较为牵强，首先患者无上呼吸道病毒感染史，其次颈前肿块不随吞咽活动，另外患者有明显的中毒血症，而且无B超检查的甲状腺影像学依据，更无细针穿刺的细胞学依据。在此情况下，直接应用激素**治疗，实属贸然。虽可暂时缓解疼痛，但存在促使感染加剧的严重风险。而此时甲状腺功能部分异常，可能与严重感染和应激有一定关系。患者入院后在10天内将**逐渐减量至停用，继续加强抗感染治疗，局部应用硫酸镁和皮硝外敷。复查B超示左甲状腺混合性肿块，大小42mm×30mm,右甲状腺小结节。怀疑左甲状腺脓肿，但液化不明显。颈部CT平扫加增强提示左甲状腺占位（图1）。左颈前肿块细针穿刺抽得6ml粘稠脓液，细胞学检查涂片见大量中性粒细胞及少量坏死碎片，提示化脓性炎症。脓液培养为**链球菌，其对青霉素、万古霉素、克林霉素、头孢丙烯、头孢曲松、红霉素和左氧氟沙星敏感。无厌氧菌及真菌生长。至此，颈部化脓性感染诊断明确，考虑化脓性甲状腺炎可能性大。但甲状腺有完整的包膜，腺体内富含碘，且血供及淋巴回流极其丰富，使其感染细菌并形成脓肿的机会非常少，多存在梨状窝瘘管或创伤等诱因，包括细针穿刺或由食管、气管穿透而来的异物，儿童多见于成人。葡萄球菌和链球菌是最常见的致病菌。该患者并无这些因素，但皮质激素的应用可能是一个诱因。根据药敏结果，患者应用抗生素加强抗感染治疗，继续接受硫酸镁和皮硝颈部外敷，局部穿刺抽吸脓液。但颈前疼痛的症状和局部触痛、高热的体征无明显缓解。患者入院两周后出现颈部皮肤破溃伴脓性渗出，于全麻下接受颈前脓肿清创引流术。术中见颈前溃烂皮肤直径5cm×3cm（图2），颈前软组织炎性水肿明显，颈阔肌及双侧胸骨舌骨肌、胸骨甲状肌均坏死，形成一5cm×4cm×4cm的脓腔，充满黄色稠厚脓液约40ml.予以切除坏死的皮肤、肌肉和筋膜，达气管平面。暴露双侧甲状腺，探查双侧甲状腺无肿大，未扪及明显肿块（图3）。缝合皮肤后置皮管脓腔贯穿引流，术后患者体温很快恢复正常，经过两个多月的换药，创面完全愈合。最后，通过手术证实该患者为一颈前软组织内的脓肿，与甲状腺并无直接关系。颈前脓肿与化脓性甲状腺炎非常难鉴别，前者多由革兰阳性球菌引起，其分泌溶酶体酶，导致感染扩散严重。由于颈部间隙紧密，小范围的炎性水肿便可使局部张力很高，导致肌肉坏死，引发坏死性筋膜炎。由于解剖学特点，感染一般可止于筋膜，但又可沿着筋膜扩散，使之很难控制，预后很差。早期切开引流减张是处理的关键。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "7967_心力衰竭(Heart Failure)-病例分析",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "65岁"
+        },
+        "chief_complaint": "心力衰竭(HeartFailure)-病例分析患者，男，65岁。",
+        "present_illness": "该患者以颈前痛性肿块伴发热急性起病，血常规显示白细胞和中性粒细胞明显升高，抗生素治疗有效，故首先考虑为细菌感染性疾病。但抗感染治疗1周余后肿块无缩小，仍有血白细胞和中性粒细胞增高和血沉增快，而考虑亚急性甲状腺炎。该诊断较为牵强，首先患者无上呼吸道病毒感染史，其次颈前肿块不随吞咽活动，另外患者有明显的中毒血症，而且无B超检查的甲状腺影像学依据，更无细针穿刺的细胞学依据。在此情况下，直接应用激素**治疗，实属贸然。虽可暂时缓解疼痛，但存在促使感染加剧的严重风险。而此时甲状腺功能部分异常，可能与严重感染和应激有一定关系。患者入院后在10天内将**逐渐减量至停用，继续加强抗感染治疗，局部应用硫酸镁和皮硝外敷。复查B超示左甲状腺混合性肿块，大小42mm×30mm,右甲状腺小结节。怀疑左甲状腺脓肿，但液化不明显。颈部CT平扫加增强提示左甲状腺占位（图1）。左颈前肿块细针穿刺抽得6ml粘稠脓液，细胞学检查涂片见大量中性粒细胞及少量坏死碎片，提示化脓性炎症。脓液培养为**链球菌，其对青霉素、万古霉素、克林霉素、头孢丙烯、头孢曲松、红霉素和左氧氟沙星敏感。无厌氧菌及真菌生长。至此，颈部化脓性感染诊断明确，考虑化脓性甲状腺炎可能性大。但甲状腺有完整的包膜，腺体内富含碘，且血供及淋巴回流极其丰富，使其感染细菌并形成脓肿的机会非常少，多存在梨状窝瘘管或创伤等诱因，包括细针穿刺或由食管、气管穿透而来的异物，儿童多见于成人。葡萄球菌和链球菌是最常见的致病菌。该患者并无这些因素，但皮质激素的应用可能是一个诱因。根据药敏结果，患者应用抗生素加强抗感染治疗，继续接受硫酸镁和皮硝颈部外敷，局部穿刺抽吸脓液。但颈前疼痛的症状和局部触痛、高热的体征无明显缓解。患者入院两周后出现颈部皮肤破溃伴脓性渗出，于全麻下接受颈前脓肿清创引流术。术中见颈前溃烂皮肤直径5cm×3cm（图2），颈前软组织炎性水肿明显，颈阔肌及双侧胸骨舌骨肌、胸骨甲状肌均坏死，形成一5cm×4cm×4cm的脓腔，充满黄色稠厚脓液约40ml.予以切除坏死的皮肤、肌肉和筋膜，达气管平面。暴露双侧甲状腺，探查双侧甲状腺无肿大，未扪及明显肿块（图3）。缝合皮肤后置皮管脓腔贯穿引流，术后患者体温很快恢复正常，经过两个多月的换药，创面完全愈合。最后，通过手术证实该患者为一颈前软组织内的脓肿，与甲状腺并无直接关系。颈前脓肿与化脓性甲状腺炎非常难鉴别，前者多由革兰阳性球菌引起，其分泌溶酶体酶，导致感染扩散严重。由于颈部间隙紧密，小范围的炎性水肿便可使局部张力很高，导致肌肉坏死，引发坏死性筋膜炎。由于解剖学特点，感染一般可止于筋膜，但又可沿着筋膜扩散，使之很难控制，预后很差。早期切开引流减张是处理的关键。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "7967_心力衰竭(Heart Failure)-病例分析",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "65岁"
+        },
+        "chief_complaint": "心力衰竭(HeartFailure)-病例分析患者，男，65岁。",
+        "present_illness": "该患者以颈前痛性肿块伴发热急性起病，血常规显示白细胞和中性粒细胞明显升高，抗生素治疗有效，故首先考虑为细菌感染性疾病。但抗感染治疗1周余后肿块无缩小，仍有血白细胞和中性粒细胞增高和血沉增快，而考虑亚急性甲状腺炎。该诊断较为牵强，首先患者无上呼吸道病毒感染史，其次颈前肿块不随吞咽活动，另外患者有明显的中毒血症，而且无B超检查的甲状腺影像学依据，更无细针穿刺的细胞学依据。在此情况下，直接应用激素**治疗，实属贸然。虽可暂时缓解疼痛，但存在促使感染加剧的严重风险。而此时甲状腺功能部分异常，可能与严重感染和应激有一定关系。患者入院后在10天内将**逐渐减量至停用，继续加强抗感染治疗，局部应用硫酸镁和皮硝外敷。复查B超示左甲状腺混合性肿块，大小42mm×30mm,右甲状腺小结节。怀疑左甲状腺脓肿，但液化不明显。颈部CT平扫加增强提示左甲状腺占位（图1）。左颈前肿块细针穿刺抽得6ml粘稠脓液，细胞学检查涂片见大量中性粒细胞及少量坏死碎片，提示化脓性炎症。脓液培养为**链球菌，其对青霉素、万古霉素、克林霉素、头孢丙烯、头孢曲松、红霉素和左氧氟沙星敏感。无厌氧菌及真菌生长。至此，颈部化脓性感染诊断明确，考虑化脓性甲状腺炎可能性大。但甲状腺有完整的包膜，腺体内富含碘，且血供及淋巴回流极其丰富，使其感染细菌并形成脓肿的机会非常少，多存在梨状窝瘘管或创伤等诱因，包括细针穿刺或由食管、气管穿透而来的异物，儿童多见于成人。葡萄球菌和链球菌是最常见的致病菌。该患者并无这些因素，但皮质激素的应用可能是一个诱因。根据药敏结果，患者应用抗生素加强抗感染治疗，继续接受硫酸镁和皮硝颈部外敷，局部穿刺抽吸脓液。但颈前疼痛的症状和局部触痛、高热的体征无明显缓解。患者入院两周后出现颈部皮肤破溃伴脓性渗出，于全麻下接受颈前脓肿清创引流术。术中见颈前溃烂皮肤直径5cm×3cm（图2），颈前软组织炎性水肿明显，颈阔肌及双侧胸骨舌骨肌、胸骨甲状肌均坏死，形成一5cm×4cm×4cm的脓腔，充满黄色稠厚脓液约40ml.予以切除坏死的皮肤、肌肉和筋膜，达气管平面。暴露双侧甲状腺，探查双侧甲状腺无肿大，未扪及明显肿块（图3）。缝合皮肤后置皮管脓腔贯穿引流，术后患者体温很快恢复正常，经过两个多月的换药，创面完全愈合。最后，通过手术证实该患者为一颈前软组织内的脓肿，与甲状腺并无直接关系。颈前脓肿与化脓性甲状腺炎非常难鉴别，前者多由革兰阳性球菌引起，其分泌溶酶体酶，导致感染扩散严重。由于颈部间隙紧密，小范围的炎性水肿便可使局部张力很高，导致肌肉坏死，引发坏死性筋膜炎。由于解剖学特点，感染一般可止于筋膜，但又可沿着筋膜扩散，使之很难控制，预后很差。早期切开引流减张是处理的关键。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "7967_心力衰竭(Heart Failure)-病例分析",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "65岁"
+        },
+        "chief_complaint": "心力衰竭(HeartFailure)-病例分析患者，男，65岁。",
+        "present_illness": "该患者以颈前痛性肿块伴发热急性起病，血常规显示白细胞和中性粒细胞明显升高，抗生素治疗有效，故首先考虑为细菌感染性疾病。但抗感染治疗1周余后肿块无缩小，仍有血白细胞和中性粒细胞增高和血沉增快，而考虑亚急性甲状腺炎。该诊断较为牵强，首先患者无上呼吸道病毒感染史，其次颈前肿块不随吞咽活动，另外患者有明显的中毒血症，而且无B超检查的甲状腺影像学依据，更无细针穿刺的细胞学依据。在此情况下，直接应用激素**治疗，实属贸然。虽可暂时缓解疼痛，但存在促使感染加剧的严重风险。而此时甲状腺功能部分异常，可能与严重感染和应激有一定关系。患者入院后在10天内将**逐渐减量至停用，继续加强抗感染治疗，局部应用硫酸镁和皮硝外敷。复查B超示左甲状腺混合性肿块，大小42mm×30mm,右甲状腺小结节。怀疑左甲状腺脓肿，但液化不明显。颈部CT平扫加增强提示左甲状腺占位（图1）。左颈前肿块细针穿刺抽得6ml粘稠脓液，细胞学检查涂片见大量中性粒细胞及少量坏死碎片，提示化脓性炎症。脓液培养为**链球菌，其对青霉素、万古霉素、克林霉素、头孢丙烯、头孢曲松、红霉素和左氧氟沙星敏感。无厌氧菌及真菌生长。至此，颈部化脓性感染诊断明确，考虑化脓性甲状腺炎可能性大。但甲状腺有完整的包膜，腺体内富含碘，且血供及淋巴回流极其丰富，使其感染细菌并形成脓肿的机会非常少，多存在梨状窝瘘管或创伤等诱因，包括细针穿刺或由食管、气管穿透而来的异物，儿童多见于成人。葡萄球菌和链球菌是最常见的致病菌。该患者并无这些因素，但皮质激素的应用可能是一个诱因。根据药敏结果，患者应用抗生素加强抗感染治疗，继续接受硫酸镁和皮硝颈部外敷，局部穿刺抽吸脓液。但颈前疼痛的症状和局部触痛、高热的体征无明显缓解。患者入院两周后出现颈部皮肤破溃伴脓性渗出，于全麻下接受颈前脓肿清创引流术。术中见颈前溃烂皮肤直径5cm×3cm（图2），颈前软组织炎性水肿明显，颈阔肌及双侧胸骨舌骨肌、胸骨甲状肌均坏死，形成一5cm×4cm×4cm的脓腔，充满黄色稠厚脓液约40ml.予以切除坏死的皮肤、肌肉和筋膜，达气管平面。暴露双侧甲状腺，探查双侧甲状腺无肿大，未扪及明显肿块（图3）。缝合皮肤后置皮管脓腔贯穿引流，术后患者体温很快恢复正常，经过两个多月的换药，创面完全愈合。最后，通过手术证实该患者为一颈前软组织内的脓肿，与甲状腺并无直接关系。颈前脓肿与化脓性甲状腺炎非常难鉴别，前者多由革兰阳性球菌引起，其分泌溶酶体酶，导致感染扩散严重。由于颈部间隙紧密，小范围的炎性水肿便可使局部张力很高，导致肌肉坏死，引发坏死性筋膜炎。由于解剖学特点，感染一般可止于筋膜，但又可沿着筋膜扩散，使之很难控制，预后很差。早期切开引流减张是处理的关键。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "7967_心力衰竭(Heart Failure)-病例分析",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "65岁"
+        },
+        "chief_complaint": "心力衰竭(HeartFailure)-病例分析患者，男，65岁。",
+        "present_illness": "该患者以颈前痛性肿块伴发热急性起病，血常规显示白细胞和中性粒细胞明显升高，抗生素治疗有效，故首先考虑为细菌感染性疾病。但抗感染治疗1周余后肿块无缩小，仍有血白细胞和中性粒细胞增高和血沉增快，而考虑亚急性甲状腺炎。该诊断较为牵强，首先患者无上呼吸道病毒感染史，其次颈前肿块不随吞咽活动，另外患者有明显的中毒血症，而且无B超检查的甲状腺影像学依据，更无细针穿刺的细胞学依据。在此情况下，直接应用激素**治疗，实属贸然。虽可暂时缓解疼痛，但存在促使感染加剧的严重风险。而此时甲状腺功能部分异常，可能与严重感染和应激有一定关系。患者入院后在10天内将**逐渐减量至停用，继续加强抗感染治疗，局部应用硫酸镁和皮硝外敷。复查B超示左甲状腺混合性肿块，大小42mm×30mm,右甲状腺小结节。怀疑左甲状腺脓肿，但液化不明显。颈部CT平扫加增强提示左甲状腺占位（图1）。左颈前肿块细针穿刺抽得6ml粘稠脓液，细胞学检查涂片见大量中性粒细胞及少量坏死碎片，提示化脓性炎症。脓液培养为**链球菌，其对青霉素、万古霉素、克林霉素、头孢丙烯、头孢曲松、红霉素和左氧氟沙星敏感。无厌氧菌及真菌生长。至此，颈部化脓性感染诊断明确，考虑化脓性甲状腺炎可能性大。但甲状腺有完整的包膜，腺体内富含碘，且血供及淋巴回流极其丰富，使其感染细菌并形成脓肿的机会非常少，多存在梨状窝瘘管或创伤等诱因，包括细针穿刺或由食管、气管穿透而来的异物，儿童多见于成人。葡萄球菌和链球菌是最常见的致病菌。该患者并无这些因素，但皮质激素的应用可能是一个诱因。根据药敏结果，患者应用抗生素加强抗感染治疗，继续接受硫酸镁和皮硝颈部外敷，局部穿刺抽吸脓液。但颈前疼痛的症状和局部触痛、高热的体征无明显缓解。患者入院两周后出现颈部皮肤破溃伴脓性渗出，于全麻下接受颈前脓肿清创引流术。术中见颈前溃烂皮肤直径5cm×3cm（图2），颈前软组织炎性水肿明显，颈阔肌及双侧胸骨舌骨肌、胸骨甲状肌均坏死，形成一5cm×4cm×4cm的脓腔，充满黄色稠厚脓液约40ml.予以切除坏死的皮肤、肌肉和筋膜，达气管平面。暴露双侧甲状腺，探查双侧甲状腺无肿大，未扪及明显肿块（图3）。缝合皮肤后置皮管脓腔贯穿引流，术后患者体温很快恢复正常，经过两个多月的换药，创面完全愈合。最后，通过手术证实该患者为一颈前软组织内的脓肿，与甲状腺并无直接关系。颈前脓肿与化脓性甲状腺炎非常难鉴别，前者多由革兰阳性球菌引起，其分泌溶酶体酶，导致感染扩散严重。由于颈部间隙紧密，小范围的炎性水肿便可使局部张力很高，导致肌肉坏死，引发坏死性筋膜炎。由于解剖学特点，感染一般可止于筋膜，但又可沿着筋膜扩散，使之很难控制，预后很差。早期切开引流减张是处理的关键。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "7967_心力衰竭(Heart Failure)-病例分析",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "65岁"
+        },
+        "chief_complaint": "心力衰竭(HeartFailure)-病例分析患者，男，65岁。",
+        "present_illness": "该患者以颈前痛性肿块伴发热急性起病，血常规显示白细胞和中性粒细胞明显升高，抗生素治疗有效，故首先考虑为细菌感染性疾病。但抗感染治疗1周余后肿块无缩小，仍有血白细胞和中性粒细胞增高和血沉增快，而考虑亚急性甲状腺炎。该诊断较为牵强，首先患者无上呼吸道病毒感染史，其次颈前肿块不随吞咽活动，另外患者有明显的中毒血症，而且无B超检查的甲状腺影像学依据，更无细针穿刺的细胞学依据。在此情况下，直接应用激素**治疗，实属贸然。虽可暂时缓解疼痛，但存在促使感染加剧的严重风险。而此时甲状腺功能部分异常，可能与严重感染和应激有一定关系。患者入院后在10天内将**逐渐减量至停用，继续加强抗感染治疗，局部应用硫酸镁和皮硝外敷。复查B超示左甲状腺混合性肿块，大小42mm×30mm,右甲状腺小结节。怀疑左甲状腺脓肿，但液化不明显。颈部CT平扫加增强提示左甲状腺占位（图1）。左颈前肿块细针穿刺抽得6ml粘稠脓液，细胞学检查涂片见大量中性粒细胞及少量坏死碎片，提示化脓性炎症。脓液培养为**链球菌，其对青霉素、万古霉素、克林霉素、头孢丙烯、头孢曲松、红霉素和左氧氟沙星敏感。无厌氧菌及真菌生长。至此，颈部化脓性感染诊断明确，考虑化脓性甲状腺炎可能性大。但甲状腺有完整的包膜，腺体内富含碘，且血供及淋巴回流极其丰富，使其感染细菌并形成脓肿的机会非常少，多存在梨状窝瘘管或创伤等诱因，包括细针穿刺或由食管、气管穿透而来的异物，儿童多见于成人。葡萄球菌和链球菌是最常见的致病菌。该患者并无这些因素，但皮质激素的应用可能是一个诱因。根据药敏结果，患者应用抗生素加强抗感染治疗，继续接受硫酸镁和皮硝颈部外敷，局部穿刺抽吸脓液。但颈前疼痛的症状和局部触痛、高热的体征无明显缓解。患者入院两周后出现颈部皮肤破溃伴脓性渗出，于全麻下接受颈前脓肿清创引流术。术中见颈前溃烂皮肤直径5cm×3cm（图2），颈前软组织炎性水肿明显，颈阔肌及双侧胸骨舌骨肌、胸骨甲状肌均坏死，形成一5cm×4cm×4cm的脓腔，充满黄色稠厚脓液约40ml.予以切除坏死的皮肤、肌肉和筋膜，达气管平面。暴露双侧甲状腺，探查双侧甲状腺无肿大，未扪及明显肿块（图3）。缝合皮肤后置皮管脓腔贯穿引流，术后患者体温很快恢复正常，经过两个多月的换药，创面完全愈合。最后，通过手术证实该患者为一颈前软组织内的脓肿，与甲状腺并无直接关系。颈前脓肿与化脓性甲状腺炎非常难鉴别，前者多由革兰阳性球菌引起，其分泌溶酶体酶，导致感染扩散严重。由于颈部间隙紧密，小范围的炎性水肿便可使局部张力很高，导致肌肉坏死，引发坏死性筋膜炎。由于解剖学特点，感染一般可止于筋膜，但又可沿着筋膜扩散，使之很难控制，预后很差。早期切开引流减张是处理的关键。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

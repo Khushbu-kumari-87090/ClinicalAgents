@@ -1,0 +1,534 @@
+{
+  "case_id": "9855_中医大病例：左尺桡骨骨折术后（气血平和）",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "未知"
+  },
+  "chief_complaint": "姓名：成龙性别：男年龄：21婚况：未婚住院号：125526职业：工人出生地：四川省雅安民族：汉族国籍：中国家庭地址：邮政编码：-入院时间：2013.01.1717:37:00\n\nT36.1℃P68次/分R19次/分BP130/90mmHg神志清楚，精神好，发育正常，营养中等，步行入院，查体合作，对答合理。面色正常，眼睑结膜苍白，全身皮肤无黄染，浅表淋巴结无肿大，头颅五官端正，双瞳孔等大等圆，直径约3mm,对光反射灵敏，睑结膜色淡红，耳鼻无异常分泌物，咽无充血，扁桃体无肿大；颈软，气管居中，颈静脉无怒张，双甲状腺无肿大。胸廓对称无畸形，双乳对称，双肺呼吸音清，未闻及干湿性啰音，心界不大，心律68次/分，律齐，各瓣膜区听诊未闻及病理性杂音。全腹软，无压痛，无反跳痛，肝脾肋下未扪及，莫菲氏征（-），麦氏点压痛（-）。移动性浊音阴性，肠鸣音正常。脊柱四肢无畸形，生理性神经反射存在，未引出病理征。 左尺桡骨骨折术后14月余。",
+  "present_illness": "患者缘于14月余因外伤致左尺桡骨骨折，在我院行手术治疗，术后恢复良好出院。患者2013年01月16日复查照片示：左桡、尺骨中段双骨折复位、内固定术后再复查：示两骨折端均复位良好，大部分骨折线进一步模糊，大部分近消失，可见外骨痂生长，内固定稳固无松脱。上下尺桡关节关系良好。为求进一步治疗，由门诊拟\"左尺桡骨骨折术后\"收入院。入院时症见：患者神清，精神可，左前臂无疼痛，活动可，平素胃纳、夜寐可，二便调。舌淡红、苔薄白、脉平。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "既往体健。否认高血压、糖尿病、心脏病等内科病史；否认肝炎、结核等传染病病史；否认其他手术、输血及重大外伤史。 出生生长原籍，平素生活可，无饮食偏嗜，无其他不良嗜好。",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "9855_中医大病例：左尺桡骨骨折术后（气血平和）",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "未知"
+        },
+        "chief_complaint": "姓名：成龙性别：男年龄：21婚况：未婚住院号：125526职业：工人出生地：四川省雅安民族：汉族国籍：中国家庭地址：邮政编码：-入院时间：2013.01.1717:37:00\n\nT36.1℃P68次/分R19次/分BP130/90mmHg神志清楚，精神好，发育正常，营养中等，步行入院，查体合作，对答合理。面色正常，眼睑结膜苍白，全身皮肤无黄染，浅表淋巴结无肿大，头颅五官端正，双瞳孔等大等圆，直径约3mm,对光反射灵敏，睑结膜色淡红，耳鼻无异常分泌物，咽无充血，扁桃体无肿大；颈软，气管居中，颈静脉无怒张，双甲状腺无肿大。胸廓对称无畸形，双乳对称，双肺呼吸音清，未闻及干湿性啰音，心界不大，心律68次/分，律齐，各瓣膜区听诊未闻及病理性杂音。全腹软，无压痛，无反跳痛，肝脾肋下未扪及，莫菲氏征（-），麦氏点压痛（-）。移动性浊音阴性，肠鸣音正常。脊柱四肢无畸形，生理性神经反射存在，未引出病理征。 左尺桡骨骨折术后14月余。",
+        "present_illness": "患者缘于14月余因外伤致左尺桡骨骨折，在我院行手术治疗，术后恢复良好出院。患者2013年01月16日复查照片示：左桡、尺骨中段双骨折复位、内固定术后再复查：示两骨折端均复位良好，大部分骨折线进一步模糊，大部分近消失，可见外骨痂生长，内固定稳固无松脱。上下尺桡关节关系良好。为求进一步治疗，由门诊拟\"左尺桡骨骨折术后\"收入院。入院时症见：患者神清，精神可，左前臂无疼痛，活动可，平素胃纳、夜寐可，二便调。舌淡红、苔薄白、脉平。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "既往体健。否认高血压、糖尿病、心脏病等内科病史；否认肝炎、结核等传染病病史；否认其他手术、输血及重大外伤史。 出生生长原籍，平素生活可，无饮食偏嗜，无其他不良嗜好。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "9855_中医大病例：左尺桡骨骨折术后（气血平和）",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "未知"
+        },
+        "chief_complaint": "姓名：成龙性别：男年龄：21婚况：未婚住院号：125526职业：工人出生地：四川省雅安民族：汉族国籍：中国家庭地址：邮政编码：-入院时间：2013.01.1717:37:00\n\nT36.1℃P68次/分R19次/分BP130/90mmHg神志清楚，精神好，发育正常，营养中等，步行入院，查体合作，对答合理。面色正常，眼睑结膜苍白，全身皮肤无黄染，浅表淋巴结无肿大，头颅五官端正，双瞳孔等大等圆，直径约3mm,对光反射灵敏，睑结膜色淡红，耳鼻无异常分泌物，咽无充血，扁桃体无肿大；颈软，气管居中，颈静脉无怒张，双甲状腺无肿大。胸廓对称无畸形，双乳对称，双肺呼吸音清，未闻及干湿性啰音，心界不大，心律68次/分，律齐，各瓣膜区听诊未闻及病理性杂音。全腹软，无压痛，无反跳痛，肝脾肋下未扪及，莫菲氏征（-），麦氏点压痛（-）。移动性浊音阴性，肠鸣音正常。脊柱四肢无畸形，生理性神经反射存在，未引出病理征。 左尺桡骨骨折术后14月余。",
+        "present_illness": "患者缘于14月余因外伤致左尺桡骨骨折，在我院行手术治疗，术后恢复良好出院。患者2013年01月16日复查照片示：左桡、尺骨中段双骨折复位、内固定术后再复查：示两骨折端均复位良好，大部分骨折线进一步模糊，大部分近消失，可见外骨痂生长，内固定稳固无松脱。上下尺桡关节关系良好。为求进一步治疗，由门诊拟\"左尺桡骨骨折术后\"收入院。入院时症见：患者神清，精神可，左前臂无疼痛，活动可，平素胃纳、夜寐可，二便调。舌淡红、苔薄白、脉平。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往体健。否认高血压、糖尿病、心脏病等内科病史；否认肝炎、结核等传染病病史；否认其他手术、输血及重大外伤史。 出生生长原籍，平素生活可，无饮食偏嗜，无其他不良嗜好。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "9855_中医大病例：左尺桡骨骨折术后（气血平和）",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "未知"
+        },
+        "chief_complaint": "姓名：成龙性别：男年龄：21婚况：未婚住院号：125526职业：工人出生地：四川省雅安民族：汉族国籍：中国家庭地址：邮政编码：-入院时间：2013.01.1717:37:00\n\nT36.1℃P68次/分R19次/分BP130/90mmHg神志清楚，精神好，发育正常，营养中等，步行入院，查体合作，对答合理。面色正常，眼睑结膜苍白，全身皮肤无黄染，浅表淋巴结无肿大，头颅五官端正，双瞳孔等大等圆，直径约3mm,对光反射灵敏，睑结膜色淡红，耳鼻无异常分泌物，咽无充血，扁桃体无肿大；颈软，气管居中，颈静脉无怒张，双甲状腺无肿大。胸廓对称无畸形，双乳对称，双肺呼吸音清，未闻及干湿性啰音，心界不大，心律68次/分，律齐，各瓣膜区听诊未闻及病理性杂音。全腹软，无压痛，无反跳痛，肝脾肋下未扪及，莫菲氏征（-），麦氏点压痛（-）。移动性浊音阴性，肠鸣音正常。脊柱四肢无畸形，生理性神经反射存在，未引出病理征。 左尺桡骨骨折术后14月余。",
+        "present_illness": "患者缘于14月余因外伤致左尺桡骨骨折，在我院行手术治疗，术后恢复良好出院。患者2013年01月16日复查照片示：左桡、尺骨中段双骨折复位、内固定术后再复查：示两骨折端均复位良好，大部分骨折线进一步模糊，大部分近消失，可见外骨痂生长，内固定稳固无松脱。上下尺桡关节关系良好。为求进一步治疗，由门诊拟\"左尺桡骨骨折术后\"收入院。入院时症见：患者神清，精神可，左前臂无疼痛，活动可，平素胃纳、夜寐可，二便调。舌淡红、苔薄白、脉平。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往体健。否认高血压、糖尿病、心脏病等内科病史；否认肝炎、结核等传染病病史；否认其他手术、输血及重大外伤史。 出生生长原籍，平素生活可，无饮食偏嗜，无其他不良嗜好。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "9855_中医大病例：左尺桡骨骨折术后（气血平和）",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "未知"
+        },
+        "chief_complaint": "姓名：成龙性别：男年龄：21婚况：未婚住院号：125526职业：工人出生地：四川省雅安民族：汉族国籍：中国家庭地址：邮政编码：-入院时间：2013.01.1717:37:00\n\nT36.1℃P68次/分R19次/分BP130/90mmHg神志清楚，精神好，发育正常，营养中等，步行入院，查体合作，对答合理。面色正常，眼睑结膜苍白，全身皮肤无黄染，浅表淋巴结无肿大，头颅五官端正，双瞳孔等大等圆，直径约3mm,对光反射灵敏，睑结膜色淡红，耳鼻无异常分泌物，咽无充血，扁桃体无肿大；颈软，气管居中，颈静脉无怒张，双甲状腺无肿大。胸廓对称无畸形，双乳对称，双肺呼吸音清，未闻及干湿性啰音，心界不大，心律68次/分，律齐，各瓣膜区听诊未闻及病理性杂音。全腹软，无压痛，无反跳痛，肝脾肋下未扪及，莫菲氏征（-），麦氏点压痛（-）。移动性浊音阴性，肠鸣音正常。脊柱四肢无畸形，生理性神经反射存在，未引出病理征。 左尺桡骨骨折术后14月余。",
+        "present_illness": "患者缘于14月余因外伤致左尺桡骨骨折，在我院行手术治疗，术后恢复良好出院。患者2013年01月16日复查照片示：左桡、尺骨中段双骨折复位、内固定术后再复查：示两骨折端均复位良好，大部分骨折线进一步模糊，大部分近消失，可见外骨痂生长，内固定稳固无松脱。上下尺桡关节关系良好。为求进一步治疗，由门诊拟\"左尺桡骨骨折术后\"收入院。入院时症见：患者神清，精神可，左前臂无疼痛，活动可，平素胃纳、夜寐可，二便调。舌淡红、苔薄白、脉平。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往体健。否认高血压、糖尿病、心脏病等内科病史；否认肝炎、结核等传染病病史；否认其他手术、输血及重大外伤史。 出生生长原籍，平素生活可，无饮食偏嗜，无其他不良嗜好。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "9855_中医大病例：左尺桡骨骨折术后（气血平和）",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "未知"
+        },
+        "chief_complaint": "姓名：成龙性别：男年龄：21婚况：未婚住院号：125526职业：工人出生地：四川省雅安民族：汉族国籍：中国家庭地址：邮政编码：-入院时间：2013.01.1717:37:00\n\nT36.1℃P68次/分R19次/分BP130/90mmHg神志清楚，精神好，发育正常，营养中等，步行入院，查体合作，对答合理。面色正常，眼睑结膜苍白，全身皮肤无黄染，浅表淋巴结无肿大，头颅五官端正，双瞳孔等大等圆，直径约3mm,对光反射灵敏，睑结膜色淡红，耳鼻无异常分泌物，咽无充血，扁桃体无肿大；颈软，气管居中，颈静脉无怒张，双甲状腺无肿大。胸廓对称无畸形，双乳对称，双肺呼吸音清，未闻及干湿性啰音，心界不大，心律68次/分，律齐，各瓣膜区听诊未闻及病理性杂音。全腹软，无压痛，无反跳痛，肝脾肋下未扪及，莫菲氏征（-），麦氏点压痛（-）。移动性浊音阴性，肠鸣音正常。脊柱四肢无畸形，生理性神经反射存在，未引出病理征。 左尺桡骨骨折术后14月余。",
+        "present_illness": "患者缘于14月余因外伤致左尺桡骨骨折，在我院行手术治疗，术后恢复良好出院。患者2013年01月16日复查照片示：左桡、尺骨中段双骨折复位、内固定术后再复查：示两骨折端均复位良好，大部分骨折线进一步模糊，大部分近消失，可见外骨痂生长，内固定稳固无松脱。上下尺桡关节关系良好。为求进一步治疗，由门诊拟\"左尺桡骨骨折术后\"收入院。入院时症见：患者神清，精神可，左前臂无疼痛，活动可，平素胃纳、夜寐可，二便调。舌淡红、苔薄白、脉平。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往体健。否认高血压、糖尿病、心脏病等内科病史；否认肝炎、结核等传染病病史；否认其他手术、输血及重大外伤史。 出生生长原籍，平素生活可，无饮食偏嗜，无其他不良嗜好。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

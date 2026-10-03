@@ -1,0 +1,534 @@
+{
+  "case_id": "1287_医生说：阑尾炎不能再手术了，找个民间的吧",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "未知"
+  },
+  "chief_complaint": "王某某，男，六十六岁，一九八七年七月二十八日初诊。 上腹部胀痛剧烈，反复发作两年，突然发生十小时。",
+  "present_illness": "一九八五年春，患者突然右下腹痛痛，某院诊断为阑尾炎并手术治疗，半月后伤口不幸感染，引起肠粘连，又行二次手术。两月后病愈出院，两年来每因饮食不慎，或因受凉均引起肠粘连，先后又手术三次。昨天晚上吃下未加温的韭菜，即感不适，半夜上腹部胀痛难忍，急往某院求治，医生检查后确诊为肠粘连，并告诉患者家属，不能再手术了，建议找个民间中医看看。患者平时身体健康，很少有其他疾病。昨夜到今上腹部胀痛难忍，恶心呕吐极少，矢气全无，未能大便。观腹部疤痕累累，坐卧不能，表情十分痛苦。体温三十六度，血压120/80毫米汞柱，心律整齐。舌质淡红，苔白厚。脉象实。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "1287_医生说：阑尾炎不能再手术了，找个民间的吧",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "未知"
+        },
+        "chief_complaint": "王某某，男，六十六岁，一九八七年七月二十八日初诊。 上腹部胀痛剧烈，反复发作两年，突然发生十小时。",
+        "present_illness": "一九八五年春，患者突然右下腹痛痛，某院诊断为阑尾炎并手术治疗，半月后伤口不幸感染，引起肠粘连，又行二次手术。两月后病愈出院，两年来每因饮食不慎，或因受凉均引起肠粘连，先后又手术三次。昨天晚上吃下未加温的韭菜，即感不适，半夜上腹部胀痛难忍，急往某院求治，医生检查后确诊为肠粘连，并告诉患者家属，不能再手术了，建议找个民间中医看看。患者平时身体健康，很少有其他疾病。昨夜到今上腹部胀痛难忍，恶心呕吐极少，矢气全无，未能大便。观腹部疤痕累累，坐卧不能，表情十分痛苦。体温三十六度，血压120/80毫米汞柱，心律整齐。舌质淡红，苔白厚。脉象实。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "1287_医生说：阑尾炎不能再手术了，找个民间的吧",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "未知"
+        },
+        "chief_complaint": "王某某，男，六十六岁，一九八七年七月二十八日初诊。 上腹部胀痛剧烈，反复发作两年，突然发生十小时。",
+        "present_illness": "一九八五年春，患者突然右下腹痛痛，某院诊断为阑尾炎并手术治疗，半月后伤口不幸感染，引起肠粘连，又行二次手术。两月后病愈出院，两年来每因饮食不慎，或因受凉均引起肠粘连，先后又手术三次。昨天晚上吃下未加温的韭菜，即感不适，半夜上腹部胀痛难忍，急往某院求治，医生检查后确诊为肠粘连，并告诉患者家属，不能再手术了，建议找个民间中医看看。患者平时身体健康，很少有其他疾病。昨夜到今上腹部胀痛难忍，恶心呕吐极少，矢气全无，未能大便。观腹部疤痕累累，坐卧不能，表情十分痛苦。体温三十六度，血压120/80毫米汞柱，心律整齐。舌质淡红，苔白厚。脉象实。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "1287_医生说：阑尾炎不能再手术了，找个民间的吧",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "未知"
+        },
+        "chief_complaint": "王某某，男，六十六岁，一九八七年七月二十八日初诊。 上腹部胀痛剧烈，反复发作两年，突然发生十小时。",
+        "present_illness": "一九八五年春，患者突然右下腹痛痛，某院诊断为阑尾炎并手术治疗，半月后伤口不幸感染，引起肠粘连，又行二次手术。两月后病愈出院，两年来每因饮食不慎，或因受凉均引起肠粘连，先后又手术三次。昨天晚上吃下未加温的韭菜，即感不适，半夜上腹部胀痛难忍，急往某院求治，医生检查后确诊为肠粘连，并告诉患者家属，不能再手术了，建议找个民间中医看看。患者平时身体健康，很少有其他疾病。昨夜到今上腹部胀痛难忍，恶心呕吐极少，矢气全无，未能大便。观腹部疤痕累累，坐卧不能，表情十分痛苦。体温三十六度，血压120/80毫米汞柱，心律整齐。舌质淡红，苔白厚。脉象实。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "1287_医生说：阑尾炎不能再手术了，找个民间的吧",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "未知"
+        },
+        "chief_complaint": "王某某，男，六十六岁，一九八七年七月二十八日初诊。 上腹部胀痛剧烈，反复发作两年，突然发生十小时。",
+        "present_illness": "一九八五年春，患者突然右下腹痛痛，某院诊断为阑尾炎并手术治疗，半月后伤口不幸感染，引起肠粘连，又行二次手术。两月后病愈出院，两年来每因饮食不慎，或因受凉均引起肠粘连，先后又手术三次。昨天晚上吃下未加温的韭菜，即感不适，半夜上腹部胀痛难忍，急往某院求治，医生检查后确诊为肠粘连，并告诉患者家属，不能再手术了，建议找个民间中医看看。患者平时身体健康，很少有其他疾病。昨夜到今上腹部胀痛难忍，恶心呕吐极少，矢气全无，未能大便。观腹部疤痕累累，坐卧不能，表情十分痛苦。体温三十六度，血压120/80毫米汞柱，心律整齐。舌质淡红，苔白厚。脉象实。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "1287_医生说：阑尾炎不能再手术了，找个民间的吧",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "未知"
+        },
+        "chief_complaint": "王某某，男，六十六岁，一九八七年七月二十八日初诊。 上腹部胀痛剧烈，反复发作两年，突然发生十小时。",
+        "present_illness": "一九八五年春，患者突然右下腹痛痛，某院诊断为阑尾炎并手术治疗，半月后伤口不幸感染，引起肠粘连，又行二次手术。两月后病愈出院，两年来每因饮食不慎，或因受凉均引起肠粘连，先后又手术三次。昨天晚上吃下未加温的韭菜，即感不适，半夜上腹部胀痛难忍，急往某院求治，医生检查后确诊为肠粘连，并告诉患者家属，不能再手术了，建议找个民间中医看看。患者平时身体健康，很少有其他疾病。昨夜到今上腹部胀痛难忍，恶心呕吐极少，矢气全无，未能大便。观腹部疤痕累累，坐卧不能，表情十分痛苦。体温三十六度，血压120/80毫米汞柱，心律整齐。舌质淡红，苔白厚。脉象实。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

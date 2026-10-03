@@ -1,0 +1,534 @@
+{
+  "case_id": "1502_反复发热1年余，加重4d，你如何诊断？",
+  "personal_info": {
+    "性别": "女",
+    "年龄": "58岁"
+  },
+  "chief_complaint": "患者，女，58岁， 因“反复发热1年余，加重4d”由急诊以“发热待查”于2009年1月29日收入院。",
+  "present_illness": "1年余前，患者无明显诱因出现发热，体温38℃左右，伴咳嗽、咳痰、盗汗，患者就诊于中医院。B超示颈部、腋窝、腹股沟多发淋巴结肿大，直径1——2cm,行右腋下淋巴结活检示慢性淋巴结炎，予以中药及多种广谱抗生素治疗仍有发热。2008年3月住我院风湿免疫科，ANA1:100,除外风湿性疾病，监测血清β2-微球蛋白（β2-MG）4.22mg/L,乳酸脱氢酶（LDH）339U/L,铁蛋白1055.9μg/L,均明显升高，体检及B超示多发淋巴结肿大，动员患者行淋巴结活检以明确诊断，患者不同意。以后间断发热，于2008年8月住某院感染科，诊断为肺炎，应用多种抗生素，体温控制不良，予以氢化可的松治疗，体温正常出院。住院期间曾发生全身充血性皮疹，诊断为抗生素过敏。2008年11月因发热、咳嗽、咳痰收住我院呼吸内科，诊为急性支气管炎，抗感染治疗后仍发热，伴全身充血性皮疹，抗组胺药物治疗，皮疹消退。2008年12月行左颈部淋巴结活检，病理报告为淋巴结组织，可见部分淋巴滤泡增生，部分淋巴滤泡萎缩，滤泡内外可见增生的硬化血管，滤泡周围浆细胞活跃增生伴异型性，为多克隆，结合临床符合多中心性Castleman病（CD20+,CD45RO+,Bcl-2+,Bcl-6-,CD5-,CD10-,CD30-,CD68+,Mum-1+,K+,λ+,CD38+,CD138+,CyclinDl-,ALK-,TdT-,Mpo-,S-100+,CD21+,CD35-,Ki-67++）。该病理片经两家三甲医院病理科会诊，诊断为淋巴结反应性增生。经我院多科会诊诊断成人still病。患者转入风湿免疫科，应用甲泼尼龙治疗后，体温正常，1周后再次高热，拟诊淋巴瘤，但患者坚决拒绝行淋巴结活检，自动出院。6d后，患者因高热来我院急诊，体温39.8℃，予以抗生素治疗及**10mg/d控制体温，并于2009年1月29日收住我院风湿免疫科（第3次住风湿免疫科）。患者发病以来，体重无明显改变。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "否认高血压、糖尿病、结核、肝炎病史。对克林霉素、头孢类、阿奇霉素、磺胺过敏。",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "1502_反复发热1年余，加重4d，你如何诊断？",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "58岁"
+        },
+        "chief_complaint": "患者，女，58岁， 因“反复发热1年余，加重4d”由急诊以“发热待查”于2009年1月29日收入院。",
+        "present_illness": "1年余前，患者无明显诱因出现发热，体温38℃左右，伴咳嗽、咳痰、盗汗，患者就诊于中医院。B超示颈部、腋窝、腹股沟多发淋巴结肿大，直径1——2cm,行右腋下淋巴结活检示慢性淋巴结炎，予以中药及多种广谱抗生素治疗仍有发热。2008年3月住我院风湿免疫科，ANA1:100,除外风湿性疾病，监测血清β2-微球蛋白（β2-MG）4.22mg/L,乳酸脱氢酶（LDH）339U/L,铁蛋白1055.9μg/L,均明显升高，体检及B超示多发淋巴结肿大，动员患者行淋巴结活检以明确诊断，患者不同意。以后间断发热，于2008年8月住某院感染科，诊断为肺炎，应用多种抗生素，体温控制不良，予以氢化可的松治疗，体温正常出院。住院期间曾发生全身充血性皮疹，诊断为抗生素过敏。2008年11月因发热、咳嗽、咳痰收住我院呼吸内科，诊为急性支气管炎，抗感染治疗后仍发热，伴全身充血性皮疹，抗组胺药物治疗，皮疹消退。2008年12月行左颈部淋巴结活检，病理报告为淋巴结组织，可见部分淋巴滤泡增生，部分淋巴滤泡萎缩，滤泡内外可见增生的硬化血管，滤泡周围浆细胞活跃增生伴异型性，为多克隆，结合临床符合多中心性Castleman病（CD20+,CD45RO+,Bcl-2+,Bcl-6-,CD5-,CD10-,CD30-,CD68+,Mum-1+,K+,λ+,CD38+,CD138+,CyclinDl-,ALK-,TdT-,Mpo-,S-100+,CD21+,CD35-,Ki-67++）。该病理片经两家三甲医院病理科会诊，诊断为淋巴结反应性增生。经我院多科会诊诊断成人still病。患者转入风湿免疫科，应用甲泼尼龙治疗后，体温正常，1周后再次高热，拟诊淋巴瘤，但患者坚决拒绝行淋巴结活检，自动出院。6d后，患者因高热来我院急诊，体温39.8℃，予以抗生素治疗及**10mg/d控制体温，并于2009年1月29日收住我院风湿免疫科（第3次住风湿免疫科）。患者发病以来，体重无明显改变。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "否认高血压、糖尿病、结核、肝炎病史。对克林霉素、头孢类、阿奇霉素、磺胺过敏。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "1502_反复发热1年余，加重4d，你如何诊断？",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "58岁"
+        },
+        "chief_complaint": "患者，女，58岁， 因“反复发热1年余，加重4d”由急诊以“发热待查”于2009年1月29日收入院。",
+        "present_illness": "1年余前，患者无明显诱因出现发热，体温38℃左右，伴咳嗽、咳痰、盗汗，患者就诊于中医院。B超示颈部、腋窝、腹股沟多发淋巴结肿大，直径1——2cm,行右腋下淋巴结活检示慢性淋巴结炎，予以中药及多种广谱抗生素治疗仍有发热。2008年3月住我院风湿免疫科，ANA1:100,除外风湿性疾病，监测血清β2-微球蛋白（β2-MG）4.22mg/L,乳酸脱氢酶（LDH）339U/L,铁蛋白1055.9μg/L,均明显升高，体检及B超示多发淋巴结肿大，动员患者行淋巴结活检以明确诊断，患者不同意。以后间断发热，于2008年8月住某院感染科，诊断为肺炎，应用多种抗生素，体温控制不良，予以氢化可的松治疗，体温正常出院。住院期间曾发生全身充血性皮疹，诊断为抗生素过敏。2008年11月因发热、咳嗽、咳痰收住我院呼吸内科，诊为急性支气管炎，抗感染治疗后仍发热，伴全身充血性皮疹，抗组胺药物治疗，皮疹消退。2008年12月行左颈部淋巴结活检，病理报告为淋巴结组织，可见部分淋巴滤泡增生，部分淋巴滤泡萎缩，滤泡内外可见增生的硬化血管，滤泡周围浆细胞活跃增生伴异型性，为多克隆，结合临床符合多中心性Castleman病（CD20+,CD45RO+,Bcl-2+,Bcl-6-,CD5-,CD10-,CD30-,CD68+,Mum-1+,K+,λ+,CD38+,CD138+,CyclinDl-,ALK-,TdT-,Mpo-,S-100+,CD21+,CD35-,Ki-67++）。该病理片经两家三甲医院病理科会诊，诊断为淋巴结反应性增生。经我院多科会诊诊断成人still病。患者转入风湿免疫科，应用甲泼尼龙治疗后，体温正常，1周后再次高热，拟诊淋巴瘤，但患者坚决拒绝行淋巴结活检，自动出院。6d后，患者因高热来我院急诊，体温39.8℃，予以抗生素治疗及**10mg/d控制体温，并于2009年1月29日收住我院风湿免疫科（第3次住风湿免疫科）。患者发病以来，体重无明显改变。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认高血压、糖尿病、结核、肝炎病史。对克林霉素、头孢类、阿奇霉素、磺胺过敏。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "1502_反复发热1年余，加重4d，你如何诊断？",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "58岁"
+        },
+        "chief_complaint": "患者，女，58岁， 因“反复发热1年余，加重4d”由急诊以“发热待查”于2009年1月29日收入院。",
+        "present_illness": "1年余前，患者无明显诱因出现发热，体温38℃左右，伴咳嗽、咳痰、盗汗，患者就诊于中医院。B超示颈部、腋窝、腹股沟多发淋巴结肿大，直径1——2cm,行右腋下淋巴结活检示慢性淋巴结炎，予以中药及多种广谱抗生素治疗仍有发热。2008年3月住我院风湿免疫科，ANA1:100,除外风湿性疾病，监测血清β2-微球蛋白（β2-MG）4.22mg/L,乳酸脱氢酶（LDH）339U/L,铁蛋白1055.9μg/L,均明显升高，体检及B超示多发淋巴结肿大，动员患者行淋巴结活检以明确诊断，患者不同意。以后间断发热，于2008年8月住某院感染科，诊断为肺炎，应用多种抗生素，体温控制不良，予以氢化可的松治疗，体温正常出院。住院期间曾发生全身充血性皮疹，诊断为抗生素过敏。2008年11月因发热、咳嗽、咳痰收住我院呼吸内科，诊为急性支气管炎，抗感染治疗后仍发热，伴全身充血性皮疹，抗组胺药物治疗，皮疹消退。2008年12月行左颈部淋巴结活检，病理报告为淋巴结组织，可见部分淋巴滤泡增生，部分淋巴滤泡萎缩，滤泡内外可见增生的硬化血管，滤泡周围浆细胞活跃增生伴异型性，为多克隆，结合临床符合多中心性Castleman病（CD20+,CD45RO+,Bcl-2+,Bcl-6-,CD5-,CD10-,CD30-,CD68+,Mum-1+,K+,λ+,CD38+,CD138+,CyclinDl-,ALK-,TdT-,Mpo-,S-100+,CD21+,CD35-,Ki-67++）。该病理片经两家三甲医院病理科会诊，诊断为淋巴结反应性增生。经我院多科会诊诊断成人still病。患者转入风湿免疫科，应用甲泼尼龙治疗后，体温正常，1周后再次高热，拟诊淋巴瘤，但患者坚决拒绝行淋巴结活检，自动出院。6d后，患者因高热来我院急诊，体温39.8℃，予以抗生素治疗及**10mg/d控制体温，并于2009年1月29日收住我院风湿免疫科（第3次住风湿免疫科）。患者发病以来，体重无明显改变。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认高血压、糖尿病、结核、肝炎病史。对克林霉素、头孢类、阿奇霉素、磺胺过敏。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "1502_反复发热1年余，加重4d，你如何诊断？",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "58岁"
+        },
+        "chief_complaint": "患者，女，58岁， 因“反复发热1年余，加重4d”由急诊以“发热待查”于2009年1月29日收入院。",
+        "present_illness": "1年余前，患者无明显诱因出现发热，体温38℃左右，伴咳嗽、咳痰、盗汗，患者就诊于中医院。B超示颈部、腋窝、腹股沟多发淋巴结肿大，直径1——2cm,行右腋下淋巴结活检示慢性淋巴结炎，予以中药及多种广谱抗生素治疗仍有发热。2008年3月住我院风湿免疫科，ANA1:100,除外风湿性疾病，监测血清β2-微球蛋白（β2-MG）4.22mg/L,乳酸脱氢酶（LDH）339U/L,铁蛋白1055.9μg/L,均明显升高，体检及B超示多发淋巴结肿大，动员患者行淋巴结活检以明确诊断，患者不同意。以后间断发热，于2008年8月住某院感染科，诊断为肺炎，应用多种抗生素，体温控制不良，予以氢化可的松治疗，体温正常出院。住院期间曾发生全身充血性皮疹，诊断为抗生素过敏。2008年11月因发热、咳嗽、咳痰收住我院呼吸内科，诊为急性支气管炎，抗感染治疗后仍发热，伴全身充血性皮疹，抗组胺药物治疗，皮疹消退。2008年12月行左颈部淋巴结活检，病理报告为淋巴结组织，可见部分淋巴滤泡增生，部分淋巴滤泡萎缩，滤泡内外可见增生的硬化血管，滤泡周围浆细胞活跃增生伴异型性，为多克隆，结合临床符合多中心性Castleman病（CD20+,CD45RO+,Bcl-2+,Bcl-6-,CD5-,CD10-,CD30-,CD68+,Mum-1+,K+,λ+,CD38+,CD138+,CyclinDl-,ALK-,TdT-,Mpo-,S-100+,CD21+,CD35-,Ki-67++）。该病理片经两家三甲医院病理科会诊，诊断为淋巴结反应性增生。经我院多科会诊诊断成人still病。患者转入风湿免疫科，应用甲泼尼龙治疗后，体温正常，1周后再次高热，拟诊淋巴瘤，但患者坚决拒绝行淋巴结活检，自动出院。6d后，患者因高热来我院急诊，体温39.8℃，予以抗生素治疗及**10mg/d控制体温，并于2009年1月29日收住我院风湿免疫科（第3次住风湿免疫科）。患者发病以来，体重无明显改变。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认高血压、糖尿病、结核、肝炎病史。对克林霉素、头孢类、阿奇霉素、磺胺过敏。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "1502_反复发热1年余，加重4d，你如何诊断？",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "58岁"
+        },
+        "chief_complaint": "患者，女，58岁， 因“反复发热1年余，加重4d”由急诊以“发热待查”于2009年1月29日收入院。",
+        "present_illness": "1年余前，患者无明显诱因出现发热，体温38℃左右，伴咳嗽、咳痰、盗汗，患者就诊于中医院。B超示颈部、腋窝、腹股沟多发淋巴结肿大，直径1——2cm,行右腋下淋巴结活检示慢性淋巴结炎，予以中药及多种广谱抗生素治疗仍有发热。2008年3月住我院风湿免疫科，ANA1:100,除外风湿性疾病，监测血清β2-微球蛋白（β2-MG）4.22mg/L,乳酸脱氢酶（LDH）339U/L,铁蛋白1055.9μg/L,均明显升高，体检及B超示多发淋巴结肿大，动员患者行淋巴结活检以明确诊断，患者不同意。以后间断发热，于2008年8月住某院感染科，诊断为肺炎，应用多种抗生素，体温控制不良，予以氢化可的松治疗，体温正常出院。住院期间曾发生全身充血性皮疹，诊断为抗生素过敏。2008年11月因发热、咳嗽、咳痰收住我院呼吸内科，诊为急性支气管炎，抗感染治疗后仍发热，伴全身充血性皮疹，抗组胺药物治疗，皮疹消退。2008年12月行左颈部淋巴结活检，病理报告为淋巴结组织，可见部分淋巴滤泡增生，部分淋巴滤泡萎缩，滤泡内外可见增生的硬化血管，滤泡周围浆细胞活跃增生伴异型性，为多克隆，结合临床符合多中心性Castleman病（CD20+,CD45RO+,Bcl-2+,Bcl-6-,CD5-,CD10-,CD30-,CD68+,Mum-1+,K+,λ+,CD38+,CD138+,CyclinDl-,ALK-,TdT-,Mpo-,S-100+,CD21+,CD35-,Ki-67++）。该病理片经两家三甲医院病理科会诊，诊断为淋巴结反应性增生。经我院多科会诊诊断成人still病。患者转入风湿免疫科，应用甲泼尼龙治疗后，体温正常，1周后再次高热，拟诊淋巴瘤，但患者坚决拒绝行淋巴结活检，自动出院。6d后，患者因高热来我院急诊，体温39.8℃，予以抗生素治疗及**10mg/d控制体温，并于2009年1月29日收住我院风湿免疫科（第3次住风湿免疫科）。患者发病以来，体重无明显改变。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认高血压、糖尿病、结核、肝炎病史。对克林霉素、头孢类、阿奇霉素、磺胺过敏。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

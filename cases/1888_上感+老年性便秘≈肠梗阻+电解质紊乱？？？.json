@@ -1,0 +1,534 @@
+{
+  "case_id": "1888_上感+老年性便秘≈肠梗阻+电解质紊乱？？？",
+  "personal_info": {
+    "性别": "女",
+    "年龄": "未知"
+  },
+  "chief_complaint": "昨天来个老年女性患者，腹部胀痛伴乏力，3天未进食（但是我估计应该吃了点点吧），感恶心，4天未解大便，**亦未排气。腹部膨隆，腹肌软，以脐为分界线下腹均有压痛。听诊可闻及气过水声。第一个崩入我的思维的就是肠梗阻，腹痛、腹胀、**停止排便排气，虽然没有呕吐，但是有恶心，是不是考虑低位性的呢？？？而患者感头痛，乏力，患者无流涕，无咽痛，未诉有受凉等感冒诱因，3天未进食，是不是考虑电解质紊乱，低钾所引起的乏力呢？？？这时照片的和验血的已经下班了，全靠探索了，就先予补液，毕竟3天未进食了，到底是不是肠梗阻还没确定啊，如果是或者不是，至少有腹部体征，2联抗生素是少不掉的吧~~~~今天结果出来了~~~~~照片不是肠梗阻，但是患者硬是没解大便啊，怎么办？？？电解质也未见低钾，为什么是乏力？？？在原来治疗的基础上加感冒药，加酚酞片，好了，喜讯传来，患者中午的时候解大便了，虽然不多，但是我知道肯定不是肠梗阻了~~~~上了感冒药之后，患者诉乏力较前好转~~~~下面是病历：在临床中，还要把握住要点，再边观察边治疗了，特把这个病例分享一下，恳请爱友们指点~~~~~住院病历 姓名XXX性别女年龄71岁婚姻已职业务农籍贯湘晃民族侗住址及工作单位：湖南新晃方家屯乡洞坡杨家住院日期：2012-6-11病历书写日期：2012-6-11病史叙述者：患者本人家长姓名（小儿患者）： 腹胀腹痛伴头痛、乏力4+天现病史：患者4+天前无明显诱因出现腹胀腹痛，腹痛呈阵发性加剧，呈胀痛型，休息后稍好转，后又疼痛，无明显规律。伴有头痛，四肢乏力，无流涕，无呕吐，偶有恶心，无发热畏寒，无腹泻。今腹痛加重，未经处理，遂来我院。自患病来，精神差，未进食，小便正常，**未排便排气。",
+  "present_illness": "",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "既往体健，否认\"肝炎\"\"结核\"等传染病史，无手术及重大外伤史，无输血史，无药敏史，预防接种史不详。 生于原籍，未曾久居外地，无疫水接触史，平素在家，生活规律，无不良嗜好。月经史：153~4|3046月经色正常。量正常，无异味婚育史：适龄结婚，爱人及子女体健",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "1888_上感+老年性便秘≈肠梗阻+电解质紊乱？？？",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "未知"
+        },
+        "chief_complaint": "昨天来个老年女性患者，腹部胀痛伴乏力，3天未进食（但是我估计应该吃了点点吧），感恶心，4天未解大便，**亦未排气。腹部膨隆，腹肌软，以脐为分界线下腹均有压痛。听诊可闻及气过水声。第一个崩入我的思维的就是肠梗阻，腹痛、腹胀、**停止排便排气，虽然没有呕吐，但是有恶心，是不是考虑低位性的呢？？？而患者感头痛，乏力，患者无流涕，无咽痛，未诉有受凉等感冒诱因，3天未进食，是不是考虑电解质紊乱，低钾所引起的乏力呢？？？这时照片的和验血的已经下班了，全靠探索了，就先予补液，毕竟3天未进食了，到底是不是肠梗阻还没确定啊，如果是或者不是，至少有腹部体征，2联抗生素是少不掉的吧~~~~今天结果出来了~~~~~照片不是肠梗阻，但是患者硬是没解大便啊，怎么办？？？电解质也未见低钾，为什么是乏力？？？在原来治疗的基础上加感冒药，加酚酞片，好了，喜讯传来，患者中午的时候解大便了，虽然不多，但是我知道肯定不是肠梗阻了~~~~上了感冒药之后，患者诉乏力较前好转~~~~下面是病历：在临床中，还要把握住要点，再边观察边治疗了，特把这个病例分享一下，恳请爱友们指点~~~~~住院病历 姓名XXX性别女年龄71岁婚姻已职业务农籍贯湘晃民族侗住址及工作单位：湖南新晃方家屯乡洞坡杨家住院日期：2012-6-11病历书写日期：2012-6-11病史叙述者：患者本人家长姓名（小儿患者）： 腹胀腹痛伴头痛、乏力4+天现病史：患者4+天前无明显诱因出现腹胀腹痛，腹痛呈阵发性加剧，呈胀痛型，休息后稍好转，后又疼痛，无明显规律。伴有头痛，四肢乏力，无流涕，无呕吐，偶有恶心，无发热畏寒，无腹泻。今腹痛加重，未经处理，遂来我院。自患病来，精神差，未进食，小便正常，**未排便排气。",
+        "present_illness": "",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "既往体健，否认\"肝炎\"\"结核\"等传染病史，无手术及重大外伤史，无输血史，无药敏史，预防接种史不详。 生于原籍，未曾久居外地，无疫水接触史，平素在家，生活规律，无不良嗜好。月经史：153~4|3046月经色正常。量正常，无异味婚育史：适龄结婚，爱人及子女体健",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "1888_上感+老年性便秘≈肠梗阻+电解质紊乱？？？",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "未知"
+        },
+        "chief_complaint": "昨天来个老年女性患者，腹部胀痛伴乏力，3天未进食（但是我估计应该吃了点点吧），感恶心，4天未解大便，**亦未排气。腹部膨隆，腹肌软，以脐为分界线下腹均有压痛。听诊可闻及气过水声。第一个崩入我的思维的就是肠梗阻，腹痛、腹胀、**停止排便排气，虽然没有呕吐，但是有恶心，是不是考虑低位性的呢？？？而患者感头痛，乏力，患者无流涕，无咽痛，未诉有受凉等感冒诱因，3天未进食，是不是考虑电解质紊乱，低钾所引起的乏力呢？？？这时照片的和验血的已经下班了，全靠探索了，就先予补液，毕竟3天未进食了，到底是不是肠梗阻还没确定啊，如果是或者不是，至少有腹部体征，2联抗生素是少不掉的吧~~~~今天结果出来了~~~~~照片不是肠梗阻，但是患者硬是没解大便啊，怎么办？？？电解质也未见低钾，为什么是乏力？？？在原来治疗的基础上加感冒药，加酚酞片，好了，喜讯传来，患者中午的时候解大便了，虽然不多，但是我知道肯定不是肠梗阻了~~~~上了感冒药之后，患者诉乏力较前好转~~~~下面是病历：在临床中，还要把握住要点，再边观察边治疗了，特把这个病例分享一下，恳请爱友们指点~~~~~住院病历 姓名XXX性别女年龄71岁婚姻已职业务农籍贯湘晃民族侗住址及工作单位：湖南新晃方家屯乡洞坡杨家住院日期：2012-6-11病历书写日期：2012-6-11病史叙述者：患者本人家长姓名（小儿患者）： 腹胀腹痛伴头痛、乏力4+天现病史：患者4+天前无明显诱因出现腹胀腹痛，腹痛呈阵发性加剧，呈胀痛型，休息后稍好转，后又疼痛，无明显规律。伴有头痛，四肢乏力，无流涕，无呕吐，偶有恶心，无发热畏寒，无腹泻。今腹痛加重，未经处理，遂来我院。自患病来，精神差，未进食，小便正常，**未排便排气。",
+        "present_illness": "",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往体健，否认\"肝炎\"\"结核\"等传染病史，无手术及重大外伤史，无输血史，无药敏史，预防接种史不详。 生于原籍，未曾久居外地，无疫水接触史，平素在家，生活规律，无不良嗜好。月经史：153~4|3046月经色正常。量正常，无异味婚育史：适龄结婚，爱人及子女体健",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "1888_上感+老年性便秘≈肠梗阻+电解质紊乱？？？",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "未知"
+        },
+        "chief_complaint": "昨天来个老年女性患者，腹部胀痛伴乏力，3天未进食（但是我估计应该吃了点点吧），感恶心，4天未解大便，**亦未排气。腹部膨隆，腹肌软，以脐为分界线下腹均有压痛。听诊可闻及气过水声。第一个崩入我的思维的就是肠梗阻，腹痛、腹胀、**停止排便排气，虽然没有呕吐，但是有恶心，是不是考虑低位性的呢？？？而患者感头痛，乏力，患者无流涕，无咽痛，未诉有受凉等感冒诱因，3天未进食，是不是考虑电解质紊乱，低钾所引起的乏力呢？？？这时照片的和验血的已经下班了，全靠探索了，就先予补液，毕竟3天未进食了，到底是不是肠梗阻还没确定啊，如果是或者不是，至少有腹部体征，2联抗生素是少不掉的吧~~~~今天结果出来了~~~~~照片不是肠梗阻，但是患者硬是没解大便啊，怎么办？？？电解质也未见低钾，为什么是乏力？？？在原来治疗的基础上加感冒药，加酚酞片，好了，喜讯传来，患者中午的时候解大便了，虽然不多，但是我知道肯定不是肠梗阻了~~~~上了感冒药之后，患者诉乏力较前好转~~~~下面是病历：在临床中，还要把握住要点，再边观察边治疗了，特把这个病例分享一下，恳请爱友们指点~~~~~住院病历 姓名XXX性别女年龄71岁婚姻已职业务农籍贯湘晃民族侗住址及工作单位：湖南新晃方家屯乡洞坡杨家住院日期：2012-6-11病历书写日期：2012-6-11病史叙述者：患者本人家长姓名（小儿患者）： 腹胀腹痛伴头痛、乏力4+天现病史：患者4+天前无明显诱因出现腹胀腹痛，腹痛呈阵发性加剧，呈胀痛型，休息后稍好转，后又疼痛，无明显规律。伴有头痛，四肢乏力，无流涕，无呕吐，偶有恶心，无发热畏寒，无腹泻。今腹痛加重，未经处理，遂来我院。自患病来，精神差，未进食，小便正常，**未排便排气。",
+        "present_illness": "",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往体健，否认\"肝炎\"\"结核\"等传染病史，无手术及重大外伤史，无输血史，无药敏史，预防接种史不详。 生于原籍，未曾久居外地，无疫水接触史，平素在家，生活规律，无不良嗜好。月经史：153~4|3046月经色正常。量正常，无异味婚育史：适龄结婚，爱人及子女体健",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "1888_上感+老年性便秘≈肠梗阻+电解质紊乱？？？",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "未知"
+        },
+        "chief_complaint": "昨天来个老年女性患者，腹部胀痛伴乏力，3天未进食（但是我估计应该吃了点点吧），感恶心，4天未解大便，**亦未排气。腹部膨隆，腹肌软，以脐为分界线下腹均有压痛。听诊可闻及气过水声。第一个崩入我的思维的就是肠梗阻，腹痛、腹胀、**停止排便排气，虽然没有呕吐，但是有恶心，是不是考虑低位性的呢？？？而患者感头痛，乏力，患者无流涕，无咽痛，未诉有受凉等感冒诱因，3天未进食，是不是考虑电解质紊乱，低钾所引起的乏力呢？？？这时照片的和验血的已经下班了，全靠探索了，就先予补液，毕竟3天未进食了，到底是不是肠梗阻还没确定啊，如果是或者不是，至少有腹部体征，2联抗生素是少不掉的吧~~~~今天结果出来了~~~~~照片不是肠梗阻，但是患者硬是没解大便啊，怎么办？？？电解质也未见低钾，为什么是乏力？？？在原来治疗的基础上加感冒药，加酚酞片，好了，喜讯传来，患者中午的时候解大便了，虽然不多，但是我知道肯定不是肠梗阻了~~~~上了感冒药之后，患者诉乏力较前好转~~~~下面是病历：在临床中，还要把握住要点，再边观察边治疗了，特把这个病例分享一下，恳请爱友们指点~~~~~住院病历 姓名XXX性别女年龄71岁婚姻已职业务农籍贯湘晃民族侗住址及工作单位：湖南新晃方家屯乡洞坡杨家住院日期：2012-6-11病历书写日期：2012-6-11病史叙述者：患者本人家长姓名（小儿患者）： 腹胀腹痛伴头痛、乏力4+天现病史：患者4+天前无明显诱因出现腹胀腹痛，腹痛呈阵发性加剧，呈胀痛型，休息后稍好转，后又疼痛，无明显规律。伴有头痛，四肢乏力，无流涕，无呕吐，偶有恶心，无发热畏寒，无腹泻。今腹痛加重，未经处理，遂来我院。自患病来，精神差，未进食，小便正常，**未排便排气。",
+        "present_illness": "",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往体健，否认\"肝炎\"\"结核\"等传染病史，无手术及重大外伤史，无输血史，无药敏史，预防接种史不详。 生于原籍，未曾久居外地，无疫水接触史，平素在家，生活规律，无不良嗜好。月经史：153~4|3046月经色正常。量正常，无异味婚育史：适龄结婚，爱人及子女体健",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "1888_上感+老年性便秘≈肠梗阻+电解质紊乱？？？",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "未知"
+        },
+        "chief_complaint": "昨天来个老年女性患者，腹部胀痛伴乏力，3天未进食（但是我估计应该吃了点点吧），感恶心，4天未解大便，**亦未排气。腹部膨隆，腹肌软，以脐为分界线下腹均有压痛。听诊可闻及气过水声。第一个崩入我的思维的就是肠梗阻，腹痛、腹胀、**停止排便排气，虽然没有呕吐，但是有恶心，是不是考虑低位性的呢？？？而患者感头痛，乏力，患者无流涕，无咽痛，未诉有受凉等感冒诱因，3天未进食，是不是考虑电解质紊乱，低钾所引起的乏力呢？？？这时照片的和验血的已经下班了，全靠探索了，就先予补液，毕竟3天未进食了，到底是不是肠梗阻还没确定啊，如果是或者不是，至少有腹部体征，2联抗生素是少不掉的吧~~~~今天结果出来了~~~~~照片不是肠梗阻，但是患者硬是没解大便啊，怎么办？？？电解质也未见低钾，为什么是乏力？？？在原来治疗的基础上加感冒药，加酚酞片，好了，喜讯传来，患者中午的时候解大便了，虽然不多，但是我知道肯定不是肠梗阻了~~~~上了感冒药之后，患者诉乏力较前好转~~~~下面是病历：在临床中，还要把握住要点，再边观察边治疗了，特把这个病例分享一下，恳请爱友们指点~~~~~住院病历 姓名XXX性别女年龄71岁婚姻已职业务农籍贯湘晃民族侗住址及工作单位：湖南新晃方家屯乡洞坡杨家住院日期：2012-6-11病历书写日期：2012-6-11病史叙述者：患者本人家长姓名（小儿患者）： 腹胀腹痛伴头痛、乏力4+天现病史：患者4+天前无明显诱因出现腹胀腹痛，腹痛呈阵发性加剧，呈胀痛型，休息后稍好转，后又疼痛，无明显规律。伴有头痛，四肢乏力，无流涕，无呕吐，偶有恶心，无发热畏寒，无腹泻。今腹痛加重，未经处理，遂来我院。自患病来，精神差，未进食，小便正常，**未排便排气。",
+        "present_illness": "",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往体健，否认\"肝炎\"\"结核\"等传染病史，无手术及重大外伤史，无输血史，无药敏史，预防接种史不详。 生于原籍，未曾久居外地，无疫水接触史，平素在家，生活规律，无不良嗜好。月经史：153~4|3046月经色正常。量正常，无异味婚育史：适龄结婚，爱人及子女体健",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

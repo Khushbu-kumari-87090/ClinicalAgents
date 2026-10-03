@@ -1,0 +1,534 @@
+{
+  "case_id": "6021_颅内感染伴头痛发热1例",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "45岁"
+  },
+  "chief_complaint": "男性，45岁，因“反复头痛10余年，再发伴发热2天”入院。",
+  "present_illness": "患者10余年前始无明显诱因逐渐出现头痛，为右侧颞部阵发性疼痛，头痛似针扎或跳动样疼痛，描述不清，无明显压迫感及紧箍感，发作时无头晕、视物旋转、肢体抽搐，无畏光、畏声，无耳鸣、听力下降，无胸闷、冷汗，无气促、胸痛，无恶心、呕吐，无腹痛、腹泻，无意识不清、四肢抽搐，无肢体偏瘫、麻木，自诉与**无明显关系，多次发作，每次持续数小时或整日，休息不好后症状可加重，休息或睡眠后可缓解。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "多次就诊，予“颅通定”治疗后能好转。2天前感头痛症状加重，伴右侧头部皮肤针扎样疼痛，无呕吐，伴发热，最高体温40℃，查头颅CT“未见明显异常”，予“解热镇痛”药物治疗后，体温恢复正常，仍有剧烈头痛，再次来诊。起病来，患者饮食、睡眠欠佳，大小便正常，体重无明显变化。既往体健。否认“高血压病”、“糖尿病”及其他全身性疾病史，否认外伤手术史及输血史，未发现药物食物过敏史。",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "6021_颅内感染伴头痛发热1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "45岁"
+        },
+        "chief_complaint": "男性，45岁，因“反复头痛10余年，再发伴发热2天”入院。",
+        "present_illness": "患者10余年前始无明显诱因逐渐出现头痛，为右侧颞部阵发性疼痛，头痛似针扎或跳动样疼痛，描述不清，无明显压迫感及紧箍感，发作时无头晕、视物旋转、肢体抽搐，无畏光、畏声，无耳鸣、听力下降，无胸闷、冷汗，无气促、胸痛，无恶心、呕吐，无腹痛、腹泻，无意识不清、四肢抽搐，无肢体偏瘫、麻木，自诉与**无明显关系，多次发作，每次持续数小时或整日，休息不好后症状可加重，休息或睡眠后可缓解。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "多次就诊，予“颅通定”治疗后能好转。2天前感头痛症状加重，伴右侧头部皮肤针扎样疼痛，无呕吐，伴发热，最高体温40℃，查头颅CT“未见明显异常”，予“解热镇痛”药物治疗后，体温恢复正常，仍有剧烈头痛，再次来诊。起病来，患者饮食、睡眠欠佳，大小便正常，体重无明显变化。既往体健。否认“高血压病”、“糖尿病”及其他全身性疾病史，否认外伤手术史及输血史，未发现药物食物过敏史。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "6021_颅内感染伴头痛发热1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "45岁"
+        },
+        "chief_complaint": "男性，45岁，因“反复头痛10余年，再发伴发热2天”入院。",
+        "present_illness": "患者10余年前始无明显诱因逐渐出现头痛，为右侧颞部阵发性疼痛，头痛似针扎或跳动样疼痛，描述不清，无明显压迫感及紧箍感，发作时无头晕、视物旋转、肢体抽搐，无畏光、畏声，无耳鸣、听力下降，无胸闷、冷汗，无气促、胸痛，无恶心、呕吐，无腹痛、腹泻，无意识不清、四肢抽搐，无肢体偏瘫、麻木，自诉与**无明显关系，多次发作，每次持续数小时或整日，休息不好后症状可加重，休息或睡眠后可缓解。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "多次就诊，予“颅通定”治疗后能好转。2天前感头痛症状加重，伴右侧头部皮肤针扎样疼痛，无呕吐，伴发热，最高体温40℃，查头颅CT“未见明显异常”，予“解热镇痛”药物治疗后，体温恢复正常，仍有剧烈头痛，再次来诊。起病来，患者饮食、睡眠欠佳，大小便正常，体重无明显变化。既往体健。否认“高血压病”、“糖尿病”及其他全身性疾病史，否认外伤手术史及输血史，未发现药物食物过敏史。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "6021_颅内感染伴头痛发热1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "45岁"
+        },
+        "chief_complaint": "男性，45岁，因“反复头痛10余年，再发伴发热2天”入院。",
+        "present_illness": "患者10余年前始无明显诱因逐渐出现头痛，为右侧颞部阵发性疼痛，头痛似针扎或跳动样疼痛，描述不清，无明显压迫感及紧箍感，发作时无头晕、视物旋转、肢体抽搐，无畏光、畏声，无耳鸣、听力下降，无胸闷、冷汗，无气促、胸痛，无恶心、呕吐，无腹痛、腹泻，无意识不清、四肢抽搐，无肢体偏瘫、麻木，自诉与**无明显关系，多次发作，每次持续数小时或整日，休息不好后症状可加重，休息或睡眠后可缓解。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "多次就诊，予“颅通定”治疗后能好转。2天前感头痛症状加重，伴右侧头部皮肤针扎样疼痛，无呕吐，伴发热，最高体温40℃，查头颅CT“未见明显异常”，予“解热镇痛”药物治疗后，体温恢复正常，仍有剧烈头痛，再次来诊。起病来，患者饮食、睡眠欠佳，大小便正常，体重无明显变化。既往体健。否认“高血压病”、“糖尿病”及其他全身性疾病史，否认外伤手术史及输血史，未发现药物食物过敏史。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "6021_颅内感染伴头痛发热1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "45岁"
+        },
+        "chief_complaint": "男性，45岁，因“反复头痛10余年，再发伴发热2天”入院。",
+        "present_illness": "患者10余年前始无明显诱因逐渐出现头痛，为右侧颞部阵发性疼痛，头痛似针扎或跳动样疼痛，描述不清，无明显压迫感及紧箍感，发作时无头晕、视物旋转、肢体抽搐，无畏光、畏声，无耳鸣、听力下降，无胸闷、冷汗，无气促、胸痛，无恶心、呕吐，无腹痛、腹泻，无意识不清、四肢抽搐，无肢体偏瘫、麻木，自诉与**无明显关系，多次发作，每次持续数小时或整日，休息不好后症状可加重，休息或睡眠后可缓解。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "多次就诊，予“颅通定”治疗后能好转。2天前感头痛症状加重，伴右侧头部皮肤针扎样疼痛，无呕吐，伴发热，最高体温40℃，查头颅CT“未见明显异常”，予“解热镇痛”药物治疗后，体温恢复正常，仍有剧烈头痛，再次来诊。起病来，患者饮食、睡眠欠佳，大小便正常，体重无明显变化。既往体健。否认“高血压病”、“糖尿病”及其他全身性疾病史，否认外伤手术史及输血史，未发现药物食物过敏史。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "6021_颅内感染伴头痛发热1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "45岁"
+        },
+        "chief_complaint": "男性，45岁，因“反复头痛10余年，再发伴发热2天”入院。",
+        "present_illness": "患者10余年前始无明显诱因逐渐出现头痛，为右侧颞部阵发性疼痛，头痛似针扎或跳动样疼痛，描述不清，无明显压迫感及紧箍感，发作时无头晕、视物旋转、肢体抽搐，无畏光、畏声，无耳鸣、听力下降，无胸闷、冷汗，无气促、胸痛，无恶心、呕吐，无腹痛、腹泻，无意识不清、四肢抽搐，无肢体偏瘫、麻木，自诉与**无明显关系，多次发作，每次持续数小时或整日，休息不好后症状可加重，休息或睡眠后可缓解。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "多次就诊，予“颅通定”治疗后能好转。2天前感头痛症状加重，伴右侧头部皮肤针扎样疼痛，无呕吐，伴发热，最高体温40℃，查头颅CT“未见明显异常”，予“解热镇痛”药物治疗后，体温恢复正常，仍有剧烈头痛，再次来诊。起病来，患者饮食、睡眠欠佳，大小便正常，体重无明显变化。既往体健。否认“高血压病”、“糖尿病”及其他全身性疾病史，否认外伤手术史及输血史，未发现药物食物过敏史。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

@@ -1,0 +1,534 @@
+{
+  "case_id": "2929_子痫前期（重度）剖宫产麻醉问题讨论！",
+  "personal_info": {
+    "性别": "女",
+    "年龄": "27岁"
+  },
+  "chief_complaint": "麻醉实施过程：开放静脉通道，给氧，右卧位于L3~4行蛛网膜下腔穿刺，很顺利，CSF回流好，注入0.5%的布比卡因2.0ml（0.75%布比卡因2ml+10%GS1ml），10分钟后仍无麻醉平面，故改全麻。消毒铺巾后诱导**0.1mg，丙泊酚120mg，氯化***100mg，插管顺利，spo2：98%左右，听诊无异常，顺利剖出一女婴，评分好。然后**0.05mg，维库溴铵3mg，丙泊酚泵注。手术进行到20多分钟的时候，病人出spo2逐渐下降，监测PETco2，在20mmhg左右，掉到88%的时候手控呼吸，但spo2仍然一直下滑，直到80%时迅速拔管，面罩加压给氧。因为一个人麻醉，手控呼吸，（有一定阻力但不很大）所以当时没时间听诊，嘱速尿20mgiv，**20mgiv，然后请内科医生会诊，听诊未见异常呼吸音。病人spo2一直维持在82%~88%之间，直至病人自主呼吸恢复后spo2逐渐上升到94~98%之间，PETco2在26mmhg左右。听诊双肺清晰。术毕病人清醒，未述不适。带PCA泵回病房。（因为手术医生是一个新手，手术做了一个小时，术中开腹后见腹水500ml）术后访视：病人镇痛效果好，未述不适，spo2，96%左右。",
+  "present_illness": "",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "2929_子痫前期（重度）剖宫产麻醉问题讨论！",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "27岁"
+        },
+        "chief_complaint": "麻醉实施过程：开放静脉通道，给氧，右卧位于L3~4行蛛网膜下腔穿刺，很顺利，CSF回流好，注入0.5%的布比卡因2.0ml（0.75%布比卡因2ml+10%GS1ml），10分钟后仍无麻醉平面，故改全麻。消毒铺巾后诱导**0.1mg，丙泊酚120mg，氯化***100mg，插管顺利，spo2：98%左右，听诊无异常，顺利剖出一女婴，评分好。然后**0.05mg，维库溴铵3mg，丙泊酚泵注。手术进行到20多分钟的时候，病人出spo2逐渐下降，监测PETco2，在20mmhg左右，掉到88%的时候手控呼吸，但spo2仍然一直下滑，直到80%时迅速拔管，面罩加压给氧。因为一个人麻醉，手控呼吸，（有一定阻力但不很大）所以当时没时间听诊，嘱速尿20mgiv，**20mgiv，然后请内科医生会诊，听诊未见异常呼吸音。病人spo2一直维持在82%~88%之间，直至病人自主呼吸恢复后spo2逐渐上升到94~98%之间，PETco2在26mmhg左右。听诊双肺清晰。术毕病人清醒，未述不适。带PCA泵回病房。（因为手术医生是一个新手，手术做了一个小时，术中开腹后见腹水500ml）术后访视：病人镇痛效果好，未述不适，spo2，96%左右。",
+        "present_illness": "",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "2929_子痫前期（重度）剖宫产麻醉问题讨论！",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "27岁"
+        },
+        "chief_complaint": "麻醉实施过程：开放静脉通道，给氧，右卧位于L3~4行蛛网膜下腔穿刺，很顺利，CSF回流好，注入0.5%的布比卡因2.0ml（0.75%布比卡因2ml+10%GS1ml），10分钟后仍无麻醉平面，故改全麻。消毒铺巾后诱导**0.1mg，丙泊酚120mg，氯化***100mg，插管顺利，spo2：98%左右，听诊无异常，顺利剖出一女婴，评分好。然后**0.05mg，维库溴铵3mg，丙泊酚泵注。手术进行到20多分钟的时候，病人出spo2逐渐下降，监测PETco2，在20mmhg左右，掉到88%的时候手控呼吸，但spo2仍然一直下滑，直到80%时迅速拔管，面罩加压给氧。因为一个人麻醉，手控呼吸，（有一定阻力但不很大）所以当时没时间听诊，嘱速尿20mgiv，**20mgiv，然后请内科医生会诊，听诊未见异常呼吸音。病人spo2一直维持在82%~88%之间，直至病人自主呼吸恢复后spo2逐渐上升到94~98%之间，PETco2在26mmhg左右。听诊双肺清晰。术毕病人清醒，未述不适。带PCA泵回病房。（因为手术医生是一个新手，手术做了一个小时，术中开腹后见腹水500ml）术后访视：病人镇痛效果好，未述不适，spo2，96%左右。",
+        "present_illness": "",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "2929_子痫前期（重度）剖宫产麻醉问题讨论！",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "27岁"
+        },
+        "chief_complaint": "麻醉实施过程：开放静脉通道，给氧，右卧位于L3~4行蛛网膜下腔穿刺，很顺利，CSF回流好，注入0.5%的布比卡因2.0ml（0.75%布比卡因2ml+10%GS1ml），10分钟后仍无麻醉平面，故改全麻。消毒铺巾后诱导**0.1mg，丙泊酚120mg，氯化***100mg，插管顺利，spo2：98%左右，听诊无异常，顺利剖出一女婴，评分好。然后**0.05mg，维库溴铵3mg，丙泊酚泵注。手术进行到20多分钟的时候，病人出spo2逐渐下降，监测PETco2，在20mmhg左右，掉到88%的时候手控呼吸，但spo2仍然一直下滑，直到80%时迅速拔管，面罩加压给氧。因为一个人麻醉，手控呼吸，（有一定阻力但不很大）所以当时没时间听诊，嘱速尿20mgiv，**20mgiv，然后请内科医生会诊，听诊未见异常呼吸音。病人spo2一直维持在82%~88%之间，直至病人自主呼吸恢复后spo2逐渐上升到94~98%之间，PETco2在26mmhg左右。听诊双肺清晰。术毕病人清醒，未述不适。带PCA泵回病房。（因为手术医生是一个新手，手术做了一个小时，术中开腹后见腹水500ml）术后访视：病人镇痛效果好，未述不适，spo2，96%左右。",
+        "present_illness": "",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "2929_子痫前期（重度）剖宫产麻醉问题讨论！",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "27岁"
+        },
+        "chief_complaint": "麻醉实施过程：开放静脉通道，给氧，右卧位于L3~4行蛛网膜下腔穿刺，很顺利，CSF回流好，注入0.5%的布比卡因2.0ml（0.75%布比卡因2ml+10%GS1ml），10分钟后仍无麻醉平面，故改全麻。消毒铺巾后诱导**0.1mg，丙泊酚120mg，氯化***100mg，插管顺利，spo2：98%左右，听诊无异常，顺利剖出一女婴，评分好。然后**0.05mg，维库溴铵3mg，丙泊酚泵注。手术进行到20多分钟的时候，病人出spo2逐渐下降，监测PETco2，在20mmhg左右，掉到88%的时候手控呼吸，但spo2仍然一直下滑，直到80%时迅速拔管，面罩加压给氧。因为一个人麻醉，手控呼吸，（有一定阻力但不很大）所以当时没时间听诊，嘱速尿20mgiv，**20mgiv，然后请内科医生会诊，听诊未见异常呼吸音。病人spo2一直维持在82%~88%之间，直至病人自主呼吸恢复后spo2逐渐上升到94~98%之间，PETco2在26mmhg左右。听诊双肺清晰。术毕病人清醒，未述不适。带PCA泵回病房。（因为手术医生是一个新手，手术做了一个小时，术中开腹后见腹水500ml）术后访视：病人镇痛效果好，未述不适，spo2，96%左右。",
+        "present_illness": "",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "2929_子痫前期（重度）剖宫产麻醉问题讨论！",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "27岁"
+        },
+        "chief_complaint": "麻醉实施过程：开放静脉通道，给氧，右卧位于L3~4行蛛网膜下腔穿刺，很顺利，CSF回流好，注入0.5%的布比卡因2.0ml（0.75%布比卡因2ml+10%GS1ml），10分钟后仍无麻醉平面，故改全麻。消毒铺巾后诱导**0.1mg，丙泊酚120mg，氯化***100mg，插管顺利，spo2：98%左右，听诊无异常，顺利剖出一女婴，评分好。然后**0.05mg，维库溴铵3mg，丙泊酚泵注。手术进行到20多分钟的时候，病人出spo2逐渐下降，监测PETco2，在20mmhg左右，掉到88%的时候手控呼吸，但spo2仍然一直下滑，直到80%时迅速拔管，面罩加压给氧。因为一个人麻醉，手控呼吸，（有一定阻力但不很大）所以当时没时间听诊，嘱速尿20mgiv，**20mgiv，然后请内科医生会诊，听诊未见异常呼吸音。病人spo2一直维持在82%~88%之间，直至病人自主呼吸恢复后spo2逐渐上升到94~98%之间，PETco2在26mmhg左右。听诊双肺清晰。术毕病人清醒，未述不适。带PCA泵回病房。（因为手术医生是一个新手，手术做了一个小时，术中开腹后见腹水500ml）术后访视：病人镇痛效果好，未述不适，spo2，96%左右。",
+        "present_illness": "",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

@@ -1,0 +1,534 @@
+{
+  "case_id": "7089_反复发作性皮疹、呼吸困难",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "18岁"
+  },
+  "chief_complaint": "患者，男，18岁 反复发作性呼吸困难8个月，再发1天",
+  "present_illness": "患者于8个月前学校课间操结束与同学追逐跑动后约10分钟出现头皮发痒，并全身逐渐出现风团，呈大小不等的水肿性红斑，周围有红晕，瘙痒明显，无明显呼吸困难，无胸闷、胸痛；于学校医务室就诊，口服抗组胺药后皮疹消退。约1周后患者再次于课间操后出现上述症状，自服抗组胺药后症状无缓解，且出现喉咙堵塞感、呼吸困难，并出现头晕、意识不清，至当地医院就诊，测血压降低，予肾上腺素注射后症状缓解。2个月前患者长跑2400米10余分钟后再次出现上述症状，测血压低于正常（舒张压45mmHg），接受**肌注后数分钟内症状缓解。当日就诊于我院皮科，血过敏原筛查显示，患者对尘螨、粉螨、虾、蟹过敏。1天前患者再次于长跑2400米后约5分钟出现头皮发麻，全身瘙痒，但未出现皮疹，伴咽喉部堵塞感及呼吸困难，并出现意识不清，约15分钟后至我院急诊，期间出现小腿抽搐；经葡萄糖酸钙和甲泼尼龙静点后症状迅速缓解。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "患者上述4次运动前约1.5小时都曾有进食史。既往患慢性鼻炎多年。家族无类似疾病史。",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "7089_反复发作性皮疹、呼吸困难",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "18岁"
+        },
+        "chief_complaint": "患者，男，18岁 反复发作性呼吸困难8个月，再发1天",
+        "present_illness": "患者于8个月前学校课间操结束与同学追逐跑动后约10分钟出现头皮发痒，并全身逐渐出现风团，呈大小不等的水肿性红斑，周围有红晕，瘙痒明显，无明显呼吸困难，无胸闷、胸痛；于学校医务室就诊，口服抗组胺药后皮疹消退。约1周后患者再次于课间操后出现上述症状，自服抗组胺药后症状无缓解，且出现喉咙堵塞感、呼吸困难，并出现头晕、意识不清，至当地医院就诊，测血压降低，予肾上腺素注射后症状缓解。2个月前患者长跑2400米10余分钟后再次出现上述症状，测血压低于正常（舒张压45mmHg），接受**肌注后数分钟内症状缓解。当日就诊于我院皮科，血过敏原筛查显示，患者对尘螨、粉螨、虾、蟹过敏。1天前患者再次于长跑2400米后约5分钟出现头皮发麻，全身瘙痒，但未出现皮疹，伴咽喉部堵塞感及呼吸困难，并出现意识不清，约15分钟后至我院急诊，期间出现小腿抽搐；经葡萄糖酸钙和甲泼尼龙静点后症状迅速缓解。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "患者上述4次运动前约1.5小时都曾有进食史。既往患慢性鼻炎多年。家族无类似疾病史。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "7089_反复发作性皮疹、呼吸困难",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "18岁"
+        },
+        "chief_complaint": "患者，男，18岁 反复发作性呼吸困难8个月，再发1天",
+        "present_illness": "患者于8个月前学校课间操结束与同学追逐跑动后约10分钟出现头皮发痒，并全身逐渐出现风团，呈大小不等的水肿性红斑，周围有红晕，瘙痒明显，无明显呼吸困难，无胸闷、胸痛；于学校医务室就诊，口服抗组胺药后皮疹消退。约1周后患者再次于课间操后出现上述症状，自服抗组胺药后症状无缓解，且出现喉咙堵塞感、呼吸困难，并出现头晕、意识不清，至当地医院就诊，测血压降低，予肾上腺素注射后症状缓解。2个月前患者长跑2400米10余分钟后再次出现上述症状，测血压低于正常（舒张压45mmHg），接受**肌注后数分钟内症状缓解。当日就诊于我院皮科，血过敏原筛查显示，患者对尘螨、粉螨、虾、蟹过敏。1天前患者再次于长跑2400米后约5分钟出现头皮发麻，全身瘙痒，但未出现皮疹，伴咽喉部堵塞感及呼吸困难，并出现意识不清，约15分钟后至我院急诊，期间出现小腿抽搐；经葡萄糖酸钙和甲泼尼龙静点后症状迅速缓解。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "患者上述4次运动前约1.5小时都曾有进食史。既往患慢性鼻炎多年。家族无类似疾病史。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "7089_反复发作性皮疹、呼吸困难",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "18岁"
+        },
+        "chief_complaint": "患者，男，18岁 反复发作性呼吸困难8个月，再发1天",
+        "present_illness": "患者于8个月前学校课间操结束与同学追逐跑动后约10分钟出现头皮发痒，并全身逐渐出现风团，呈大小不等的水肿性红斑，周围有红晕，瘙痒明显，无明显呼吸困难，无胸闷、胸痛；于学校医务室就诊，口服抗组胺药后皮疹消退。约1周后患者再次于课间操后出现上述症状，自服抗组胺药后症状无缓解，且出现喉咙堵塞感、呼吸困难，并出现头晕、意识不清，至当地医院就诊，测血压降低，予肾上腺素注射后症状缓解。2个月前患者长跑2400米10余分钟后再次出现上述症状，测血压低于正常（舒张压45mmHg），接受**肌注后数分钟内症状缓解。当日就诊于我院皮科，血过敏原筛查显示，患者对尘螨、粉螨、虾、蟹过敏。1天前患者再次于长跑2400米后约5分钟出现头皮发麻，全身瘙痒，但未出现皮疹，伴咽喉部堵塞感及呼吸困难，并出现意识不清，约15分钟后至我院急诊，期间出现小腿抽搐；经葡萄糖酸钙和甲泼尼龙静点后症状迅速缓解。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "患者上述4次运动前约1.5小时都曾有进食史。既往患慢性鼻炎多年。家族无类似疾病史。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "7089_反复发作性皮疹、呼吸困难",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "18岁"
+        },
+        "chief_complaint": "患者，男，18岁 反复发作性呼吸困难8个月，再发1天",
+        "present_illness": "患者于8个月前学校课间操结束与同学追逐跑动后约10分钟出现头皮发痒，并全身逐渐出现风团，呈大小不等的水肿性红斑，周围有红晕，瘙痒明显，无明显呼吸困难，无胸闷、胸痛；于学校医务室就诊，口服抗组胺药后皮疹消退。约1周后患者再次于课间操后出现上述症状，自服抗组胺药后症状无缓解，且出现喉咙堵塞感、呼吸困难，并出现头晕、意识不清，至当地医院就诊，测血压降低，予肾上腺素注射后症状缓解。2个月前患者长跑2400米10余分钟后再次出现上述症状，测血压低于正常（舒张压45mmHg），接受**肌注后数分钟内症状缓解。当日就诊于我院皮科，血过敏原筛查显示，患者对尘螨、粉螨、虾、蟹过敏。1天前患者再次于长跑2400米后约5分钟出现头皮发麻，全身瘙痒，但未出现皮疹，伴咽喉部堵塞感及呼吸困难，并出现意识不清，约15分钟后至我院急诊，期间出现小腿抽搐；经葡萄糖酸钙和甲泼尼龙静点后症状迅速缓解。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "患者上述4次运动前约1.5小时都曾有进食史。既往患慢性鼻炎多年。家族无类似疾病史。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "7089_反复发作性皮疹、呼吸困难",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "18岁"
+        },
+        "chief_complaint": "患者，男，18岁 反复发作性呼吸困难8个月，再发1天",
+        "present_illness": "患者于8个月前学校课间操结束与同学追逐跑动后约10分钟出现头皮发痒，并全身逐渐出现风团，呈大小不等的水肿性红斑，周围有红晕，瘙痒明显，无明显呼吸困难，无胸闷、胸痛；于学校医务室就诊，口服抗组胺药后皮疹消退。约1周后患者再次于课间操后出现上述症状，自服抗组胺药后症状无缓解，且出现喉咙堵塞感、呼吸困难，并出现头晕、意识不清，至当地医院就诊，测血压降低，予肾上腺素注射后症状缓解。2个月前患者长跑2400米10余分钟后再次出现上述症状，测血压低于正常（舒张压45mmHg），接受**肌注后数分钟内症状缓解。当日就诊于我院皮科，血过敏原筛查显示，患者对尘螨、粉螨、虾、蟹过敏。1天前患者再次于长跑2400米后约5分钟出现头皮发麻，全身瘙痒，但未出现皮疹，伴咽喉部堵塞感及呼吸困难，并出现意识不清，约15分钟后至我院急诊，期间出现小腿抽搐；经葡萄糖酸钙和甲泼尼龙静点后症状迅速缓解。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "患者上述4次运动前约1.5小时都曾有进食史。既往患慢性鼻炎多年。家族无类似疾病史。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

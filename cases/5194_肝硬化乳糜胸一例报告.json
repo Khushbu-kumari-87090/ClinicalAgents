@@ -1,0 +1,534 @@
+{
+  "case_id": "5194_肝硬化乳糜胸一例报告",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "41岁"
+  },
+  "chief_complaint": "姜××，男，41岁。 主因乙肝病史23年，胸闷、呼吸困难半年，于2006年4月17日12时入院。",
+  "present_illness": "患者于23年前偶因体检发现乙肝表面抗原阳性，查肝功能正常，无恶心、呕吐，无腹胀、嗳气，无乏力、发热等症状，间断住院保肝治疗。患者曾于11年前和8年前两次使用干扰素治疗，每次使用时间约为2~3个月，但皆因出现严重不良反应不能耐受而停止使用。未曾使用核苷类似物抗乙肝病毒治疗。两年前曾因肝功异常而就诊于当地医院，经保肝对症治疗后肝功能未恢复正常，并出现胸水。半年前患者因出现明显的胸闷、呼吸困难来我院就诊，经保肝、利尿对症支持治疗后，胸水未见明显消退，胸闷、呼吸困难加重，治疗效果欠佳，后又曾转入**301医院，胸腔积液示：乳糜性胸水，经保肝、输白蛋白、利尿等治疗后胸水仍不见消退，遂转入**304医院胸外科治疗，2个月前在304医院放置胸腔引流管一根，每日引流胸腔积液1000~2000nd，为淡黄色，餐后出现乳白色浑浊，放置引流管后，患者自述胸闷、呼吸困难缓解，在304医院诊断为：肝硬化，脾亢，乳糜胸。为进一步治疗，转来我院，门诊以“肝炎肝硬化，失代偿期，乙型；2墅糖尿病’’收住院。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "患者既往无高血压、心脏病病史，2个月前诊断为2型糖尿病。有乙肝患者密切接触史，有乙肝家族史，有输白蛋白史，无输血史、手术史、外伤史。预防接种史不详，否认疫区及其他传染性疾病接触史，无食物、药物过敏史。饮酒史十余年，每日一斤白酒。吸烟史二十余年，80支/d.",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "5194_肝硬化乳糜胸一例报告",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "41岁"
+        },
+        "chief_complaint": "姜××，男，41岁。 主因乙肝病史23年，胸闷、呼吸困难半年，于2006年4月17日12时入院。",
+        "present_illness": "患者于23年前偶因体检发现乙肝表面抗原阳性，查肝功能正常，无恶心、呕吐，无腹胀、嗳气，无乏力、发热等症状，间断住院保肝治疗。患者曾于11年前和8年前两次使用干扰素治疗，每次使用时间约为2~3个月，但皆因出现严重不良反应不能耐受而停止使用。未曾使用核苷类似物抗乙肝病毒治疗。两年前曾因肝功异常而就诊于当地医院，经保肝对症治疗后肝功能未恢复正常，并出现胸水。半年前患者因出现明显的胸闷、呼吸困难来我院就诊，经保肝、利尿对症支持治疗后，胸水未见明显消退，胸闷、呼吸困难加重，治疗效果欠佳，后又曾转入**301医院，胸腔积液示：乳糜性胸水，经保肝、输白蛋白、利尿等治疗后胸水仍不见消退，遂转入**304医院胸外科治疗，2个月前在304医院放置胸腔引流管一根，每日引流胸腔积液1000~2000nd，为淡黄色，餐后出现乳白色浑浊，放置引流管后，患者自述胸闷、呼吸困难缓解，在304医院诊断为：肝硬化，脾亢，乳糜胸。为进一步治疗，转来我院，门诊以“肝炎肝硬化，失代偿期，乙型；2墅糖尿病’’收住院。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "患者既往无高血压、心脏病病史，2个月前诊断为2型糖尿病。有乙肝患者密切接触史，有乙肝家族史，有输白蛋白史，无输血史、手术史、外伤史。预防接种史不详，否认疫区及其他传染性疾病接触史，无食物、药物过敏史。饮酒史十余年，每日一斤白酒。吸烟史二十余年，80支/d.",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "5194_肝硬化乳糜胸一例报告",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "41岁"
+        },
+        "chief_complaint": "姜××，男，41岁。 主因乙肝病史23年，胸闷、呼吸困难半年，于2006年4月17日12时入院。",
+        "present_illness": "患者于23年前偶因体检发现乙肝表面抗原阳性，查肝功能正常，无恶心、呕吐，无腹胀、嗳气，无乏力、发热等症状，间断住院保肝治疗。患者曾于11年前和8年前两次使用干扰素治疗，每次使用时间约为2~3个月，但皆因出现严重不良反应不能耐受而停止使用。未曾使用核苷类似物抗乙肝病毒治疗。两年前曾因肝功异常而就诊于当地医院，经保肝对症治疗后肝功能未恢复正常，并出现胸水。半年前患者因出现明显的胸闷、呼吸困难来我院就诊，经保肝、利尿对症支持治疗后，胸水未见明显消退，胸闷、呼吸困难加重，治疗效果欠佳，后又曾转入**301医院，胸腔积液示：乳糜性胸水，经保肝、输白蛋白、利尿等治疗后胸水仍不见消退，遂转入**304医院胸外科治疗，2个月前在304医院放置胸腔引流管一根，每日引流胸腔积液1000~2000nd，为淡黄色，餐后出现乳白色浑浊，放置引流管后，患者自述胸闷、呼吸困难缓解，在304医院诊断为：肝硬化，脾亢，乳糜胸。为进一步治疗，转来我院，门诊以“肝炎肝硬化，失代偿期，乙型；2墅糖尿病’’收住院。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "患者既往无高血压、心脏病病史，2个月前诊断为2型糖尿病。有乙肝患者密切接触史，有乙肝家族史，有输白蛋白史，无输血史、手术史、外伤史。预防接种史不详，否认疫区及其他传染性疾病接触史，无食物、药物过敏史。饮酒史十余年，每日一斤白酒。吸烟史二十余年，80支/d.",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "5194_肝硬化乳糜胸一例报告",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "41岁"
+        },
+        "chief_complaint": "姜××，男，41岁。 主因乙肝病史23年，胸闷、呼吸困难半年，于2006年4月17日12时入院。",
+        "present_illness": "患者于23年前偶因体检发现乙肝表面抗原阳性，查肝功能正常，无恶心、呕吐，无腹胀、嗳气，无乏力、发热等症状，间断住院保肝治疗。患者曾于11年前和8年前两次使用干扰素治疗，每次使用时间约为2~3个月，但皆因出现严重不良反应不能耐受而停止使用。未曾使用核苷类似物抗乙肝病毒治疗。两年前曾因肝功异常而就诊于当地医院，经保肝对症治疗后肝功能未恢复正常，并出现胸水。半年前患者因出现明显的胸闷、呼吸困难来我院就诊，经保肝、利尿对症支持治疗后，胸水未见明显消退，胸闷、呼吸困难加重，治疗效果欠佳，后又曾转入**301医院，胸腔积液示：乳糜性胸水，经保肝、输白蛋白、利尿等治疗后胸水仍不见消退，遂转入**304医院胸外科治疗，2个月前在304医院放置胸腔引流管一根，每日引流胸腔积液1000~2000nd，为淡黄色，餐后出现乳白色浑浊，放置引流管后，患者自述胸闷、呼吸困难缓解，在304医院诊断为：肝硬化，脾亢，乳糜胸。为进一步治疗，转来我院，门诊以“肝炎肝硬化，失代偿期，乙型；2墅糖尿病’’收住院。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "患者既往无高血压、心脏病病史，2个月前诊断为2型糖尿病。有乙肝患者密切接触史，有乙肝家族史，有输白蛋白史，无输血史、手术史、外伤史。预防接种史不详，否认疫区及其他传染性疾病接触史，无食物、药物过敏史。饮酒史十余年，每日一斤白酒。吸烟史二十余年，80支/d.",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "5194_肝硬化乳糜胸一例报告",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "41岁"
+        },
+        "chief_complaint": "姜××，男，41岁。 主因乙肝病史23年，胸闷、呼吸困难半年，于2006年4月17日12时入院。",
+        "present_illness": "患者于23年前偶因体检发现乙肝表面抗原阳性，查肝功能正常，无恶心、呕吐，无腹胀、嗳气，无乏力、发热等症状，间断住院保肝治疗。患者曾于11年前和8年前两次使用干扰素治疗，每次使用时间约为2~3个月，但皆因出现严重不良反应不能耐受而停止使用。未曾使用核苷类似物抗乙肝病毒治疗。两年前曾因肝功异常而就诊于当地医院，经保肝对症治疗后肝功能未恢复正常，并出现胸水。半年前患者因出现明显的胸闷、呼吸困难来我院就诊，经保肝、利尿对症支持治疗后，胸水未见明显消退，胸闷、呼吸困难加重，治疗效果欠佳，后又曾转入**301医院，胸腔积液示：乳糜性胸水，经保肝、输白蛋白、利尿等治疗后胸水仍不见消退，遂转入**304医院胸外科治疗，2个月前在304医院放置胸腔引流管一根，每日引流胸腔积液1000~2000nd，为淡黄色，餐后出现乳白色浑浊，放置引流管后，患者自述胸闷、呼吸困难缓解，在304医院诊断为：肝硬化，脾亢，乳糜胸。为进一步治疗，转来我院，门诊以“肝炎肝硬化，失代偿期，乙型；2墅糖尿病’’收住院。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "患者既往无高血压、心脏病病史，2个月前诊断为2型糖尿病。有乙肝患者密切接触史，有乙肝家族史，有输白蛋白史，无输血史、手术史、外伤史。预防接种史不详，否认疫区及其他传染性疾病接触史，无食物、药物过敏史。饮酒史十余年，每日一斤白酒。吸烟史二十余年，80支/d.",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "5194_肝硬化乳糜胸一例报告",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "41岁"
+        },
+        "chief_complaint": "姜××，男，41岁。 主因乙肝病史23年，胸闷、呼吸困难半年，于2006年4月17日12时入院。",
+        "present_illness": "患者于23年前偶因体检发现乙肝表面抗原阳性，查肝功能正常，无恶心、呕吐，无腹胀、嗳气，无乏力、发热等症状，间断住院保肝治疗。患者曾于11年前和8年前两次使用干扰素治疗，每次使用时间约为2~3个月，但皆因出现严重不良反应不能耐受而停止使用。未曾使用核苷类似物抗乙肝病毒治疗。两年前曾因肝功异常而就诊于当地医院，经保肝对症治疗后肝功能未恢复正常，并出现胸水。半年前患者因出现明显的胸闷、呼吸困难来我院就诊，经保肝、利尿对症支持治疗后，胸水未见明显消退，胸闷、呼吸困难加重，治疗效果欠佳，后又曾转入**301医院，胸腔积液示：乳糜性胸水，经保肝、输白蛋白、利尿等治疗后胸水仍不见消退，遂转入**304医院胸外科治疗，2个月前在304医院放置胸腔引流管一根，每日引流胸腔积液1000~2000nd，为淡黄色，餐后出现乳白色浑浊，放置引流管后，患者自述胸闷、呼吸困难缓解，在304医院诊断为：肝硬化，脾亢，乳糜胸。为进一步治疗，转来我院，门诊以“肝炎肝硬化，失代偿期，乙型；2墅糖尿病’’收住院。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "患者既往无高血压、心脏病病史，2个月前诊断为2型糖尿病。有乙肝患者密切接触史，有乙肝家族史，有输白蛋白史，无输血史、手术史、外伤史。预防接种史不详，否认疫区及其他传染性疾病接触史，无食物、药物过敏史。饮酒史十余年，每日一斤白酒。吸烟史二十余年，80支/d.",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

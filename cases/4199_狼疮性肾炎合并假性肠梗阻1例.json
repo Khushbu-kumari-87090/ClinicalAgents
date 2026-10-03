@@ -1,0 +1,534 @@
+{
+  "case_id": "4199_狼疮性肾炎合并假性肠梗阻1例",
+  "personal_info": {
+    "性别": "女",
+    "年龄": "16岁"
+  },
+  "chief_complaint": "患者女，16岁 因“确诊系统性红斑狼疮（SLE）6个月，反复腹泻、呕吐4个月，加重3天”入院。",
+  "present_illness": "患者因先后出现眼睑及下肢水肿、尿蛋白和尿隐血、多个关节疼痛、血常规三系减少等，于6个月前来我科就诊，并被诊为SLE.其中，SLE疾病活动性指数（SLE-DAI）为11分，肾活检示狼疮性肾炎Ⅳ型[活动性指数（AI）6分，慢性指数（CI）0分].在0.5g/d甲泼尼龙冲击3天后，患者继续接受30mg/d**和0.75g/d吗替麦考酚酯治疗；后因抽血处感染而停用吗替麦考酚酯，**减至15mg/d，口服抗生素后好转出院。4个月前，患者无明显诱因出现上腹痛伴发热，无腹泻、呕吐，体温最高为39℃，第二次入住我科。检查结果示，肝酶升高、自身免疫性肝病相关抗体阴性。住院期间，患者出现腹胀、腹泻（黄色水样便），大便常规及细菌培养无异常；每天排尿10～15次，双肾B超提示肾盂、上段输尿管积水，膀胱残余尿量约84ml.患者接受抗感染、止泻等对症治疗，**增至45mg/d，消化道症状好转。磁共振成像（MRI）示双侧肾积水消失，肝酶下降，患者出院。3天前，患者再次无明显诱因地出现发热、畏寒。2天前，开始发生频繁呕吐，黄色稀水便3次/天，体温38.2℃，查血白细胞（WBC）10.3×109/L，中性粒细胞（N）83%.为进一步诊治，于2009年5月5日第三次入院。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "4199_狼疮性肾炎合并假性肠梗阻1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "16岁"
+        },
+        "chief_complaint": "患者女，16岁 因“确诊系统性红斑狼疮（SLE）6个月，反复腹泻、呕吐4个月，加重3天”入院。",
+        "present_illness": "患者因先后出现眼睑及下肢水肿、尿蛋白和尿隐血、多个关节疼痛、血常规三系减少等，于6个月前来我科就诊，并被诊为SLE.其中，SLE疾病活动性指数（SLE-DAI）为11分，肾活检示狼疮性肾炎Ⅳ型[活动性指数（AI）6分，慢性指数（CI）0分].在0.5g/d甲泼尼龙冲击3天后，患者继续接受30mg/d**和0.75g/d吗替麦考酚酯治疗；后因抽血处感染而停用吗替麦考酚酯，**减至15mg/d，口服抗生素后好转出院。4个月前，患者无明显诱因出现上腹痛伴发热，无腹泻、呕吐，体温最高为39℃，第二次入住我科。检查结果示，肝酶升高、自身免疫性肝病相关抗体阴性。住院期间，患者出现腹胀、腹泻（黄色水样便），大便常规及细菌培养无异常；每天排尿10～15次，双肾B超提示肾盂、上段输尿管积水，膀胱残余尿量约84ml.患者接受抗感染、止泻等对症治疗，**增至45mg/d，消化道症状好转。磁共振成像（MRI）示双侧肾积水消失，肝酶下降，患者出院。3天前，患者再次无明显诱因地出现发热、畏寒。2天前，开始发生频繁呕吐，黄色稀水便3次/天，体温38.2℃，查血白细胞（WBC）10.3×109/L，中性粒细胞（N）83%.为进一步诊治，于2009年5月5日第三次入院。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "4199_狼疮性肾炎合并假性肠梗阻1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "16岁"
+        },
+        "chief_complaint": "患者女，16岁 因“确诊系统性红斑狼疮（SLE）6个月，反复腹泻、呕吐4个月，加重3天”入院。",
+        "present_illness": "患者因先后出现眼睑及下肢水肿、尿蛋白和尿隐血、多个关节疼痛、血常规三系减少等，于6个月前来我科就诊，并被诊为SLE.其中，SLE疾病活动性指数（SLE-DAI）为11分，肾活检示狼疮性肾炎Ⅳ型[活动性指数（AI）6分，慢性指数（CI）0分].在0.5g/d甲泼尼龙冲击3天后，患者继续接受30mg/d**和0.75g/d吗替麦考酚酯治疗；后因抽血处感染而停用吗替麦考酚酯，**减至15mg/d，口服抗生素后好转出院。4个月前，患者无明显诱因出现上腹痛伴发热，无腹泻、呕吐，体温最高为39℃，第二次入住我科。检查结果示，肝酶升高、自身免疫性肝病相关抗体阴性。住院期间，患者出现腹胀、腹泻（黄色水样便），大便常规及细菌培养无异常；每天排尿10～15次，双肾B超提示肾盂、上段输尿管积水，膀胱残余尿量约84ml.患者接受抗感染、止泻等对症治疗，**增至45mg/d，消化道症状好转。磁共振成像（MRI）示双侧肾积水消失，肝酶下降，患者出院。3天前，患者再次无明显诱因地出现发热、畏寒。2天前，开始发生频繁呕吐，黄色稀水便3次/天，体温38.2℃，查血白细胞（WBC）10.3×109/L，中性粒细胞（N）83%.为进一步诊治，于2009年5月5日第三次入院。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "4199_狼疮性肾炎合并假性肠梗阻1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "16岁"
+        },
+        "chief_complaint": "患者女，16岁 因“确诊系统性红斑狼疮（SLE）6个月，反复腹泻、呕吐4个月，加重3天”入院。",
+        "present_illness": "患者因先后出现眼睑及下肢水肿、尿蛋白和尿隐血、多个关节疼痛、血常规三系减少等，于6个月前来我科就诊，并被诊为SLE.其中，SLE疾病活动性指数（SLE-DAI）为11分，肾活检示狼疮性肾炎Ⅳ型[活动性指数（AI）6分，慢性指数（CI）0分].在0.5g/d甲泼尼龙冲击3天后，患者继续接受30mg/d**和0.75g/d吗替麦考酚酯治疗；后因抽血处感染而停用吗替麦考酚酯，**减至15mg/d，口服抗生素后好转出院。4个月前，患者无明显诱因出现上腹痛伴发热，无腹泻、呕吐，体温最高为39℃，第二次入住我科。检查结果示，肝酶升高、自身免疫性肝病相关抗体阴性。住院期间，患者出现腹胀、腹泻（黄色水样便），大便常规及细菌培养无异常；每天排尿10～15次，双肾B超提示肾盂、上段输尿管积水，膀胱残余尿量约84ml.患者接受抗感染、止泻等对症治疗，**增至45mg/d，消化道症状好转。磁共振成像（MRI）示双侧肾积水消失，肝酶下降，患者出院。3天前，患者再次无明显诱因地出现发热、畏寒。2天前，开始发生频繁呕吐，黄色稀水便3次/天，体温38.2℃，查血白细胞（WBC）10.3×109/L，中性粒细胞（N）83%.为进一步诊治，于2009年5月5日第三次入院。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "4199_狼疮性肾炎合并假性肠梗阻1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "16岁"
+        },
+        "chief_complaint": "患者女，16岁 因“确诊系统性红斑狼疮（SLE）6个月，反复腹泻、呕吐4个月，加重3天”入院。",
+        "present_illness": "患者因先后出现眼睑及下肢水肿、尿蛋白和尿隐血、多个关节疼痛、血常规三系减少等，于6个月前来我科就诊，并被诊为SLE.其中，SLE疾病活动性指数（SLE-DAI）为11分，肾活检示狼疮性肾炎Ⅳ型[活动性指数（AI）6分，慢性指数（CI）0分].在0.5g/d甲泼尼龙冲击3天后，患者继续接受30mg/d**和0.75g/d吗替麦考酚酯治疗；后因抽血处感染而停用吗替麦考酚酯，**减至15mg/d，口服抗生素后好转出院。4个月前，患者无明显诱因出现上腹痛伴发热，无腹泻、呕吐，体温最高为39℃，第二次入住我科。检查结果示，肝酶升高、自身免疫性肝病相关抗体阴性。住院期间，患者出现腹胀、腹泻（黄色水样便），大便常规及细菌培养无异常；每天排尿10～15次，双肾B超提示肾盂、上段输尿管积水，膀胱残余尿量约84ml.患者接受抗感染、止泻等对症治疗，**增至45mg/d，消化道症状好转。磁共振成像（MRI）示双侧肾积水消失，肝酶下降，患者出院。3天前，患者再次无明显诱因地出现发热、畏寒。2天前，开始发生频繁呕吐，黄色稀水便3次/天，体温38.2℃，查血白细胞（WBC）10.3×109/L，中性粒细胞（N）83%.为进一步诊治，于2009年5月5日第三次入院。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "4199_狼疮性肾炎合并假性肠梗阻1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "16岁"
+        },
+        "chief_complaint": "患者女，16岁 因“确诊系统性红斑狼疮（SLE）6个月，反复腹泻、呕吐4个月，加重3天”入院。",
+        "present_illness": "患者因先后出现眼睑及下肢水肿、尿蛋白和尿隐血、多个关节疼痛、血常规三系减少等，于6个月前来我科就诊，并被诊为SLE.其中，SLE疾病活动性指数（SLE-DAI）为11分，肾活检示狼疮性肾炎Ⅳ型[活动性指数（AI）6分，慢性指数（CI）0分].在0.5g/d甲泼尼龙冲击3天后，患者继续接受30mg/d**和0.75g/d吗替麦考酚酯治疗；后因抽血处感染而停用吗替麦考酚酯，**减至15mg/d，口服抗生素后好转出院。4个月前，患者无明显诱因出现上腹痛伴发热，无腹泻、呕吐，体温最高为39℃，第二次入住我科。检查结果示，肝酶升高、自身免疫性肝病相关抗体阴性。住院期间，患者出现腹胀、腹泻（黄色水样便），大便常规及细菌培养无异常；每天排尿10～15次，双肾B超提示肾盂、上段输尿管积水，膀胱残余尿量约84ml.患者接受抗感染、止泻等对症治疗，**增至45mg/d，消化道症状好转。磁共振成像（MRI）示双侧肾积水消失，肝酶下降，患者出院。3天前，患者再次无明显诱因地出现发热、畏寒。2天前，开始发生频繁呕吐，黄色稀水便3次/天，体温38.2℃，查血白细胞（WBC）10.3×109/L，中性粒细胞（N）83%.为进一步诊治，于2009年5月5日第三次入院。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

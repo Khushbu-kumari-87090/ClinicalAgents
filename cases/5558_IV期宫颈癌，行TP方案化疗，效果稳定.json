@@ -1,0 +1,534 @@
+{
+  "case_id": "5558_IV期宫颈癌，行TP方案化疗，效果稳定",
+  "personal_info": {
+    "性别": "女",
+    "年龄": "55岁"
+  },
+  "chief_complaint": "确诊宫颈癌4月余，拟行化疗。",
+  "present_illness": "患者4个多月前因无明显诱因出现尿急、尿频、尿痛，伴下腹部疼痛、尿灼热感，在当地诊所给予抗炎治疗后仍感下腹部疼痛，遂就诊于当地医院，2020-12-21行子宫附件彩超示：宫腔内异常回声。2020-12-22行宫腔镜检查，宫颈组织活检病理示：(宫颈)癌，结合免疫组化符合子宫内膜样腺癌伴未分化癌.免疫组化结果ER(腺癌+)、PR(腺癌+)、P40(-)、CK5/6(-)、P16(弱+)、Vimentin(腺癌+)、CA(弱+)、Ki67(阳性率约30%)、P63(-)、CK(+)、CK7(腺癌弱(+))。子宫附件磁共振平扫+增强+弥散加权成像示：1。子宫颈-体及阴道肿块:符合子宫颈癌累及肌层、上段(III期)MRI表现。2.左侧附件区异常信号:黄体囊肿伴积血可能.后前往上级医院，行胸部CT示：1、双肺多发小/微小实性结节，符合转移瘤CT表现，建议结合PET-CT进一步检查.2.左侧第4肋骨不整。3.胆囊多发结石4.左侧肾上腺略增粗.上级医院考虑肿瘤晚期没有手术及放疗的机会，建议给予化疗。遂于2021-01-11给予TP方案化疗：紫杉醇300mg d1+顺铂60mg d1-2，q21。现为行进一步化疗来诊，门诊以“宫颈癌化疗后”收入院。患者自发病以来，神志清，精神科，饮食及夜间睡眠可，大便无异常，体重较前下降5Kg。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "否认高血压、冠心病、糖尿病等慢性疾病病史否认肝炎、结核等传染性疾病病史及密切接触史.否认重大外伤史.否认食物、药物过敏史.否认输血史.预防接种史不详. 生于原籍，否认近14天内有国外及国内中高风险疫情地区、其他有病例报告社区的旅行史或居住史；否认近14天内与新型冠状病毒感染者(核酸检测阳性者)有接触史；否认近14天内曾接触过来自国外、国外中高风险疫情区及周边地区、来自有病例报告社区的发热有呼吸道症状的患者；否认有冷链运输物品及运输人员接触史无外地久居史，无其他疫区居住史.否认职业病史及治游史.生活规律，无烟酒嗜好。",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "5558_IV期宫颈癌，行TP方案化疗，效果稳定",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "55岁"
+        },
+        "chief_complaint": "确诊宫颈癌4月余，拟行化疗。",
+        "present_illness": "患者4个多月前因无明显诱因出现尿急、尿频、尿痛，伴下腹部疼痛、尿灼热感，在当地诊所给予抗炎治疗后仍感下腹部疼痛，遂就诊于当地医院，2020-12-21行子宫附件彩超示：宫腔内异常回声。2020-12-22行宫腔镜检查，宫颈组织活检病理示：(宫颈)癌，结合免疫组化符合子宫内膜样腺癌伴未分化癌.免疫组化结果ER(腺癌+)、PR(腺癌+)、P40(-)、CK5/6(-)、P16(弱+)、Vimentin(腺癌+)、CA(弱+)、Ki67(阳性率约30%)、P63(-)、CK(+)、CK7(腺癌弱(+))。子宫附件磁共振平扫+增强+弥散加权成像示：1。子宫颈-体及阴道肿块:符合子宫颈癌累及肌层、上段(III期)MRI表现。2.左侧附件区异常信号:黄体囊肿伴积血可能.后前往上级医院，行胸部CT示：1、双肺多发小/微小实性结节，符合转移瘤CT表现，建议结合PET-CT进一步检查.2.左侧第4肋骨不整。3.胆囊多发结石4.左侧肾上腺略增粗.上级医院考虑肿瘤晚期没有手术及放疗的机会，建议给予化疗。遂于2021-01-11给予TP方案化疗：紫杉醇300mg d1+顺铂60mg d1-2，q21。现为行进一步化疗来诊，门诊以“宫颈癌化疗后”收入院。患者自发病以来，神志清，精神科，饮食及夜间睡眠可，大便无异常，体重较前下降5Kg。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "否认高血压、冠心病、糖尿病等慢性疾病病史否认肝炎、结核等传染性疾病病史及密切接触史.否认重大外伤史.否认食物、药物过敏史.否认输血史.预防接种史不详. 生于原籍，否认近14天内有国外及国内中高风险疫情地区、其他有病例报告社区的旅行史或居住史；否认近14天内与新型冠状病毒感染者(核酸检测阳性者)有接触史；否认近14天内曾接触过来自国外、国外中高风险疫情区及周边地区、来自有病例报告社区的发热有呼吸道症状的患者；否认有冷链运输物品及运输人员接触史无外地久居史，无其他疫区居住史.否认职业病史及治游史.生活规律，无烟酒嗜好。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "5558_IV期宫颈癌，行TP方案化疗，效果稳定",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "55岁"
+        },
+        "chief_complaint": "确诊宫颈癌4月余，拟行化疗。",
+        "present_illness": "患者4个多月前因无明显诱因出现尿急、尿频、尿痛，伴下腹部疼痛、尿灼热感，在当地诊所给予抗炎治疗后仍感下腹部疼痛，遂就诊于当地医院，2020-12-21行子宫附件彩超示：宫腔内异常回声。2020-12-22行宫腔镜检查，宫颈组织活检病理示：(宫颈)癌，结合免疫组化符合子宫内膜样腺癌伴未分化癌.免疫组化结果ER(腺癌+)、PR(腺癌+)、P40(-)、CK5/6(-)、P16(弱+)、Vimentin(腺癌+)、CA(弱+)、Ki67(阳性率约30%)、P63(-)、CK(+)、CK7(腺癌弱(+))。子宫附件磁共振平扫+增强+弥散加权成像示：1。子宫颈-体及阴道肿块:符合子宫颈癌累及肌层、上段(III期)MRI表现。2.左侧附件区异常信号:黄体囊肿伴积血可能.后前往上级医院，行胸部CT示：1、双肺多发小/微小实性结节，符合转移瘤CT表现，建议结合PET-CT进一步检查.2.左侧第4肋骨不整。3.胆囊多发结石4.左侧肾上腺略增粗.上级医院考虑肿瘤晚期没有手术及放疗的机会，建议给予化疗。遂于2021-01-11给予TP方案化疗：紫杉醇300mg d1+顺铂60mg d1-2，q21。现为行进一步化疗来诊，门诊以“宫颈癌化疗后”收入院。患者自发病以来，神志清，精神科，饮食及夜间睡眠可，大便无异常，体重较前下降5Kg。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认高血压、冠心病、糖尿病等慢性疾病病史否认肝炎、结核等传染性疾病病史及密切接触史.否认重大外伤史.否认食物、药物过敏史.否认输血史.预防接种史不详. 生于原籍，否认近14天内有国外及国内中高风险疫情地区、其他有病例报告社区的旅行史或居住史；否认近14天内与新型冠状病毒感染者(核酸检测阳性者)有接触史；否认近14天内曾接触过来自国外、国外中高风险疫情区及周边地区、来自有病例报告社区的发热有呼吸道症状的患者；否认有冷链运输物品及运输人员接触史无外地久居史，无其他疫区居住史.否认职业病史及治游史.生活规律，无烟酒嗜好。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "5558_IV期宫颈癌，行TP方案化疗，效果稳定",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "55岁"
+        },
+        "chief_complaint": "确诊宫颈癌4月余，拟行化疗。",
+        "present_illness": "患者4个多月前因无明显诱因出现尿急、尿频、尿痛，伴下腹部疼痛、尿灼热感，在当地诊所给予抗炎治疗后仍感下腹部疼痛，遂就诊于当地医院，2020-12-21行子宫附件彩超示：宫腔内异常回声。2020-12-22行宫腔镜检查，宫颈组织活检病理示：(宫颈)癌，结合免疫组化符合子宫内膜样腺癌伴未分化癌.免疫组化结果ER(腺癌+)、PR(腺癌+)、P40(-)、CK5/6(-)、P16(弱+)、Vimentin(腺癌+)、CA(弱+)、Ki67(阳性率约30%)、P63(-)、CK(+)、CK7(腺癌弱(+))。子宫附件磁共振平扫+增强+弥散加权成像示：1。子宫颈-体及阴道肿块:符合子宫颈癌累及肌层、上段(III期)MRI表现。2.左侧附件区异常信号:黄体囊肿伴积血可能.后前往上级医院，行胸部CT示：1、双肺多发小/微小实性结节，符合转移瘤CT表现，建议结合PET-CT进一步检查.2.左侧第4肋骨不整。3.胆囊多发结石4.左侧肾上腺略增粗.上级医院考虑肿瘤晚期没有手术及放疗的机会，建议给予化疗。遂于2021-01-11给予TP方案化疗：紫杉醇300mg d1+顺铂60mg d1-2，q21。现为行进一步化疗来诊，门诊以“宫颈癌化疗后”收入院。患者自发病以来，神志清，精神科，饮食及夜间睡眠可，大便无异常，体重较前下降5Kg。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认高血压、冠心病、糖尿病等慢性疾病病史否认肝炎、结核等传染性疾病病史及密切接触史.否认重大外伤史.否认食物、药物过敏史.否认输血史.预防接种史不详. 生于原籍，否认近14天内有国外及国内中高风险疫情地区、其他有病例报告社区的旅行史或居住史；否认近14天内与新型冠状病毒感染者(核酸检测阳性者)有接触史；否认近14天内曾接触过来自国外、国外中高风险疫情区及周边地区、来自有病例报告社区的发热有呼吸道症状的患者；否认有冷链运输物品及运输人员接触史无外地久居史，无其他疫区居住史.否认职业病史及治游史.生活规律，无烟酒嗜好。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "5558_IV期宫颈癌，行TP方案化疗，效果稳定",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "55岁"
+        },
+        "chief_complaint": "确诊宫颈癌4月余，拟行化疗。",
+        "present_illness": "患者4个多月前因无明显诱因出现尿急、尿频、尿痛，伴下腹部疼痛、尿灼热感，在当地诊所给予抗炎治疗后仍感下腹部疼痛，遂就诊于当地医院，2020-12-21行子宫附件彩超示：宫腔内异常回声。2020-12-22行宫腔镜检查，宫颈组织活检病理示：(宫颈)癌，结合免疫组化符合子宫内膜样腺癌伴未分化癌.免疫组化结果ER(腺癌+)、PR(腺癌+)、P40(-)、CK5/6(-)、P16(弱+)、Vimentin(腺癌+)、CA(弱+)、Ki67(阳性率约30%)、P63(-)、CK(+)、CK7(腺癌弱(+))。子宫附件磁共振平扫+增强+弥散加权成像示：1。子宫颈-体及阴道肿块:符合子宫颈癌累及肌层、上段(III期)MRI表现。2.左侧附件区异常信号:黄体囊肿伴积血可能.后前往上级医院，行胸部CT示：1、双肺多发小/微小实性结节，符合转移瘤CT表现，建议结合PET-CT进一步检查.2.左侧第4肋骨不整。3.胆囊多发结石4.左侧肾上腺略增粗.上级医院考虑肿瘤晚期没有手术及放疗的机会，建议给予化疗。遂于2021-01-11给予TP方案化疗：紫杉醇300mg d1+顺铂60mg d1-2，q21。现为行进一步化疗来诊，门诊以“宫颈癌化疗后”收入院。患者自发病以来，神志清，精神科，饮食及夜间睡眠可，大便无异常，体重较前下降5Kg。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认高血压、冠心病、糖尿病等慢性疾病病史否认肝炎、结核等传染性疾病病史及密切接触史.否认重大外伤史.否认食物、药物过敏史.否认输血史.预防接种史不详. 生于原籍，否认近14天内有国外及国内中高风险疫情地区、其他有病例报告社区的旅行史或居住史；否认近14天内与新型冠状病毒感染者(核酸检测阳性者)有接触史；否认近14天内曾接触过来自国外、国外中高风险疫情区及周边地区、来自有病例报告社区的发热有呼吸道症状的患者；否认有冷链运输物品及运输人员接触史无外地久居史，无其他疫区居住史.否认职业病史及治游史.生活规律，无烟酒嗜好。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "5558_IV期宫颈癌，行TP方案化疗，效果稳定",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "55岁"
+        },
+        "chief_complaint": "确诊宫颈癌4月余，拟行化疗。",
+        "present_illness": "患者4个多月前因无明显诱因出现尿急、尿频、尿痛，伴下腹部疼痛、尿灼热感，在当地诊所给予抗炎治疗后仍感下腹部疼痛，遂就诊于当地医院，2020-12-21行子宫附件彩超示：宫腔内异常回声。2020-12-22行宫腔镜检查，宫颈组织活检病理示：(宫颈)癌，结合免疫组化符合子宫内膜样腺癌伴未分化癌.免疫组化结果ER(腺癌+)、PR(腺癌+)、P40(-)、CK5/6(-)、P16(弱+)、Vimentin(腺癌+)、CA(弱+)、Ki67(阳性率约30%)、P63(-)、CK(+)、CK7(腺癌弱(+))。子宫附件磁共振平扫+增强+弥散加权成像示：1。子宫颈-体及阴道肿块:符合子宫颈癌累及肌层、上段(III期)MRI表现。2.左侧附件区异常信号:黄体囊肿伴积血可能.后前往上级医院，行胸部CT示：1、双肺多发小/微小实性结节，符合转移瘤CT表现，建议结合PET-CT进一步检查.2.左侧第4肋骨不整。3.胆囊多发结石4.左侧肾上腺略增粗.上级医院考虑肿瘤晚期没有手术及放疗的机会，建议给予化疗。遂于2021-01-11给予TP方案化疗：紫杉醇300mg d1+顺铂60mg d1-2，q21。现为行进一步化疗来诊，门诊以“宫颈癌化疗后”收入院。患者自发病以来，神志清，精神科，饮食及夜间睡眠可，大便无异常，体重较前下降5Kg。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认高血压、冠心病、糖尿病等慢性疾病病史否认肝炎、结核等传染性疾病病史及密切接触史.否认重大外伤史.否认食物、药物过敏史.否认输血史.预防接种史不详. 生于原籍，否认近14天内有国外及国内中高风险疫情地区、其他有病例报告社区的旅行史或居住史；否认近14天内与新型冠状病毒感染者(核酸检测阳性者)有接触史；否认近14天内曾接触过来自国外、国外中高风险疫情区及周边地区、来自有病例报告社区的发热有呼吸道症状的患者；否认有冷链运输物品及运输人员接触史无外地久居史，无其他疫区居住史.否认职业病史及治游史.生活规律，无烟酒嗜好。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

@@ -1,0 +1,534 @@
+{
+  "case_id": "3978_水肿、蛋白尿",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "67岁"
+  },
+  "chief_complaint": "BP135/75mmHg,P80次/分，双肺呼吸音低，未闻及明显干湿啰音，心律齐，各瓣膜听诊区未闻及明显杂音，腹软，全腹无压痛、反跳痛，双下肢不肿。本例老年男性患者，临床上以咳嗽、咯痰、发热起病，伴有乏力、体重减轻等消耗性症状。实验室检查发现有血沉增快，PPD可疑强阳性；胸部CT为弥漫性结节。需高度怀疑粟粒性结核以及恶性肿瘤多发转移。 血常规：白细胞7.73×109/L,血红蛋白128g/L,血小板248×109/L;肝功能：总蛋白88g/L,白蛋白30g/L,总胆红素28.4μmol/L,直接胆红素11.6μmol/L,前白蛋白73mg/L;血沉：96mm/1h.尿常规：蛋白微量，未见红白细胞。T/F前列腺特异抗原（PSA）、甲胎蛋白（AFP）未见明显异常；C反应蛋白（CRP）79.8mg/L;Ig定量：IgG31.5g/L,IgA7.93g/L;蛋白电泳：Alb34.2%,α15.4%,β13.9%,β28.3%,γ38%.多次痰抗酸染色阴性；尿抗酸染色阴性。PET示：双肺弥漫分布代谢增高结节，呈不均匀小结节状，标准摄取值（SUV）约1.5——3.7,以双上肺为著；右骶髂关节和左坐骨区见异常代谢增高灶，左腋下、两侧颌后和后颈部淋巴结代谢增高，大小约0.8——1.2cm,SUV约1.1——3.6;肝脾普遍代谢增高，前列腺（偏左）见一异常代谢增高灶，大小约2.5cm,SUV约4.4.骨γ显像：右骶髂关节异常所见，恶性病变可能性大。前列腺B超：未见明显异常。胸部CT示两肺弥漫结节网格影，以上肺为重，首先考虑肿瘤肺内转移，TB待除外；纵膈内肿大淋巴结影，大小未见明显变化；右上肺钙化条索影，及左上肺点状钙化，纵膈内血管、淋巴结钙化同前。腹盆腔CT:左肾囊肿；腰椎、骶髂关节CT：L4/5椎间盘突出，右骶髂关节骨破坏。头颅增强MRI：脑内广泛分布异常强化结节，伴周围水肿；老年性脑改变。综上各项检查所见，诊断考虑患者肿瘤转移可能性大，结核不除外。因此给予异烟肼、乙胺丁醇、阿米卡星抗结核治疗，并加强保肝、支持治疗。经上述处理后患者体温逐渐降至正常，复查血沉较前无明显变化。患者PET显示存在全身多发代谢增高区，但由于PET阳性预测值低，PET提示高代谢活性病灶而最终确诊为感染性、炎性或肉芽肿性疾病者并不少见。因此患者入院后即给予抗结核治疗，随后体温降至正常，但血沉无明显变化，并且多次痰检未找到结核杆菌。目前在无结核杆菌感染的确切证据，同时抗结核效果不理想情况下，考虑寻找病理学标本。PET提示患者有全身多发代谢增高区，尤其有前列腺区代谢增高灶，高度怀疑前列腺肿瘤全身多发转移。患者血PSA不高不支持前列腺肿瘤，但有学者指出有高达21%的前列腺癌患者血清PSA不高，因此血PSA正常不能排除前列腺癌，下一步可行前列腺穿刺活检。行前列腺穿刺活检。病理提示少许前列腺组织显慢性炎，部分有坏死及肉芽肿形成。免疫组化：PSA（+），P63（+），CK34βE（+），P504（-）。前列腺穿刺活检病理结果无阳性发现。使诊断与治疗再次陷入迷茫状态。下一步可以选择的检查包括有支气管检查，可经支气管镜活检，并作肺泡灌洗；CT引导下肺穿刺活检以及CT引导下骶髂关节穿刺活检。但患者一般情况差，耐受支气管镜可能存在一定风险，同时若确实为转移癌支气管镜灌洗、活检阳性率低。骶髂关节活检相对安全，但考虑不论结核或肿瘤累及关节均造成坏死，可能活检无特殊发现。肺活检虽然存在造成气胸以及术后咯血风险，但考虑其对于明确诊断意义重大，并且若出现气胸也可在CT下及时发现，因此首选肺活检。CT引导下行肺穿刺活检，病理回报：少许肺组织显慢性炎，肺泡间隔增宽，肺泡上皮轻度增生，另见片状凝固样坏死及上皮样细胞，符合结核。特染：抗酸染色找到抗酸杆菌。AB/PAS（-）；六胺银（-）。腰穿，脑脊液透明清亮，压力165mmH2O,脑脊液常规：细胞总数4个/mm3;脑脊液生化：蛋白0.4g/L,葡萄糖3.4mmol/L,氯124mmol/L;脑脊液抗酸染色阴性。",
+  "present_illness": "患者1周来尿中泡沫略增多，偶有晨起眼睑水肿，无下肢水肿、尿色发红等。3天前查体，发现血白蛋白（ALB）29g/L[正常值（35——51）g/L],总蛋白（TP）54g/L[（60——80）g/L];血甘油三酯（TG）1.82mmol/L[（1.45——1.70）mmol/L],低密度脂蛋白胆固醇（LDL-C）3.96mmol/L[（2.07——3.63）mmol/L],高密度脂蛋白胆固醇（HDL-C）0.87mmol/L[（0.93——1.81）mmol/L];转氨酶、血糖和肾功能正常。尿蛋白（Pro）>3.0g/L（正常阴性），潜血（Bld）微量（正常阴性），尿沉渣见颗粒管型；24小时尿蛋白定量9.15g（正常值﹤0.15g/24h）。泌尿系B超未见异常。患者2个月前查尿常规正常。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "患高血压10余年，最高150/100mmHg,长期口服苯磺酸氨氯地平（络活喜）5mgqd,血压控制满意。7年前曾患“急性肾盂肾炎”.无糖尿病病史。50年前查体发现左上肺结核，未规律治疗。对链霉素及磺胺过敏。",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "3978_水肿、蛋白尿",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "67岁"
+        },
+        "chief_complaint": "BP135/75mmHg,P80次/分，双肺呼吸音低，未闻及明显干湿啰音，心律齐，各瓣膜听诊区未闻及明显杂音，腹软，全腹无压痛、反跳痛，双下肢不肿。本例老年男性患者，临床上以咳嗽、咯痰、发热起病，伴有乏力、体重减轻等消耗性症状。实验室检查发现有血沉增快，PPD可疑强阳性；胸部CT为弥漫性结节。需高度怀疑粟粒性结核以及恶性肿瘤多发转移。 血常规：白细胞7.73×109/L,血红蛋白128g/L,血小板248×109/L;肝功能：总蛋白88g/L,白蛋白30g/L,总胆红素28.4μmol/L,直接胆红素11.6μmol/L,前白蛋白73mg/L;血沉：96mm/1h.尿常规：蛋白微量，未见红白细胞。T/F前列腺特异抗原（PSA）、甲胎蛋白（AFP）未见明显异常；C反应蛋白（CRP）79.8mg/L;Ig定量：IgG31.5g/L,IgA7.93g/L;蛋白电泳：Alb34.2%,α15.4%,β13.9%,β28.3%,γ38%.多次痰抗酸染色阴性；尿抗酸染色阴性。PET示：双肺弥漫分布代谢增高结节，呈不均匀小结节状，标准摄取值（SUV）约1.5——3.7,以双上肺为著；右骶髂关节和左坐骨区见异常代谢增高灶，左腋下、两侧颌后和后颈部淋巴结代谢增高，大小约0.8——1.2cm,SUV约1.1——3.6;肝脾普遍代谢增高，前列腺（偏左）见一异常代谢增高灶，大小约2.5cm,SUV约4.4.骨γ显像：右骶髂关节异常所见，恶性病变可能性大。前列腺B超：未见明显异常。胸部CT示两肺弥漫结节网格影，以上肺为重，首先考虑肿瘤肺内转移，TB待除外；纵膈内肿大淋巴结影，大小未见明显变化；右上肺钙化条索影，及左上肺点状钙化，纵膈内血管、淋巴结钙化同前。腹盆腔CT:左肾囊肿；腰椎、骶髂关节CT：L4/5椎间盘突出，右骶髂关节骨破坏。头颅增强MRI：脑内广泛分布异常强化结节，伴周围水肿；老年性脑改变。综上各项检查所见，诊断考虑患者肿瘤转移可能性大，结核不除外。因此给予异烟肼、乙胺丁醇、阿米卡星抗结核治疗，并加强保肝、支持治疗。经上述处理后患者体温逐渐降至正常，复查血沉较前无明显变化。患者PET显示存在全身多发代谢增高区，但由于PET阳性预测值低，PET提示高代谢活性病灶而最终确诊为感染性、炎性或肉芽肿性疾病者并不少见。因此患者入院后即给予抗结核治疗，随后体温降至正常，但血沉无明显变化，并且多次痰检未找到结核杆菌。目前在无结核杆菌感染的确切证据，同时抗结核效果不理想情况下，考虑寻找病理学标本。PET提示患者有全身多发代谢增高区，尤其有前列腺区代谢增高灶，高度怀疑前列腺肿瘤全身多发转移。患者血PSA不高不支持前列腺肿瘤，但有学者指出有高达21%的前列腺癌患者血清PSA不高，因此血PSA正常不能排除前列腺癌，下一步可行前列腺穿刺活检。行前列腺穿刺活检。病理提示少许前列腺组织显慢性炎，部分有坏死及肉芽肿形成。免疫组化：PSA（+），P63（+），CK34βE（+），P504（-）。前列腺穿刺活检病理结果无阳性发现。使诊断与治疗再次陷入迷茫状态。下一步可以选择的检查包括有支气管检查，可经支气管镜活检，并作肺泡灌洗；CT引导下肺穿刺活检以及CT引导下骶髂关节穿刺活检。但患者一般情况差，耐受支气管镜可能存在一定风险，同时若确实为转移癌支气管镜灌洗、活检阳性率低。骶髂关节活检相对安全，但考虑不论结核或肿瘤累及关节均造成坏死，可能活检无特殊发现。肺活检虽然存在造成气胸以及术后咯血风险，但考虑其对于明确诊断意义重大，并且若出现气胸也可在CT下及时发现，因此首选肺活检。CT引导下行肺穿刺活检，病理回报：少许肺组织显慢性炎，肺泡间隔增宽，肺泡上皮轻度增生，另见片状凝固样坏死及上皮样细胞，符合结核。特染：抗酸染色找到抗酸杆菌。AB/PAS（-）；六胺银（-）。腰穿，脑脊液透明清亮，压力165mmH2O,脑脊液常规：细胞总数4个/mm3;脑脊液生化：蛋白0.4g/L,葡萄糖3.4mmol/L,氯124mmol/L;脑脊液抗酸染色阴性。",
+        "present_illness": "患者1周来尿中泡沫略增多，偶有晨起眼睑水肿，无下肢水肿、尿色发红等。3天前查体，发现血白蛋白（ALB）29g/L[正常值（35——51）g/L],总蛋白（TP）54g/L[（60——80）g/L];血甘油三酯（TG）1.82mmol/L[（1.45——1.70）mmol/L],低密度脂蛋白胆固醇（LDL-C）3.96mmol/L[（2.07——3.63）mmol/L],高密度脂蛋白胆固醇（HDL-C）0.87mmol/L[（0.93——1.81）mmol/L];转氨酶、血糖和肾功能正常。尿蛋白（Pro）>3.0g/L（正常阴性），潜血（Bld）微量（正常阴性），尿沉渣见颗粒管型；24小时尿蛋白定量9.15g（正常值﹤0.15g/24h）。泌尿系B超未见异常。患者2个月前查尿常规正常。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "患高血压10余年，最高150/100mmHg,长期口服苯磺酸氨氯地平（络活喜）5mgqd,血压控制满意。7年前曾患“急性肾盂肾炎”.无糖尿病病史。50年前查体发现左上肺结核，未规律治疗。对链霉素及磺胺过敏。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "3978_水肿、蛋白尿",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "67岁"
+        },
+        "chief_complaint": "BP135/75mmHg,P80次/分，双肺呼吸音低，未闻及明显干湿啰音，心律齐，各瓣膜听诊区未闻及明显杂音，腹软，全腹无压痛、反跳痛，双下肢不肿。本例老年男性患者，临床上以咳嗽、咯痰、发热起病，伴有乏力、体重减轻等消耗性症状。实验室检查发现有血沉增快，PPD可疑强阳性；胸部CT为弥漫性结节。需高度怀疑粟粒性结核以及恶性肿瘤多发转移。 血常规：白细胞7.73×109/L,血红蛋白128g/L,血小板248×109/L;肝功能：总蛋白88g/L,白蛋白30g/L,总胆红素28.4μmol/L,直接胆红素11.6μmol/L,前白蛋白73mg/L;血沉：96mm/1h.尿常规：蛋白微量，未见红白细胞。T/F前列腺特异抗原（PSA）、甲胎蛋白（AFP）未见明显异常；C反应蛋白（CRP）79.8mg/L;Ig定量：IgG31.5g/L,IgA7.93g/L;蛋白电泳：Alb34.2%,α15.4%,β13.9%,β28.3%,γ38%.多次痰抗酸染色阴性；尿抗酸染色阴性。PET示：双肺弥漫分布代谢增高结节，呈不均匀小结节状，标准摄取值（SUV）约1.5——3.7,以双上肺为著；右骶髂关节和左坐骨区见异常代谢增高灶，左腋下、两侧颌后和后颈部淋巴结代谢增高，大小约0.8——1.2cm,SUV约1.1——3.6;肝脾普遍代谢增高，前列腺（偏左）见一异常代谢增高灶，大小约2.5cm,SUV约4.4.骨γ显像：右骶髂关节异常所见，恶性病变可能性大。前列腺B超：未见明显异常。胸部CT示两肺弥漫结节网格影，以上肺为重，首先考虑肿瘤肺内转移，TB待除外；纵膈内肿大淋巴结影，大小未见明显变化；右上肺钙化条索影，及左上肺点状钙化，纵膈内血管、淋巴结钙化同前。腹盆腔CT:左肾囊肿；腰椎、骶髂关节CT：L4/5椎间盘突出，右骶髂关节骨破坏。头颅增强MRI：脑内广泛分布异常强化结节，伴周围水肿；老年性脑改变。综上各项检查所见，诊断考虑患者肿瘤转移可能性大，结核不除外。因此给予异烟肼、乙胺丁醇、阿米卡星抗结核治疗，并加强保肝、支持治疗。经上述处理后患者体温逐渐降至正常，复查血沉较前无明显变化。患者PET显示存在全身多发代谢增高区，但由于PET阳性预测值低，PET提示高代谢活性病灶而最终确诊为感染性、炎性或肉芽肿性疾病者并不少见。因此患者入院后即给予抗结核治疗，随后体温降至正常，但血沉无明显变化，并且多次痰检未找到结核杆菌。目前在无结核杆菌感染的确切证据，同时抗结核效果不理想情况下，考虑寻找病理学标本。PET提示患者有全身多发代谢增高区，尤其有前列腺区代谢增高灶，高度怀疑前列腺肿瘤全身多发转移。患者血PSA不高不支持前列腺肿瘤，但有学者指出有高达21%的前列腺癌患者血清PSA不高，因此血PSA正常不能排除前列腺癌，下一步可行前列腺穿刺活检。行前列腺穿刺活检。病理提示少许前列腺组织显慢性炎，部分有坏死及肉芽肿形成。免疫组化：PSA（+），P63（+），CK34βE（+），P504（-）。前列腺穿刺活检病理结果无阳性发现。使诊断与治疗再次陷入迷茫状态。下一步可以选择的检查包括有支气管检查，可经支气管镜活检，并作肺泡灌洗；CT引导下肺穿刺活检以及CT引导下骶髂关节穿刺活检。但患者一般情况差，耐受支气管镜可能存在一定风险，同时若确实为转移癌支气管镜灌洗、活检阳性率低。骶髂关节活检相对安全，但考虑不论结核或肿瘤累及关节均造成坏死，可能活检无特殊发现。肺活检虽然存在造成气胸以及术后咯血风险，但考虑其对于明确诊断意义重大，并且若出现气胸也可在CT下及时发现，因此首选肺活检。CT引导下行肺穿刺活检，病理回报：少许肺组织显慢性炎，肺泡间隔增宽，肺泡上皮轻度增生，另见片状凝固样坏死及上皮样细胞，符合结核。特染：抗酸染色找到抗酸杆菌。AB/PAS（-）；六胺银（-）。腰穿，脑脊液透明清亮，压力165mmH2O,脑脊液常规：细胞总数4个/mm3;脑脊液生化：蛋白0.4g/L,葡萄糖3.4mmol/L,氯124mmol/L;脑脊液抗酸染色阴性。",
+        "present_illness": "患者1周来尿中泡沫略增多，偶有晨起眼睑水肿，无下肢水肿、尿色发红等。3天前查体，发现血白蛋白（ALB）29g/L[正常值（35——51）g/L],总蛋白（TP）54g/L[（60——80）g/L];血甘油三酯（TG）1.82mmol/L[（1.45——1.70）mmol/L],低密度脂蛋白胆固醇（LDL-C）3.96mmol/L[（2.07——3.63）mmol/L],高密度脂蛋白胆固醇（HDL-C）0.87mmol/L[（0.93——1.81）mmol/L];转氨酶、血糖和肾功能正常。尿蛋白（Pro）>3.0g/L（正常阴性），潜血（Bld）微量（正常阴性），尿沉渣见颗粒管型；24小时尿蛋白定量9.15g（正常值﹤0.15g/24h）。泌尿系B超未见异常。患者2个月前查尿常规正常。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "患高血压10余年，最高150/100mmHg,长期口服苯磺酸氨氯地平（络活喜）5mgqd,血压控制满意。7年前曾患“急性肾盂肾炎”.无糖尿病病史。50年前查体发现左上肺结核，未规律治疗。对链霉素及磺胺过敏。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "3978_水肿、蛋白尿",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "67岁"
+        },
+        "chief_complaint": "BP135/75mmHg,P80次/分，双肺呼吸音低，未闻及明显干湿啰音，心律齐，各瓣膜听诊区未闻及明显杂音，腹软，全腹无压痛、反跳痛，双下肢不肿。本例老年男性患者，临床上以咳嗽、咯痰、发热起病，伴有乏力、体重减轻等消耗性症状。实验室检查发现有血沉增快，PPD可疑强阳性；胸部CT为弥漫性结节。需高度怀疑粟粒性结核以及恶性肿瘤多发转移。 血常规：白细胞7.73×109/L,血红蛋白128g/L,血小板248×109/L;肝功能：总蛋白88g/L,白蛋白30g/L,总胆红素28.4μmol/L,直接胆红素11.6μmol/L,前白蛋白73mg/L;血沉：96mm/1h.尿常规：蛋白微量，未见红白细胞。T/F前列腺特异抗原（PSA）、甲胎蛋白（AFP）未见明显异常；C反应蛋白（CRP）79.8mg/L;Ig定量：IgG31.5g/L,IgA7.93g/L;蛋白电泳：Alb34.2%,α15.4%,β13.9%,β28.3%,γ38%.多次痰抗酸染色阴性；尿抗酸染色阴性。PET示：双肺弥漫分布代谢增高结节，呈不均匀小结节状，标准摄取值（SUV）约1.5——3.7,以双上肺为著；右骶髂关节和左坐骨区见异常代谢增高灶，左腋下、两侧颌后和后颈部淋巴结代谢增高，大小约0.8——1.2cm,SUV约1.1——3.6;肝脾普遍代谢增高，前列腺（偏左）见一异常代谢增高灶，大小约2.5cm,SUV约4.4.骨γ显像：右骶髂关节异常所见，恶性病变可能性大。前列腺B超：未见明显异常。胸部CT示两肺弥漫结节网格影，以上肺为重，首先考虑肿瘤肺内转移，TB待除外；纵膈内肿大淋巴结影，大小未见明显变化；右上肺钙化条索影，及左上肺点状钙化，纵膈内血管、淋巴结钙化同前。腹盆腔CT:左肾囊肿；腰椎、骶髂关节CT：L4/5椎间盘突出，右骶髂关节骨破坏。头颅增强MRI：脑内广泛分布异常强化结节，伴周围水肿；老年性脑改变。综上各项检查所见，诊断考虑患者肿瘤转移可能性大，结核不除外。因此给予异烟肼、乙胺丁醇、阿米卡星抗结核治疗，并加强保肝、支持治疗。经上述处理后患者体温逐渐降至正常，复查血沉较前无明显变化。患者PET显示存在全身多发代谢增高区，但由于PET阳性预测值低，PET提示高代谢活性病灶而最终确诊为感染性、炎性或肉芽肿性疾病者并不少见。因此患者入院后即给予抗结核治疗，随后体温降至正常，但血沉无明显变化，并且多次痰检未找到结核杆菌。目前在无结核杆菌感染的确切证据，同时抗结核效果不理想情况下，考虑寻找病理学标本。PET提示患者有全身多发代谢增高区，尤其有前列腺区代谢增高灶，高度怀疑前列腺肿瘤全身多发转移。患者血PSA不高不支持前列腺肿瘤，但有学者指出有高达21%的前列腺癌患者血清PSA不高，因此血PSA正常不能排除前列腺癌，下一步可行前列腺穿刺活检。行前列腺穿刺活检。病理提示少许前列腺组织显慢性炎，部分有坏死及肉芽肿形成。免疫组化：PSA（+），P63（+），CK34βE（+），P504（-）。前列腺穿刺活检病理结果无阳性发现。使诊断与治疗再次陷入迷茫状态。下一步可以选择的检查包括有支气管检查，可经支气管镜活检，并作肺泡灌洗；CT引导下肺穿刺活检以及CT引导下骶髂关节穿刺活检。但患者一般情况差，耐受支气管镜可能存在一定风险，同时若确实为转移癌支气管镜灌洗、活检阳性率低。骶髂关节活检相对安全，但考虑不论结核或肿瘤累及关节均造成坏死，可能活检无特殊发现。肺活检虽然存在造成气胸以及术后咯血风险，但考虑其对于明确诊断意义重大，并且若出现气胸也可在CT下及时发现，因此首选肺活检。CT引导下行肺穿刺活检，病理回报：少许肺组织显慢性炎，肺泡间隔增宽，肺泡上皮轻度增生，另见片状凝固样坏死及上皮样细胞，符合结核。特染：抗酸染色找到抗酸杆菌。AB/PAS（-）；六胺银（-）。腰穿，脑脊液透明清亮，压力165mmH2O,脑脊液常规：细胞总数4个/mm3;脑脊液生化：蛋白0.4g/L,葡萄糖3.4mmol/L,氯124mmol/L;脑脊液抗酸染色阴性。",
+        "present_illness": "患者1周来尿中泡沫略增多，偶有晨起眼睑水肿，无下肢水肿、尿色发红等。3天前查体，发现血白蛋白（ALB）29g/L[正常值（35——51）g/L],总蛋白（TP）54g/L[（60——80）g/L];血甘油三酯（TG）1.82mmol/L[（1.45——1.70）mmol/L],低密度脂蛋白胆固醇（LDL-C）3.96mmol/L[（2.07——3.63）mmol/L],高密度脂蛋白胆固醇（HDL-C）0.87mmol/L[（0.93——1.81）mmol/L];转氨酶、血糖和肾功能正常。尿蛋白（Pro）>3.0g/L（正常阴性），潜血（Bld）微量（正常阴性），尿沉渣见颗粒管型；24小时尿蛋白定量9.15g（正常值﹤0.15g/24h）。泌尿系B超未见异常。患者2个月前查尿常规正常。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "患高血压10余年，最高150/100mmHg,长期口服苯磺酸氨氯地平（络活喜）5mgqd,血压控制满意。7年前曾患“急性肾盂肾炎”.无糖尿病病史。50年前查体发现左上肺结核，未规律治疗。对链霉素及磺胺过敏。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "3978_水肿、蛋白尿",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "67岁"
+        },
+        "chief_complaint": "BP135/75mmHg,P80次/分，双肺呼吸音低，未闻及明显干湿啰音，心律齐，各瓣膜听诊区未闻及明显杂音，腹软，全腹无压痛、反跳痛，双下肢不肿。本例老年男性患者，临床上以咳嗽、咯痰、发热起病，伴有乏力、体重减轻等消耗性症状。实验室检查发现有血沉增快，PPD可疑强阳性；胸部CT为弥漫性结节。需高度怀疑粟粒性结核以及恶性肿瘤多发转移。 血常规：白细胞7.73×109/L,血红蛋白128g/L,血小板248×109/L;肝功能：总蛋白88g/L,白蛋白30g/L,总胆红素28.4μmol/L,直接胆红素11.6μmol/L,前白蛋白73mg/L;血沉：96mm/1h.尿常规：蛋白微量，未见红白细胞。T/F前列腺特异抗原（PSA）、甲胎蛋白（AFP）未见明显异常；C反应蛋白（CRP）79.8mg/L;Ig定量：IgG31.5g/L,IgA7.93g/L;蛋白电泳：Alb34.2%,α15.4%,β13.9%,β28.3%,γ38%.多次痰抗酸染色阴性；尿抗酸染色阴性。PET示：双肺弥漫分布代谢增高结节，呈不均匀小结节状，标准摄取值（SUV）约1.5——3.7,以双上肺为著；右骶髂关节和左坐骨区见异常代谢增高灶，左腋下、两侧颌后和后颈部淋巴结代谢增高，大小约0.8——1.2cm,SUV约1.1——3.6;肝脾普遍代谢增高，前列腺（偏左）见一异常代谢增高灶，大小约2.5cm,SUV约4.4.骨γ显像：右骶髂关节异常所见，恶性病变可能性大。前列腺B超：未见明显异常。胸部CT示两肺弥漫结节网格影，以上肺为重，首先考虑肿瘤肺内转移，TB待除外；纵膈内肿大淋巴结影，大小未见明显变化；右上肺钙化条索影，及左上肺点状钙化，纵膈内血管、淋巴结钙化同前。腹盆腔CT:左肾囊肿；腰椎、骶髂关节CT：L4/5椎间盘突出，右骶髂关节骨破坏。头颅增强MRI：脑内广泛分布异常强化结节，伴周围水肿；老年性脑改变。综上各项检查所见，诊断考虑患者肿瘤转移可能性大，结核不除外。因此给予异烟肼、乙胺丁醇、阿米卡星抗结核治疗，并加强保肝、支持治疗。经上述处理后患者体温逐渐降至正常，复查血沉较前无明显变化。患者PET显示存在全身多发代谢增高区，但由于PET阳性预测值低，PET提示高代谢活性病灶而最终确诊为感染性、炎性或肉芽肿性疾病者并不少见。因此患者入院后即给予抗结核治疗，随后体温降至正常，但血沉无明显变化，并且多次痰检未找到结核杆菌。目前在无结核杆菌感染的确切证据，同时抗结核效果不理想情况下，考虑寻找病理学标本。PET提示患者有全身多发代谢增高区，尤其有前列腺区代谢增高灶，高度怀疑前列腺肿瘤全身多发转移。患者血PSA不高不支持前列腺肿瘤，但有学者指出有高达21%的前列腺癌患者血清PSA不高，因此血PSA正常不能排除前列腺癌，下一步可行前列腺穿刺活检。行前列腺穿刺活检。病理提示少许前列腺组织显慢性炎，部分有坏死及肉芽肿形成。免疫组化：PSA（+），P63（+），CK34βE（+），P504（-）。前列腺穿刺活检病理结果无阳性发现。使诊断与治疗再次陷入迷茫状态。下一步可以选择的检查包括有支气管检查，可经支气管镜活检，并作肺泡灌洗；CT引导下肺穿刺活检以及CT引导下骶髂关节穿刺活检。但患者一般情况差，耐受支气管镜可能存在一定风险，同时若确实为转移癌支气管镜灌洗、活检阳性率低。骶髂关节活检相对安全，但考虑不论结核或肿瘤累及关节均造成坏死，可能活检无特殊发现。肺活检虽然存在造成气胸以及术后咯血风险，但考虑其对于明确诊断意义重大，并且若出现气胸也可在CT下及时发现，因此首选肺活检。CT引导下行肺穿刺活检，病理回报：少许肺组织显慢性炎，肺泡间隔增宽，肺泡上皮轻度增生，另见片状凝固样坏死及上皮样细胞，符合结核。特染：抗酸染色找到抗酸杆菌。AB/PAS（-）；六胺银（-）。腰穿，脑脊液透明清亮，压力165mmH2O,脑脊液常规：细胞总数4个/mm3;脑脊液生化：蛋白0.4g/L,葡萄糖3.4mmol/L,氯124mmol/L;脑脊液抗酸染色阴性。",
+        "present_illness": "患者1周来尿中泡沫略增多，偶有晨起眼睑水肿，无下肢水肿、尿色发红等。3天前查体，发现血白蛋白（ALB）29g/L[正常值（35——51）g/L],总蛋白（TP）54g/L[（60——80）g/L];血甘油三酯（TG）1.82mmol/L[（1.45——1.70）mmol/L],低密度脂蛋白胆固醇（LDL-C）3.96mmol/L[（2.07——3.63）mmol/L],高密度脂蛋白胆固醇（HDL-C）0.87mmol/L[（0.93——1.81）mmol/L];转氨酶、血糖和肾功能正常。尿蛋白（Pro）>3.0g/L（正常阴性），潜血（Bld）微量（正常阴性），尿沉渣见颗粒管型；24小时尿蛋白定量9.15g（正常值﹤0.15g/24h）。泌尿系B超未见异常。患者2个月前查尿常规正常。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "患高血压10余年，最高150/100mmHg,长期口服苯磺酸氨氯地平（络活喜）5mgqd,血压控制满意。7年前曾患“急性肾盂肾炎”.无糖尿病病史。50年前查体发现左上肺结核，未规律治疗。对链霉素及磺胺过敏。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "3978_水肿、蛋白尿",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "67岁"
+        },
+        "chief_complaint": "BP135/75mmHg,P80次/分，双肺呼吸音低，未闻及明显干湿啰音，心律齐，各瓣膜听诊区未闻及明显杂音，腹软，全腹无压痛、反跳痛，双下肢不肿。本例老年男性患者，临床上以咳嗽、咯痰、发热起病，伴有乏力、体重减轻等消耗性症状。实验室检查发现有血沉增快，PPD可疑强阳性；胸部CT为弥漫性结节。需高度怀疑粟粒性结核以及恶性肿瘤多发转移。 血常规：白细胞7.73×109/L,血红蛋白128g/L,血小板248×109/L;肝功能：总蛋白88g/L,白蛋白30g/L,总胆红素28.4μmol/L,直接胆红素11.6μmol/L,前白蛋白73mg/L;血沉：96mm/1h.尿常规：蛋白微量，未见红白细胞。T/F前列腺特异抗原（PSA）、甲胎蛋白（AFP）未见明显异常；C反应蛋白（CRP）79.8mg/L;Ig定量：IgG31.5g/L,IgA7.93g/L;蛋白电泳：Alb34.2%,α15.4%,β13.9%,β28.3%,γ38%.多次痰抗酸染色阴性；尿抗酸染色阴性。PET示：双肺弥漫分布代谢增高结节，呈不均匀小结节状，标准摄取值（SUV）约1.5——3.7,以双上肺为著；右骶髂关节和左坐骨区见异常代谢增高灶，左腋下、两侧颌后和后颈部淋巴结代谢增高，大小约0.8——1.2cm,SUV约1.1——3.6;肝脾普遍代谢增高，前列腺（偏左）见一异常代谢增高灶，大小约2.5cm,SUV约4.4.骨γ显像：右骶髂关节异常所见，恶性病变可能性大。前列腺B超：未见明显异常。胸部CT示两肺弥漫结节网格影，以上肺为重，首先考虑肿瘤肺内转移，TB待除外；纵膈内肿大淋巴结影，大小未见明显变化；右上肺钙化条索影，及左上肺点状钙化，纵膈内血管、淋巴结钙化同前。腹盆腔CT:左肾囊肿；腰椎、骶髂关节CT：L4/5椎间盘突出，右骶髂关节骨破坏。头颅增强MRI：脑内广泛分布异常强化结节，伴周围水肿；老年性脑改变。综上各项检查所见，诊断考虑患者肿瘤转移可能性大，结核不除外。因此给予异烟肼、乙胺丁醇、阿米卡星抗结核治疗，并加强保肝、支持治疗。经上述处理后患者体温逐渐降至正常，复查血沉较前无明显变化。患者PET显示存在全身多发代谢增高区，但由于PET阳性预测值低，PET提示高代谢活性病灶而最终确诊为感染性、炎性或肉芽肿性疾病者并不少见。因此患者入院后即给予抗结核治疗，随后体温降至正常，但血沉无明显变化，并且多次痰检未找到结核杆菌。目前在无结核杆菌感染的确切证据，同时抗结核效果不理想情况下，考虑寻找病理学标本。PET提示患者有全身多发代谢增高区，尤其有前列腺区代谢增高灶，高度怀疑前列腺肿瘤全身多发转移。患者血PSA不高不支持前列腺肿瘤，但有学者指出有高达21%的前列腺癌患者血清PSA不高，因此血PSA正常不能排除前列腺癌，下一步可行前列腺穿刺活检。行前列腺穿刺活检。病理提示少许前列腺组织显慢性炎，部分有坏死及肉芽肿形成。免疫组化：PSA（+），P63（+），CK34βE（+），P504（-）。前列腺穿刺活检病理结果无阳性发现。使诊断与治疗再次陷入迷茫状态。下一步可以选择的检查包括有支气管检查，可经支气管镜活检，并作肺泡灌洗；CT引导下肺穿刺活检以及CT引导下骶髂关节穿刺活检。但患者一般情况差，耐受支气管镜可能存在一定风险，同时若确实为转移癌支气管镜灌洗、活检阳性率低。骶髂关节活检相对安全，但考虑不论结核或肿瘤累及关节均造成坏死，可能活检无特殊发现。肺活检虽然存在造成气胸以及术后咯血风险，但考虑其对于明确诊断意义重大，并且若出现气胸也可在CT下及时发现，因此首选肺活检。CT引导下行肺穿刺活检，病理回报：少许肺组织显慢性炎，肺泡间隔增宽，肺泡上皮轻度增生，另见片状凝固样坏死及上皮样细胞，符合结核。特染：抗酸染色找到抗酸杆菌。AB/PAS（-）；六胺银（-）。腰穿，脑脊液透明清亮，压力165mmH2O,脑脊液常规：细胞总数4个/mm3;脑脊液生化：蛋白0.4g/L,葡萄糖3.4mmol/L,氯124mmol/L;脑脊液抗酸染色阴性。",
+        "present_illness": "患者1周来尿中泡沫略增多，偶有晨起眼睑水肿，无下肢水肿、尿色发红等。3天前查体，发现血白蛋白（ALB）29g/L[正常值（35——51）g/L],总蛋白（TP）54g/L[（60——80）g/L];血甘油三酯（TG）1.82mmol/L[（1.45——1.70）mmol/L],低密度脂蛋白胆固醇（LDL-C）3.96mmol/L[（2.07——3.63）mmol/L],高密度脂蛋白胆固醇（HDL-C）0.87mmol/L[（0.93——1.81）mmol/L];转氨酶、血糖和肾功能正常。尿蛋白（Pro）>3.0g/L（正常阴性），潜血（Bld）微量（正常阴性），尿沉渣见颗粒管型；24小时尿蛋白定量9.15g（正常值﹤0.15g/24h）。泌尿系B超未见异常。患者2个月前查尿常规正常。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "患高血压10余年，最高150/100mmHg,长期口服苯磺酸氨氯地平（络活喜）5mgqd,血压控制满意。7年前曾患“急性肾盂肾炎”.无糖尿病病史。50年前查体发现左上肺结核，未规律治疗。对链霉素及磺胺过敏。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

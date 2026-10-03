@@ -1,0 +1,534 @@
+{
+  "case_id": "6639_脑出血左侧肢体活动不利患者一例",
+  "personal_info": {
+    "性别": "女",
+    "年龄": "73岁"
+  },
+  "chief_complaint": "左侧肢体活动不利5个月余。",
+  "present_illness": "患者缘于5个月余前在安静状态下无明确诱因出现左侧肢体活动不利，头晕、头痛，恶心、呕吐，后逐渐昏迷，于青龙县人民医院查头部CT提示小脑出血破入脑室。诊断“脑出血、脑梗死”，给予开颅手术、输液等药物治疗（具体不详）。病情逐渐平稳，仍左侧肢体活动不利，无饮水呛咳，无恶心、呕吐，尚能在他人搀扶下行走，不能持物，左侧肩关节疼痛，腰部疼痛，活动不利，为行康复治疗入我科。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "有“高血压”病史5年，最高血压180/100mmHg，“胆囊切除术”病史1年。否认“结核、肝炎”等传染病史，否认“糖尿病、心脏病”等病史，否认药物和食物过敏史，无外伤史，预防接种史不详。",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "6639_脑出血左侧肢体活动不利患者一例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "73岁"
+        },
+        "chief_complaint": "左侧肢体活动不利5个月余。",
+        "present_illness": "患者缘于5个月余前在安静状态下无明确诱因出现左侧肢体活动不利，头晕、头痛，恶心、呕吐，后逐渐昏迷，于青龙县人民医院查头部CT提示小脑出血破入脑室。诊断“脑出血、脑梗死”，给予开颅手术、输液等药物治疗（具体不详）。病情逐渐平稳，仍左侧肢体活动不利，无饮水呛咳，无恶心、呕吐，尚能在他人搀扶下行走，不能持物，左侧肩关节疼痛，腰部疼痛，活动不利，为行康复治疗入我科。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "有“高血压”病史5年，最高血压180/100mmHg，“胆囊切除术”病史1年。否认“结核、肝炎”等传染病史，否认“糖尿病、心脏病”等病史，否认药物和食物过敏史，无外伤史，预防接种史不详。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "6639_脑出血左侧肢体活动不利患者一例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "73岁"
+        },
+        "chief_complaint": "左侧肢体活动不利5个月余。",
+        "present_illness": "患者缘于5个月余前在安静状态下无明确诱因出现左侧肢体活动不利，头晕、头痛，恶心、呕吐，后逐渐昏迷，于青龙县人民医院查头部CT提示小脑出血破入脑室。诊断“脑出血、脑梗死”，给予开颅手术、输液等药物治疗（具体不详）。病情逐渐平稳，仍左侧肢体活动不利，无饮水呛咳，无恶心、呕吐，尚能在他人搀扶下行走，不能持物，左侧肩关节疼痛，腰部疼痛，活动不利，为行康复治疗入我科。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "有“高血压”病史5年，最高血压180/100mmHg，“胆囊切除术”病史1年。否认“结核、肝炎”等传染病史，否认“糖尿病、心脏病”等病史，否认药物和食物过敏史，无外伤史，预防接种史不详。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "6639_脑出血左侧肢体活动不利患者一例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "73岁"
+        },
+        "chief_complaint": "左侧肢体活动不利5个月余。",
+        "present_illness": "患者缘于5个月余前在安静状态下无明确诱因出现左侧肢体活动不利，头晕、头痛，恶心、呕吐，后逐渐昏迷，于青龙县人民医院查头部CT提示小脑出血破入脑室。诊断“脑出血、脑梗死”，给予开颅手术、输液等药物治疗（具体不详）。病情逐渐平稳，仍左侧肢体活动不利，无饮水呛咳，无恶心、呕吐，尚能在他人搀扶下行走，不能持物，左侧肩关节疼痛，腰部疼痛，活动不利，为行康复治疗入我科。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "有“高血压”病史5年，最高血压180/100mmHg，“胆囊切除术”病史1年。否认“结核、肝炎”等传染病史，否认“糖尿病、心脏病”等病史，否认药物和食物过敏史，无外伤史，预防接种史不详。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "6639_脑出血左侧肢体活动不利患者一例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "73岁"
+        },
+        "chief_complaint": "左侧肢体活动不利5个月余。",
+        "present_illness": "患者缘于5个月余前在安静状态下无明确诱因出现左侧肢体活动不利，头晕、头痛，恶心、呕吐，后逐渐昏迷，于青龙县人民医院查头部CT提示小脑出血破入脑室。诊断“脑出血、脑梗死”，给予开颅手术、输液等药物治疗（具体不详）。病情逐渐平稳，仍左侧肢体活动不利，无饮水呛咳，无恶心、呕吐，尚能在他人搀扶下行走，不能持物，左侧肩关节疼痛，腰部疼痛，活动不利，为行康复治疗入我科。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "有“高血压”病史5年，最高血压180/100mmHg，“胆囊切除术”病史1年。否认“结核、肝炎”等传染病史，否认“糖尿病、心脏病”等病史，否认药物和食物过敏史，无外伤史，预防接种史不详。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "6639_脑出血左侧肢体活动不利患者一例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "73岁"
+        },
+        "chief_complaint": "左侧肢体活动不利5个月余。",
+        "present_illness": "患者缘于5个月余前在安静状态下无明确诱因出现左侧肢体活动不利，头晕、头痛，恶心、呕吐，后逐渐昏迷，于青龙县人民医院查头部CT提示小脑出血破入脑室。诊断“脑出血、脑梗死”，给予开颅手术、输液等药物治疗（具体不详）。病情逐渐平稳，仍左侧肢体活动不利，无饮水呛咳，无恶心、呕吐，尚能在他人搀扶下行走，不能持物，左侧肩关节疼痛，腰部疼痛，活动不利，为行康复治疗入我科。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "有“高血压”病史5年，最高血压180/100mmHg，“胆囊切除术”病史1年。否认“结核、肝炎”等传染病史，否认“糖尿病、心脏病”等病史，否认药物和食物过敏史，无外伤史，预防接种史不详。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

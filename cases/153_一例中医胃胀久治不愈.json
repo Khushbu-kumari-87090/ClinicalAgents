@@ -1,0 +1,534 @@
+{
+  "case_id": "153_一例中医胃胀久治不愈",
+  "personal_info": {
+    "性别": "女",
+    "年龄": "未知"
+  },
+  "chief_complaint": "胃胀不吃饭也是胃胀，之后导致闭经，吃完饭后会嗳气。",
+  "present_illness": "现有最主要不适及症状（尽量详细）：胃胀不吃饭也是胃胀，（不是食积）之后导致闭经，吃完饭后会嗳气，不严重一、胃口如何？食欲好还是差？还是饥不欲食？饮食习惯如何？答：食欲很好二、睡眠如何？是否失眠？睡觉会烦躁吗？是否多梦？答：多梦三、精神状态如何？是否容易劳累、犯困？有无心烦、易怒、喜叹息等？答：乏力很心烦呢四、寒热情况？平素怕冷还是怕热或者忽冷忽热？气候变化症状是否加重，那些症状加重？答很冷五、平时是否容易出汗？还是无汗出？夜间是否盗汗？活动吃饭容易汗出？出汗主要部位？答：不出汗六、小便如何？一日几次？（是五次左右，还是会超过十次）每次尿量多吗？颜色？是否有尿滴沥、尿不尽感？是否刺痛？夜起几次？答：小便少不多。一日三到4次，尿量少没有刺痛和尿不净七、大便如何？有无便秘？几日一次？拉肚子？大便是成型条状，还是干结，还是粘滞不爽？一日几次？答：1-2天一次有点稀八、（女）月经和白带是否正常？有无痛经？月经量多还是少？月经提前还是推后？月经色淡红还是暗红有无血块？白带多还是少？白带颜色如何？白带有无异味？答：闭经九、（男）房事是否正常？有无早泄阳痿？是否遗精？（请标注房事频率，如有遗精大概多长时间遗精一次）答：十、是否口渴、想喝水？喜欢喝温热水还是冷水？一天喝多少杯水？答：不渴不想喝水热水很少喝十一、眼、耳、鼻、喉、口，是否有异常？如咽干口燥、口苦、目眩、目赤、耳鸣等等。答：眼睛涩十二、头部有无异常？如胀、痛、晕等。答：还好十三、胸部、胃脘部、腹部、小腹部有无异常？如：悸动、喘累、烦闷、疼痛、胀满等。答：胃胀啊十四、颈椎、背部、腰部有无疼痛、胀满、冷感？答：胃胀的感觉腰好重十五、四肢是否异常？如：四肢冰冷手足不温、伸屈不利、浮肿、拘挛、麻木、手脚心烦热、沉重疼痛、关节肿痛等等。答：四肢冰冷十六、舌质如何？如：淡、淡红、红。舌苔厚腻？薄白？黄？舌体胖？瘦？边有齿痕？（如分辨不清可附舌头照片一张以便诊断）答：舌淡红舌博白(中药吃多了，有点发黄了），有齿痕十七、既往病史及治疗经过，既往病史诊断及症状，恢复情况，用药情况（包括西药治疗经过及中医治疗用药情况）答;吃过且记得的药方如下;1.黄连5g姜半夏10g炒枳壳5g蒲公英30g金银花15g炙鸡内金10g，焦六神曲15g白芷10g地丁草30g焦山楂15g2.当归10g川芎10g赤白芍各12g熟地30g青皮10g香附10g小茴香10g肉桂6g吴茱萸6个沉香曲10g丹皮15g生山楂15g莱菔子15g丹参15g（吃了拉肚子，胃没有变化，反而停药后，感觉胃舒服一点3.代赭石30g生麦芽10g茵陈6g干姜10g炙甘草10g4.黄芪20g党参15g当归10g茯苓10g柴胡4g升麻5g炒枳壳10g厚朴10g炙甘草6g(吃了放屁多了，但还是胀）5.党参30g黄芪30g枳壳90g厚朴苏梗香橼大腹皮砂仁藿香陈皮甘松佛手郁金相附山药薏米白术各10g十八、除了上面的，身体还有其他异常之处吗？答：胃胀还是胃胀，有的时候很胀的时候吃点东西反而舒服点，躺在床上也舒服一些，",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "153_一例中医胃胀久治不愈",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "未知"
+        },
+        "chief_complaint": "胃胀不吃饭也是胃胀，之后导致闭经，吃完饭后会嗳气。",
+        "present_illness": "现有最主要不适及症状（尽量详细）：胃胀不吃饭也是胃胀，（不是食积）之后导致闭经，吃完饭后会嗳气，不严重一、胃口如何？食欲好还是差？还是饥不欲食？饮食习惯如何？答：食欲很好二、睡眠如何？是否失眠？睡觉会烦躁吗？是否多梦？答：多梦三、精神状态如何？是否容易劳累、犯困？有无心烦、易怒、喜叹息等？答：乏力很心烦呢四、寒热情况？平素怕冷还是怕热或者忽冷忽热？气候变化症状是否加重，那些症状加重？答很冷五、平时是否容易出汗？还是无汗出？夜间是否盗汗？活动吃饭容易汗出？出汗主要部位？答：不出汗六、小便如何？一日几次？（是五次左右，还是会超过十次）每次尿量多吗？颜色？是否有尿滴沥、尿不尽感？是否刺痛？夜起几次？答：小便少不多。一日三到4次，尿量少没有刺痛和尿不净七、大便如何？有无便秘？几日一次？拉肚子？大便是成型条状，还是干结，还是粘滞不爽？一日几次？答：1-2天一次有点稀八、（女）月经和白带是否正常？有无痛经？月经量多还是少？月经提前还是推后？月经色淡红还是暗红有无血块？白带多还是少？白带颜色如何？白带有无异味？答：闭经九、（男）房事是否正常？有无早泄阳痿？是否遗精？（请标注房事频率，如有遗精大概多长时间遗精一次）答：十、是否口渴、想喝水？喜欢喝温热水还是冷水？一天喝多少杯水？答：不渴不想喝水热水很少喝十一、眼、耳、鼻、喉、口，是否有异常？如咽干口燥、口苦、目眩、目赤、耳鸣等等。答：眼睛涩十二、头部有无异常？如胀、痛、晕等。答：还好十三、胸部、胃脘部、腹部、小腹部有无异常？如：悸动、喘累、烦闷、疼痛、胀满等。答：胃胀啊十四、颈椎、背部、腰部有无疼痛、胀满、冷感？答：胃胀的感觉腰好重十五、四肢是否异常？如：四肢冰冷手足不温、伸屈不利、浮肿、拘挛、麻木、手脚心烦热、沉重疼痛、关节肿痛等等。答：四肢冰冷十六、舌质如何？如：淡、淡红、红。舌苔厚腻？薄白？黄？舌体胖？瘦？边有齿痕？（如分辨不清可附舌头照片一张以便诊断）答：舌淡红舌博白(中药吃多了，有点发黄了），有齿痕十七、既往病史及治疗经过，既往病史诊断及症状，恢复情况，用药情况（包括西药治疗经过及中医治疗用药情况）答;吃过且记得的药方如下;1.黄连5g姜半夏10g炒枳壳5g蒲公英30g金银花15g炙鸡内金10g，焦六神曲15g白芷10g地丁草30g焦山楂15g2.当归10g川芎10g赤白芍各12g熟地30g青皮10g香附10g小茴香10g肉桂6g吴茱萸6个沉香曲10g丹皮15g生山楂15g莱菔子15g丹参15g（吃了拉肚子，胃没有变化，反而停药后，感觉胃舒服一点3.代赭石30g生麦芽10g茵陈6g干姜10g炙甘草10g4.黄芪20g党参15g当归10g茯苓10g柴胡4g升麻5g炒枳壳10g厚朴10g炙甘草6g(吃了放屁多了，但还是胀）5.党参30g黄芪30g枳壳90g厚朴苏梗香橼大腹皮砂仁藿香陈皮甘松佛手郁金相附山药薏米白术各10g十八、除了上面的，身体还有其他异常之处吗？答：胃胀还是胃胀，有的时候很胀的时候吃点东西反而舒服点，躺在床上也舒服一些，",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "153_一例中医胃胀久治不愈",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "未知"
+        },
+        "chief_complaint": "胃胀不吃饭也是胃胀，之后导致闭经，吃完饭后会嗳气。",
+        "present_illness": "现有最主要不适及症状（尽量详细）：胃胀不吃饭也是胃胀，（不是食积）之后导致闭经，吃完饭后会嗳气，不严重一、胃口如何？食欲好还是差？还是饥不欲食？饮食习惯如何？答：食欲很好二、睡眠如何？是否失眠？睡觉会烦躁吗？是否多梦？答：多梦三、精神状态如何？是否容易劳累、犯困？有无心烦、易怒、喜叹息等？答：乏力很心烦呢四、寒热情况？平素怕冷还是怕热或者忽冷忽热？气候变化症状是否加重，那些症状加重？答很冷五、平时是否容易出汗？还是无汗出？夜间是否盗汗？活动吃饭容易汗出？出汗主要部位？答：不出汗六、小便如何？一日几次？（是五次左右，还是会超过十次）每次尿量多吗？颜色？是否有尿滴沥、尿不尽感？是否刺痛？夜起几次？答：小便少不多。一日三到4次，尿量少没有刺痛和尿不净七、大便如何？有无便秘？几日一次？拉肚子？大便是成型条状，还是干结，还是粘滞不爽？一日几次？答：1-2天一次有点稀八、（女）月经和白带是否正常？有无痛经？月经量多还是少？月经提前还是推后？月经色淡红还是暗红有无血块？白带多还是少？白带颜色如何？白带有无异味？答：闭经九、（男）房事是否正常？有无早泄阳痿？是否遗精？（请标注房事频率，如有遗精大概多长时间遗精一次）答：十、是否口渴、想喝水？喜欢喝温热水还是冷水？一天喝多少杯水？答：不渴不想喝水热水很少喝十一、眼、耳、鼻、喉、口，是否有异常？如咽干口燥、口苦、目眩、目赤、耳鸣等等。答：眼睛涩十二、头部有无异常？如胀、痛、晕等。答：还好十三、胸部、胃脘部、腹部、小腹部有无异常？如：悸动、喘累、烦闷、疼痛、胀满等。答：胃胀啊十四、颈椎、背部、腰部有无疼痛、胀满、冷感？答：胃胀的感觉腰好重十五、四肢是否异常？如：四肢冰冷手足不温、伸屈不利、浮肿、拘挛、麻木、手脚心烦热、沉重疼痛、关节肿痛等等。答：四肢冰冷十六、舌质如何？如：淡、淡红、红。舌苔厚腻？薄白？黄？舌体胖？瘦？边有齿痕？（如分辨不清可附舌头照片一张以便诊断）答：舌淡红舌博白(中药吃多了，有点发黄了），有齿痕十七、既往病史及治疗经过，既往病史诊断及症状，恢复情况，用药情况（包括西药治疗经过及中医治疗用药情况）答;吃过且记得的药方如下;1.黄连5g姜半夏10g炒枳壳5g蒲公英30g金银花15g炙鸡内金10g，焦六神曲15g白芷10g地丁草30g焦山楂15g2.当归10g川芎10g赤白芍各12g熟地30g青皮10g香附10g小茴香10g肉桂6g吴茱萸6个沉香曲10g丹皮15g生山楂15g莱菔子15g丹参15g（吃了拉肚子，胃没有变化，反而停药后，感觉胃舒服一点3.代赭石30g生麦芽10g茵陈6g干姜10g炙甘草10g4.黄芪20g党参15g当归10g茯苓10g柴胡4g升麻5g炒枳壳10g厚朴10g炙甘草6g(吃了放屁多了，但还是胀）5.党参30g黄芪30g枳壳90g厚朴苏梗香橼大腹皮砂仁藿香陈皮甘松佛手郁金相附山药薏米白术各10g十八、除了上面的，身体还有其他异常之处吗？答：胃胀还是胃胀，有的时候很胀的时候吃点东西反而舒服点，躺在床上也舒服一些，",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "153_一例中医胃胀久治不愈",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "未知"
+        },
+        "chief_complaint": "胃胀不吃饭也是胃胀，之后导致闭经，吃完饭后会嗳气。",
+        "present_illness": "现有最主要不适及症状（尽量详细）：胃胀不吃饭也是胃胀，（不是食积）之后导致闭经，吃完饭后会嗳气，不严重一、胃口如何？食欲好还是差？还是饥不欲食？饮食习惯如何？答：食欲很好二、睡眠如何？是否失眠？睡觉会烦躁吗？是否多梦？答：多梦三、精神状态如何？是否容易劳累、犯困？有无心烦、易怒、喜叹息等？答：乏力很心烦呢四、寒热情况？平素怕冷还是怕热或者忽冷忽热？气候变化症状是否加重，那些症状加重？答很冷五、平时是否容易出汗？还是无汗出？夜间是否盗汗？活动吃饭容易汗出？出汗主要部位？答：不出汗六、小便如何？一日几次？（是五次左右，还是会超过十次）每次尿量多吗？颜色？是否有尿滴沥、尿不尽感？是否刺痛？夜起几次？答：小便少不多。一日三到4次，尿量少没有刺痛和尿不净七、大便如何？有无便秘？几日一次？拉肚子？大便是成型条状，还是干结，还是粘滞不爽？一日几次？答：1-2天一次有点稀八、（女）月经和白带是否正常？有无痛经？月经量多还是少？月经提前还是推后？月经色淡红还是暗红有无血块？白带多还是少？白带颜色如何？白带有无异味？答：闭经九、（男）房事是否正常？有无早泄阳痿？是否遗精？（请标注房事频率，如有遗精大概多长时间遗精一次）答：十、是否口渴、想喝水？喜欢喝温热水还是冷水？一天喝多少杯水？答：不渴不想喝水热水很少喝十一、眼、耳、鼻、喉、口，是否有异常？如咽干口燥、口苦、目眩、目赤、耳鸣等等。答：眼睛涩十二、头部有无异常？如胀、痛、晕等。答：还好十三、胸部、胃脘部、腹部、小腹部有无异常？如：悸动、喘累、烦闷、疼痛、胀满等。答：胃胀啊十四、颈椎、背部、腰部有无疼痛、胀满、冷感？答：胃胀的感觉腰好重十五、四肢是否异常？如：四肢冰冷手足不温、伸屈不利、浮肿、拘挛、麻木、手脚心烦热、沉重疼痛、关节肿痛等等。答：四肢冰冷十六、舌质如何？如：淡、淡红、红。舌苔厚腻？薄白？黄？舌体胖？瘦？边有齿痕？（如分辨不清可附舌头照片一张以便诊断）答：舌淡红舌博白(中药吃多了，有点发黄了），有齿痕十七、既往病史及治疗经过，既往病史诊断及症状，恢复情况，用药情况（包括西药治疗经过及中医治疗用药情况）答;吃过且记得的药方如下;1.黄连5g姜半夏10g炒枳壳5g蒲公英30g金银花15g炙鸡内金10g，焦六神曲15g白芷10g地丁草30g焦山楂15g2.当归10g川芎10g赤白芍各12g熟地30g青皮10g香附10g小茴香10g肉桂6g吴茱萸6个沉香曲10g丹皮15g生山楂15g莱菔子15g丹参15g（吃了拉肚子，胃没有变化，反而停药后，感觉胃舒服一点3.代赭石30g生麦芽10g茵陈6g干姜10g炙甘草10g4.黄芪20g党参15g当归10g茯苓10g柴胡4g升麻5g炒枳壳10g厚朴10g炙甘草6g(吃了放屁多了，但还是胀）5.党参30g黄芪30g枳壳90g厚朴苏梗香橼大腹皮砂仁藿香陈皮甘松佛手郁金相附山药薏米白术各10g十八、除了上面的，身体还有其他异常之处吗？答：胃胀还是胃胀，有的时候很胀的时候吃点东西反而舒服点，躺在床上也舒服一些，",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "153_一例中医胃胀久治不愈",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "未知"
+        },
+        "chief_complaint": "胃胀不吃饭也是胃胀，之后导致闭经，吃完饭后会嗳气。",
+        "present_illness": "现有最主要不适及症状（尽量详细）：胃胀不吃饭也是胃胀，（不是食积）之后导致闭经，吃完饭后会嗳气，不严重一、胃口如何？食欲好还是差？还是饥不欲食？饮食习惯如何？答：食欲很好二、睡眠如何？是否失眠？睡觉会烦躁吗？是否多梦？答：多梦三、精神状态如何？是否容易劳累、犯困？有无心烦、易怒、喜叹息等？答：乏力很心烦呢四、寒热情况？平素怕冷还是怕热或者忽冷忽热？气候变化症状是否加重，那些症状加重？答很冷五、平时是否容易出汗？还是无汗出？夜间是否盗汗？活动吃饭容易汗出？出汗主要部位？答：不出汗六、小便如何？一日几次？（是五次左右，还是会超过十次）每次尿量多吗？颜色？是否有尿滴沥、尿不尽感？是否刺痛？夜起几次？答：小便少不多。一日三到4次，尿量少没有刺痛和尿不净七、大便如何？有无便秘？几日一次？拉肚子？大便是成型条状，还是干结，还是粘滞不爽？一日几次？答：1-2天一次有点稀八、（女）月经和白带是否正常？有无痛经？月经量多还是少？月经提前还是推后？月经色淡红还是暗红有无血块？白带多还是少？白带颜色如何？白带有无异味？答：闭经九、（男）房事是否正常？有无早泄阳痿？是否遗精？（请标注房事频率，如有遗精大概多长时间遗精一次）答：十、是否口渴、想喝水？喜欢喝温热水还是冷水？一天喝多少杯水？答：不渴不想喝水热水很少喝十一、眼、耳、鼻、喉、口，是否有异常？如咽干口燥、口苦、目眩、目赤、耳鸣等等。答：眼睛涩十二、头部有无异常？如胀、痛、晕等。答：还好十三、胸部、胃脘部、腹部、小腹部有无异常？如：悸动、喘累、烦闷、疼痛、胀满等。答：胃胀啊十四、颈椎、背部、腰部有无疼痛、胀满、冷感？答：胃胀的感觉腰好重十五、四肢是否异常？如：四肢冰冷手足不温、伸屈不利、浮肿、拘挛、麻木、手脚心烦热、沉重疼痛、关节肿痛等等。答：四肢冰冷十六、舌质如何？如：淡、淡红、红。舌苔厚腻？薄白？黄？舌体胖？瘦？边有齿痕？（如分辨不清可附舌头照片一张以便诊断）答：舌淡红舌博白(中药吃多了，有点发黄了），有齿痕十七、既往病史及治疗经过，既往病史诊断及症状，恢复情况，用药情况（包括西药治疗经过及中医治疗用药情况）答;吃过且记得的药方如下;1.黄连5g姜半夏10g炒枳壳5g蒲公英30g金银花15g炙鸡内金10g，焦六神曲15g白芷10g地丁草30g焦山楂15g2.当归10g川芎10g赤白芍各12g熟地30g青皮10g香附10g小茴香10g肉桂6g吴茱萸6个沉香曲10g丹皮15g生山楂15g莱菔子15g丹参15g（吃了拉肚子，胃没有变化，反而停药后，感觉胃舒服一点3.代赭石30g生麦芽10g茵陈6g干姜10g炙甘草10g4.黄芪20g党参15g当归10g茯苓10g柴胡4g升麻5g炒枳壳10g厚朴10g炙甘草6g(吃了放屁多了，但还是胀）5.党参30g黄芪30g枳壳90g厚朴苏梗香橼大腹皮砂仁藿香陈皮甘松佛手郁金相附山药薏米白术各10g十八、除了上面的，身体还有其他异常之处吗？答：胃胀还是胃胀，有的时候很胀的时候吃点东西反而舒服点，躺在床上也舒服一些，",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "153_一例中医胃胀久治不愈",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "未知"
+        },
+        "chief_complaint": "胃胀不吃饭也是胃胀，之后导致闭经，吃完饭后会嗳气。",
+        "present_illness": "现有最主要不适及症状（尽量详细）：胃胀不吃饭也是胃胀，（不是食积）之后导致闭经，吃完饭后会嗳气，不严重一、胃口如何？食欲好还是差？还是饥不欲食？饮食习惯如何？答：食欲很好二、睡眠如何？是否失眠？睡觉会烦躁吗？是否多梦？答：多梦三、精神状态如何？是否容易劳累、犯困？有无心烦、易怒、喜叹息等？答：乏力很心烦呢四、寒热情况？平素怕冷还是怕热或者忽冷忽热？气候变化症状是否加重，那些症状加重？答很冷五、平时是否容易出汗？还是无汗出？夜间是否盗汗？活动吃饭容易汗出？出汗主要部位？答：不出汗六、小便如何？一日几次？（是五次左右，还是会超过十次）每次尿量多吗？颜色？是否有尿滴沥、尿不尽感？是否刺痛？夜起几次？答：小便少不多。一日三到4次，尿量少没有刺痛和尿不净七、大便如何？有无便秘？几日一次？拉肚子？大便是成型条状，还是干结，还是粘滞不爽？一日几次？答：1-2天一次有点稀八、（女）月经和白带是否正常？有无痛经？月经量多还是少？月经提前还是推后？月经色淡红还是暗红有无血块？白带多还是少？白带颜色如何？白带有无异味？答：闭经九、（男）房事是否正常？有无早泄阳痿？是否遗精？（请标注房事频率，如有遗精大概多长时间遗精一次）答：十、是否口渴、想喝水？喜欢喝温热水还是冷水？一天喝多少杯水？答：不渴不想喝水热水很少喝十一、眼、耳、鼻、喉、口，是否有异常？如咽干口燥、口苦、目眩、目赤、耳鸣等等。答：眼睛涩十二、头部有无异常？如胀、痛、晕等。答：还好十三、胸部、胃脘部、腹部、小腹部有无异常？如：悸动、喘累、烦闷、疼痛、胀满等。答：胃胀啊十四、颈椎、背部、腰部有无疼痛、胀满、冷感？答：胃胀的感觉腰好重十五、四肢是否异常？如：四肢冰冷手足不温、伸屈不利、浮肿、拘挛、麻木、手脚心烦热、沉重疼痛、关节肿痛等等。答：四肢冰冷十六、舌质如何？如：淡、淡红、红。舌苔厚腻？薄白？黄？舌体胖？瘦？边有齿痕？（如分辨不清可附舌头照片一张以便诊断）答：舌淡红舌博白(中药吃多了，有点发黄了），有齿痕十七、既往病史及治疗经过，既往病史诊断及症状，恢复情况，用药情况（包括西药治疗经过及中医治疗用药情况）答;吃过且记得的药方如下;1.黄连5g姜半夏10g炒枳壳5g蒲公英30g金银花15g炙鸡内金10g，焦六神曲15g白芷10g地丁草30g焦山楂15g2.当归10g川芎10g赤白芍各12g熟地30g青皮10g香附10g小茴香10g肉桂6g吴茱萸6个沉香曲10g丹皮15g生山楂15g莱菔子15g丹参15g（吃了拉肚子，胃没有变化，反而停药后，感觉胃舒服一点3.代赭石30g生麦芽10g茵陈6g干姜10g炙甘草10g4.黄芪20g党参15g当归10g茯苓10g柴胡4g升麻5g炒枳壳10g厚朴10g炙甘草6g(吃了放屁多了，但还是胀）5.党参30g黄芪30g枳壳90g厚朴苏梗香橼大腹皮砂仁藿香陈皮甘松佛手郁金相附山药薏米白术各10g十八、除了上面的，身体还有其他异常之处吗？答：胃胀还是胃胀，有的时候很胀的时候吃点东西反而舒服点，躺在床上也舒服一些，",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

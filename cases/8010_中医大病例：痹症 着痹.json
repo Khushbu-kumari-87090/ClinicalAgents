@@ -1,0 +1,534 @@
+{
+  "case_id": "8010_中医大病例：痹症 着痹",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "36岁"
+  },
+  "chief_complaint": "姓名：陈奕迅性别：男年龄：36婚况：已婚住院号：132281职业：职员出生地：广东东莞民族：汉族国籍：中国家庭地址：邮政编码：入院时间：2013.01.2211:03:00\n\nT36.8℃P90次/分R20次/分BP125/96mmHg神志清楚，精神一般，发育正常，营养中等，查体合作，对答合理。面色萎黄，全身皮肤可见扁平疣，无黄染，浅表淋巴结无肿大，头颅五官端正，双瞳孔等大等圆，直径约3mm,对光反射灵敏，睑结膜色淡红，耳鼻无异常分泌物，咽无充血，扁桃体无肿大；颈软，气管居中，颈静脉无怒张，双甲状腺无肿大。胸廓对称无畸形，双肺呼吸音清，未闻及干湿性啰音，心界不大，心律90次/分，律齐，各瓣膜区听诊未闻及病理性杂音。全腹软，无压痛，无反跳痛，肝脾肋下未扪及，莫菲氏征（-），麦氏点压痛（-）。移动性浊音阴性，肠鸣音正常。脊柱四肢无畸形，生理性神经反射存在，未引出病理征。 腰部疼痛7小时。",
+  "present_illness": "患者缘于2013年1月22日4时无明显诱因下出现腰部疼痛，无下肢牵拉痛，活动受限，故来我院急诊就诊，行腰椎CT检查示：腰4/5椎间盘突出（中央型）。为求进一步治疗，由急诊拟\"腰椎间盘突出症\"收入院。入院时症见：患者神清，精神可，腰部疼痛，无下肢牵拉痛，活动受限，胃纳、夜寐可，二便调。 1、陈奕迅，男，36岁，因\"腰部疼痛7小时\"入院。患者既往有扁平疣、肾结石病史，否认高血压病、糖尿病、冠心病等病史；否认肝炎、肺结核等病史；否认其他外伤、中毒及输血史等。否认药物、食物过敏史。2、入院时症见：患者神清，精神可，腰部疼痛，无下肢牵拉痛，活动受限，胃纳、夜寐可，二便调。舌质淡，苔薄白腻，脉细滑。3、专科情况：腰椎生理曲度存在，腰部压痛、叩击痛，无下肢放射痛，活动受限，双下肢直腿抬高试验阴性，肌力、感觉正常，生理反射存在，病理反射未引出。4、辅助检查：腰椎CT检查示：腰4/5椎间盘突出（中央型）。初步诊断：中医诊断：痹症着痹西医诊断：腰椎间盘突出症",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "患者既往有扁平疣、肾结石病史，否认高血压病、糖尿病、冠心病等病史；否认肝炎、肺结核等病史；否认其他外伤、中毒及输血史等。过敏史：否认药物、食物过敏史。 出生生长原籍，平素生活可，无饮食偏嗜，无不良嗜好。",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "8010_中医大病例：痹症 着痹",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "36岁"
+        },
+        "chief_complaint": "姓名：陈奕迅性别：男年龄：36婚况：已婚住院号：132281职业：职员出生地：广东东莞民族：汉族国籍：中国家庭地址：邮政编码：入院时间：2013.01.2211:03:00\n\nT36.8℃P90次/分R20次/分BP125/96mmHg神志清楚，精神一般，发育正常，营养中等，查体合作，对答合理。面色萎黄，全身皮肤可见扁平疣，无黄染，浅表淋巴结无肿大，头颅五官端正，双瞳孔等大等圆，直径约3mm,对光反射灵敏，睑结膜色淡红，耳鼻无异常分泌物，咽无充血，扁桃体无肿大；颈软，气管居中，颈静脉无怒张，双甲状腺无肿大。胸廓对称无畸形，双肺呼吸音清，未闻及干湿性啰音，心界不大，心律90次/分，律齐，各瓣膜区听诊未闻及病理性杂音。全腹软，无压痛，无反跳痛，肝脾肋下未扪及，莫菲氏征（-），麦氏点压痛（-）。移动性浊音阴性，肠鸣音正常。脊柱四肢无畸形，生理性神经反射存在，未引出病理征。 腰部疼痛7小时。",
+        "present_illness": "患者缘于2013年1月22日4时无明显诱因下出现腰部疼痛，无下肢牵拉痛，活动受限，故来我院急诊就诊，行腰椎CT检查示：腰4/5椎间盘突出（中央型）。为求进一步治疗，由急诊拟\"腰椎间盘突出症\"收入院。入院时症见：患者神清，精神可，腰部疼痛，无下肢牵拉痛，活动受限，胃纳、夜寐可，二便调。 1、陈奕迅，男，36岁，因\"腰部疼痛7小时\"入院。患者既往有扁平疣、肾结石病史，否认高血压病、糖尿病、冠心病等病史；否认肝炎、肺结核等病史；否认其他外伤、中毒及输血史等。否认药物、食物过敏史。2、入院时症见：患者神清，精神可，腰部疼痛，无下肢牵拉痛，活动受限，胃纳、夜寐可，二便调。舌质淡，苔薄白腻，脉细滑。3、专科情况：腰椎生理曲度存在，腰部压痛、叩击痛，无下肢放射痛，活动受限，双下肢直腿抬高试验阴性，肌力、感觉正常，生理反射存在，病理反射未引出。4、辅助检查：腰椎CT检查示：腰4/5椎间盘突出（中央型）。初步诊断：中医诊断：痹症着痹西医诊断：腰椎间盘突出症",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "患者既往有扁平疣、肾结石病史，否认高血压病、糖尿病、冠心病等病史；否认肝炎、肺结核等病史；否认其他外伤、中毒及输血史等。过敏史：否认药物、食物过敏史。 出生生长原籍，平素生活可，无饮食偏嗜，无不良嗜好。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "8010_中医大病例：痹症 着痹",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "36岁"
+        },
+        "chief_complaint": "姓名：陈奕迅性别：男年龄：36婚况：已婚住院号：132281职业：职员出生地：广东东莞民族：汉族国籍：中国家庭地址：邮政编码：入院时间：2013.01.2211:03:00\n\nT36.8℃P90次/分R20次/分BP125/96mmHg神志清楚，精神一般，发育正常，营养中等，查体合作，对答合理。面色萎黄，全身皮肤可见扁平疣，无黄染，浅表淋巴结无肿大，头颅五官端正，双瞳孔等大等圆，直径约3mm,对光反射灵敏，睑结膜色淡红，耳鼻无异常分泌物，咽无充血，扁桃体无肿大；颈软，气管居中，颈静脉无怒张，双甲状腺无肿大。胸廓对称无畸形，双肺呼吸音清，未闻及干湿性啰音，心界不大，心律90次/分，律齐，各瓣膜区听诊未闻及病理性杂音。全腹软，无压痛，无反跳痛，肝脾肋下未扪及，莫菲氏征（-），麦氏点压痛（-）。移动性浊音阴性，肠鸣音正常。脊柱四肢无畸形，生理性神经反射存在，未引出病理征。 腰部疼痛7小时。",
+        "present_illness": "患者缘于2013年1月22日4时无明显诱因下出现腰部疼痛，无下肢牵拉痛，活动受限，故来我院急诊就诊，行腰椎CT检查示：腰4/5椎间盘突出（中央型）。为求进一步治疗，由急诊拟\"腰椎间盘突出症\"收入院。入院时症见：患者神清，精神可，腰部疼痛，无下肢牵拉痛，活动受限，胃纳、夜寐可，二便调。 1、陈奕迅，男，36岁，因\"腰部疼痛7小时\"入院。患者既往有扁平疣、肾结石病史，否认高血压病、糖尿病、冠心病等病史；否认肝炎、肺结核等病史；否认其他外伤、中毒及输血史等。否认药物、食物过敏史。2、入院时症见：患者神清，精神可，腰部疼痛，无下肢牵拉痛，活动受限，胃纳、夜寐可，二便调。舌质淡，苔薄白腻，脉细滑。3、专科情况：腰椎生理曲度存在，腰部压痛、叩击痛，无下肢放射痛，活动受限，双下肢直腿抬高试验阴性，肌力、感觉正常，生理反射存在，病理反射未引出。4、辅助检查：腰椎CT检查示：腰4/5椎间盘突出（中央型）。初步诊断：中医诊断：痹症着痹西医诊断：腰椎间盘突出症",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "患者既往有扁平疣、肾结石病史，否认高血压病、糖尿病、冠心病等病史；否认肝炎、肺结核等病史；否认其他外伤、中毒及输血史等。过敏史：否认药物、食物过敏史。 出生生长原籍，平素生活可，无饮食偏嗜，无不良嗜好。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "8010_中医大病例：痹症 着痹",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "36岁"
+        },
+        "chief_complaint": "姓名：陈奕迅性别：男年龄：36婚况：已婚住院号：132281职业：职员出生地：广东东莞民族：汉族国籍：中国家庭地址：邮政编码：入院时间：2013.01.2211:03:00\n\nT36.8℃P90次/分R20次/分BP125/96mmHg神志清楚，精神一般，发育正常，营养中等，查体合作，对答合理。面色萎黄，全身皮肤可见扁平疣，无黄染，浅表淋巴结无肿大，头颅五官端正，双瞳孔等大等圆，直径约3mm,对光反射灵敏，睑结膜色淡红，耳鼻无异常分泌物，咽无充血，扁桃体无肿大；颈软，气管居中，颈静脉无怒张，双甲状腺无肿大。胸廓对称无畸形，双肺呼吸音清，未闻及干湿性啰音，心界不大，心律90次/分，律齐，各瓣膜区听诊未闻及病理性杂音。全腹软，无压痛，无反跳痛，肝脾肋下未扪及，莫菲氏征（-），麦氏点压痛（-）。移动性浊音阴性，肠鸣音正常。脊柱四肢无畸形，生理性神经反射存在，未引出病理征。 腰部疼痛7小时。",
+        "present_illness": "患者缘于2013年1月22日4时无明显诱因下出现腰部疼痛，无下肢牵拉痛，活动受限，故来我院急诊就诊，行腰椎CT检查示：腰4/5椎间盘突出（中央型）。为求进一步治疗，由急诊拟\"腰椎间盘突出症\"收入院。入院时症见：患者神清，精神可，腰部疼痛，无下肢牵拉痛，活动受限，胃纳、夜寐可，二便调。 1、陈奕迅，男，36岁，因\"腰部疼痛7小时\"入院。患者既往有扁平疣、肾结石病史，否认高血压病、糖尿病、冠心病等病史；否认肝炎、肺结核等病史；否认其他外伤、中毒及输血史等。否认药物、食物过敏史。2、入院时症见：患者神清，精神可，腰部疼痛，无下肢牵拉痛，活动受限，胃纳、夜寐可，二便调。舌质淡，苔薄白腻，脉细滑。3、专科情况：腰椎生理曲度存在，腰部压痛、叩击痛，无下肢放射痛，活动受限，双下肢直腿抬高试验阴性，肌力、感觉正常，生理反射存在，病理反射未引出。4、辅助检查：腰椎CT检查示：腰4/5椎间盘突出（中央型）。初步诊断：中医诊断：痹症着痹西医诊断：腰椎间盘突出症",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "患者既往有扁平疣、肾结石病史，否认高血压病、糖尿病、冠心病等病史；否认肝炎、肺结核等病史；否认其他外伤、中毒及输血史等。过敏史：否认药物、食物过敏史。 出生生长原籍，平素生活可，无饮食偏嗜，无不良嗜好。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "8010_中医大病例：痹症 着痹",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "36岁"
+        },
+        "chief_complaint": "姓名：陈奕迅性别：男年龄：36婚况：已婚住院号：132281职业：职员出生地：广东东莞民族：汉族国籍：中国家庭地址：邮政编码：入院时间：2013.01.2211:03:00\n\nT36.8℃P90次/分R20次/分BP125/96mmHg神志清楚，精神一般，发育正常，营养中等，查体合作，对答合理。面色萎黄，全身皮肤可见扁平疣，无黄染，浅表淋巴结无肿大，头颅五官端正，双瞳孔等大等圆，直径约3mm,对光反射灵敏，睑结膜色淡红，耳鼻无异常分泌物，咽无充血，扁桃体无肿大；颈软，气管居中，颈静脉无怒张，双甲状腺无肿大。胸廓对称无畸形，双肺呼吸音清，未闻及干湿性啰音，心界不大，心律90次/分，律齐，各瓣膜区听诊未闻及病理性杂音。全腹软，无压痛，无反跳痛，肝脾肋下未扪及，莫菲氏征（-），麦氏点压痛（-）。移动性浊音阴性，肠鸣音正常。脊柱四肢无畸形，生理性神经反射存在，未引出病理征。 腰部疼痛7小时。",
+        "present_illness": "患者缘于2013年1月22日4时无明显诱因下出现腰部疼痛，无下肢牵拉痛，活动受限，故来我院急诊就诊，行腰椎CT检查示：腰4/5椎间盘突出（中央型）。为求进一步治疗，由急诊拟\"腰椎间盘突出症\"收入院。入院时症见：患者神清，精神可，腰部疼痛，无下肢牵拉痛，活动受限，胃纳、夜寐可，二便调。 1、陈奕迅，男，36岁，因\"腰部疼痛7小时\"入院。患者既往有扁平疣、肾结石病史，否认高血压病、糖尿病、冠心病等病史；否认肝炎、肺结核等病史；否认其他外伤、中毒及输血史等。否认药物、食物过敏史。2、入院时症见：患者神清，精神可，腰部疼痛，无下肢牵拉痛，活动受限，胃纳、夜寐可，二便调。舌质淡，苔薄白腻，脉细滑。3、专科情况：腰椎生理曲度存在，腰部压痛、叩击痛，无下肢放射痛，活动受限，双下肢直腿抬高试验阴性，肌力、感觉正常，生理反射存在，病理反射未引出。4、辅助检查：腰椎CT检查示：腰4/5椎间盘突出（中央型）。初步诊断：中医诊断：痹症着痹西医诊断：腰椎间盘突出症",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "患者既往有扁平疣、肾结石病史，否认高血压病、糖尿病、冠心病等病史；否认肝炎、肺结核等病史；否认其他外伤、中毒及输血史等。过敏史：否认药物、食物过敏史。 出生生长原籍，平素生活可，无饮食偏嗜，无不良嗜好。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "8010_中医大病例：痹症 着痹",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "36岁"
+        },
+        "chief_complaint": "姓名：陈奕迅性别：男年龄：36婚况：已婚住院号：132281职业：职员出生地：广东东莞民族：汉族国籍：中国家庭地址：邮政编码：入院时间：2013.01.2211:03:00\n\nT36.8℃P90次/分R20次/分BP125/96mmHg神志清楚，精神一般，发育正常，营养中等，查体合作，对答合理。面色萎黄，全身皮肤可见扁平疣，无黄染，浅表淋巴结无肿大，头颅五官端正，双瞳孔等大等圆，直径约3mm,对光反射灵敏，睑结膜色淡红，耳鼻无异常分泌物，咽无充血，扁桃体无肿大；颈软，气管居中，颈静脉无怒张，双甲状腺无肿大。胸廓对称无畸形，双肺呼吸音清，未闻及干湿性啰音，心界不大，心律90次/分，律齐，各瓣膜区听诊未闻及病理性杂音。全腹软，无压痛，无反跳痛，肝脾肋下未扪及，莫菲氏征（-），麦氏点压痛（-）。移动性浊音阴性，肠鸣音正常。脊柱四肢无畸形，生理性神经反射存在，未引出病理征。 腰部疼痛7小时。",
+        "present_illness": "患者缘于2013年1月22日4时无明显诱因下出现腰部疼痛，无下肢牵拉痛，活动受限，故来我院急诊就诊，行腰椎CT检查示：腰4/5椎间盘突出（中央型）。为求进一步治疗，由急诊拟\"腰椎间盘突出症\"收入院。入院时症见：患者神清，精神可，腰部疼痛，无下肢牵拉痛，活动受限，胃纳、夜寐可，二便调。 1、陈奕迅，男，36岁，因\"腰部疼痛7小时\"入院。患者既往有扁平疣、肾结石病史，否认高血压病、糖尿病、冠心病等病史；否认肝炎、肺结核等病史；否认其他外伤、中毒及输血史等。否认药物、食物过敏史。2、入院时症见：患者神清，精神可，腰部疼痛，无下肢牵拉痛，活动受限，胃纳、夜寐可，二便调。舌质淡，苔薄白腻，脉细滑。3、专科情况：腰椎生理曲度存在，腰部压痛、叩击痛，无下肢放射痛，活动受限，双下肢直腿抬高试验阴性，肌力、感觉正常，生理反射存在，病理反射未引出。4、辅助检查：腰椎CT检查示：腰4/5椎间盘突出（中央型）。初步诊断：中医诊断：痹症着痹西医诊断：腰椎间盘突出症",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "患者既往有扁平疣、肾结石病史，否认高血压病、糖尿病、冠心病等病史；否认肝炎、肺结核等病史；否认其他外伤、中毒及输血史等。过敏史：否认药物、食物过敏史。 出生生长原籍，平素生活可，无饮食偏嗜，无不良嗜好。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

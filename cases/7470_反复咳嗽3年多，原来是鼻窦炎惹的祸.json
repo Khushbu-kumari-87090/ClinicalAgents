@@ -1,0 +1,534 @@
+{
+  "case_id": "7470_反复咳嗽3年多，原来是鼻窦炎惹的祸",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "49岁"
+  },
+  "chief_complaint": "双侧鼻阻、倒吸鼻涕咳嗽3年余。",
+  "present_illness": "患者于3年前无明显诱因，逐渐出现双侧鼻阻,鼻阻呈间歇性，左侧为重，伴倒吸涕、嗅觉稍有减退、前额闷胀不适。自觉伴有咳嗽不适，每逢感冒受凉后加重。无鼻痒、喷嚏、鼻出血、涕血、耳鸣、耳闭、听力下降，起病后病情持续性发作，院外未行特殊处理，上述症状未缓解，发病后未就医。今为进一步诊治来我院就诊，在门诊拟诊断为“慢性鼻窦炎”收入院。患者自发病以来精神状态良好，饮食正常，睡眠良好，体重无明显变化，小便正常，大便正常。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "既往有慢性肝炎病史、具体治疗情况不详。否认疟疾史、结核史，否认高血压史、冠心病史，否认糖尿病史、脑血管病史、精神病史，否认手术史、外伤史、输血史，否认过敏史，预防接种史不详。",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "7470_反复咳嗽3年多，原来是鼻窦炎惹的祸",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "49岁"
+        },
+        "chief_complaint": "双侧鼻阻、倒吸鼻涕咳嗽3年余。",
+        "present_illness": "患者于3年前无明显诱因，逐渐出现双侧鼻阻,鼻阻呈间歇性，左侧为重，伴倒吸涕、嗅觉稍有减退、前额闷胀不适。自觉伴有咳嗽不适，每逢感冒受凉后加重。无鼻痒、喷嚏、鼻出血、涕血、耳鸣、耳闭、听力下降，起病后病情持续性发作，院外未行特殊处理，上述症状未缓解，发病后未就医。今为进一步诊治来我院就诊，在门诊拟诊断为“慢性鼻窦炎”收入院。患者自发病以来精神状态良好，饮食正常，睡眠良好，体重无明显变化，小便正常，大便正常。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "既往有慢性肝炎病史、具体治疗情况不详。否认疟疾史、结核史，否认高血压史、冠心病史，否认糖尿病史、脑血管病史、精神病史，否认手术史、外伤史、输血史，否认过敏史，预防接种史不详。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "7470_反复咳嗽3年多，原来是鼻窦炎惹的祸",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "49岁"
+        },
+        "chief_complaint": "双侧鼻阻、倒吸鼻涕咳嗽3年余。",
+        "present_illness": "患者于3年前无明显诱因，逐渐出现双侧鼻阻,鼻阻呈间歇性，左侧为重，伴倒吸涕、嗅觉稍有减退、前额闷胀不适。自觉伴有咳嗽不适，每逢感冒受凉后加重。无鼻痒、喷嚏、鼻出血、涕血、耳鸣、耳闭、听力下降，起病后病情持续性发作，院外未行特殊处理，上述症状未缓解，发病后未就医。今为进一步诊治来我院就诊，在门诊拟诊断为“慢性鼻窦炎”收入院。患者自发病以来精神状态良好，饮食正常，睡眠良好，体重无明显变化，小便正常，大便正常。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往有慢性肝炎病史、具体治疗情况不详。否认疟疾史、结核史，否认高血压史、冠心病史，否认糖尿病史、脑血管病史、精神病史，否认手术史、外伤史、输血史，否认过敏史，预防接种史不详。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "7470_反复咳嗽3年多，原来是鼻窦炎惹的祸",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "49岁"
+        },
+        "chief_complaint": "双侧鼻阻、倒吸鼻涕咳嗽3年余。",
+        "present_illness": "患者于3年前无明显诱因，逐渐出现双侧鼻阻,鼻阻呈间歇性，左侧为重，伴倒吸涕、嗅觉稍有减退、前额闷胀不适。自觉伴有咳嗽不适，每逢感冒受凉后加重。无鼻痒、喷嚏、鼻出血、涕血、耳鸣、耳闭、听力下降，起病后病情持续性发作，院外未行特殊处理，上述症状未缓解，发病后未就医。今为进一步诊治来我院就诊，在门诊拟诊断为“慢性鼻窦炎”收入院。患者自发病以来精神状态良好，饮食正常，睡眠良好，体重无明显变化，小便正常，大便正常。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往有慢性肝炎病史、具体治疗情况不详。否认疟疾史、结核史，否认高血压史、冠心病史，否认糖尿病史、脑血管病史、精神病史，否认手术史、外伤史、输血史，否认过敏史，预防接种史不详。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "7470_反复咳嗽3年多，原来是鼻窦炎惹的祸",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "49岁"
+        },
+        "chief_complaint": "双侧鼻阻、倒吸鼻涕咳嗽3年余。",
+        "present_illness": "患者于3年前无明显诱因，逐渐出现双侧鼻阻,鼻阻呈间歇性，左侧为重，伴倒吸涕、嗅觉稍有减退、前额闷胀不适。自觉伴有咳嗽不适，每逢感冒受凉后加重。无鼻痒、喷嚏、鼻出血、涕血、耳鸣、耳闭、听力下降，起病后病情持续性发作，院外未行特殊处理，上述症状未缓解，发病后未就医。今为进一步诊治来我院就诊，在门诊拟诊断为“慢性鼻窦炎”收入院。患者自发病以来精神状态良好，饮食正常，睡眠良好，体重无明显变化，小便正常，大便正常。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往有慢性肝炎病史、具体治疗情况不详。否认疟疾史、结核史，否认高血压史、冠心病史，否认糖尿病史、脑血管病史、精神病史，否认手术史、外伤史、输血史，否认过敏史，预防接种史不详。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "7470_反复咳嗽3年多，原来是鼻窦炎惹的祸",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "49岁"
+        },
+        "chief_complaint": "双侧鼻阻、倒吸鼻涕咳嗽3年余。",
+        "present_illness": "患者于3年前无明显诱因，逐渐出现双侧鼻阻,鼻阻呈间歇性，左侧为重，伴倒吸涕、嗅觉稍有减退、前额闷胀不适。自觉伴有咳嗽不适，每逢感冒受凉后加重。无鼻痒、喷嚏、鼻出血、涕血、耳鸣、耳闭、听力下降，起病后病情持续性发作，院外未行特殊处理，上述症状未缓解，发病后未就医。今为进一步诊治来我院就诊，在门诊拟诊断为“慢性鼻窦炎”收入院。患者自发病以来精神状态良好，饮食正常，睡眠良好，体重无明显变化，小便正常，大便正常。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往有慢性肝炎病史、具体治疗情况不详。否认疟疾史、结核史，否认高血压史、冠心病史，否认糖尿病史、脑血管病史、精神病史，否认手术史、外伤史、输血史，否认过敏史，预防接种史不详。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

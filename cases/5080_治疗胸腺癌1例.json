@@ -1,0 +1,534 @@
+{
+  "case_id": "5080_治疗胸腺癌1例",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "64岁"
+  },
+  "chief_complaint": "男性，64岁，已婚，汉族，农民。 确诊胸腺癌2年余，右上肢肿胀3天。",
+  "present_illness": "患者缘于2014-5无明显诱因出现轻微胸闷、气短,无心悸、喘憋等不适,2014-05-08就诊于北京某三级医院査肺CT示:前纵膈肿物,约9.3*8.8cm,包绕左侧头臂静脉,肿物毗邻主动脉及肺动脉干,与局部胸壁无明显分界,与左肺分界模糊,考虑恶性,侵犯纵膈胸膜。遂行左上纵膈肿物穿刺活检术,病理回报:为胸腺来源分化差的鱗状细胞癌,侵犯肺组织。2014-06-11至2014-07予以紫杉醇+顺铂(紫杉醇300mg,顺铂50mg,21天重复)化疗2周期。2014-07-24至2014-09-03行胸部适型放疗,同时予以紫杉醇+奈达铂,同步化疗5次,疗效评估:SD,期间曾出现II°骨髓抑制。2016-02患者于北京某三级医院复査发现左側胸腔积液,考虑左侧胸膜、肋骨转移,给予胸腔穿刺引流术,共引流出血性胸腔积液约2000ml,行吉西他滨联合顺铂方案化疗1周期。后于天津某医院行y-刀治疗。2016-05-20再次于北京某院复查,诊为:胸腺鳞状细胞癌放化疗后,胸骨、左側胸壁皮下、肋骨、肩胛骨、左侧胸膜、心包及左肺转移,遵照该院意见予以吡柔比星联合长春地辛(具体剂量不详)方案化疗2周期,疗效评价:PD,后更换为长春瑞滨联合顺铂方案(具体剂量不详)化疗2周期,疗效评价:SD。2016-08初,患者因骨转移疼痛就诊于当地县医院,给予止痛治疗(具体不详),住院期间右上肢PICC脱出(2016-08-07),2016-08-09上肢出现肿胀,局部皮肤颜色变红,皮温增高,为进一步诊治来我院。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "既往体健,无“冠心病、高血压、糖尿病”病史,否认“肝炎、结核，伤寒、疟疾”等传染病史;无手术、外伤史,既往输血史;无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "5080_治疗胸腺癌1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "64岁"
+        },
+        "chief_complaint": "男性，64岁，已婚，汉族，农民。 确诊胸腺癌2年余，右上肢肿胀3天。",
+        "present_illness": "患者缘于2014-5无明显诱因出现轻微胸闷、气短,无心悸、喘憋等不适,2014-05-08就诊于北京某三级医院査肺CT示:前纵膈肿物,约9.3*8.8cm,包绕左侧头臂静脉,肿物毗邻主动脉及肺动脉干,与局部胸壁无明显分界,与左肺分界模糊,考虑恶性,侵犯纵膈胸膜。遂行左上纵膈肿物穿刺活检术,病理回报:为胸腺来源分化差的鱗状细胞癌,侵犯肺组织。2014-06-11至2014-07予以紫杉醇+顺铂(紫杉醇300mg,顺铂50mg,21天重复)化疗2周期。2014-07-24至2014-09-03行胸部适型放疗,同时予以紫杉醇+奈达铂,同步化疗5次,疗效评估:SD,期间曾出现II°骨髓抑制。2016-02患者于北京某三级医院复査发现左側胸腔积液,考虑左侧胸膜、肋骨转移,给予胸腔穿刺引流术,共引流出血性胸腔积液约2000ml,行吉西他滨联合顺铂方案化疗1周期。后于天津某医院行y-刀治疗。2016-05-20再次于北京某院复查,诊为:胸腺鳞状细胞癌放化疗后,胸骨、左側胸壁皮下、肋骨、肩胛骨、左侧胸膜、心包及左肺转移,遵照该院意见予以吡柔比星联合长春地辛(具体剂量不详)方案化疗2周期,疗效评价:PD,后更换为长春瑞滨联合顺铂方案(具体剂量不详)化疗2周期,疗效评价:SD。2016-08初,患者因骨转移疼痛就诊于当地县医院,给予止痛治疗(具体不详),住院期间右上肢PICC脱出(2016-08-07),2016-08-09上肢出现肿胀,局部皮肤颜色变红,皮温增高,为进一步诊治来我院。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "既往体健,无“冠心病、高血压、糖尿病”病史,否认“肝炎、结核，伤寒、疟疾”等传染病史;无手术、外伤史,既往输血史;无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "5080_治疗胸腺癌1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "64岁"
+        },
+        "chief_complaint": "男性，64岁，已婚，汉族，农民。 确诊胸腺癌2年余，右上肢肿胀3天。",
+        "present_illness": "患者缘于2014-5无明显诱因出现轻微胸闷、气短,无心悸、喘憋等不适,2014-05-08就诊于北京某三级医院査肺CT示:前纵膈肿物,约9.3*8.8cm,包绕左侧头臂静脉,肿物毗邻主动脉及肺动脉干,与局部胸壁无明显分界,与左肺分界模糊,考虑恶性,侵犯纵膈胸膜。遂行左上纵膈肿物穿刺活检术,病理回报:为胸腺来源分化差的鱗状细胞癌,侵犯肺组织。2014-06-11至2014-07予以紫杉醇+顺铂(紫杉醇300mg,顺铂50mg,21天重复)化疗2周期。2014-07-24至2014-09-03行胸部适型放疗,同时予以紫杉醇+奈达铂,同步化疗5次,疗效评估:SD,期间曾出现II°骨髓抑制。2016-02患者于北京某三级医院复査发现左側胸腔积液,考虑左侧胸膜、肋骨转移,给予胸腔穿刺引流术,共引流出血性胸腔积液约2000ml,行吉西他滨联合顺铂方案化疗1周期。后于天津某医院行y-刀治疗。2016-05-20再次于北京某院复查,诊为:胸腺鳞状细胞癌放化疗后,胸骨、左側胸壁皮下、肋骨、肩胛骨、左侧胸膜、心包及左肺转移,遵照该院意见予以吡柔比星联合长春地辛(具体剂量不详)方案化疗2周期,疗效评价:PD,后更换为长春瑞滨联合顺铂方案(具体剂量不详)化疗2周期,疗效评价:SD。2016-08初,患者因骨转移疼痛就诊于当地县医院,给予止痛治疗(具体不详),住院期间右上肢PICC脱出(2016-08-07),2016-08-09上肢出现肿胀,局部皮肤颜色变红,皮温增高,为进一步诊治来我院。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往体健,无“冠心病、高血压、糖尿病”病史,否认“肝炎、结核，伤寒、疟疾”等传染病史;无手术、外伤史,既往输血史;无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "5080_治疗胸腺癌1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "64岁"
+        },
+        "chief_complaint": "男性，64岁，已婚，汉族，农民。 确诊胸腺癌2年余，右上肢肿胀3天。",
+        "present_illness": "患者缘于2014-5无明显诱因出现轻微胸闷、气短,无心悸、喘憋等不适,2014-05-08就诊于北京某三级医院査肺CT示:前纵膈肿物,约9.3*8.8cm,包绕左侧头臂静脉,肿物毗邻主动脉及肺动脉干,与局部胸壁无明显分界,与左肺分界模糊,考虑恶性,侵犯纵膈胸膜。遂行左上纵膈肿物穿刺活检术,病理回报:为胸腺来源分化差的鱗状细胞癌,侵犯肺组织。2014-06-11至2014-07予以紫杉醇+顺铂(紫杉醇300mg,顺铂50mg,21天重复)化疗2周期。2014-07-24至2014-09-03行胸部适型放疗,同时予以紫杉醇+奈达铂,同步化疗5次,疗效评估:SD,期间曾出现II°骨髓抑制。2016-02患者于北京某三级医院复査发现左側胸腔积液,考虑左侧胸膜、肋骨转移,给予胸腔穿刺引流术,共引流出血性胸腔积液约2000ml,行吉西他滨联合顺铂方案化疗1周期。后于天津某医院行y-刀治疗。2016-05-20再次于北京某院复查,诊为:胸腺鳞状细胞癌放化疗后,胸骨、左側胸壁皮下、肋骨、肩胛骨、左侧胸膜、心包及左肺转移,遵照该院意见予以吡柔比星联合长春地辛(具体剂量不详)方案化疗2周期,疗效评价:PD,后更换为长春瑞滨联合顺铂方案(具体剂量不详)化疗2周期,疗效评价:SD。2016-08初,患者因骨转移疼痛就诊于当地县医院,给予止痛治疗(具体不详),住院期间右上肢PICC脱出(2016-08-07),2016-08-09上肢出现肿胀,局部皮肤颜色变红,皮温增高,为进一步诊治来我院。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往体健,无“冠心病、高血压、糖尿病”病史,否认“肝炎、结核，伤寒、疟疾”等传染病史;无手术、外伤史,既往输血史;无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "5080_治疗胸腺癌1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "64岁"
+        },
+        "chief_complaint": "男性，64岁，已婚，汉族，农民。 确诊胸腺癌2年余，右上肢肿胀3天。",
+        "present_illness": "患者缘于2014-5无明显诱因出现轻微胸闷、气短,无心悸、喘憋等不适,2014-05-08就诊于北京某三级医院査肺CT示:前纵膈肿物,约9.3*8.8cm,包绕左侧头臂静脉,肿物毗邻主动脉及肺动脉干,与局部胸壁无明显分界,与左肺分界模糊,考虑恶性,侵犯纵膈胸膜。遂行左上纵膈肿物穿刺活检术,病理回报:为胸腺来源分化差的鱗状细胞癌,侵犯肺组织。2014-06-11至2014-07予以紫杉醇+顺铂(紫杉醇300mg,顺铂50mg,21天重复)化疗2周期。2014-07-24至2014-09-03行胸部适型放疗,同时予以紫杉醇+奈达铂,同步化疗5次,疗效评估:SD,期间曾出现II°骨髓抑制。2016-02患者于北京某三级医院复査发现左側胸腔积液,考虑左侧胸膜、肋骨转移,给予胸腔穿刺引流术,共引流出血性胸腔积液约2000ml,行吉西他滨联合顺铂方案化疗1周期。后于天津某医院行y-刀治疗。2016-05-20再次于北京某院复查,诊为:胸腺鳞状细胞癌放化疗后,胸骨、左側胸壁皮下、肋骨、肩胛骨、左侧胸膜、心包及左肺转移,遵照该院意见予以吡柔比星联合长春地辛(具体剂量不详)方案化疗2周期,疗效评价:PD,后更换为长春瑞滨联合顺铂方案(具体剂量不详)化疗2周期,疗效评价:SD。2016-08初,患者因骨转移疼痛就诊于当地县医院,给予止痛治疗(具体不详),住院期间右上肢PICC脱出(2016-08-07),2016-08-09上肢出现肿胀,局部皮肤颜色变红,皮温增高,为进一步诊治来我院。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往体健,无“冠心病、高血压、糖尿病”病史,否认“肝炎、结核，伤寒、疟疾”等传染病史;无手术、外伤史,既往输血史;无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "5080_治疗胸腺癌1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "64岁"
+        },
+        "chief_complaint": "男性，64岁，已婚，汉族，农民。 确诊胸腺癌2年余，右上肢肿胀3天。",
+        "present_illness": "患者缘于2014-5无明显诱因出现轻微胸闷、气短,无心悸、喘憋等不适,2014-05-08就诊于北京某三级医院査肺CT示:前纵膈肿物,约9.3*8.8cm,包绕左侧头臂静脉,肿物毗邻主动脉及肺动脉干,与局部胸壁无明显分界,与左肺分界模糊,考虑恶性,侵犯纵膈胸膜。遂行左上纵膈肿物穿刺活检术,病理回报:为胸腺来源分化差的鱗状细胞癌,侵犯肺组织。2014-06-11至2014-07予以紫杉醇+顺铂(紫杉醇300mg,顺铂50mg,21天重复)化疗2周期。2014-07-24至2014-09-03行胸部适型放疗,同时予以紫杉醇+奈达铂,同步化疗5次,疗效评估:SD,期间曾出现II°骨髓抑制。2016-02患者于北京某三级医院复査发现左側胸腔积液,考虑左侧胸膜、肋骨转移,给予胸腔穿刺引流术,共引流出血性胸腔积液约2000ml,行吉西他滨联合顺铂方案化疗1周期。后于天津某医院行y-刀治疗。2016-05-20再次于北京某院复查,诊为:胸腺鳞状细胞癌放化疗后,胸骨、左側胸壁皮下、肋骨、肩胛骨、左侧胸膜、心包及左肺转移,遵照该院意见予以吡柔比星联合长春地辛(具体剂量不详)方案化疗2周期,疗效评价:PD,后更换为长春瑞滨联合顺铂方案(具体剂量不详)化疗2周期,疗效评价:SD。2016-08初,患者因骨转移疼痛就诊于当地县医院,给予止痛治疗(具体不详),住院期间右上肢PICC脱出(2016-08-07),2016-08-09上肢出现肿胀,局部皮肤颜色变红,皮温增高,为进一步诊治来我院。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往体健,无“冠心病、高血压、糖尿病”病史,否认“肝炎、结核，伤寒、疟疾”等传染病史;无手术、外伤史,既往输血史;无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

@@ -1,0 +1,534 @@
+{
+  "case_id": "11573_肛裂手术治疗的护理心得",
+  "personal_info": {
+    "性别": "女",
+    "年龄": "36岁"
+  },
+  "chief_complaint": "便时及便后肛门疼痛1个月，加重伴便血1周。",
+  "present_illness": "该患者缘于1个月前，因大便干燥出现便时及便后**疼痛，伴便血，血色鲜红，血量较多，自认为是痔疮，自行应用硝酸甘油软膏外用后略有好转，此后病情反复发作，1周前出现大便困难、干燥，便时及便后肛门疼痛加剧，伴少量便血。今日为求系统治疗，就诊我院。门诊以肛裂收入院。现症：便时及便后肛门疼痛，便血，量不多，色鲜红，无发热及汗多，小便黄，大便干、困难，伴腹胀，饮食及睡眠尚可。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "既往健康，曾做过剖腹产手术。否认肝炎、结核病及其它传染性疾病史。否认药物及食物过敏史。正常接种。 出生吉林省长春市，不吸烟，不饮酒。27岁结婚，配偶情况健康，子女情况健康。父母健在，兄弟姐妹健在。",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "11573_肛裂手术治疗的护理心得",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "36岁"
+        },
+        "chief_complaint": "便时及便后肛门疼痛1个月，加重伴便血1周。",
+        "present_illness": "该患者缘于1个月前，因大便干燥出现便时及便后**疼痛，伴便血，血色鲜红，血量较多，自认为是痔疮，自行应用硝酸甘油软膏外用后略有好转，此后病情反复发作，1周前出现大便困难、干燥，便时及便后肛门疼痛加剧，伴少量便血。今日为求系统治疗，就诊我院。门诊以肛裂收入院。现症：便时及便后肛门疼痛，便血，量不多，色鲜红，无发热及汗多，小便黄，大便干、困难，伴腹胀，饮食及睡眠尚可。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "既往健康，曾做过剖腹产手术。否认肝炎、结核病及其它传染性疾病史。否认药物及食物过敏史。正常接种。 出生吉林省长春市，不吸烟，不饮酒。27岁结婚，配偶情况健康，子女情况健康。父母健在，兄弟姐妹健在。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "11573_肛裂手术治疗的护理心得",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "36岁"
+        },
+        "chief_complaint": "便时及便后肛门疼痛1个月，加重伴便血1周。",
+        "present_illness": "该患者缘于1个月前，因大便干燥出现便时及便后**疼痛，伴便血，血色鲜红，血量较多，自认为是痔疮，自行应用硝酸甘油软膏外用后略有好转，此后病情反复发作，1周前出现大便困难、干燥，便时及便后肛门疼痛加剧，伴少量便血。今日为求系统治疗，就诊我院。门诊以肛裂收入院。现症：便时及便后肛门疼痛，便血，量不多，色鲜红，无发热及汗多，小便黄，大便干、困难，伴腹胀，饮食及睡眠尚可。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往健康，曾做过剖腹产手术。否认肝炎、结核病及其它传染性疾病史。否认药物及食物过敏史。正常接种。 出生吉林省长春市，不吸烟，不饮酒。27岁结婚，配偶情况健康，子女情况健康。父母健在，兄弟姐妹健在。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "11573_肛裂手术治疗的护理心得",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "36岁"
+        },
+        "chief_complaint": "便时及便后肛门疼痛1个月，加重伴便血1周。",
+        "present_illness": "该患者缘于1个月前，因大便干燥出现便时及便后**疼痛，伴便血，血色鲜红，血量较多，自认为是痔疮，自行应用硝酸甘油软膏外用后略有好转，此后病情反复发作，1周前出现大便困难、干燥，便时及便后肛门疼痛加剧，伴少量便血。今日为求系统治疗，就诊我院。门诊以肛裂收入院。现症：便时及便后肛门疼痛，便血，量不多，色鲜红，无发热及汗多，小便黄，大便干、困难，伴腹胀，饮食及睡眠尚可。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往健康，曾做过剖腹产手术。否认肝炎、结核病及其它传染性疾病史。否认药物及食物过敏史。正常接种。 出生吉林省长春市，不吸烟，不饮酒。27岁结婚，配偶情况健康，子女情况健康。父母健在，兄弟姐妹健在。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "11573_肛裂手术治疗的护理心得",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "36岁"
+        },
+        "chief_complaint": "便时及便后肛门疼痛1个月，加重伴便血1周。",
+        "present_illness": "该患者缘于1个月前，因大便干燥出现便时及便后**疼痛，伴便血，血色鲜红，血量较多，自认为是痔疮，自行应用硝酸甘油软膏外用后略有好转，此后病情反复发作，1周前出现大便困难、干燥，便时及便后肛门疼痛加剧，伴少量便血。今日为求系统治疗，就诊我院。门诊以肛裂收入院。现症：便时及便后肛门疼痛，便血，量不多，色鲜红，无发热及汗多，小便黄，大便干、困难，伴腹胀，饮食及睡眠尚可。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往健康，曾做过剖腹产手术。否认肝炎、结核病及其它传染性疾病史。否认药物及食物过敏史。正常接种。 出生吉林省长春市，不吸烟，不饮酒。27岁结婚，配偶情况健康，子女情况健康。父母健在，兄弟姐妹健在。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "11573_肛裂手术治疗的护理心得",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "36岁"
+        },
+        "chief_complaint": "便时及便后肛门疼痛1个月，加重伴便血1周。",
+        "present_illness": "该患者缘于1个月前，因大便干燥出现便时及便后**疼痛，伴便血，血色鲜红，血量较多，自认为是痔疮，自行应用硝酸甘油软膏外用后略有好转，此后病情反复发作，1周前出现大便困难、干燥，便时及便后肛门疼痛加剧，伴少量便血。今日为求系统治疗，就诊我院。门诊以肛裂收入院。现症：便时及便后肛门疼痛，便血，量不多，色鲜红，无发热及汗多，小便黄，大便干、困难，伴腹胀，饮食及睡眠尚可。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往健康，曾做过剖腹产手术。否认肝炎、结核病及其它传染性疾病史。否认药物及食物过敏史。正常接种。 出生吉林省长春市，不吸烟，不饮酒。27岁结婚，配偶情况健康，子女情况健康。父母健在，兄弟姐妹健在。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

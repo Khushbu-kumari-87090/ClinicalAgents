@@ -1,0 +1,534 @@
+{
+  "case_id": "5079_治疗肺癌喘憋1例",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "62岁"
+  },
+  "chief_complaint": "男性，62岁，汉族，已婚，退休。 确诊肺癌1年余，喘憋1天。",
+  "present_illness": "患者缘于2014-10无明显诱因出现咳嗽咳痰,无痰中带血,无发热、盗汗等不适,就诊于当地三级医院查胸部CT示:考虑右肺中心性肺癌伴多发转移瘤。肿瘤标记物:角质蛋白CYFRA21-A18.91ng/ml,CEA34.17ng/ml,CA153467.7U/ml,NSE27.34ng/ml。未予治疗。\n2014-11-20患者于北京某医院査胸部增强CT示:1.右肺门处占位,恶性可能性大;2.双肺多发结节;3.双肺门及纵隔多发淋巴结,部分稍大。骨ECT:第8胸椎、第3腰椎和左侧坐骨异常所见,考虑为骨转移可能。\n2015-2患者咳嗽咳痰加重伴胸闷、气促,自行服用中药治疗。\n2015-7上述症状加重,后就诊于北京某医院间断服用吉非替尼(250mgqd)治疗至今。\n2015-11-2患者门诊查肝功能示:ALT286IU/L、AST163IU/L,再次就诊于北京某医院予以保肝治疗。\n住院期间查肺CT(2015-11-17):对比2015-10-12日CT:1.双肺多发团片、结节影,考虑恶性肿瘤性病变伴多发转移可能,病变范围较前变化不明显;2.心包少量积液同前,右侧胸腔积液同前;3.双肺癌性淋巴管炎不除外;4.部分胸椎骨转移,大致同前;5.右侧甲状腺密度欠均匀。骨ECT(2015-11-5):脊柱、双侧第9肋根、骨盆局部可见多发大小不等、形态各异、浓聚程度不等的放射性浓聚灶,考虑:多发骨转移。经治疗后ALT:187IU/L、AST116IU/L。\n2015-12-21患者无明显诱因出现发憋气短,活动后明显,伴周身乏力,无明显心悸、胸痛等不适。今日患者为进一步诊治***。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "既往“高血压”病史10年,最高血压150/100mmHg,间断口服寿比山治疗,血压控制稳定;“2型糖尿病”病史1年,间断服用诺和龙1mgtid治疗,半年前常出现低血糖,5月前停用降糖药物,否认冠心病、脑血管病史,否认神经精神疾病史,否认“肝炎、结核、伤寒、疟疾”等传染病史;无手术、外伤及输血史;无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "5079_治疗肺癌喘憋1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "62岁"
+        },
+        "chief_complaint": "男性，62岁，汉族，已婚，退休。 确诊肺癌1年余，喘憋1天。",
+        "present_illness": "患者缘于2014-10无明显诱因出现咳嗽咳痰,无痰中带血,无发热、盗汗等不适,就诊于当地三级医院查胸部CT示:考虑右肺中心性肺癌伴多发转移瘤。肿瘤标记物:角质蛋白CYFRA21-A18.91ng/ml,CEA34.17ng/ml,CA153467.7U/ml,NSE27.34ng/ml。未予治疗。\n2014-11-20患者于北京某医院査胸部增强CT示:1.右肺门处占位,恶性可能性大;2.双肺多发结节;3.双肺门及纵隔多发淋巴结,部分稍大。骨ECT:第8胸椎、第3腰椎和左侧坐骨异常所见,考虑为骨转移可能。\n2015-2患者咳嗽咳痰加重伴胸闷、气促,自行服用中药治疗。\n2015-7上述症状加重,后就诊于北京某医院间断服用吉非替尼(250mgqd)治疗至今。\n2015-11-2患者门诊查肝功能示:ALT286IU/L、AST163IU/L,再次就诊于北京某医院予以保肝治疗。\n住院期间查肺CT(2015-11-17):对比2015-10-12日CT:1.双肺多发团片、结节影,考虑恶性肿瘤性病变伴多发转移可能,病变范围较前变化不明显;2.心包少量积液同前,右侧胸腔积液同前;3.双肺癌性淋巴管炎不除外;4.部分胸椎骨转移,大致同前;5.右侧甲状腺密度欠均匀。骨ECT(2015-11-5):脊柱、双侧第9肋根、骨盆局部可见多发大小不等、形态各异、浓聚程度不等的放射性浓聚灶,考虑:多发骨转移。经治疗后ALT:187IU/L、AST116IU/L。\n2015-12-21患者无明显诱因出现发憋气短,活动后明显,伴周身乏力,无明显心悸、胸痛等不适。今日患者为进一步诊治***。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "既往“高血压”病史10年,最高血压150/100mmHg,间断口服寿比山治疗,血压控制稳定;“2型糖尿病”病史1年,间断服用诺和龙1mgtid治疗,半年前常出现低血糖,5月前停用降糖药物,否认冠心病、脑血管病史,否认神经精神疾病史,否认“肝炎、结核、伤寒、疟疾”等传染病史;无手术、外伤及输血史;无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "5079_治疗肺癌喘憋1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "62岁"
+        },
+        "chief_complaint": "男性，62岁，汉族，已婚，退休。 确诊肺癌1年余，喘憋1天。",
+        "present_illness": "患者缘于2014-10无明显诱因出现咳嗽咳痰,无痰中带血,无发热、盗汗等不适,就诊于当地三级医院查胸部CT示:考虑右肺中心性肺癌伴多发转移瘤。肿瘤标记物:角质蛋白CYFRA21-A18.91ng/ml,CEA34.17ng/ml,CA153467.7U/ml,NSE27.34ng/ml。未予治疗。\n2014-11-20患者于北京某医院査胸部增强CT示:1.右肺门处占位,恶性可能性大;2.双肺多发结节;3.双肺门及纵隔多发淋巴结,部分稍大。骨ECT:第8胸椎、第3腰椎和左侧坐骨异常所见,考虑为骨转移可能。\n2015-2患者咳嗽咳痰加重伴胸闷、气促,自行服用中药治疗。\n2015-7上述症状加重,后就诊于北京某医院间断服用吉非替尼(250mgqd)治疗至今。\n2015-11-2患者门诊查肝功能示:ALT286IU/L、AST163IU/L,再次就诊于北京某医院予以保肝治疗。\n住院期间查肺CT(2015-11-17):对比2015-10-12日CT:1.双肺多发团片、结节影,考虑恶性肿瘤性病变伴多发转移可能,病变范围较前变化不明显;2.心包少量积液同前,右侧胸腔积液同前;3.双肺癌性淋巴管炎不除外;4.部分胸椎骨转移,大致同前;5.右侧甲状腺密度欠均匀。骨ECT(2015-11-5):脊柱、双侧第9肋根、骨盆局部可见多发大小不等、形态各异、浓聚程度不等的放射性浓聚灶,考虑:多发骨转移。经治疗后ALT:187IU/L、AST116IU/L。\n2015-12-21患者无明显诱因出现发憋气短,活动后明显,伴周身乏力,无明显心悸、胸痛等不适。今日患者为进一步诊治***。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往“高血压”病史10年,最高血压150/100mmHg,间断口服寿比山治疗,血压控制稳定;“2型糖尿病”病史1年,间断服用诺和龙1mgtid治疗,半年前常出现低血糖,5月前停用降糖药物,否认冠心病、脑血管病史,否认神经精神疾病史,否认“肝炎、结核、伤寒、疟疾”等传染病史;无手术、外伤及输血史;无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "5079_治疗肺癌喘憋1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "62岁"
+        },
+        "chief_complaint": "男性，62岁，汉族，已婚，退休。 确诊肺癌1年余，喘憋1天。",
+        "present_illness": "患者缘于2014-10无明显诱因出现咳嗽咳痰,无痰中带血,无发热、盗汗等不适,就诊于当地三级医院查胸部CT示:考虑右肺中心性肺癌伴多发转移瘤。肿瘤标记物:角质蛋白CYFRA21-A18.91ng/ml,CEA34.17ng/ml,CA153467.7U/ml,NSE27.34ng/ml。未予治疗。\n2014-11-20患者于北京某医院査胸部增强CT示:1.右肺门处占位,恶性可能性大;2.双肺多发结节;3.双肺门及纵隔多发淋巴结,部分稍大。骨ECT:第8胸椎、第3腰椎和左侧坐骨异常所见,考虑为骨转移可能。\n2015-2患者咳嗽咳痰加重伴胸闷、气促,自行服用中药治疗。\n2015-7上述症状加重,后就诊于北京某医院间断服用吉非替尼(250mgqd)治疗至今。\n2015-11-2患者门诊查肝功能示:ALT286IU/L、AST163IU/L,再次就诊于北京某医院予以保肝治疗。\n住院期间查肺CT(2015-11-17):对比2015-10-12日CT:1.双肺多发团片、结节影,考虑恶性肿瘤性病变伴多发转移可能,病变范围较前变化不明显;2.心包少量积液同前,右侧胸腔积液同前;3.双肺癌性淋巴管炎不除外;4.部分胸椎骨转移,大致同前;5.右侧甲状腺密度欠均匀。骨ECT(2015-11-5):脊柱、双侧第9肋根、骨盆局部可见多发大小不等、形态各异、浓聚程度不等的放射性浓聚灶,考虑:多发骨转移。经治疗后ALT:187IU/L、AST116IU/L。\n2015-12-21患者无明显诱因出现发憋气短,活动后明显,伴周身乏力,无明显心悸、胸痛等不适。今日患者为进一步诊治***。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往“高血压”病史10年,最高血压150/100mmHg,间断口服寿比山治疗,血压控制稳定;“2型糖尿病”病史1年,间断服用诺和龙1mgtid治疗,半年前常出现低血糖,5月前停用降糖药物,否认冠心病、脑血管病史,否认神经精神疾病史,否认“肝炎、结核、伤寒、疟疾”等传染病史;无手术、外伤及输血史;无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "5079_治疗肺癌喘憋1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "62岁"
+        },
+        "chief_complaint": "男性，62岁，汉族，已婚，退休。 确诊肺癌1年余，喘憋1天。",
+        "present_illness": "患者缘于2014-10无明显诱因出现咳嗽咳痰,无痰中带血,无发热、盗汗等不适,就诊于当地三级医院查胸部CT示:考虑右肺中心性肺癌伴多发转移瘤。肿瘤标记物:角质蛋白CYFRA21-A18.91ng/ml,CEA34.17ng/ml,CA153467.7U/ml,NSE27.34ng/ml。未予治疗。\n2014-11-20患者于北京某医院査胸部增强CT示:1.右肺门处占位,恶性可能性大;2.双肺多发结节;3.双肺门及纵隔多发淋巴结,部分稍大。骨ECT:第8胸椎、第3腰椎和左侧坐骨异常所见,考虑为骨转移可能。\n2015-2患者咳嗽咳痰加重伴胸闷、气促,自行服用中药治疗。\n2015-7上述症状加重,后就诊于北京某医院间断服用吉非替尼(250mgqd)治疗至今。\n2015-11-2患者门诊查肝功能示:ALT286IU/L、AST163IU/L,再次就诊于北京某医院予以保肝治疗。\n住院期间查肺CT(2015-11-17):对比2015-10-12日CT:1.双肺多发团片、结节影,考虑恶性肿瘤性病变伴多发转移可能,病变范围较前变化不明显;2.心包少量积液同前,右侧胸腔积液同前;3.双肺癌性淋巴管炎不除外;4.部分胸椎骨转移,大致同前;5.右侧甲状腺密度欠均匀。骨ECT(2015-11-5):脊柱、双侧第9肋根、骨盆局部可见多发大小不等、形态各异、浓聚程度不等的放射性浓聚灶,考虑:多发骨转移。经治疗后ALT:187IU/L、AST116IU/L。\n2015-12-21患者无明显诱因出现发憋气短,活动后明显,伴周身乏力,无明显心悸、胸痛等不适。今日患者为进一步诊治***。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往“高血压”病史10年,最高血压150/100mmHg,间断口服寿比山治疗,血压控制稳定;“2型糖尿病”病史1年,间断服用诺和龙1mgtid治疗,半年前常出现低血糖,5月前停用降糖药物,否认冠心病、脑血管病史,否认神经精神疾病史,否认“肝炎、结核、伤寒、疟疾”等传染病史;无手术、外伤及输血史;无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "5079_治疗肺癌喘憋1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "62岁"
+        },
+        "chief_complaint": "男性，62岁，汉族，已婚，退休。 确诊肺癌1年余，喘憋1天。",
+        "present_illness": "患者缘于2014-10无明显诱因出现咳嗽咳痰,无痰中带血,无发热、盗汗等不适,就诊于当地三级医院查胸部CT示:考虑右肺中心性肺癌伴多发转移瘤。肿瘤标记物:角质蛋白CYFRA21-A18.91ng/ml,CEA34.17ng/ml,CA153467.7U/ml,NSE27.34ng/ml。未予治疗。\n2014-11-20患者于北京某医院査胸部增强CT示:1.右肺门处占位,恶性可能性大;2.双肺多发结节;3.双肺门及纵隔多发淋巴结,部分稍大。骨ECT:第8胸椎、第3腰椎和左侧坐骨异常所见,考虑为骨转移可能。\n2015-2患者咳嗽咳痰加重伴胸闷、气促,自行服用中药治疗。\n2015-7上述症状加重,后就诊于北京某医院间断服用吉非替尼(250mgqd)治疗至今。\n2015-11-2患者门诊查肝功能示:ALT286IU/L、AST163IU/L,再次就诊于北京某医院予以保肝治疗。\n住院期间查肺CT(2015-11-17):对比2015-10-12日CT:1.双肺多发团片、结节影,考虑恶性肿瘤性病变伴多发转移可能,病变范围较前变化不明显;2.心包少量积液同前,右侧胸腔积液同前;3.双肺癌性淋巴管炎不除外;4.部分胸椎骨转移,大致同前;5.右侧甲状腺密度欠均匀。骨ECT(2015-11-5):脊柱、双侧第9肋根、骨盆局部可见多发大小不等、形态各异、浓聚程度不等的放射性浓聚灶,考虑:多发骨转移。经治疗后ALT:187IU/L、AST116IU/L。\n2015-12-21患者无明显诱因出现发憋气短,活动后明显,伴周身乏力,无明显心悸、胸痛等不适。今日患者为进一步诊治***。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往“高血压”病史10年,最高血压150/100mmHg,间断口服寿比山治疗,血压控制稳定;“2型糖尿病”病史1年,间断服用诺和龙1mgtid治疗,半年前常出现低血糖,5月前停用降糖药物,否认冠心病、脑血管病史,否认神经精神疾病史,否认“肝炎、结核、伤寒、疟疾”等传染病史;无手术、外伤及输血史;无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

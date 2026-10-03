@@ -1,0 +1,534 @@
+{
+  "case_id": "7823_支气管肺炎合并EB病毒再感染",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "2岁"
+  },
+  "chief_complaint": "发热2天，咳嗽1天",
+  "present_illness": "患儿于入院前2天无明显诱因出现发热，最高体温38.3℃，热时无寒颤及抽搐，无皮疹，物理降温可降至正常，每日2次，入院前1天，出现连声咳，咳后有痰，不会咳出，无喘，伴少量流涕，无鼻塞，于家中口服药物及雾化治疗（口服头孢克肟、小儿氨酚黄那敏颗粒，具体剂量未提供，雾化布地奈德1支/次，日2次），患儿无明显好转，今晨咳嗽较前频繁，伴喘息，无喘憋，无呼吸困难，现家长为系统治疗来我院，门诊以“支气管肺炎”收入院，病程中，患儿无恶心及呕吐，无腹痛及腹泻，无乏力，无盗汗，无体重减轻，饮食一般，睡眠佳，二便正常。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "患儿平时身体一般。 既往反复喘息病史，幼时反复湿疹病史，患儿生后1个月（2018-12-06至2018-12-17）以“支气管肺炎，脐疝，高钾血症”于我科住院治疗，好转出院； 生后2个月（约2019年1月初）再次复发至某医院以“重症肺炎”住院治疗，痊愈出院； 2019-04-20至2019-05-08因“急性喉炎，双肺炎，贫血（轻度）”于我科住院治疗，好转出院； 2019年5月下旬、6月中旬以“支气管肺炎”于某医院住院2次（具体情况未提供），好转出院； 2019-07-04至2019-07-13因“支气管肺炎，铁缺乏”于我科住院治疗，好转出院； 2019-10-11至2019-10-24因“支气管肺炎，轻度贫血”于我科住院治疗，好转出院； 2020-08-04至2020-08-14因“支气管肺炎”于我科住院治疗，好转出院。 否认肝炎、结核、伤寒等传染病史及接触史，否认心、肝、肾等重要脏器疾病史。 否认外伤史，否认手术史，无输血史，否认药物过敏史、既往有尘螨、牛奶、鸡肉、芒果过敏史。 预防接种按计划进行，已接种卡介苗、乙肝疫苗、百白破疫苗、脊髓灰质炎、麻疹疫苗、乙脑疫苗。",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "7823_支气管肺炎合并EB病毒再感染",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "2岁"
+        },
+        "chief_complaint": "发热2天，咳嗽1天",
+        "present_illness": "患儿于入院前2天无明显诱因出现发热，最高体温38.3℃，热时无寒颤及抽搐，无皮疹，物理降温可降至正常，每日2次，入院前1天，出现连声咳，咳后有痰，不会咳出，无喘，伴少量流涕，无鼻塞，于家中口服药物及雾化治疗（口服头孢克肟、小儿氨酚黄那敏颗粒，具体剂量未提供，雾化布地奈德1支/次，日2次），患儿无明显好转，今晨咳嗽较前频繁，伴喘息，无喘憋，无呼吸困难，现家长为系统治疗来我院，门诊以“支气管肺炎”收入院，病程中，患儿无恶心及呕吐，无腹痛及腹泻，无乏力，无盗汗，无体重减轻，饮食一般，睡眠佳，二便正常。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "患儿平时身体一般。 既往反复喘息病史，幼时反复湿疹病史，患儿生后1个月（2018-12-06至2018-12-17）以“支气管肺炎，脐疝，高钾血症”于我科住院治疗，好转出院； 生后2个月（约2019年1月初）再次复发至某医院以“重症肺炎”住院治疗，痊愈出院； 2019-04-20至2019-05-08因“急性喉炎，双肺炎，贫血（轻度）”于我科住院治疗，好转出院； 2019年5月下旬、6月中旬以“支气管肺炎”于某医院住院2次（具体情况未提供），好转出院； 2019-07-04至2019-07-13因“支气管肺炎，铁缺乏”于我科住院治疗，好转出院； 2019-10-11至2019-10-24因“支气管肺炎，轻度贫血”于我科住院治疗，好转出院； 2020-08-04至2020-08-14因“支气管肺炎”于我科住院治疗，好转出院。 否认肝炎、结核、伤寒等传染病史及接触史，否认心、肝、肾等重要脏器疾病史。 否认外伤史，否认手术史，无输血史，否认药物过敏史、既往有尘螨、牛奶、鸡肉、芒果过敏史。 预防接种按计划进行，已接种卡介苗、乙肝疫苗、百白破疫苗、脊髓灰质炎、麻疹疫苗、乙脑疫苗。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "7823_支气管肺炎合并EB病毒再感染",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "2岁"
+        },
+        "chief_complaint": "发热2天，咳嗽1天",
+        "present_illness": "患儿于入院前2天无明显诱因出现发热，最高体温38.3℃，热时无寒颤及抽搐，无皮疹，物理降温可降至正常，每日2次，入院前1天，出现连声咳，咳后有痰，不会咳出，无喘，伴少量流涕，无鼻塞，于家中口服药物及雾化治疗（口服头孢克肟、小儿氨酚黄那敏颗粒，具体剂量未提供，雾化布地奈德1支/次，日2次），患儿无明显好转，今晨咳嗽较前频繁，伴喘息，无喘憋，无呼吸困难，现家长为系统治疗来我院，门诊以“支气管肺炎”收入院，病程中，患儿无恶心及呕吐，无腹痛及腹泻，无乏力，无盗汗，无体重减轻，饮食一般，睡眠佳，二便正常。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "患儿平时身体一般。 既往反复喘息病史，幼时反复湿疹病史，患儿生后1个月（2018-12-06至2018-12-17）以“支气管肺炎，脐疝，高钾血症”于我科住院治疗，好转出院； 生后2个月（约2019年1月初）再次复发至某医院以“重症肺炎”住院治疗，痊愈出院； 2019-04-20至2019-05-08因“急性喉炎，双肺炎，贫血（轻度）”于我科住院治疗，好转出院； 2019年5月下旬、6月中旬以“支气管肺炎”于某医院住院2次（具体情况未提供），好转出院； 2019-07-04至2019-07-13因“支气管肺炎，铁缺乏”于我科住院治疗，好转出院； 2019-10-11至2019-10-24因“支气管肺炎，轻度贫血”于我科住院治疗，好转出院； 2020-08-04至2020-08-14因“支气管肺炎”于我科住院治疗，好转出院。 否认肝炎、结核、伤寒等传染病史及接触史，否认心、肝、肾等重要脏器疾病史。 否认外伤史，否认手术史，无输血史，否认药物过敏史、既往有尘螨、牛奶、鸡肉、芒果过敏史。 预防接种按计划进行，已接种卡介苗、乙肝疫苗、百白破疫苗、脊髓灰质炎、麻疹疫苗、乙脑疫苗。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "7823_支气管肺炎合并EB病毒再感染",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "2岁"
+        },
+        "chief_complaint": "发热2天，咳嗽1天",
+        "present_illness": "患儿于入院前2天无明显诱因出现发热，最高体温38.3℃，热时无寒颤及抽搐，无皮疹，物理降温可降至正常，每日2次，入院前1天，出现连声咳，咳后有痰，不会咳出，无喘，伴少量流涕，无鼻塞，于家中口服药物及雾化治疗（口服头孢克肟、小儿氨酚黄那敏颗粒，具体剂量未提供，雾化布地奈德1支/次，日2次），患儿无明显好转，今晨咳嗽较前频繁，伴喘息，无喘憋，无呼吸困难，现家长为系统治疗来我院，门诊以“支气管肺炎”收入院，病程中，患儿无恶心及呕吐，无腹痛及腹泻，无乏力，无盗汗，无体重减轻，饮食一般，睡眠佳，二便正常。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "患儿平时身体一般。 既往反复喘息病史，幼时反复湿疹病史，患儿生后1个月（2018-12-06至2018-12-17）以“支气管肺炎，脐疝，高钾血症”于我科住院治疗，好转出院； 生后2个月（约2019年1月初）再次复发至某医院以“重症肺炎”住院治疗，痊愈出院； 2019-04-20至2019-05-08因“急性喉炎，双肺炎，贫血（轻度）”于我科住院治疗，好转出院； 2019年5月下旬、6月中旬以“支气管肺炎”于某医院住院2次（具体情况未提供），好转出院； 2019-07-04至2019-07-13因“支气管肺炎，铁缺乏”于我科住院治疗，好转出院； 2019-10-11至2019-10-24因“支气管肺炎，轻度贫血”于我科住院治疗，好转出院； 2020-08-04至2020-08-14因“支气管肺炎”于我科住院治疗，好转出院。 否认肝炎、结核、伤寒等传染病史及接触史，否认心、肝、肾等重要脏器疾病史。 否认外伤史，否认手术史，无输血史，否认药物过敏史、既往有尘螨、牛奶、鸡肉、芒果过敏史。 预防接种按计划进行，已接种卡介苗、乙肝疫苗、百白破疫苗、脊髓灰质炎、麻疹疫苗、乙脑疫苗。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "7823_支气管肺炎合并EB病毒再感染",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "2岁"
+        },
+        "chief_complaint": "发热2天，咳嗽1天",
+        "present_illness": "患儿于入院前2天无明显诱因出现发热，最高体温38.3℃，热时无寒颤及抽搐，无皮疹，物理降温可降至正常，每日2次，入院前1天，出现连声咳，咳后有痰，不会咳出，无喘，伴少量流涕，无鼻塞，于家中口服药物及雾化治疗（口服头孢克肟、小儿氨酚黄那敏颗粒，具体剂量未提供，雾化布地奈德1支/次，日2次），患儿无明显好转，今晨咳嗽较前频繁，伴喘息，无喘憋，无呼吸困难，现家长为系统治疗来我院，门诊以“支气管肺炎”收入院，病程中，患儿无恶心及呕吐，无腹痛及腹泻，无乏力，无盗汗，无体重减轻，饮食一般，睡眠佳，二便正常。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "患儿平时身体一般。 既往反复喘息病史，幼时反复湿疹病史，患儿生后1个月（2018-12-06至2018-12-17）以“支气管肺炎，脐疝，高钾血症”于我科住院治疗，好转出院； 生后2个月（约2019年1月初）再次复发至某医院以“重症肺炎”住院治疗，痊愈出院； 2019-04-20至2019-05-08因“急性喉炎，双肺炎，贫血（轻度）”于我科住院治疗，好转出院； 2019年5月下旬、6月中旬以“支气管肺炎”于某医院住院2次（具体情况未提供），好转出院； 2019-07-04至2019-07-13因“支气管肺炎，铁缺乏”于我科住院治疗，好转出院； 2019-10-11至2019-10-24因“支气管肺炎，轻度贫血”于我科住院治疗，好转出院； 2020-08-04至2020-08-14因“支气管肺炎”于我科住院治疗，好转出院。 否认肝炎、结核、伤寒等传染病史及接触史，否认心、肝、肾等重要脏器疾病史。 否认外伤史，否认手术史，无输血史，否认药物过敏史、既往有尘螨、牛奶、鸡肉、芒果过敏史。 预防接种按计划进行，已接种卡介苗、乙肝疫苗、百白破疫苗、脊髓灰质炎、麻疹疫苗、乙脑疫苗。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "7823_支气管肺炎合并EB病毒再感染",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "2岁"
+        },
+        "chief_complaint": "发热2天，咳嗽1天",
+        "present_illness": "患儿于入院前2天无明显诱因出现发热，最高体温38.3℃，热时无寒颤及抽搐，无皮疹，物理降温可降至正常，每日2次，入院前1天，出现连声咳，咳后有痰，不会咳出，无喘，伴少量流涕，无鼻塞，于家中口服药物及雾化治疗（口服头孢克肟、小儿氨酚黄那敏颗粒，具体剂量未提供，雾化布地奈德1支/次，日2次），患儿无明显好转，今晨咳嗽较前频繁，伴喘息，无喘憋，无呼吸困难，现家长为系统治疗来我院，门诊以“支气管肺炎”收入院，病程中，患儿无恶心及呕吐，无腹痛及腹泻，无乏力，无盗汗，无体重减轻，饮食一般，睡眠佳，二便正常。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "患儿平时身体一般。 既往反复喘息病史，幼时反复湿疹病史，患儿生后1个月（2018-12-06至2018-12-17）以“支气管肺炎，脐疝，高钾血症”于我科住院治疗，好转出院； 生后2个月（约2019年1月初）再次复发至某医院以“重症肺炎”住院治疗，痊愈出院； 2019-04-20至2019-05-08因“急性喉炎，双肺炎，贫血（轻度）”于我科住院治疗，好转出院； 2019年5月下旬、6月中旬以“支气管肺炎”于某医院住院2次（具体情况未提供），好转出院； 2019-07-04至2019-07-13因“支气管肺炎，铁缺乏”于我科住院治疗，好转出院； 2019-10-11至2019-10-24因“支气管肺炎，轻度贫血”于我科住院治疗，好转出院； 2020-08-04至2020-08-14因“支气管肺炎”于我科住院治疗，好转出院。 否认肝炎、结核、伤寒等传染病史及接触史，否认心、肝、肾等重要脏器疾病史。 否认外伤史，否认手术史，无输血史，否认药物过敏史、既往有尘螨、牛奶、鸡肉、芒果过敏史。 预防接种按计划进行，已接种卡介苗、乙肝疫苗、百白破疫苗、脊髓灰质炎、麻疹疫苗、乙脑疫苗。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

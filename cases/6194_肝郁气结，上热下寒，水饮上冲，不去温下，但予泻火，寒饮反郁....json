@@ -1,0 +1,534 @@
+{
+  "case_id": "6194_肝郁气结，上热下寒，水饮上冲，不去温下，但予泻火，寒饮反郁...",
+  "personal_info": {
+    "性别": "女",
+    "年龄": "40岁"
+  },
+  "chief_complaint": "王××，女，40岁 赵××，女，30岁。",
+  "present_illness": "阵发性心跳难忍3—4年。医诊阵发性心动过速。医先以西药治疗2年多不效，继又配合中药养心安神，疏肝泻火等治疗1年多仍不效。细审其证：心跳每呈阵发性，每次发病，先感脘腹悸动，继而热气上冲，冲至胸则胸满心悸不已，冲至咽喉则发憋而呼吸困难，冲至头则头胀头痛，烦乱不安，继而全身汗出，汗出之后，心悸，胸满，呼吸困难消失。开始发病时1个月发作仅1—2次，其后逐渐频繁，现在平均1日发作1～2次，每次少则几秒钟，多则1分钟。即使不发作，也经常感到头晕头痛，烦躁易怒，口苦咽干，白带多或阴痒，舌苔黄白，脉弦紧而涩。\n辩证：弦脉者肝脉也，紧者寒湿互结也，涩者寒也滞也。综合脉证，乃肝郁气结，痰湿阻滞，上热下寒，水气上冲之证。拟用疏肝解郁，温阳化饮，清上温下，化饮降冲。 阵发性心跳过速，每日2—3次，3年多。医诊阵发性心动过速。医以西药治疗1年多不效，又以中药养心安神、平肝泻心火之法治疗近2年仍不效。邀余诊视，予柴胡加龙牡、奔豚、桂枝加桂汤约1月，俱不效。细询其证，除阵发性心悸每日1～2次，每次约1分钟外，并见其脉弦细而尺大，发病时脉弱而数尺脉弦。因思脉弦细者阴阳俱虚也，尺脉大者肾虚也，尺脉大而弦者肾阳不足寒水搏击也。前方之用柴胡加龙骨牡蛎、奔豚汤皆从肝治而未及病之所在也。因拟温-肾阳，化寒水。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "6194_肝郁气结，上热下寒，水饮上冲，不去温下，但予泻火，寒饮反郁...",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "40岁"
+        },
+        "chief_complaint": "王××，女，40岁 赵××，女，30岁。",
+        "present_illness": "阵发性心跳难忍3—4年。医诊阵发性心动过速。医先以西药治疗2年多不效，继又配合中药养心安神，疏肝泻火等治疗1年多仍不效。细审其证：心跳每呈阵发性，每次发病，先感脘腹悸动，继而热气上冲，冲至胸则胸满心悸不已，冲至咽喉则发憋而呼吸困难，冲至头则头胀头痛，烦乱不安，继而全身汗出，汗出之后，心悸，胸满，呼吸困难消失。开始发病时1个月发作仅1—2次，其后逐渐频繁，现在平均1日发作1～2次，每次少则几秒钟，多则1分钟。即使不发作，也经常感到头晕头痛，烦躁易怒，口苦咽干，白带多或阴痒，舌苔黄白，脉弦紧而涩。\n辩证：弦脉者肝脉也，紧者寒湿互结也，涩者寒也滞也。综合脉证，乃肝郁气结，痰湿阻滞，上热下寒，水气上冲之证。拟用疏肝解郁，温阳化饮，清上温下，化饮降冲。 阵发性心跳过速，每日2—3次，3年多。医诊阵发性心动过速。医以西药治疗1年多不效，又以中药养心安神、平肝泻心火之法治疗近2年仍不效。邀余诊视，予柴胡加龙牡、奔豚、桂枝加桂汤约1月，俱不效。细询其证，除阵发性心悸每日1～2次，每次约1分钟外，并见其脉弦细而尺大，发病时脉弱而数尺脉弦。因思脉弦细者阴阳俱虚也，尺脉大者肾虚也，尺脉大而弦者肾阳不足寒水搏击也。前方之用柴胡加龙骨牡蛎、奔豚汤皆从肝治而未及病之所在也。因拟温-肾阳，化寒水。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "6194_肝郁气结，上热下寒，水饮上冲，不去温下，但予泻火，寒饮反郁...",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "40岁"
+        },
+        "chief_complaint": "王××，女，40岁 赵××，女，30岁。",
+        "present_illness": "阵发性心跳难忍3—4年。医诊阵发性心动过速。医先以西药治疗2年多不效，继又配合中药养心安神，疏肝泻火等治疗1年多仍不效。细审其证：心跳每呈阵发性，每次发病，先感脘腹悸动，继而热气上冲，冲至胸则胸满心悸不已，冲至咽喉则发憋而呼吸困难，冲至头则头胀头痛，烦乱不安，继而全身汗出，汗出之后，心悸，胸满，呼吸困难消失。开始发病时1个月发作仅1—2次，其后逐渐频繁，现在平均1日发作1～2次，每次少则几秒钟，多则1分钟。即使不发作，也经常感到头晕头痛，烦躁易怒，口苦咽干，白带多或阴痒，舌苔黄白，脉弦紧而涩。\n辩证：弦脉者肝脉也，紧者寒湿互结也，涩者寒也滞也。综合脉证，乃肝郁气结，痰湿阻滞，上热下寒，水气上冲之证。拟用疏肝解郁，温阳化饮，清上温下，化饮降冲。 阵发性心跳过速，每日2—3次，3年多。医诊阵发性心动过速。医以西药治疗1年多不效，又以中药养心安神、平肝泻心火之法治疗近2年仍不效。邀余诊视，予柴胡加龙牡、奔豚、桂枝加桂汤约1月，俱不效。细询其证，除阵发性心悸每日1～2次，每次约1分钟外，并见其脉弦细而尺大，发病时脉弱而数尺脉弦。因思脉弦细者阴阳俱虚也，尺脉大者肾虚也，尺脉大而弦者肾阳不足寒水搏击也。前方之用柴胡加龙骨牡蛎、奔豚汤皆从肝治而未及病之所在也。因拟温-肾阳，化寒水。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "6194_肝郁气结，上热下寒，水饮上冲，不去温下，但予泻火，寒饮反郁...",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "40岁"
+        },
+        "chief_complaint": "王××，女，40岁 赵××，女，30岁。",
+        "present_illness": "阵发性心跳难忍3—4年。医诊阵发性心动过速。医先以西药治疗2年多不效，继又配合中药养心安神，疏肝泻火等治疗1年多仍不效。细审其证：心跳每呈阵发性，每次发病，先感脘腹悸动，继而热气上冲，冲至胸则胸满心悸不已，冲至咽喉则发憋而呼吸困难，冲至头则头胀头痛，烦乱不安，继而全身汗出，汗出之后，心悸，胸满，呼吸困难消失。开始发病时1个月发作仅1—2次，其后逐渐频繁，现在平均1日发作1～2次，每次少则几秒钟，多则1分钟。即使不发作，也经常感到头晕头痛，烦躁易怒，口苦咽干，白带多或阴痒，舌苔黄白，脉弦紧而涩。\n辩证：弦脉者肝脉也，紧者寒湿互结也，涩者寒也滞也。综合脉证，乃肝郁气结，痰湿阻滞，上热下寒，水气上冲之证。拟用疏肝解郁，温阳化饮，清上温下，化饮降冲。 阵发性心跳过速，每日2—3次，3年多。医诊阵发性心动过速。医以西药治疗1年多不效，又以中药养心安神、平肝泻心火之法治疗近2年仍不效。邀余诊视，予柴胡加龙牡、奔豚、桂枝加桂汤约1月，俱不效。细询其证，除阵发性心悸每日1～2次，每次约1分钟外，并见其脉弦细而尺大，发病时脉弱而数尺脉弦。因思脉弦细者阴阳俱虚也，尺脉大者肾虚也，尺脉大而弦者肾阳不足寒水搏击也。前方之用柴胡加龙骨牡蛎、奔豚汤皆从肝治而未及病之所在也。因拟温-肾阳，化寒水。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "6194_肝郁气结，上热下寒，水饮上冲，不去温下，但予泻火，寒饮反郁...",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "40岁"
+        },
+        "chief_complaint": "王××，女，40岁 赵××，女，30岁。",
+        "present_illness": "阵发性心跳难忍3—4年。医诊阵发性心动过速。医先以西药治疗2年多不效，继又配合中药养心安神，疏肝泻火等治疗1年多仍不效。细审其证：心跳每呈阵发性，每次发病，先感脘腹悸动，继而热气上冲，冲至胸则胸满心悸不已，冲至咽喉则发憋而呼吸困难，冲至头则头胀头痛，烦乱不安，继而全身汗出，汗出之后，心悸，胸满，呼吸困难消失。开始发病时1个月发作仅1—2次，其后逐渐频繁，现在平均1日发作1～2次，每次少则几秒钟，多则1分钟。即使不发作，也经常感到头晕头痛，烦躁易怒，口苦咽干，白带多或阴痒，舌苔黄白，脉弦紧而涩。\n辩证：弦脉者肝脉也，紧者寒湿互结也，涩者寒也滞也。综合脉证，乃肝郁气结，痰湿阻滞，上热下寒，水气上冲之证。拟用疏肝解郁，温阳化饮，清上温下，化饮降冲。 阵发性心跳过速，每日2—3次，3年多。医诊阵发性心动过速。医以西药治疗1年多不效，又以中药养心安神、平肝泻心火之法治疗近2年仍不效。邀余诊视，予柴胡加龙牡、奔豚、桂枝加桂汤约1月，俱不效。细询其证，除阵发性心悸每日1～2次，每次约1分钟外，并见其脉弦细而尺大，发病时脉弱而数尺脉弦。因思脉弦细者阴阳俱虚也，尺脉大者肾虚也，尺脉大而弦者肾阳不足寒水搏击也。前方之用柴胡加龙骨牡蛎、奔豚汤皆从肝治而未及病之所在也。因拟温-肾阳，化寒水。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "6194_肝郁气结，上热下寒，水饮上冲，不去温下，但予泻火，寒饮反郁...",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "40岁"
+        },
+        "chief_complaint": "王××，女，40岁 赵××，女，30岁。",
+        "present_illness": "阵发性心跳难忍3—4年。医诊阵发性心动过速。医先以西药治疗2年多不效，继又配合中药养心安神，疏肝泻火等治疗1年多仍不效。细审其证：心跳每呈阵发性，每次发病，先感脘腹悸动，继而热气上冲，冲至胸则胸满心悸不已，冲至咽喉则发憋而呼吸困难，冲至头则头胀头痛，烦乱不安，继而全身汗出，汗出之后，心悸，胸满，呼吸困难消失。开始发病时1个月发作仅1—2次，其后逐渐频繁，现在平均1日发作1～2次，每次少则几秒钟，多则1分钟。即使不发作，也经常感到头晕头痛，烦躁易怒，口苦咽干，白带多或阴痒，舌苔黄白，脉弦紧而涩。\n辩证：弦脉者肝脉也，紧者寒湿互结也，涩者寒也滞也。综合脉证，乃肝郁气结，痰湿阻滞，上热下寒，水气上冲之证。拟用疏肝解郁，温阳化饮，清上温下，化饮降冲。 阵发性心跳过速，每日2—3次，3年多。医诊阵发性心动过速。医以西药治疗1年多不效，又以中药养心安神、平肝泻心火之法治疗近2年仍不效。邀余诊视，予柴胡加龙牡、奔豚、桂枝加桂汤约1月，俱不效。细询其证，除阵发性心悸每日1～2次，每次约1分钟外，并见其脉弦细而尺大，发病时脉弱而数尺脉弦。因思脉弦细者阴阳俱虚也，尺脉大者肾虚也，尺脉大而弦者肾阳不足寒水搏击也。前方之用柴胡加龙骨牡蛎、奔豚汤皆从肝治而未及病之所在也。因拟温-肾阳，化寒水。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

@@ -1,0 +1,534 @@
+{
+  "case_id": "836_肝癌术后肺转移的四位一体治疗",
+  "personal_info": {
+    "性别": "女",
+    "年龄": "未知"
+  },
+  "chief_complaint": "入院后仍诊为帕金森氏病,但治疗效果欠佳。治疗或医患沟通病情时,患者四肢震颤、恐慌明显加重,有幻觉,肢体僵硬,谨小慎微,常觉“自己将遭遇极大不幸”。追问病史患者于入院前2年其父不幸突然病逝,患者受精神打击较大,自觉亲情失落,数日难以入睡。据此诊为广泛性焦虑症,给予心理治疗、奋乃静等处理,1个月后基本痊愈。 广泛性焦虑症是综合性医院常见的精神病症,常因未引起临床医生的重视而延误诊断。按照《中国精神疾病分类方案与诊断标准》第二版修订版(CCMD222R)关于神经症的诊断标准为:(1)症状标准:以下神经症性综合征之一为主要临床表现:①癔症性分离症状或转换症状;②轻度抑郁症状;③恐怖症状;④强迫症状;⑤惊恐症状;⑥广泛性焦虑症;⑦疑病症状;⑧神经衰弱症状;⑨其它神经性症状或上述症状的混合。(2)严重程度标准:因上述症状,造成至少下述情况之一:①妨碍工作、学习、生活或社交;②无法摆脱的精神痛苦,以致主动求医。(3)病程标准:持续病程至少3个月。(4)排除标准:确诊须排除下述障碍:脑器质性精神障碍,精神活性物质与非依赖性所致精神障碍,精神分裂症、偏执性精神病、各种精神病性障碍和情感性精神障碍。美国精神病会《精神疾病诊断和统计手册》(第4版)及世界卫生组织《疾病创伤和死亡原因的国际统计分类》(第10版),关于广泛性焦虑症的病期定为止少6个月,其余诊断标准与CCMD－2－R基本相同。",
+  "present_illness": "",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "836_肝癌术后肺转移的四位一体治疗",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "未知"
+        },
+        "chief_complaint": "入院后仍诊为帕金森氏病,但治疗效果欠佳。治疗或医患沟通病情时,患者四肢震颤、恐慌明显加重,有幻觉,肢体僵硬,谨小慎微,常觉“自己将遭遇极大不幸”。追问病史患者于入院前2年其父不幸突然病逝,患者受精神打击较大,自觉亲情失落,数日难以入睡。据此诊为广泛性焦虑症,给予心理治疗、奋乃静等处理,1个月后基本痊愈。 广泛性焦虑症是综合性医院常见的精神病症,常因未引起临床医生的重视而延误诊断。按照《中国精神疾病分类方案与诊断标准》第二版修订版(CCMD222R)关于神经症的诊断标准为:(1)症状标准:以下神经症性综合征之一为主要临床表现:①癔症性分离症状或转换症状;②轻度抑郁症状;③恐怖症状;④强迫症状;⑤惊恐症状;⑥广泛性焦虑症;⑦疑病症状;⑧神经衰弱症状;⑨其它神经性症状或上述症状的混合。(2)严重程度标准:因上述症状,造成至少下述情况之一:①妨碍工作、学习、生活或社交;②无法摆脱的精神痛苦,以致主动求医。(3)病程标准:持续病程至少3个月。(4)排除标准:确诊须排除下述障碍:脑器质性精神障碍,精神活性物质与非依赖性所致精神障碍,精神分裂症、偏执性精神病、各种精神病性障碍和情感性精神障碍。美国精神病会《精神疾病诊断和统计手册》(第4版)及世界卫生组织《疾病创伤和死亡原因的国际统计分类》(第10版),关于广泛性焦虑症的病期定为止少6个月,其余诊断标准与CCMD－2－R基本相同。",
+        "present_illness": "",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "836_肝癌术后肺转移的四位一体治疗",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "未知"
+        },
+        "chief_complaint": "入院后仍诊为帕金森氏病,但治疗效果欠佳。治疗或医患沟通病情时,患者四肢震颤、恐慌明显加重,有幻觉,肢体僵硬,谨小慎微,常觉“自己将遭遇极大不幸”。追问病史患者于入院前2年其父不幸突然病逝,患者受精神打击较大,自觉亲情失落,数日难以入睡。据此诊为广泛性焦虑症,给予心理治疗、奋乃静等处理,1个月后基本痊愈。 广泛性焦虑症是综合性医院常见的精神病症,常因未引起临床医生的重视而延误诊断。按照《中国精神疾病分类方案与诊断标准》第二版修订版(CCMD222R)关于神经症的诊断标准为:(1)症状标准:以下神经症性综合征之一为主要临床表现:①癔症性分离症状或转换症状;②轻度抑郁症状;③恐怖症状;④强迫症状;⑤惊恐症状;⑥广泛性焦虑症;⑦疑病症状;⑧神经衰弱症状;⑨其它神经性症状或上述症状的混合。(2)严重程度标准:因上述症状,造成至少下述情况之一:①妨碍工作、学习、生活或社交;②无法摆脱的精神痛苦,以致主动求医。(3)病程标准:持续病程至少3个月。(4)排除标准:确诊须排除下述障碍:脑器质性精神障碍,精神活性物质与非依赖性所致精神障碍,精神分裂症、偏执性精神病、各种精神病性障碍和情感性精神障碍。美国精神病会《精神疾病诊断和统计手册》(第4版)及世界卫生组织《疾病创伤和死亡原因的国际统计分类》(第10版),关于广泛性焦虑症的病期定为止少6个月,其余诊断标准与CCMD－2－R基本相同。",
+        "present_illness": "",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "836_肝癌术后肺转移的四位一体治疗",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "未知"
+        },
+        "chief_complaint": "入院后仍诊为帕金森氏病,但治疗效果欠佳。治疗或医患沟通病情时,患者四肢震颤、恐慌明显加重,有幻觉,肢体僵硬,谨小慎微,常觉“自己将遭遇极大不幸”。追问病史患者于入院前2年其父不幸突然病逝,患者受精神打击较大,自觉亲情失落,数日难以入睡。据此诊为广泛性焦虑症,给予心理治疗、奋乃静等处理,1个月后基本痊愈。 广泛性焦虑症是综合性医院常见的精神病症,常因未引起临床医生的重视而延误诊断。按照《中国精神疾病分类方案与诊断标准》第二版修订版(CCMD222R)关于神经症的诊断标准为:(1)症状标准:以下神经症性综合征之一为主要临床表现:①癔症性分离症状或转换症状;②轻度抑郁症状;③恐怖症状;④强迫症状;⑤惊恐症状;⑥广泛性焦虑症;⑦疑病症状;⑧神经衰弱症状;⑨其它神经性症状或上述症状的混合。(2)严重程度标准:因上述症状,造成至少下述情况之一:①妨碍工作、学习、生活或社交;②无法摆脱的精神痛苦,以致主动求医。(3)病程标准:持续病程至少3个月。(4)排除标准:确诊须排除下述障碍:脑器质性精神障碍,精神活性物质与非依赖性所致精神障碍,精神分裂症、偏执性精神病、各种精神病性障碍和情感性精神障碍。美国精神病会《精神疾病诊断和统计手册》(第4版)及世界卫生组织《疾病创伤和死亡原因的国际统计分类》(第10版),关于广泛性焦虑症的病期定为止少6个月,其余诊断标准与CCMD－2－R基本相同。",
+        "present_illness": "",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "836_肝癌术后肺转移的四位一体治疗",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "未知"
+        },
+        "chief_complaint": "入院后仍诊为帕金森氏病,但治疗效果欠佳。治疗或医患沟通病情时,患者四肢震颤、恐慌明显加重,有幻觉,肢体僵硬,谨小慎微,常觉“自己将遭遇极大不幸”。追问病史患者于入院前2年其父不幸突然病逝,患者受精神打击较大,自觉亲情失落,数日难以入睡。据此诊为广泛性焦虑症,给予心理治疗、奋乃静等处理,1个月后基本痊愈。 广泛性焦虑症是综合性医院常见的精神病症,常因未引起临床医生的重视而延误诊断。按照《中国精神疾病分类方案与诊断标准》第二版修订版(CCMD222R)关于神经症的诊断标准为:(1)症状标准:以下神经症性综合征之一为主要临床表现:①癔症性分离症状或转换症状;②轻度抑郁症状;③恐怖症状;④强迫症状;⑤惊恐症状;⑥广泛性焦虑症;⑦疑病症状;⑧神经衰弱症状;⑨其它神经性症状或上述症状的混合。(2)严重程度标准:因上述症状,造成至少下述情况之一:①妨碍工作、学习、生活或社交;②无法摆脱的精神痛苦,以致主动求医。(3)病程标准:持续病程至少3个月。(4)排除标准:确诊须排除下述障碍:脑器质性精神障碍,精神活性物质与非依赖性所致精神障碍,精神分裂症、偏执性精神病、各种精神病性障碍和情感性精神障碍。美国精神病会《精神疾病诊断和统计手册》(第4版)及世界卫生组织《疾病创伤和死亡原因的国际统计分类》(第10版),关于广泛性焦虑症的病期定为止少6个月,其余诊断标准与CCMD－2－R基本相同。",
+        "present_illness": "",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "836_肝癌术后肺转移的四位一体治疗",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "未知"
+        },
+        "chief_complaint": "入院后仍诊为帕金森氏病,但治疗效果欠佳。治疗或医患沟通病情时,患者四肢震颤、恐慌明显加重,有幻觉,肢体僵硬,谨小慎微,常觉“自己将遭遇极大不幸”。追问病史患者于入院前2年其父不幸突然病逝,患者受精神打击较大,自觉亲情失落,数日难以入睡。据此诊为广泛性焦虑症,给予心理治疗、奋乃静等处理,1个月后基本痊愈。 广泛性焦虑症是综合性医院常见的精神病症,常因未引起临床医生的重视而延误诊断。按照《中国精神疾病分类方案与诊断标准》第二版修订版(CCMD222R)关于神经症的诊断标准为:(1)症状标准:以下神经症性综合征之一为主要临床表现:①癔症性分离症状或转换症状;②轻度抑郁症状;③恐怖症状;④强迫症状;⑤惊恐症状;⑥广泛性焦虑症;⑦疑病症状;⑧神经衰弱症状;⑨其它神经性症状或上述症状的混合。(2)严重程度标准:因上述症状,造成至少下述情况之一:①妨碍工作、学习、生活或社交;②无法摆脱的精神痛苦,以致主动求医。(3)病程标准:持续病程至少3个月。(4)排除标准:确诊须排除下述障碍:脑器质性精神障碍,精神活性物质与非依赖性所致精神障碍,精神分裂症、偏执性精神病、各种精神病性障碍和情感性精神障碍。美国精神病会《精神疾病诊断和统计手册》(第4版)及世界卫生组织《疾病创伤和死亡原因的国际统计分类》(第10版),关于广泛性焦虑症的病期定为止少6个月,其余诊断标准与CCMD－2－R基本相同。",
+        "present_illness": "",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

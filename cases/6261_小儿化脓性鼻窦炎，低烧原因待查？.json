@@ -1,0 +1,534 @@
+{
+  "case_id": "6261_小儿化脓性鼻窦炎，低烧原因待查？",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "9岁"
+  },
+  "chief_complaint": "患儿，男，9岁，",
+  "present_illness": "缘于约6个月前无明显诱因出现低烧，体温在36.8-37.5之间波动，一般为下午发烧，发烧时伴有全身不适，夜间偶感出汗，偶有一过性头痛，持续时间较短，未在意。不伴有恶心、呕吐，不伴有咳嗽、咳痰，就诊于市第二医院，胸片示：支气管肺炎，血常规、血沉未见异常。随后在市疾控中心OT试验12*12mm，回家后给予抗感染治疗（严迪、护彤等药物），未见好转，之后就诊于市妇幼医院，化验血沉、尿常规、肥达、外斐、c反应蛋白、抗链-o、风湿三项、支原体未见异常，血常规示白细胞3.3*109/L，平均红细胞体积80.8fL，回家后口服“补血、抗感染”等药物，效果不佳，再次到市疾控中心复查OT试验9*12mm，皮试后出现鼻塞、盗汗、头痛等症状，按疾控中心大夫医嘱口服“结核康欣、利福喷定、二维葡醛内酯”，约服药一周后，患儿头痛明显，到市285医院鼻窦CT示：化脓性鼻窦炎，回家后按市中心医院耳鼻喉科大夫口服“仙露贝、克拉霉素”，抗结核治疗约二十天后患儿出现头痛难忍，呈针扎样，头痛点为头皮下，持续时间较长，发作时用手敲打自己头部，症状减轻时为上额外皮针扎样疼痛，发作时精神差，脸部微红，伴有乏力，疾控中心大夫怀疑结核药物副作用，指示停药观察，停药后按化脓性鼻窦炎治疗，曾口服“仙露贝、苍耳子胶囊、鼻舒适”等药物，在当地诊所输液（具体药物不详），血象不高，头痛未减轻，测下午体温：37.2左右。明仁医院头颅CT示：大枕大池，余未见异常。之后在社区医院静点“青霉素、甲硝唑、庆大、维C”治疗18天，头痛减轻，但仍发作，都于白天发作，可间断持续一天。就诊于中心医院，脑电图示：未见异常。回家口服“谷维素、维生素B1、维生素B6、鼻舒适、辐舒良”后，头痛减轻，之后未诉头痛发作，仍有全身不适发作，可间断持续一天，不规律低烧，体温在36.9-37.9之间不规律波动，退烧药效果不佳。发作时全身乏力，伴有皮下疼痛，时重时轻，自诉偶感伴有皮下发热，与体温无关，发作时精神差。于2012年5月8日在中心医院复查：血常规、肾功能未见异常，肝功能：谷草/谷丙2.8.患儿发病以来精神、睡眠、饮食可，无恶心、呕吐，出现过无痛性便血，小便正常。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "既往健康，无肝炎、结核接触史。预防接种均按时进行。",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "6261_小儿化脓性鼻窦炎，低烧原因待查？",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "9岁"
+        },
+        "chief_complaint": "患儿，男，9岁，",
+        "present_illness": "缘于约6个月前无明显诱因出现低烧，体温在36.8-37.5之间波动，一般为下午发烧，发烧时伴有全身不适，夜间偶感出汗，偶有一过性头痛，持续时间较短，未在意。不伴有恶心、呕吐，不伴有咳嗽、咳痰，就诊于市第二医院，胸片示：支气管肺炎，血常规、血沉未见异常。随后在市疾控中心OT试验12*12mm，回家后给予抗感染治疗（严迪、护彤等药物），未见好转，之后就诊于市妇幼医院，化验血沉、尿常规、肥达、外斐、c反应蛋白、抗链-o、风湿三项、支原体未见异常，血常规示白细胞3.3*109/L，平均红细胞体积80.8fL，回家后口服“补血、抗感染”等药物，效果不佳，再次到市疾控中心复查OT试验9*12mm，皮试后出现鼻塞、盗汗、头痛等症状，按疾控中心大夫医嘱口服“结核康欣、利福喷定、二维葡醛内酯”，约服药一周后，患儿头痛明显，到市285医院鼻窦CT示：化脓性鼻窦炎，回家后按市中心医院耳鼻喉科大夫口服“仙露贝、克拉霉素”，抗结核治疗约二十天后患儿出现头痛难忍，呈针扎样，头痛点为头皮下，持续时间较长，发作时用手敲打自己头部，症状减轻时为上额外皮针扎样疼痛，发作时精神差，脸部微红，伴有乏力，疾控中心大夫怀疑结核药物副作用，指示停药观察，停药后按化脓性鼻窦炎治疗，曾口服“仙露贝、苍耳子胶囊、鼻舒适”等药物，在当地诊所输液（具体药物不详），血象不高，头痛未减轻，测下午体温：37.2左右。明仁医院头颅CT示：大枕大池，余未见异常。之后在社区医院静点“青霉素、甲硝唑、庆大、维C”治疗18天，头痛减轻，但仍发作，都于白天发作，可间断持续一天。就诊于中心医院，脑电图示：未见异常。回家口服“谷维素、维生素B1、维生素B6、鼻舒适、辐舒良”后，头痛减轻，之后未诉头痛发作，仍有全身不适发作，可间断持续一天，不规律低烧，体温在36.9-37.9之间不规律波动，退烧药效果不佳。发作时全身乏力，伴有皮下疼痛，时重时轻，自诉偶感伴有皮下发热，与体温无关，发作时精神差。于2012年5月8日在中心医院复查：血常规、肾功能未见异常，肝功能：谷草/谷丙2.8.患儿发病以来精神、睡眠、饮食可，无恶心、呕吐，出现过无痛性便血，小便正常。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "既往健康，无肝炎、结核接触史。预防接种均按时进行。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "6261_小儿化脓性鼻窦炎，低烧原因待查？",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "9岁"
+        },
+        "chief_complaint": "患儿，男，9岁，",
+        "present_illness": "缘于约6个月前无明显诱因出现低烧，体温在36.8-37.5之间波动，一般为下午发烧，发烧时伴有全身不适，夜间偶感出汗，偶有一过性头痛，持续时间较短，未在意。不伴有恶心、呕吐，不伴有咳嗽、咳痰，就诊于市第二医院，胸片示：支气管肺炎，血常规、血沉未见异常。随后在市疾控中心OT试验12*12mm，回家后给予抗感染治疗（严迪、护彤等药物），未见好转，之后就诊于市妇幼医院，化验血沉、尿常规、肥达、外斐、c反应蛋白、抗链-o、风湿三项、支原体未见异常，血常规示白细胞3.3*109/L，平均红细胞体积80.8fL，回家后口服“补血、抗感染”等药物，效果不佳，再次到市疾控中心复查OT试验9*12mm，皮试后出现鼻塞、盗汗、头痛等症状，按疾控中心大夫医嘱口服“结核康欣、利福喷定、二维葡醛内酯”，约服药一周后，患儿头痛明显，到市285医院鼻窦CT示：化脓性鼻窦炎，回家后按市中心医院耳鼻喉科大夫口服“仙露贝、克拉霉素”，抗结核治疗约二十天后患儿出现头痛难忍，呈针扎样，头痛点为头皮下，持续时间较长，发作时用手敲打自己头部，症状减轻时为上额外皮针扎样疼痛，发作时精神差，脸部微红，伴有乏力，疾控中心大夫怀疑结核药物副作用，指示停药观察，停药后按化脓性鼻窦炎治疗，曾口服“仙露贝、苍耳子胶囊、鼻舒适”等药物，在当地诊所输液（具体药物不详），血象不高，头痛未减轻，测下午体温：37.2左右。明仁医院头颅CT示：大枕大池，余未见异常。之后在社区医院静点“青霉素、甲硝唑、庆大、维C”治疗18天，头痛减轻，但仍发作，都于白天发作，可间断持续一天。就诊于中心医院，脑电图示：未见异常。回家口服“谷维素、维生素B1、维生素B6、鼻舒适、辐舒良”后，头痛减轻，之后未诉头痛发作，仍有全身不适发作，可间断持续一天，不规律低烧，体温在36.9-37.9之间不规律波动，退烧药效果不佳。发作时全身乏力，伴有皮下疼痛，时重时轻，自诉偶感伴有皮下发热，与体温无关，发作时精神差。于2012年5月8日在中心医院复查：血常规、肾功能未见异常，肝功能：谷草/谷丙2.8.患儿发病以来精神、睡眠、饮食可，无恶心、呕吐，出现过无痛性便血，小便正常。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往健康，无肝炎、结核接触史。预防接种均按时进行。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "6261_小儿化脓性鼻窦炎，低烧原因待查？",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "9岁"
+        },
+        "chief_complaint": "患儿，男，9岁，",
+        "present_illness": "缘于约6个月前无明显诱因出现低烧，体温在36.8-37.5之间波动，一般为下午发烧，发烧时伴有全身不适，夜间偶感出汗，偶有一过性头痛，持续时间较短，未在意。不伴有恶心、呕吐，不伴有咳嗽、咳痰，就诊于市第二医院，胸片示：支气管肺炎，血常规、血沉未见异常。随后在市疾控中心OT试验12*12mm，回家后给予抗感染治疗（严迪、护彤等药物），未见好转，之后就诊于市妇幼医院，化验血沉、尿常规、肥达、外斐、c反应蛋白、抗链-o、风湿三项、支原体未见异常，血常规示白细胞3.3*109/L，平均红细胞体积80.8fL，回家后口服“补血、抗感染”等药物，效果不佳，再次到市疾控中心复查OT试验9*12mm，皮试后出现鼻塞、盗汗、头痛等症状，按疾控中心大夫医嘱口服“结核康欣、利福喷定、二维葡醛内酯”，约服药一周后，患儿头痛明显，到市285医院鼻窦CT示：化脓性鼻窦炎，回家后按市中心医院耳鼻喉科大夫口服“仙露贝、克拉霉素”，抗结核治疗约二十天后患儿出现头痛难忍，呈针扎样，头痛点为头皮下，持续时间较长，发作时用手敲打自己头部，症状减轻时为上额外皮针扎样疼痛，发作时精神差，脸部微红，伴有乏力，疾控中心大夫怀疑结核药物副作用，指示停药观察，停药后按化脓性鼻窦炎治疗，曾口服“仙露贝、苍耳子胶囊、鼻舒适”等药物，在当地诊所输液（具体药物不详），血象不高，头痛未减轻，测下午体温：37.2左右。明仁医院头颅CT示：大枕大池，余未见异常。之后在社区医院静点“青霉素、甲硝唑、庆大、维C”治疗18天，头痛减轻，但仍发作，都于白天发作，可间断持续一天。就诊于中心医院，脑电图示：未见异常。回家口服“谷维素、维生素B1、维生素B6、鼻舒适、辐舒良”后，头痛减轻，之后未诉头痛发作，仍有全身不适发作，可间断持续一天，不规律低烧，体温在36.9-37.9之间不规律波动，退烧药效果不佳。发作时全身乏力，伴有皮下疼痛，时重时轻，自诉偶感伴有皮下发热，与体温无关，发作时精神差。于2012年5月8日在中心医院复查：血常规、肾功能未见异常，肝功能：谷草/谷丙2.8.患儿发病以来精神、睡眠、饮食可，无恶心、呕吐，出现过无痛性便血，小便正常。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往健康，无肝炎、结核接触史。预防接种均按时进行。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "6261_小儿化脓性鼻窦炎，低烧原因待查？",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "9岁"
+        },
+        "chief_complaint": "患儿，男，9岁，",
+        "present_illness": "缘于约6个月前无明显诱因出现低烧，体温在36.8-37.5之间波动，一般为下午发烧，发烧时伴有全身不适，夜间偶感出汗，偶有一过性头痛，持续时间较短，未在意。不伴有恶心、呕吐，不伴有咳嗽、咳痰，就诊于市第二医院，胸片示：支气管肺炎，血常规、血沉未见异常。随后在市疾控中心OT试验12*12mm，回家后给予抗感染治疗（严迪、护彤等药物），未见好转，之后就诊于市妇幼医院，化验血沉、尿常规、肥达、外斐、c反应蛋白、抗链-o、风湿三项、支原体未见异常，血常规示白细胞3.3*109/L，平均红细胞体积80.8fL，回家后口服“补血、抗感染”等药物，效果不佳，再次到市疾控中心复查OT试验9*12mm，皮试后出现鼻塞、盗汗、头痛等症状，按疾控中心大夫医嘱口服“结核康欣、利福喷定、二维葡醛内酯”，约服药一周后，患儿头痛明显，到市285医院鼻窦CT示：化脓性鼻窦炎，回家后按市中心医院耳鼻喉科大夫口服“仙露贝、克拉霉素”，抗结核治疗约二十天后患儿出现头痛难忍，呈针扎样，头痛点为头皮下，持续时间较长，发作时用手敲打自己头部，症状减轻时为上额外皮针扎样疼痛，发作时精神差，脸部微红，伴有乏力，疾控中心大夫怀疑结核药物副作用，指示停药观察，停药后按化脓性鼻窦炎治疗，曾口服“仙露贝、苍耳子胶囊、鼻舒适”等药物，在当地诊所输液（具体药物不详），血象不高，头痛未减轻，测下午体温：37.2左右。明仁医院头颅CT示：大枕大池，余未见异常。之后在社区医院静点“青霉素、甲硝唑、庆大、维C”治疗18天，头痛减轻，但仍发作，都于白天发作，可间断持续一天。就诊于中心医院，脑电图示：未见异常。回家口服“谷维素、维生素B1、维生素B6、鼻舒适、辐舒良”后，头痛减轻，之后未诉头痛发作，仍有全身不适发作，可间断持续一天，不规律低烧，体温在36.9-37.9之间不规律波动，退烧药效果不佳。发作时全身乏力，伴有皮下疼痛，时重时轻，自诉偶感伴有皮下发热，与体温无关，发作时精神差。于2012年5月8日在中心医院复查：血常规、肾功能未见异常，肝功能：谷草/谷丙2.8.患儿发病以来精神、睡眠、饮食可，无恶心、呕吐，出现过无痛性便血，小便正常。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往健康，无肝炎、结核接触史。预防接种均按时进行。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "6261_小儿化脓性鼻窦炎，低烧原因待查？",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "9岁"
+        },
+        "chief_complaint": "患儿，男，9岁，",
+        "present_illness": "缘于约6个月前无明显诱因出现低烧，体温在36.8-37.5之间波动，一般为下午发烧，发烧时伴有全身不适，夜间偶感出汗，偶有一过性头痛，持续时间较短，未在意。不伴有恶心、呕吐，不伴有咳嗽、咳痰，就诊于市第二医院，胸片示：支气管肺炎，血常规、血沉未见异常。随后在市疾控中心OT试验12*12mm，回家后给予抗感染治疗（严迪、护彤等药物），未见好转，之后就诊于市妇幼医院，化验血沉、尿常规、肥达、外斐、c反应蛋白、抗链-o、风湿三项、支原体未见异常，血常规示白细胞3.3*109/L，平均红细胞体积80.8fL，回家后口服“补血、抗感染”等药物，效果不佳，再次到市疾控中心复查OT试验9*12mm，皮试后出现鼻塞、盗汗、头痛等症状，按疾控中心大夫医嘱口服“结核康欣、利福喷定、二维葡醛内酯”，约服药一周后，患儿头痛明显，到市285医院鼻窦CT示：化脓性鼻窦炎，回家后按市中心医院耳鼻喉科大夫口服“仙露贝、克拉霉素”，抗结核治疗约二十天后患儿出现头痛难忍，呈针扎样，头痛点为头皮下，持续时间较长，发作时用手敲打自己头部，症状减轻时为上额外皮针扎样疼痛，发作时精神差，脸部微红，伴有乏力，疾控中心大夫怀疑结核药物副作用，指示停药观察，停药后按化脓性鼻窦炎治疗，曾口服“仙露贝、苍耳子胶囊、鼻舒适”等药物，在当地诊所输液（具体药物不详），血象不高，头痛未减轻，测下午体温：37.2左右。明仁医院头颅CT示：大枕大池，余未见异常。之后在社区医院静点“青霉素、甲硝唑、庆大、维C”治疗18天，头痛减轻，但仍发作，都于白天发作，可间断持续一天。就诊于中心医院，脑电图示：未见异常。回家口服“谷维素、维生素B1、维生素B6、鼻舒适、辐舒良”后，头痛减轻，之后未诉头痛发作，仍有全身不适发作，可间断持续一天，不规律低烧，体温在36.9-37.9之间不规律波动，退烧药效果不佳。发作时全身乏力，伴有皮下疼痛，时重时轻，自诉偶感伴有皮下发热，与体温无关，发作时精神差。于2012年5月8日在中心医院复查：血常规、肾功能未见异常，肝功能：谷草/谷丙2.8.患儿发病以来精神、睡眠、饮食可，无恶心、呕吐，出现过无痛性便血，小便正常。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往健康，无肝炎、结核接触史。预防接种均按时进行。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

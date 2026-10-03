@@ -1,0 +1,534 @@
+{
+  "case_id": "4175_系统性红斑狼疮致继发性血小板减少症抗磷脂抗体综合征 狼疮性...",
+  "personal_info": {
+    "性别": "女",
+    "年龄": "47岁"
+  },
+  "chief_complaint": "发现血小板减少3年余.",
+  "present_illness": "患者于3年前查体时发现有血小板减少，当时血小板为44×10^9/L，无鼻衄、牙龈出血等。曾住院治疗，经相关治疗后症状好转出院。1年前，患者出现尿频、尿急，夜间小便可达5-6次，曾去山东齐鲁医院就诊，查血显示血小板38×10^9/L，抗核抗体1:160阳性，补体C30.74g/L，抗心磷脂抗体-IgG124.84U/ml，查尿蛋白（++），潜血（+++），尿白细胞（++）。考虑为“系统性红斑狼疮、抗磷脂抗体综合征”。住院治疗，期间给予激素治疗，并口服“吗替麦考酚酯，硫酸羟氯喹片，醋酸**，百令胶囊，尿毒清颗粒”等药物治疗，病情逐渐好转。口干、眼干1年余，自感口渴，频繁喝水不见缓解，口腔无烧灼感，无吞咽困难，近期病情较前加重。无头痛及头晕，无视物模糊，无意识不清，无口吐白沫，无手足抽搐，无心悸、胸闷，无恶心及呕吐，无发热、乏力、纳差。今为求进一步治疗来诊，门诊检查后以“系统性红斑狼疮继发性血小板减少症”收入院。患者近期神志清，精神尚可，饮食睡眠欠佳，夜尿较多，有泡沫尿，5-6次/夜，大便正常，体重无明显减轻。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "有“高血压病”病史10年余，血压最高达200/130mmhg，平时服药“缬沙坦”控制。有“腔隙性脑梗死”病史3年余。否认有糖尿病，否认有肝炎、结核等传染病史及密切接触史，否认有重大外伤手术史，否认有食物药物过敏史，预防接种史随当地。",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "4175_系统性红斑狼疮致继发性血小板减少症抗磷脂抗体综合征 狼疮性...",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "47岁"
+        },
+        "chief_complaint": "发现血小板减少3年余.",
+        "present_illness": "患者于3年前查体时发现有血小板减少，当时血小板为44×10^9/L，无鼻衄、牙龈出血等。曾住院治疗，经相关治疗后症状好转出院。1年前，患者出现尿频、尿急，夜间小便可达5-6次，曾去山东齐鲁医院就诊，查血显示血小板38×10^9/L，抗核抗体1:160阳性，补体C30.74g/L，抗心磷脂抗体-IgG124.84U/ml，查尿蛋白（++），潜血（+++），尿白细胞（++）。考虑为“系统性红斑狼疮、抗磷脂抗体综合征”。住院治疗，期间给予激素治疗，并口服“吗替麦考酚酯，硫酸羟氯喹片，醋酸**，百令胶囊，尿毒清颗粒”等药物治疗，病情逐渐好转。口干、眼干1年余，自感口渴，频繁喝水不见缓解，口腔无烧灼感，无吞咽困难，近期病情较前加重。无头痛及头晕，无视物模糊，无意识不清，无口吐白沫，无手足抽搐，无心悸、胸闷，无恶心及呕吐，无发热、乏力、纳差。今为求进一步治疗来诊，门诊检查后以“系统性红斑狼疮继发性血小板减少症”收入院。患者近期神志清，精神尚可，饮食睡眠欠佳，夜尿较多，有泡沫尿，5-6次/夜，大便正常，体重无明显减轻。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "有“高血压病”病史10年余，血压最高达200/130mmhg，平时服药“缬沙坦”控制。有“腔隙性脑梗死”病史3年余。否认有糖尿病，否认有肝炎、结核等传染病史及密切接触史，否认有重大外伤手术史，否认有食物药物过敏史，预防接种史随当地。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "4175_系统性红斑狼疮致继发性血小板减少症抗磷脂抗体综合征 狼疮性...",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "47岁"
+        },
+        "chief_complaint": "发现血小板减少3年余.",
+        "present_illness": "患者于3年前查体时发现有血小板减少，当时血小板为44×10^9/L，无鼻衄、牙龈出血等。曾住院治疗，经相关治疗后症状好转出院。1年前，患者出现尿频、尿急，夜间小便可达5-6次，曾去山东齐鲁医院就诊，查血显示血小板38×10^9/L，抗核抗体1:160阳性，补体C30.74g/L，抗心磷脂抗体-IgG124.84U/ml，查尿蛋白（++），潜血（+++），尿白细胞（++）。考虑为“系统性红斑狼疮、抗磷脂抗体综合征”。住院治疗，期间给予激素治疗，并口服“吗替麦考酚酯，硫酸羟氯喹片，醋酸**，百令胶囊，尿毒清颗粒”等药物治疗，病情逐渐好转。口干、眼干1年余，自感口渴，频繁喝水不见缓解，口腔无烧灼感，无吞咽困难，近期病情较前加重。无头痛及头晕，无视物模糊，无意识不清，无口吐白沫，无手足抽搐，无心悸、胸闷，无恶心及呕吐，无发热、乏力、纳差。今为求进一步治疗来诊，门诊检查后以“系统性红斑狼疮继发性血小板减少症”收入院。患者近期神志清，精神尚可，饮食睡眠欠佳，夜尿较多，有泡沫尿，5-6次/夜，大便正常，体重无明显减轻。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "有“高血压病”病史10年余，血压最高达200/130mmhg，平时服药“缬沙坦”控制。有“腔隙性脑梗死”病史3年余。否认有糖尿病，否认有肝炎、结核等传染病史及密切接触史，否认有重大外伤手术史，否认有食物药物过敏史，预防接种史随当地。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "4175_系统性红斑狼疮致继发性血小板减少症抗磷脂抗体综合征 狼疮性...",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "47岁"
+        },
+        "chief_complaint": "发现血小板减少3年余.",
+        "present_illness": "患者于3年前查体时发现有血小板减少，当时血小板为44×10^9/L，无鼻衄、牙龈出血等。曾住院治疗，经相关治疗后症状好转出院。1年前，患者出现尿频、尿急，夜间小便可达5-6次，曾去山东齐鲁医院就诊，查血显示血小板38×10^9/L，抗核抗体1:160阳性，补体C30.74g/L，抗心磷脂抗体-IgG124.84U/ml，查尿蛋白（++），潜血（+++），尿白细胞（++）。考虑为“系统性红斑狼疮、抗磷脂抗体综合征”。住院治疗，期间给予激素治疗，并口服“吗替麦考酚酯，硫酸羟氯喹片，醋酸**，百令胶囊，尿毒清颗粒”等药物治疗，病情逐渐好转。口干、眼干1年余，自感口渴，频繁喝水不见缓解，口腔无烧灼感，无吞咽困难，近期病情较前加重。无头痛及头晕，无视物模糊，无意识不清，无口吐白沫，无手足抽搐，无心悸、胸闷，无恶心及呕吐，无发热、乏力、纳差。今为求进一步治疗来诊，门诊检查后以“系统性红斑狼疮继发性血小板减少症”收入院。患者近期神志清，精神尚可，饮食睡眠欠佳，夜尿较多，有泡沫尿，5-6次/夜，大便正常，体重无明显减轻。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "有“高血压病”病史10年余，血压最高达200/130mmhg，平时服药“缬沙坦”控制。有“腔隙性脑梗死”病史3年余。否认有糖尿病，否认有肝炎、结核等传染病史及密切接触史，否认有重大外伤手术史，否认有食物药物过敏史，预防接种史随当地。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "4175_系统性红斑狼疮致继发性血小板减少症抗磷脂抗体综合征 狼疮性...",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "47岁"
+        },
+        "chief_complaint": "发现血小板减少3年余.",
+        "present_illness": "患者于3年前查体时发现有血小板减少，当时血小板为44×10^9/L，无鼻衄、牙龈出血等。曾住院治疗，经相关治疗后症状好转出院。1年前，患者出现尿频、尿急，夜间小便可达5-6次，曾去山东齐鲁医院就诊，查血显示血小板38×10^9/L，抗核抗体1:160阳性，补体C30.74g/L，抗心磷脂抗体-IgG124.84U/ml，查尿蛋白（++），潜血（+++），尿白细胞（++）。考虑为“系统性红斑狼疮、抗磷脂抗体综合征”。住院治疗，期间给予激素治疗，并口服“吗替麦考酚酯，硫酸羟氯喹片，醋酸**，百令胶囊，尿毒清颗粒”等药物治疗，病情逐渐好转。口干、眼干1年余，自感口渴，频繁喝水不见缓解，口腔无烧灼感，无吞咽困难，近期病情较前加重。无头痛及头晕，无视物模糊，无意识不清，无口吐白沫，无手足抽搐，无心悸、胸闷，无恶心及呕吐，无发热、乏力、纳差。今为求进一步治疗来诊，门诊检查后以“系统性红斑狼疮继发性血小板减少症”收入院。患者近期神志清，精神尚可，饮食睡眠欠佳，夜尿较多，有泡沫尿，5-6次/夜，大便正常，体重无明显减轻。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "有“高血压病”病史10年余，血压最高达200/130mmhg，平时服药“缬沙坦”控制。有“腔隙性脑梗死”病史3年余。否认有糖尿病，否认有肝炎、结核等传染病史及密切接触史，否认有重大外伤手术史，否认有食物药物过敏史，预防接种史随当地。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "4175_系统性红斑狼疮致继发性血小板减少症抗磷脂抗体综合征 狼疮性...",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "47岁"
+        },
+        "chief_complaint": "发现血小板减少3年余.",
+        "present_illness": "患者于3年前查体时发现有血小板减少，当时血小板为44×10^9/L，无鼻衄、牙龈出血等。曾住院治疗，经相关治疗后症状好转出院。1年前，患者出现尿频、尿急，夜间小便可达5-6次，曾去山东齐鲁医院就诊，查血显示血小板38×10^9/L，抗核抗体1:160阳性，补体C30.74g/L，抗心磷脂抗体-IgG124.84U/ml，查尿蛋白（++），潜血（+++），尿白细胞（++）。考虑为“系统性红斑狼疮、抗磷脂抗体综合征”。住院治疗，期间给予激素治疗，并口服“吗替麦考酚酯，硫酸羟氯喹片，醋酸**，百令胶囊，尿毒清颗粒”等药物治疗，病情逐渐好转。口干、眼干1年余，自感口渴，频繁喝水不见缓解，口腔无烧灼感，无吞咽困难，近期病情较前加重。无头痛及头晕，无视物模糊，无意识不清，无口吐白沫，无手足抽搐，无心悸、胸闷，无恶心及呕吐，无发热、乏力、纳差。今为求进一步治疗来诊，门诊检查后以“系统性红斑狼疮继发性血小板减少症”收入院。患者近期神志清，精神尚可，饮食睡眠欠佳，夜尿较多，有泡沫尿，5-6次/夜，大便正常，体重无明显减轻。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "有“高血压病”病史10年余，血压最高达200/130mmhg，平时服药“缬沙坦”控制。有“腔隙性脑梗死”病史3年余。否认有糖尿病，否认有肝炎、结核等传染病史及密切接触史，否认有重大外伤手术史，否认有食物药物过敏史，预防接种史随当地。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

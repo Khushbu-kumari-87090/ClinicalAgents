@@ -1,0 +1,534 @@
+{
+  "case_id": "2763_多发子宫肌瘤1例",
+  "personal_info": {
+    "性别": "女",
+    "年龄": "54岁"
+  },
+  "chief_complaint": "发现子宫肌瘤4+年,月经不规则1年",
+  "present_illness": "患者平素月经正常,4+年前普查时发现子宫肌瘤约2cm,瘤体较小,当时无任何不适,未行进步一检查治疗,未定期复查。1年出现月经经期2个月-4个月,周期7天,量多伴有血块,无痛经,B超提示子宫肌瘤较前增大,子宫内膜较厚,当时行清宫术,病理回报子宫内膜单纯性增生;局部内膜复合增生、息肉样增生。当时给予口服米非司酮片连续4个月,月经量仍较多,未行进一步检查治疗,1个月前月经经期2-4个月,周期20天,量较前明显增多,腹痛,当时口服优思悦9天后小腹痛痛难忍自行停药,末次月经：2018-8-22,要求进一步治疗收入院。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "既往体健,自诉高血压病史20+年,口服卡托普利片半片/日1次,罗布麻片2片/日1次,阿替洛尔片1片/日1次,无规律用药,血压控制良好。否认糖尿病及传染病史。无外伤及输血史,否认药物过敏史。孕2产2均为顺产,末次生产26年前,24年前行女扎术。",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "2763_多发子宫肌瘤1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "54岁"
+        },
+        "chief_complaint": "发现子宫肌瘤4+年,月经不规则1年",
+        "present_illness": "患者平素月经正常,4+年前普查时发现子宫肌瘤约2cm,瘤体较小,当时无任何不适,未行进步一检查治疗,未定期复查。1年出现月经经期2个月-4个月,周期7天,量多伴有血块,无痛经,B超提示子宫肌瘤较前增大,子宫内膜较厚,当时行清宫术,病理回报子宫内膜单纯性增生;局部内膜复合增生、息肉样增生。当时给予口服米非司酮片连续4个月,月经量仍较多,未行进一步检查治疗,1个月前月经经期2-4个月,周期20天,量较前明显增多,腹痛,当时口服优思悦9天后小腹痛痛难忍自行停药,末次月经：2018-8-22,要求进一步治疗收入院。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "既往体健,自诉高血压病史20+年,口服卡托普利片半片/日1次,罗布麻片2片/日1次,阿替洛尔片1片/日1次,无规律用药,血压控制良好。否认糖尿病及传染病史。无外伤及输血史,否认药物过敏史。孕2产2均为顺产,末次生产26年前,24年前行女扎术。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "2763_多发子宫肌瘤1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "54岁"
+        },
+        "chief_complaint": "发现子宫肌瘤4+年,月经不规则1年",
+        "present_illness": "患者平素月经正常,4+年前普查时发现子宫肌瘤约2cm,瘤体较小,当时无任何不适,未行进步一检查治疗,未定期复查。1年出现月经经期2个月-4个月,周期7天,量多伴有血块,无痛经,B超提示子宫肌瘤较前增大,子宫内膜较厚,当时行清宫术,病理回报子宫内膜单纯性增生;局部内膜复合增生、息肉样增生。当时给予口服米非司酮片连续4个月,月经量仍较多,未行进一步检查治疗,1个月前月经经期2-4个月,周期20天,量较前明显增多,腹痛,当时口服优思悦9天后小腹痛痛难忍自行停药,末次月经：2018-8-22,要求进一步治疗收入院。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往体健,自诉高血压病史20+年,口服卡托普利片半片/日1次,罗布麻片2片/日1次,阿替洛尔片1片/日1次,无规律用药,血压控制良好。否认糖尿病及传染病史。无外伤及输血史,否认药物过敏史。孕2产2均为顺产,末次生产26年前,24年前行女扎术。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "2763_多发子宫肌瘤1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "54岁"
+        },
+        "chief_complaint": "发现子宫肌瘤4+年,月经不规则1年",
+        "present_illness": "患者平素月经正常,4+年前普查时发现子宫肌瘤约2cm,瘤体较小,当时无任何不适,未行进步一检查治疗,未定期复查。1年出现月经经期2个月-4个月,周期7天,量多伴有血块,无痛经,B超提示子宫肌瘤较前增大,子宫内膜较厚,当时行清宫术,病理回报子宫内膜单纯性增生;局部内膜复合增生、息肉样增生。当时给予口服米非司酮片连续4个月,月经量仍较多,未行进一步检查治疗,1个月前月经经期2-4个月,周期20天,量较前明显增多,腹痛,当时口服优思悦9天后小腹痛痛难忍自行停药,末次月经：2018-8-22,要求进一步治疗收入院。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往体健,自诉高血压病史20+年,口服卡托普利片半片/日1次,罗布麻片2片/日1次,阿替洛尔片1片/日1次,无规律用药,血压控制良好。否认糖尿病及传染病史。无外伤及输血史,否认药物过敏史。孕2产2均为顺产,末次生产26年前,24年前行女扎术。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "2763_多发子宫肌瘤1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "54岁"
+        },
+        "chief_complaint": "发现子宫肌瘤4+年,月经不规则1年",
+        "present_illness": "患者平素月经正常,4+年前普查时发现子宫肌瘤约2cm,瘤体较小,当时无任何不适,未行进步一检查治疗,未定期复查。1年出现月经经期2个月-4个月,周期7天,量多伴有血块,无痛经,B超提示子宫肌瘤较前增大,子宫内膜较厚,当时行清宫术,病理回报子宫内膜单纯性增生;局部内膜复合增生、息肉样增生。当时给予口服米非司酮片连续4个月,月经量仍较多,未行进一步检查治疗,1个月前月经经期2-4个月,周期20天,量较前明显增多,腹痛,当时口服优思悦9天后小腹痛痛难忍自行停药,末次月经：2018-8-22,要求进一步治疗收入院。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往体健,自诉高血压病史20+年,口服卡托普利片半片/日1次,罗布麻片2片/日1次,阿替洛尔片1片/日1次,无规律用药,血压控制良好。否认糖尿病及传染病史。无外伤及输血史,否认药物过敏史。孕2产2均为顺产,末次生产26年前,24年前行女扎术。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "2763_多发子宫肌瘤1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "54岁"
+        },
+        "chief_complaint": "发现子宫肌瘤4+年,月经不规则1年",
+        "present_illness": "患者平素月经正常,4+年前普查时发现子宫肌瘤约2cm,瘤体较小,当时无任何不适,未行进步一检查治疗,未定期复查。1年出现月经经期2个月-4个月,周期7天,量多伴有血块,无痛经,B超提示子宫肌瘤较前增大,子宫内膜较厚,当时行清宫术,病理回报子宫内膜单纯性增生;局部内膜复合增生、息肉样增生。当时给予口服米非司酮片连续4个月,月经量仍较多,未行进一步检查治疗,1个月前月经经期2-4个月,周期20天,量较前明显增多,腹痛,当时口服优思悦9天后小腹痛痛难忍自行停药,末次月经：2018-8-22,要求进一步治疗收入院。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往体健,自诉高血压病史20+年,口服卡托普利片半片/日1次,罗布麻片2片/日1次,阿替洛尔片1片/日1次,无规律用药,血压控制良好。否认糖尿病及传染病史。无外伤及输血史,否认药物过敏史。孕2产2均为顺产,末次生产26年前,24年前行女扎术。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

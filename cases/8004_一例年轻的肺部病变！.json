@@ -1,0 +1,534 @@
+{
+  "case_id": "8004_一例年轻的肺部病变！",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "18岁"
+  },
+  "chief_complaint": "性别:男年龄:18岁 咳嗽咳痰，胸痛2月第二次入院。",
+  "present_illness": "患者因\"体检发现肺部阴影1周。\"于2010年11月14日第一次入住我院。入院时查PPD皮试强阳性。外院胸部CT提示\"右上肺结核\"。入院后完善相关检查，诊断为\"继发性肺结核右上涂（-）初治\"，予以2HRZE/4HR方案抗痨治疗及对症支持治疗。用药期间无不适，复查胸部CT示\"右上肺多个结节，结核可能，其他待删。建议检查全身情况，排除转移灶，与入院前胸部CT比较，病灶变化不明显。\"综合患者年龄、PPD皮试、其他各项检查结果，考虑肺部病变结核可能性大。于2010年12月7日出院。出院后继续上述方案抗痨治疗，服药欠规律（利福平、乙胺丁醇都按时服药，异烟肼有时忘记服，比嗪酰胺用量错误0.75Qd），用药期间稍感恶心纳差，2月前开始无明显诱因出现阵发性咳嗽，不剧烈，以晨起时明显，伴少至中量白粘痰，同时出现双侧前胸痛，呈阵发性**样疼痛，不剧烈，持续数秒钟至数分钟不等，深吸气、咳嗽时明显。今日来我院复查，摄胸部CT示\"右上肺结节灶改变：结核局部进展？占位病变？必要时增强CT或穿刺活检\"为求进一步诊治，今日第二次入住我院，患者自起病以来，精神睡眠可，食欲欠佳，大小便正常，体重无明显减轻。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "既往体健",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "8004_一例年轻的肺部病变！",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "18岁"
+        },
+        "chief_complaint": "性别:男年龄:18岁 咳嗽咳痰，胸痛2月第二次入院。",
+        "present_illness": "患者因\"体检发现肺部阴影1周。\"于2010年11月14日第一次入住我院。入院时查PPD皮试强阳性。外院胸部CT提示\"右上肺结核\"。入院后完善相关检查，诊断为\"继发性肺结核右上涂（-）初治\"，予以2HRZE/4HR方案抗痨治疗及对症支持治疗。用药期间无不适，复查胸部CT示\"右上肺多个结节，结核可能，其他待删。建议检查全身情况，排除转移灶，与入院前胸部CT比较，病灶变化不明显。\"综合患者年龄、PPD皮试、其他各项检查结果，考虑肺部病变结核可能性大。于2010年12月7日出院。出院后继续上述方案抗痨治疗，服药欠规律（利福平、乙胺丁醇都按时服药，异烟肼有时忘记服，比嗪酰胺用量错误0.75Qd），用药期间稍感恶心纳差，2月前开始无明显诱因出现阵发性咳嗽，不剧烈，以晨起时明显，伴少至中量白粘痰，同时出现双侧前胸痛，呈阵发性**样疼痛，不剧烈，持续数秒钟至数分钟不等，深吸气、咳嗽时明显。今日来我院复查，摄胸部CT示\"右上肺结节灶改变：结核局部进展？占位病变？必要时增强CT或穿刺活检\"为求进一步诊治，今日第二次入住我院，患者自起病以来，精神睡眠可，食欲欠佳，大小便正常，体重无明显减轻。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "既往体健",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "8004_一例年轻的肺部病变！",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "18岁"
+        },
+        "chief_complaint": "性别:男年龄:18岁 咳嗽咳痰，胸痛2月第二次入院。",
+        "present_illness": "患者因\"体检发现肺部阴影1周。\"于2010年11月14日第一次入住我院。入院时查PPD皮试强阳性。外院胸部CT提示\"右上肺结核\"。入院后完善相关检查，诊断为\"继发性肺结核右上涂（-）初治\"，予以2HRZE/4HR方案抗痨治疗及对症支持治疗。用药期间无不适，复查胸部CT示\"右上肺多个结节，结核可能，其他待删。建议检查全身情况，排除转移灶，与入院前胸部CT比较，病灶变化不明显。\"综合患者年龄、PPD皮试、其他各项检查结果，考虑肺部病变结核可能性大。于2010年12月7日出院。出院后继续上述方案抗痨治疗，服药欠规律（利福平、乙胺丁醇都按时服药，异烟肼有时忘记服，比嗪酰胺用量错误0.75Qd），用药期间稍感恶心纳差，2月前开始无明显诱因出现阵发性咳嗽，不剧烈，以晨起时明显，伴少至中量白粘痰，同时出现双侧前胸痛，呈阵发性**样疼痛，不剧烈，持续数秒钟至数分钟不等，深吸气、咳嗽时明显。今日来我院复查，摄胸部CT示\"右上肺结节灶改变：结核局部进展？占位病变？必要时增强CT或穿刺活检\"为求进一步诊治，今日第二次入住我院，患者自起病以来，精神睡眠可，食欲欠佳，大小便正常，体重无明显减轻。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往体健",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "8004_一例年轻的肺部病变！",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "18岁"
+        },
+        "chief_complaint": "性别:男年龄:18岁 咳嗽咳痰，胸痛2月第二次入院。",
+        "present_illness": "患者因\"体检发现肺部阴影1周。\"于2010年11月14日第一次入住我院。入院时查PPD皮试强阳性。外院胸部CT提示\"右上肺结核\"。入院后完善相关检查，诊断为\"继发性肺结核右上涂（-）初治\"，予以2HRZE/4HR方案抗痨治疗及对症支持治疗。用药期间无不适，复查胸部CT示\"右上肺多个结节，结核可能，其他待删。建议检查全身情况，排除转移灶，与入院前胸部CT比较，病灶变化不明显。\"综合患者年龄、PPD皮试、其他各项检查结果，考虑肺部病变结核可能性大。于2010年12月7日出院。出院后继续上述方案抗痨治疗，服药欠规律（利福平、乙胺丁醇都按时服药，异烟肼有时忘记服，比嗪酰胺用量错误0.75Qd），用药期间稍感恶心纳差，2月前开始无明显诱因出现阵发性咳嗽，不剧烈，以晨起时明显，伴少至中量白粘痰，同时出现双侧前胸痛，呈阵发性**样疼痛，不剧烈，持续数秒钟至数分钟不等，深吸气、咳嗽时明显。今日来我院复查，摄胸部CT示\"右上肺结节灶改变：结核局部进展？占位病变？必要时增强CT或穿刺活检\"为求进一步诊治，今日第二次入住我院，患者自起病以来，精神睡眠可，食欲欠佳，大小便正常，体重无明显减轻。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往体健",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "8004_一例年轻的肺部病变！",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "18岁"
+        },
+        "chief_complaint": "性别:男年龄:18岁 咳嗽咳痰，胸痛2月第二次入院。",
+        "present_illness": "患者因\"体检发现肺部阴影1周。\"于2010年11月14日第一次入住我院。入院时查PPD皮试强阳性。外院胸部CT提示\"右上肺结核\"。入院后完善相关检查，诊断为\"继发性肺结核右上涂（-）初治\"，予以2HRZE/4HR方案抗痨治疗及对症支持治疗。用药期间无不适，复查胸部CT示\"右上肺多个结节，结核可能，其他待删。建议检查全身情况，排除转移灶，与入院前胸部CT比较，病灶变化不明显。\"综合患者年龄、PPD皮试、其他各项检查结果，考虑肺部病变结核可能性大。于2010年12月7日出院。出院后继续上述方案抗痨治疗，服药欠规律（利福平、乙胺丁醇都按时服药，异烟肼有时忘记服，比嗪酰胺用量错误0.75Qd），用药期间稍感恶心纳差，2月前开始无明显诱因出现阵发性咳嗽，不剧烈，以晨起时明显，伴少至中量白粘痰，同时出现双侧前胸痛，呈阵发性**样疼痛，不剧烈，持续数秒钟至数分钟不等，深吸气、咳嗽时明显。今日来我院复查，摄胸部CT示\"右上肺结节灶改变：结核局部进展？占位病变？必要时增强CT或穿刺活检\"为求进一步诊治，今日第二次入住我院，患者自起病以来，精神睡眠可，食欲欠佳，大小便正常，体重无明显减轻。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往体健",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "8004_一例年轻的肺部病变！",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "18岁"
+        },
+        "chief_complaint": "性别:男年龄:18岁 咳嗽咳痰，胸痛2月第二次入院。",
+        "present_illness": "患者因\"体检发现肺部阴影1周。\"于2010年11月14日第一次入住我院。入院时查PPD皮试强阳性。外院胸部CT提示\"右上肺结核\"。入院后完善相关检查，诊断为\"继发性肺结核右上涂（-）初治\"，予以2HRZE/4HR方案抗痨治疗及对症支持治疗。用药期间无不适，复查胸部CT示\"右上肺多个结节，结核可能，其他待删。建议检查全身情况，排除转移灶，与入院前胸部CT比较，病灶变化不明显。\"综合患者年龄、PPD皮试、其他各项检查结果，考虑肺部病变结核可能性大。于2010年12月7日出院。出院后继续上述方案抗痨治疗，服药欠规律（利福平、乙胺丁醇都按时服药，异烟肼有时忘记服，比嗪酰胺用量错误0.75Qd），用药期间稍感恶心纳差，2月前开始无明显诱因出现阵发性咳嗽，不剧烈，以晨起时明显，伴少至中量白粘痰，同时出现双侧前胸痛，呈阵发性**样疼痛，不剧烈，持续数秒钟至数分钟不等，深吸气、咳嗽时明显。今日来我院复查，摄胸部CT示\"右上肺结节灶改变：结核局部进展？占位病变？必要时增强CT或穿刺活检\"为求进一步诊治，今日第二次入住我院，患者自起病以来，精神睡眠可，食欲欠佳，大小便正常，体重无明显减轻。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往体健",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

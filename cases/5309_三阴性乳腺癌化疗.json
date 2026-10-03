@@ -1,0 +1,534 @@
+{
+  "case_id": "5309_三阴性乳腺癌化疗",
+  "personal_info": {
+    "性别": "女",
+    "年龄": "55岁"
+  },
+  "chief_complaint": "女性,55岁岁,农民 确诊左乳腺癌2年余，拟行化疗。",
+  "present_illness": "患者2019年2月查体发现左乳包块，于2019-02-12在当地医院行双乳双腋下彩超示：左乳低回声结节BI-RADS 4b级，肿物大小3.1cmx2.2cmx1.7 cm；左腋下多发低回声结节。未行特殊处理，于2019-02-13前往上级医院，上级医院考虑不易行手术治疗，于2019年年4月份行粗针穿刺进一步明确肿瘤类型及免疫组化等指标，结果示:左乳浸润性腺癌，ER(-)，PR(-)，CerbB--2(1+)，ki67 80%、E-cadherin(膜+)，P120(膜+)，GCOFP-15(-)。建议上级医院进一步会诊病理，后至北京医院病理会诊，免疫组化结果：CK(+)、Ck7(+)，ER(-)，PR(-)，He-2(2+)，HER2阳性对照(+)，P63(-)，Calponin(-)，AR(-)，Ki-67(80%+)、GATA-3(+)、CK5/6(少数+)、EGFR(+)。FISH监测结果可读、HER2信号呈点状分布，肿瘤异质性不明显，HER2扩增阴性。根据监测结果不适合靶向治疗，于2019-03-07给予“多西他赛120mg d1+表柔比星70mg d1 d2，q21d方案化疗5周期。随后前往上级医院行PET-CT检查(未见报告，结果不详)，患者及家属自诉上级医院考虑病情进展，于2020-07-06、2020-08-08、2020-08-30给予：“白蛋白结合型紫杉醇200mg d1 d8，q21d”方案化疗3周期。2020-09-16行ECT示全身多发骨代谢不同程度增高，考虑多发骨转移，患者出现骨转移，建议加用贝伐珠单抗注射液治疗，因经济原因患者拒绝，要求继续白蛋白结合型紫杉醇继续化疗治疗，于2020-09-23、2020-10-20、2020-11-11、2020-12-03、2020-12-25、2021-01-18继续给予“白蛋白结合型紫杉醇200mg d1，d8 q21d”化疗6周期。2021年02月15日腹部CT检查意见:符合左侧乳腺恶性肿瘤并左腋窝及纵隔淋巴结转移:与2020-11-10CT片比较明显进展左肺多发炎症，合并Ca性淋巴管炎不除外，右侧乳腺钙化灶，腋窝淋巴结肿大右肺多发微小结节左侧胸膜增厚、胸腔积液，局部包裹心包少量积液左侧第1肋骨、胸骨及T4-、T8及L2、4椎体骨质多发高密度，转移可考虑，建议结合ECT。肝被膜下钙化灶小网膜及腹膜后多发淋巴结显示，部分肿大。胸、腹壁皮下水肿，建议随访复查。患者病情再次进展，2021-02-23更换化疗方案，给予“吉西他滨1.6g d1，d8+顺铂30mg d2-5，q21d化疗，未诉明显不适。2021-03-18、2020-04-09、2021-04-20继续给予“吉西他滨1.6g d1 d8，q21d”方案化疗3周期。现患者为求进一步化疗来诊。门诊以“左乳腺化疗后”收入院。患者自发病以来，神志清，精神一般饮食及夜间睡眠可，大小便未诉异常，体重无明显变化。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "否认高血压、冠心病、糖尿病等慢性疾病病史否认肝炎、结核等传染性疾病病史及密切接触史.否认重大外伤史.否认食物、药物过敏史.否认输血史.预防接种史不详. 生于原籍，否认近14天内有国外及国内中高风险疫情地区、其他有病例报告社区的旅行史或居住史；否认近14天内与新型冠状病毒感染者(核酸检测阳性者)有接触史；否认近14天内曾接触过来自国外、国外中高风险疫情区及周边地区、来自有病例报告社区的发热有呼吸道症状的患者；否认有冷链运输物品及运输人员接触史无外地久居史，无其他疫区居住史.否认职业病史及治游史.生活规律，无烟酒嗜好。",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "5309_三阴性乳腺癌化疗",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "55岁"
+        },
+        "chief_complaint": "女性,55岁岁,农民 确诊左乳腺癌2年余，拟行化疗。",
+        "present_illness": "患者2019年2月查体发现左乳包块，于2019-02-12在当地医院行双乳双腋下彩超示：左乳低回声结节BI-RADS 4b级，肿物大小3.1cmx2.2cmx1.7 cm；左腋下多发低回声结节。未行特殊处理，于2019-02-13前往上级医院，上级医院考虑不易行手术治疗，于2019年年4月份行粗针穿刺进一步明确肿瘤类型及免疫组化等指标，结果示:左乳浸润性腺癌，ER(-)，PR(-)，CerbB--2(1+)，ki67 80%、E-cadherin(膜+)，P120(膜+)，GCOFP-15(-)。建议上级医院进一步会诊病理，后至北京医院病理会诊，免疫组化结果：CK(+)、Ck7(+)，ER(-)，PR(-)，He-2(2+)，HER2阳性对照(+)，P63(-)，Calponin(-)，AR(-)，Ki-67(80%+)、GATA-3(+)、CK5/6(少数+)、EGFR(+)。FISH监测结果可读、HER2信号呈点状分布，肿瘤异质性不明显，HER2扩增阴性。根据监测结果不适合靶向治疗，于2019-03-07给予“多西他赛120mg d1+表柔比星70mg d1 d2，q21d方案化疗5周期。随后前往上级医院行PET-CT检查(未见报告，结果不详)，患者及家属自诉上级医院考虑病情进展，于2020-07-06、2020-08-08、2020-08-30给予：“白蛋白结合型紫杉醇200mg d1 d8，q21d”方案化疗3周期。2020-09-16行ECT示全身多发骨代谢不同程度增高，考虑多发骨转移，患者出现骨转移，建议加用贝伐珠单抗注射液治疗，因经济原因患者拒绝，要求继续白蛋白结合型紫杉醇继续化疗治疗，于2020-09-23、2020-10-20、2020-11-11、2020-12-03、2020-12-25、2021-01-18继续给予“白蛋白结合型紫杉醇200mg d1，d8 q21d”化疗6周期。2021年02月15日腹部CT检查意见:符合左侧乳腺恶性肿瘤并左腋窝及纵隔淋巴结转移:与2020-11-10CT片比较明显进展左肺多发炎症，合并Ca性淋巴管炎不除外，右侧乳腺钙化灶，腋窝淋巴结肿大右肺多发微小结节左侧胸膜增厚、胸腔积液，局部包裹心包少量积液左侧第1肋骨、胸骨及T4-、T8及L2、4椎体骨质多发高密度，转移可考虑，建议结合ECT。肝被膜下钙化灶小网膜及腹膜后多发淋巴结显示，部分肿大。胸、腹壁皮下水肿，建议随访复查。患者病情再次进展，2021-02-23更换化疗方案，给予“吉西他滨1.6g d1，d8+顺铂30mg d2-5，q21d化疗，未诉明显不适。2021-03-18、2020-04-09、2021-04-20继续给予“吉西他滨1.6g d1 d8，q21d”方案化疗3周期。现患者为求进一步化疗来诊。门诊以“左乳腺化疗后”收入院。患者自发病以来，神志清，精神一般饮食及夜间睡眠可，大小便未诉异常，体重无明显变化。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "否认高血压、冠心病、糖尿病等慢性疾病病史否认肝炎、结核等传染性疾病病史及密切接触史.否认重大外伤史.否认食物、药物过敏史.否认输血史.预防接种史不详. 生于原籍，否认近14天内有国外及国内中高风险疫情地区、其他有病例报告社区的旅行史或居住史；否认近14天内与新型冠状病毒感染者(核酸检测阳性者)有接触史；否认近14天内曾接触过来自国外、国外中高风险疫情区及周边地区、来自有病例报告社区的发热有呼吸道症状的患者；否认有冷链运输物品及运输人员接触史无外地久居史，无其他疫区居住史.否认职业病史及治游史.生活规律，无烟酒嗜好。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "5309_三阴性乳腺癌化疗",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "55岁"
+        },
+        "chief_complaint": "女性,55岁岁,农民 确诊左乳腺癌2年余，拟行化疗。",
+        "present_illness": "患者2019年2月查体发现左乳包块，于2019-02-12在当地医院行双乳双腋下彩超示：左乳低回声结节BI-RADS 4b级，肿物大小3.1cmx2.2cmx1.7 cm；左腋下多发低回声结节。未行特殊处理，于2019-02-13前往上级医院，上级医院考虑不易行手术治疗，于2019年年4月份行粗针穿刺进一步明确肿瘤类型及免疫组化等指标，结果示:左乳浸润性腺癌，ER(-)，PR(-)，CerbB--2(1+)，ki67 80%、E-cadherin(膜+)，P120(膜+)，GCOFP-15(-)。建议上级医院进一步会诊病理，后至北京医院病理会诊，免疫组化结果：CK(+)、Ck7(+)，ER(-)，PR(-)，He-2(2+)，HER2阳性对照(+)，P63(-)，Calponin(-)，AR(-)，Ki-67(80%+)、GATA-3(+)、CK5/6(少数+)、EGFR(+)。FISH监测结果可读、HER2信号呈点状分布，肿瘤异质性不明显，HER2扩增阴性。根据监测结果不适合靶向治疗，于2019-03-07给予“多西他赛120mg d1+表柔比星70mg d1 d2，q21d方案化疗5周期。随后前往上级医院行PET-CT检查(未见报告，结果不详)，患者及家属自诉上级医院考虑病情进展，于2020-07-06、2020-08-08、2020-08-30给予：“白蛋白结合型紫杉醇200mg d1 d8，q21d”方案化疗3周期。2020-09-16行ECT示全身多发骨代谢不同程度增高，考虑多发骨转移，患者出现骨转移，建议加用贝伐珠单抗注射液治疗，因经济原因患者拒绝，要求继续白蛋白结合型紫杉醇继续化疗治疗，于2020-09-23、2020-10-20、2020-11-11、2020-12-03、2020-12-25、2021-01-18继续给予“白蛋白结合型紫杉醇200mg d1，d8 q21d”化疗6周期。2021年02月15日腹部CT检查意见:符合左侧乳腺恶性肿瘤并左腋窝及纵隔淋巴结转移:与2020-11-10CT片比较明显进展左肺多发炎症，合并Ca性淋巴管炎不除外，右侧乳腺钙化灶，腋窝淋巴结肿大右肺多发微小结节左侧胸膜增厚、胸腔积液，局部包裹心包少量积液左侧第1肋骨、胸骨及T4-、T8及L2、4椎体骨质多发高密度，转移可考虑，建议结合ECT。肝被膜下钙化灶小网膜及腹膜后多发淋巴结显示，部分肿大。胸、腹壁皮下水肿，建议随访复查。患者病情再次进展，2021-02-23更换化疗方案，给予“吉西他滨1.6g d1，d8+顺铂30mg d2-5，q21d化疗，未诉明显不适。2021-03-18、2020-04-09、2021-04-20继续给予“吉西他滨1.6g d1 d8，q21d”方案化疗3周期。现患者为求进一步化疗来诊。门诊以“左乳腺化疗后”收入院。患者自发病以来，神志清，精神一般饮食及夜间睡眠可，大小便未诉异常，体重无明显变化。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认高血压、冠心病、糖尿病等慢性疾病病史否认肝炎、结核等传染性疾病病史及密切接触史.否认重大外伤史.否认食物、药物过敏史.否认输血史.预防接种史不详. 生于原籍，否认近14天内有国外及国内中高风险疫情地区、其他有病例报告社区的旅行史或居住史；否认近14天内与新型冠状病毒感染者(核酸检测阳性者)有接触史；否认近14天内曾接触过来自国外、国外中高风险疫情区及周边地区、来自有病例报告社区的发热有呼吸道症状的患者；否认有冷链运输物品及运输人员接触史无外地久居史，无其他疫区居住史.否认职业病史及治游史.生活规律，无烟酒嗜好。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "5309_三阴性乳腺癌化疗",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "55岁"
+        },
+        "chief_complaint": "女性,55岁岁,农民 确诊左乳腺癌2年余，拟行化疗。",
+        "present_illness": "患者2019年2月查体发现左乳包块，于2019-02-12在当地医院行双乳双腋下彩超示：左乳低回声结节BI-RADS 4b级，肿物大小3.1cmx2.2cmx1.7 cm；左腋下多发低回声结节。未行特殊处理，于2019-02-13前往上级医院，上级医院考虑不易行手术治疗，于2019年年4月份行粗针穿刺进一步明确肿瘤类型及免疫组化等指标，结果示:左乳浸润性腺癌，ER(-)，PR(-)，CerbB--2(1+)，ki67 80%、E-cadherin(膜+)，P120(膜+)，GCOFP-15(-)。建议上级医院进一步会诊病理，后至北京医院病理会诊，免疫组化结果：CK(+)、Ck7(+)，ER(-)，PR(-)，He-2(2+)，HER2阳性对照(+)，P63(-)，Calponin(-)，AR(-)，Ki-67(80%+)、GATA-3(+)、CK5/6(少数+)、EGFR(+)。FISH监测结果可读、HER2信号呈点状分布，肿瘤异质性不明显，HER2扩增阴性。根据监测结果不适合靶向治疗，于2019-03-07给予“多西他赛120mg d1+表柔比星70mg d1 d2，q21d方案化疗5周期。随后前往上级医院行PET-CT检查(未见报告，结果不详)，患者及家属自诉上级医院考虑病情进展，于2020-07-06、2020-08-08、2020-08-30给予：“白蛋白结合型紫杉醇200mg d1 d8，q21d”方案化疗3周期。2020-09-16行ECT示全身多发骨代谢不同程度增高，考虑多发骨转移，患者出现骨转移，建议加用贝伐珠单抗注射液治疗，因经济原因患者拒绝，要求继续白蛋白结合型紫杉醇继续化疗治疗，于2020-09-23、2020-10-20、2020-11-11、2020-12-03、2020-12-25、2021-01-18继续给予“白蛋白结合型紫杉醇200mg d1，d8 q21d”化疗6周期。2021年02月15日腹部CT检查意见:符合左侧乳腺恶性肿瘤并左腋窝及纵隔淋巴结转移:与2020-11-10CT片比较明显进展左肺多发炎症，合并Ca性淋巴管炎不除外，右侧乳腺钙化灶，腋窝淋巴结肿大右肺多发微小结节左侧胸膜增厚、胸腔积液，局部包裹心包少量积液左侧第1肋骨、胸骨及T4-、T8及L2、4椎体骨质多发高密度，转移可考虑，建议结合ECT。肝被膜下钙化灶小网膜及腹膜后多发淋巴结显示，部分肿大。胸、腹壁皮下水肿，建议随访复查。患者病情再次进展，2021-02-23更换化疗方案，给予“吉西他滨1.6g d1，d8+顺铂30mg d2-5，q21d化疗，未诉明显不适。2021-03-18、2020-04-09、2021-04-20继续给予“吉西他滨1.6g d1 d8，q21d”方案化疗3周期。现患者为求进一步化疗来诊。门诊以“左乳腺化疗后”收入院。患者自发病以来，神志清，精神一般饮食及夜间睡眠可，大小便未诉异常，体重无明显变化。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认高血压、冠心病、糖尿病等慢性疾病病史否认肝炎、结核等传染性疾病病史及密切接触史.否认重大外伤史.否认食物、药物过敏史.否认输血史.预防接种史不详. 生于原籍，否认近14天内有国外及国内中高风险疫情地区、其他有病例报告社区的旅行史或居住史；否认近14天内与新型冠状病毒感染者(核酸检测阳性者)有接触史；否认近14天内曾接触过来自国外、国外中高风险疫情区及周边地区、来自有病例报告社区的发热有呼吸道症状的患者；否认有冷链运输物品及运输人员接触史无外地久居史，无其他疫区居住史.否认职业病史及治游史.生活规律，无烟酒嗜好。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "5309_三阴性乳腺癌化疗",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "55岁"
+        },
+        "chief_complaint": "女性,55岁岁,农民 确诊左乳腺癌2年余，拟行化疗。",
+        "present_illness": "患者2019年2月查体发现左乳包块，于2019-02-12在当地医院行双乳双腋下彩超示：左乳低回声结节BI-RADS 4b级，肿物大小3.1cmx2.2cmx1.7 cm；左腋下多发低回声结节。未行特殊处理，于2019-02-13前往上级医院，上级医院考虑不易行手术治疗，于2019年年4月份行粗针穿刺进一步明确肿瘤类型及免疫组化等指标，结果示:左乳浸润性腺癌，ER(-)，PR(-)，CerbB--2(1+)，ki67 80%、E-cadherin(膜+)，P120(膜+)，GCOFP-15(-)。建议上级医院进一步会诊病理，后至北京医院病理会诊，免疫组化结果：CK(+)、Ck7(+)，ER(-)，PR(-)，He-2(2+)，HER2阳性对照(+)，P63(-)，Calponin(-)，AR(-)，Ki-67(80%+)、GATA-3(+)、CK5/6(少数+)、EGFR(+)。FISH监测结果可读、HER2信号呈点状分布，肿瘤异质性不明显，HER2扩增阴性。根据监测结果不适合靶向治疗，于2019-03-07给予“多西他赛120mg d1+表柔比星70mg d1 d2，q21d方案化疗5周期。随后前往上级医院行PET-CT检查(未见报告，结果不详)，患者及家属自诉上级医院考虑病情进展，于2020-07-06、2020-08-08、2020-08-30给予：“白蛋白结合型紫杉醇200mg d1 d8，q21d”方案化疗3周期。2020-09-16行ECT示全身多发骨代谢不同程度增高，考虑多发骨转移，患者出现骨转移，建议加用贝伐珠单抗注射液治疗，因经济原因患者拒绝，要求继续白蛋白结合型紫杉醇继续化疗治疗，于2020-09-23、2020-10-20、2020-11-11、2020-12-03、2020-12-25、2021-01-18继续给予“白蛋白结合型紫杉醇200mg d1，d8 q21d”化疗6周期。2021年02月15日腹部CT检查意见:符合左侧乳腺恶性肿瘤并左腋窝及纵隔淋巴结转移:与2020-11-10CT片比较明显进展左肺多发炎症，合并Ca性淋巴管炎不除外，右侧乳腺钙化灶，腋窝淋巴结肿大右肺多发微小结节左侧胸膜增厚、胸腔积液，局部包裹心包少量积液左侧第1肋骨、胸骨及T4-、T8及L2、4椎体骨质多发高密度，转移可考虑，建议结合ECT。肝被膜下钙化灶小网膜及腹膜后多发淋巴结显示，部分肿大。胸、腹壁皮下水肿，建议随访复查。患者病情再次进展，2021-02-23更换化疗方案，给予“吉西他滨1.6g d1，d8+顺铂30mg d2-5，q21d化疗，未诉明显不适。2021-03-18、2020-04-09、2021-04-20继续给予“吉西他滨1.6g d1 d8，q21d”方案化疗3周期。现患者为求进一步化疗来诊。门诊以“左乳腺化疗后”收入院。患者自发病以来，神志清，精神一般饮食及夜间睡眠可，大小便未诉异常，体重无明显变化。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认高血压、冠心病、糖尿病等慢性疾病病史否认肝炎、结核等传染性疾病病史及密切接触史.否认重大外伤史.否认食物、药物过敏史.否认输血史.预防接种史不详. 生于原籍，否认近14天内有国外及国内中高风险疫情地区、其他有病例报告社区的旅行史或居住史；否认近14天内与新型冠状病毒感染者(核酸检测阳性者)有接触史；否认近14天内曾接触过来自国外、国外中高风险疫情区及周边地区、来自有病例报告社区的发热有呼吸道症状的患者；否认有冷链运输物品及运输人员接触史无外地久居史，无其他疫区居住史.否认职业病史及治游史.生活规律，无烟酒嗜好。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "5309_三阴性乳腺癌化疗",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "55岁"
+        },
+        "chief_complaint": "女性,55岁岁,农民 确诊左乳腺癌2年余，拟行化疗。",
+        "present_illness": "患者2019年2月查体发现左乳包块，于2019-02-12在当地医院行双乳双腋下彩超示：左乳低回声结节BI-RADS 4b级，肿物大小3.1cmx2.2cmx1.7 cm；左腋下多发低回声结节。未行特殊处理，于2019-02-13前往上级医院，上级医院考虑不易行手术治疗，于2019年年4月份行粗针穿刺进一步明确肿瘤类型及免疫组化等指标，结果示:左乳浸润性腺癌，ER(-)，PR(-)，CerbB--2(1+)，ki67 80%、E-cadherin(膜+)，P120(膜+)，GCOFP-15(-)。建议上级医院进一步会诊病理，后至北京医院病理会诊，免疫组化结果：CK(+)、Ck7(+)，ER(-)，PR(-)，He-2(2+)，HER2阳性对照(+)，P63(-)，Calponin(-)，AR(-)，Ki-67(80%+)、GATA-3(+)、CK5/6(少数+)、EGFR(+)。FISH监测结果可读、HER2信号呈点状分布，肿瘤异质性不明显，HER2扩增阴性。根据监测结果不适合靶向治疗，于2019-03-07给予“多西他赛120mg d1+表柔比星70mg d1 d2，q21d方案化疗5周期。随后前往上级医院行PET-CT检查(未见报告，结果不详)，患者及家属自诉上级医院考虑病情进展，于2020-07-06、2020-08-08、2020-08-30给予：“白蛋白结合型紫杉醇200mg d1 d8，q21d”方案化疗3周期。2020-09-16行ECT示全身多发骨代谢不同程度增高，考虑多发骨转移，患者出现骨转移，建议加用贝伐珠单抗注射液治疗，因经济原因患者拒绝，要求继续白蛋白结合型紫杉醇继续化疗治疗，于2020-09-23、2020-10-20、2020-11-11、2020-12-03、2020-12-25、2021-01-18继续给予“白蛋白结合型紫杉醇200mg d1，d8 q21d”化疗6周期。2021年02月15日腹部CT检查意见:符合左侧乳腺恶性肿瘤并左腋窝及纵隔淋巴结转移:与2020-11-10CT片比较明显进展左肺多发炎症，合并Ca性淋巴管炎不除外，右侧乳腺钙化灶，腋窝淋巴结肿大右肺多发微小结节左侧胸膜增厚、胸腔积液，局部包裹心包少量积液左侧第1肋骨、胸骨及T4-、T8及L2、4椎体骨质多发高密度，转移可考虑，建议结合ECT。肝被膜下钙化灶小网膜及腹膜后多发淋巴结显示，部分肿大。胸、腹壁皮下水肿，建议随访复查。患者病情再次进展，2021-02-23更换化疗方案，给予“吉西他滨1.6g d1，d8+顺铂30mg d2-5，q21d化疗，未诉明显不适。2021-03-18、2020-04-09、2021-04-20继续给予“吉西他滨1.6g d1 d8，q21d”方案化疗3周期。现患者为求进一步化疗来诊。门诊以“左乳腺化疗后”收入院。患者自发病以来，神志清，精神一般饮食及夜间睡眠可，大小便未诉异常，体重无明显变化。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认高血压、冠心病、糖尿病等慢性疾病病史否认肝炎、结核等传染性疾病病史及密切接触史.否认重大外伤史.否认食物、药物过敏史.否认输血史.预防接种史不详. 生于原籍，否认近14天内有国外及国内中高风险疫情地区、其他有病例报告社区的旅行史或居住史；否认近14天内与新型冠状病毒感染者(核酸检测阳性者)有接触史；否认近14天内曾接触过来自国外、国外中高风险疫情区及周边地区、来自有病例报告社区的发热有呼吸道症状的患者；否认有冷链运输物品及运输人员接触史无外地久居史，无其他疫区居住史.否认职业病史及治游史.生活规律，无烟酒嗜好。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

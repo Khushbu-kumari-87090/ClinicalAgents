@@ -1,0 +1,534 @@
+{
+  "case_id": "10660_不明原因休克致呼吸骤停病例讨论",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "45岁"
+  },
+  "chief_complaint": "【主诉】\n\r\n发热、胸痛20余天，咳嗽、咳痰半月",
+  "present_illness": "【现病史】\n\r\n患者20余天前\"牙龈肿痛\"后出现发热，体温最高可达39.6℃，伴头痛和全身肌肉酸痛；继之出现双侧胸痛，为持续性，深呼吸时加重；无咳嗽咳痰，无畏寒寒颤等不适。自服\"阿莫西林、大青叶、尼美舒利\"等药物，体温仍波动于37-38.5℃，胸痛亦无缓解。约半月前，患者右耳出现一过性脓性分泌物，伴听力下降，经治疗后（具体不详）缓解；继之出现咳嗽，咳痰，为少量黄痰，痰中带少量血丝，无胸闷，仍有发热、胸痛。于当地医院行胸片检查示\"双下肺浸润影\",遂给予\"左氧氟沙星、阿奇霉素、头孢哌酮舒巴坦、甲硝唑\"等治疗12天，症状无好转，遂到北京某医院，给予\"莫西沙星、奥司他韦\"治疗5天，症状仍无好转；同时行支气管肺泡灌洗，仍未明确诊断。我院门诊以\"双肺多发结节病变\"收入院。自发病以来，患者食欲减退，睡眠可，大小便无异常，体重下降约4公斤。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "【既往史】\n\r\n体健。（起病前半月余曾有打扫陈旧屋子的病史。）",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "10660_不明原因休克致呼吸骤停病例讨论",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "45岁"
+        },
+        "chief_complaint": "【主诉】\n\r\n发热、胸痛20余天，咳嗽、咳痰半月",
+        "present_illness": "【现病史】\n\r\n患者20余天前\"牙龈肿痛\"后出现发热，体温最高可达39.6℃，伴头痛和全身肌肉酸痛；继之出现双侧胸痛，为持续性，深呼吸时加重；无咳嗽咳痰，无畏寒寒颤等不适。自服\"阿莫西林、大青叶、尼美舒利\"等药物，体温仍波动于37-38.5℃，胸痛亦无缓解。约半月前，患者右耳出现一过性脓性分泌物，伴听力下降，经治疗后（具体不详）缓解；继之出现咳嗽，咳痰，为少量黄痰，痰中带少量血丝，无胸闷，仍有发热、胸痛。于当地医院行胸片检查示\"双下肺浸润影\",遂给予\"左氧氟沙星、阿奇霉素、头孢哌酮舒巴坦、甲硝唑\"等治疗12天，症状无好转，遂到北京某医院，给予\"莫西沙星、奥司他韦\"治疗5天，症状仍无好转；同时行支气管肺泡灌洗，仍未明确诊断。我院门诊以\"双肺多发结节病变\"收入院。自发病以来，患者食欲减退，睡眠可，大小便无异常，体重下降约4公斤。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "【既往史】\n\r\n体健。（起病前半月余曾有打扫陈旧屋子的病史。）",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "10660_不明原因休克致呼吸骤停病例讨论",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "45岁"
+        },
+        "chief_complaint": "【主诉】\n\r\n发热、胸痛20余天，咳嗽、咳痰半月",
+        "present_illness": "【现病史】\n\r\n患者20余天前\"牙龈肿痛\"后出现发热，体温最高可达39.6℃，伴头痛和全身肌肉酸痛；继之出现双侧胸痛，为持续性，深呼吸时加重；无咳嗽咳痰，无畏寒寒颤等不适。自服\"阿莫西林、大青叶、尼美舒利\"等药物，体温仍波动于37-38.5℃，胸痛亦无缓解。约半月前，患者右耳出现一过性脓性分泌物，伴听力下降，经治疗后（具体不详）缓解；继之出现咳嗽，咳痰，为少量黄痰，痰中带少量血丝，无胸闷，仍有发热、胸痛。于当地医院行胸片检查示\"双下肺浸润影\",遂给予\"左氧氟沙星、阿奇霉素、头孢哌酮舒巴坦、甲硝唑\"等治疗12天，症状无好转，遂到北京某医院，给予\"莫西沙星、奥司他韦\"治疗5天，症状仍无好转；同时行支气管肺泡灌洗，仍未明确诊断。我院门诊以\"双肺多发结节病变\"收入院。自发病以来，患者食欲减退，睡眠可，大小便无异常，体重下降约4公斤。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "【既往史】\n\r\n体健。（起病前半月余曾有打扫陈旧屋子的病史。）",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "10660_不明原因休克致呼吸骤停病例讨论",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "45岁"
+        },
+        "chief_complaint": "【主诉】\n\r\n发热、胸痛20余天，咳嗽、咳痰半月",
+        "present_illness": "【现病史】\n\r\n患者20余天前\"牙龈肿痛\"后出现发热，体温最高可达39.6℃，伴头痛和全身肌肉酸痛；继之出现双侧胸痛，为持续性，深呼吸时加重；无咳嗽咳痰，无畏寒寒颤等不适。自服\"阿莫西林、大青叶、尼美舒利\"等药物，体温仍波动于37-38.5℃，胸痛亦无缓解。约半月前，患者右耳出现一过性脓性分泌物，伴听力下降，经治疗后（具体不详）缓解；继之出现咳嗽，咳痰，为少量黄痰，痰中带少量血丝，无胸闷，仍有发热、胸痛。于当地医院行胸片检查示\"双下肺浸润影\",遂给予\"左氧氟沙星、阿奇霉素、头孢哌酮舒巴坦、甲硝唑\"等治疗12天，症状无好转，遂到北京某医院，给予\"莫西沙星、奥司他韦\"治疗5天，症状仍无好转；同时行支气管肺泡灌洗，仍未明确诊断。我院门诊以\"双肺多发结节病变\"收入院。自发病以来，患者食欲减退，睡眠可，大小便无异常，体重下降约4公斤。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "【既往史】\n\r\n体健。（起病前半月余曾有打扫陈旧屋子的病史。）",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "10660_不明原因休克致呼吸骤停病例讨论",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "45岁"
+        },
+        "chief_complaint": "【主诉】\n\r\n发热、胸痛20余天，咳嗽、咳痰半月",
+        "present_illness": "【现病史】\n\r\n患者20余天前\"牙龈肿痛\"后出现发热，体温最高可达39.6℃，伴头痛和全身肌肉酸痛；继之出现双侧胸痛，为持续性，深呼吸时加重；无咳嗽咳痰，无畏寒寒颤等不适。自服\"阿莫西林、大青叶、尼美舒利\"等药物，体温仍波动于37-38.5℃，胸痛亦无缓解。约半月前，患者右耳出现一过性脓性分泌物，伴听力下降，经治疗后（具体不详）缓解；继之出现咳嗽，咳痰，为少量黄痰，痰中带少量血丝，无胸闷，仍有发热、胸痛。于当地医院行胸片检查示\"双下肺浸润影\",遂给予\"左氧氟沙星、阿奇霉素、头孢哌酮舒巴坦、甲硝唑\"等治疗12天，症状无好转，遂到北京某医院，给予\"莫西沙星、奥司他韦\"治疗5天，症状仍无好转；同时行支气管肺泡灌洗，仍未明确诊断。我院门诊以\"双肺多发结节病变\"收入院。自发病以来，患者食欲减退，睡眠可，大小便无异常，体重下降约4公斤。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "【既往史】\n\r\n体健。（起病前半月余曾有打扫陈旧屋子的病史。）",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "10660_不明原因休克致呼吸骤停病例讨论",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "45岁"
+        },
+        "chief_complaint": "【主诉】\n\r\n发热、胸痛20余天，咳嗽、咳痰半月",
+        "present_illness": "【现病史】\n\r\n患者20余天前\"牙龈肿痛\"后出现发热，体温最高可达39.6℃，伴头痛和全身肌肉酸痛；继之出现双侧胸痛，为持续性，深呼吸时加重；无咳嗽咳痰，无畏寒寒颤等不适。自服\"阿莫西林、大青叶、尼美舒利\"等药物，体温仍波动于37-38.5℃，胸痛亦无缓解。约半月前，患者右耳出现一过性脓性分泌物，伴听力下降，经治疗后（具体不详）缓解；继之出现咳嗽，咳痰，为少量黄痰，痰中带少量血丝，无胸闷，仍有发热、胸痛。于当地医院行胸片检查示\"双下肺浸润影\",遂给予\"左氧氟沙星、阿奇霉素、头孢哌酮舒巴坦、甲硝唑\"等治疗12天，症状无好转，遂到北京某医院，给予\"莫西沙星、奥司他韦\"治疗5天，症状仍无好转；同时行支气管肺泡灌洗，仍未明确诊断。我院门诊以\"双肺多发结节病变\"收入院。自发病以来，患者食欲减退，睡眠可，大小便无异常，体重下降约4公斤。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "【既往史】\n\r\n体健。（起病前半月余曾有打扫陈旧屋子的病史。）",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

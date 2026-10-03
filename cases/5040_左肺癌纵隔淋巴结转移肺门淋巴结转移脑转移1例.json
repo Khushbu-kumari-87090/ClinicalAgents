@@ -1,0 +1,534 @@
+{
+  "case_id": "5040_左肺癌纵隔淋巴结转移肺门淋巴结转移脑转移1例",
+  "personal_info": {
+    "性别": "女",
+    "年龄": "71岁"
+  },
+  "chief_complaint": "女性，71岁，已婚，汉族，农民。 发现左肺占位7月余，右侧肢体乏力1周。",
+  "present_illness": "患者缘于7月余前无明显诱因出现间断左侧胸痛,呼吸时加重,无发憋、气短,无咳嗽、咳痰等不适,就诊于北京某肿瘤医院,行胸部CT提示左肺占位性病变,考虑恶性病变可能性大。行支气管镜检查未见明显异常,且患者拒绝行胸腔穿刺术明确病理。出院后患者未行进一步治疗。1月余前,患者出现饮水呛咳、声音嘶哑。1周前,患者出现右上肢乏力,于当地县医院行头颅MR1示:左侧顶叶异常信号,周围不规则水肿带,考虑占位性病变,建议增强检查,右侧基底节区腔隙性梗塞,脑白质脱髓鞘改变。给予脱水降颅压等对症治疗后无明显缓解。现患者为行进一步治疗入院。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "既往“糖尿病”病史10余年,规律口服药物二甲双胍、格列吡嗪降糖治疗,血糖控制不详;“高血压”病史8年余,血压最高达180/110mmHg,未规律口服降压药物,血压控制不详,“无肝炎、结核、伤寒、疟疾”等传染病史;无手术、外伤及输血史；无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "5040_左肺癌纵隔淋巴结转移肺门淋巴结转移脑转移1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "71岁"
+        },
+        "chief_complaint": "女性，71岁，已婚，汉族，农民。 发现左肺占位7月余，右侧肢体乏力1周。",
+        "present_illness": "患者缘于7月余前无明显诱因出现间断左侧胸痛,呼吸时加重,无发憋、气短,无咳嗽、咳痰等不适,就诊于北京某肿瘤医院,行胸部CT提示左肺占位性病变,考虑恶性病变可能性大。行支气管镜检查未见明显异常,且患者拒绝行胸腔穿刺术明确病理。出院后患者未行进一步治疗。1月余前,患者出现饮水呛咳、声音嘶哑。1周前,患者出现右上肢乏力,于当地县医院行头颅MR1示:左侧顶叶异常信号,周围不规则水肿带,考虑占位性病变,建议增强检查,右侧基底节区腔隙性梗塞,脑白质脱髓鞘改变。给予脱水降颅压等对症治疗后无明显缓解。现患者为行进一步治疗入院。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "既往“糖尿病”病史10余年,规律口服药物二甲双胍、格列吡嗪降糖治疗,血糖控制不详;“高血压”病史8年余,血压最高达180/110mmHg,未规律口服降压药物,血压控制不详,“无肝炎、结核、伤寒、疟疾”等传染病史;无手术、外伤及输血史；无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "5040_左肺癌纵隔淋巴结转移肺门淋巴结转移脑转移1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "71岁"
+        },
+        "chief_complaint": "女性，71岁，已婚，汉族，农民。 发现左肺占位7月余，右侧肢体乏力1周。",
+        "present_illness": "患者缘于7月余前无明显诱因出现间断左侧胸痛,呼吸时加重,无发憋、气短,无咳嗽、咳痰等不适,就诊于北京某肿瘤医院,行胸部CT提示左肺占位性病变,考虑恶性病变可能性大。行支气管镜检查未见明显异常,且患者拒绝行胸腔穿刺术明确病理。出院后患者未行进一步治疗。1月余前,患者出现饮水呛咳、声音嘶哑。1周前,患者出现右上肢乏力,于当地县医院行头颅MR1示:左侧顶叶异常信号,周围不规则水肿带,考虑占位性病变,建议增强检查,右侧基底节区腔隙性梗塞,脑白质脱髓鞘改变。给予脱水降颅压等对症治疗后无明显缓解。现患者为行进一步治疗入院。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往“糖尿病”病史10余年,规律口服药物二甲双胍、格列吡嗪降糖治疗,血糖控制不详;“高血压”病史8年余,血压最高达180/110mmHg,未规律口服降压药物,血压控制不详,“无肝炎、结核、伤寒、疟疾”等传染病史;无手术、外伤及输血史；无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "5040_左肺癌纵隔淋巴结转移肺门淋巴结转移脑转移1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "71岁"
+        },
+        "chief_complaint": "女性，71岁，已婚，汉族，农民。 发现左肺占位7月余，右侧肢体乏力1周。",
+        "present_illness": "患者缘于7月余前无明显诱因出现间断左侧胸痛,呼吸时加重,无发憋、气短,无咳嗽、咳痰等不适,就诊于北京某肿瘤医院,行胸部CT提示左肺占位性病变,考虑恶性病变可能性大。行支气管镜检查未见明显异常,且患者拒绝行胸腔穿刺术明确病理。出院后患者未行进一步治疗。1月余前,患者出现饮水呛咳、声音嘶哑。1周前,患者出现右上肢乏力,于当地县医院行头颅MR1示:左侧顶叶异常信号,周围不规则水肿带,考虑占位性病变,建议增强检查,右侧基底节区腔隙性梗塞,脑白质脱髓鞘改变。给予脱水降颅压等对症治疗后无明显缓解。现患者为行进一步治疗入院。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往“糖尿病”病史10余年,规律口服药物二甲双胍、格列吡嗪降糖治疗,血糖控制不详;“高血压”病史8年余,血压最高达180/110mmHg,未规律口服降压药物,血压控制不详,“无肝炎、结核、伤寒、疟疾”等传染病史;无手术、外伤及输血史；无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "5040_左肺癌纵隔淋巴结转移肺门淋巴结转移脑转移1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "71岁"
+        },
+        "chief_complaint": "女性，71岁，已婚，汉族，农民。 发现左肺占位7月余，右侧肢体乏力1周。",
+        "present_illness": "患者缘于7月余前无明显诱因出现间断左侧胸痛,呼吸时加重,无发憋、气短,无咳嗽、咳痰等不适,就诊于北京某肿瘤医院,行胸部CT提示左肺占位性病变,考虑恶性病变可能性大。行支气管镜检查未见明显异常,且患者拒绝行胸腔穿刺术明确病理。出院后患者未行进一步治疗。1月余前,患者出现饮水呛咳、声音嘶哑。1周前,患者出现右上肢乏力,于当地县医院行头颅MR1示:左侧顶叶异常信号,周围不规则水肿带,考虑占位性病变,建议增强检查,右侧基底节区腔隙性梗塞,脑白质脱髓鞘改变。给予脱水降颅压等对症治疗后无明显缓解。现患者为行进一步治疗入院。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往“糖尿病”病史10余年,规律口服药物二甲双胍、格列吡嗪降糖治疗,血糖控制不详;“高血压”病史8年余,血压最高达180/110mmHg,未规律口服降压药物,血压控制不详,“无肝炎、结核、伤寒、疟疾”等传染病史;无手术、外伤及输血史；无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "5040_左肺癌纵隔淋巴结转移肺门淋巴结转移脑转移1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "71岁"
+        },
+        "chief_complaint": "女性，71岁，已婚，汉族，农民。 发现左肺占位7月余，右侧肢体乏力1周。",
+        "present_illness": "患者缘于7月余前无明显诱因出现间断左侧胸痛,呼吸时加重,无发憋、气短,无咳嗽、咳痰等不适,就诊于北京某肿瘤医院,行胸部CT提示左肺占位性病变,考虑恶性病变可能性大。行支气管镜检查未见明显异常,且患者拒绝行胸腔穿刺术明确病理。出院后患者未行进一步治疗。1月余前,患者出现饮水呛咳、声音嘶哑。1周前,患者出现右上肢乏力,于当地县医院行头颅MR1示:左侧顶叶异常信号,周围不规则水肿带,考虑占位性病变,建议增强检查,右侧基底节区腔隙性梗塞,脑白质脱髓鞘改变。给予脱水降颅压等对症治疗后无明显缓解。现患者为行进一步治疗入院。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往“糖尿病”病史10余年,规律口服药物二甲双胍、格列吡嗪降糖治疗,血糖控制不详;“高血压”病史8年余,血压最高达180/110mmHg,未规律口服降压药物,血压控制不详,“无肝炎、结核、伤寒、疟疾”等传染病史;无手术、外伤及输血史；无药物及其他过敏史;预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

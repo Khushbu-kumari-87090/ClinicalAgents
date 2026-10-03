@@ -1,0 +1,534 @@
+{
+  "case_id": "3137_孕15+周21-三体综合征自然流产1例",
+  "personal_info": {
+    "性别": "女",
+    "年龄": "28岁"
+  },
+  "chief_complaint": "孕15+周，**流血1天",
+  "present_illness": "青年女患者。孕妇平素月经规则，末次月经2015年7月11日，预产期2018年4月18日；停经40+天测尿HCG阳性。停经早期未出现纳差不适，无放射线接触史；早孕期无病毒感染，未接触其他有害物；停经4+月出现胎动,停经16周在外院建卡检查共13次；唐氏三联筛查低风险。现孕妇停经15+周，患者今天出现无诱因出现腹痛，伴有**流血，自觉胎动正常。现门诊拟“先兆流产”收入院。停经以来孕妇无腹痛,无腹坠胀；无**流血，无**流液，无头痛、头晕，无眼花、视曚，无肢体浮肿及抽搐。无发热。食欲食量良好，睡眠情况良好，孕前体重47.00kg，体重增加10公斤，大便正常，小便正常。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "否认肝炎、结核、疟疾病史，否认高血压、冠心病、糖尿病等慢性疾病病史，否认脑血管疾病、精神疾病史，否认手术、外伤、输血史。",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "3137_孕15+周21-三体综合征自然流产1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "28岁"
+        },
+        "chief_complaint": "孕15+周，**流血1天",
+        "present_illness": "青年女患者。孕妇平素月经规则，末次月经2015年7月11日，预产期2018年4月18日；停经40+天测尿HCG阳性。停经早期未出现纳差不适，无放射线接触史；早孕期无病毒感染，未接触其他有害物；停经4+月出现胎动,停经16周在外院建卡检查共13次；唐氏三联筛查低风险。现孕妇停经15+周，患者今天出现无诱因出现腹痛，伴有**流血，自觉胎动正常。现门诊拟“先兆流产”收入院。停经以来孕妇无腹痛,无腹坠胀；无**流血，无**流液，无头痛、头晕，无眼花、视曚，无肢体浮肿及抽搐。无发热。食欲食量良好，睡眠情况良好，孕前体重47.00kg，体重增加10公斤，大便正常，小便正常。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "否认肝炎、结核、疟疾病史，否认高血压、冠心病、糖尿病等慢性疾病病史，否认脑血管疾病、精神疾病史，否认手术、外伤、输血史。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "3137_孕15+周21-三体综合征自然流产1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "28岁"
+        },
+        "chief_complaint": "孕15+周，**流血1天",
+        "present_illness": "青年女患者。孕妇平素月经规则，末次月经2015年7月11日，预产期2018年4月18日；停经40+天测尿HCG阳性。停经早期未出现纳差不适，无放射线接触史；早孕期无病毒感染，未接触其他有害物；停经4+月出现胎动,停经16周在外院建卡检查共13次；唐氏三联筛查低风险。现孕妇停经15+周，患者今天出现无诱因出现腹痛，伴有**流血，自觉胎动正常。现门诊拟“先兆流产”收入院。停经以来孕妇无腹痛,无腹坠胀；无**流血，无**流液，无头痛、头晕，无眼花、视曚，无肢体浮肿及抽搐。无发热。食欲食量良好，睡眠情况良好，孕前体重47.00kg，体重增加10公斤，大便正常，小便正常。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认肝炎、结核、疟疾病史，否认高血压、冠心病、糖尿病等慢性疾病病史，否认脑血管疾病、精神疾病史，否认手术、外伤、输血史。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "3137_孕15+周21-三体综合征自然流产1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "28岁"
+        },
+        "chief_complaint": "孕15+周，**流血1天",
+        "present_illness": "青年女患者。孕妇平素月经规则，末次月经2015年7月11日，预产期2018年4月18日；停经40+天测尿HCG阳性。停经早期未出现纳差不适，无放射线接触史；早孕期无病毒感染，未接触其他有害物；停经4+月出现胎动,停经16周在外院建卡检查共13次；唐氏三联筛查低风险。现孕妇停经15+周，患者今天出现无诱因出现腹痛，伴有**流血，自觉胎动正常。现门诊拟“先兆流产”收入院。停经以来孕妇无腹痛,无腹坠胀；无**流血，无**流液，无头痛、头晕，无眼花、视曚，无肢体浮肿及抽搐。无发热。食欲食量良好，睡眠情况良好，孕前体重47.00kg，体重增加10公斤，大便正常，小便正常。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认肝炎、结核、疟疾病史，否认高血压、冠心病、糖尿病等慢性疾病病史，否认脑血管疾病、精神疾病史，否认手术、外伤、输血史。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "3137_孕15+周21-三体综合征自然流产1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "28岁"
+        },
+        "chief_complaint": "孕15+周，**流血1天",
+        "present_illness": "青年女患者。孕妇平素月经规则，末次月经2015年7月11日，预产期2018年4月18日；停经40+天测尿HCG阳性。停经早期未出现纳差不适，无放射线接触史；早孕期无病毒感染，未接触其他有害物；停经4+月出现胎动,停经16周在外院建卡检查共13次；唐氏三联筛查低风险。现孕妇停经15+周，患者今天出现无诱因出现腹痛，伴有**流血，自觉胎动正常。现门诊拟“先兆流产”收入院。停经以来孕妇无腹痛,无腹坠胀；无**流血，无**流液，无头痛、头晕，无眼花、视曚，无肢体浮肿及抽搐。无发热。食欲食量良好，睡眠情况良好，孕前体重47.00kg，体重增加10公斤，大便正常，小便正常。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认肝炎、结核、疟疾病史，否认高血压、冠心病、糖尿病等慢性疾病病史，否认脑血管疾病、精神疾病史，否认手术、外伤、输血史。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "3137_孕15+周21-三体综合征自然流产1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "28岁"
+        },
+        "chief_complaint": "孕15+周，**流血1天",
+        "present_illness": "青年女患者。孕妇平素月经规则，末次月经2015年7月11日，预产期2018年4月18日；停经40+天测尿HCG阳性。停经早期未出现纳差不适，无放射线接触史；早孕期无病毒感染，未接触其他有害物；停经4+月出现胎动,停经16周在外院建卡检查共13次；唐氏三联筛查低风险。现孕妇停经15+周，患者今天出现无诱因出现腹痛，伴有**流血，自觉胎动正常。现门诊拟“先兆流产”收入院。停经以来孕妇无腹痛,无腹坠胀；无**流血，无**流液，无头痛、头晕，无眼花、视曚，无肢体浮肿及抽搐。无发热。食欲食量良好，睡眠情况良好，孕前体重47.00kg，体重增加10公斤，大便正常，小便正常。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认肝炎、结核、疟疾病史，否认高血压、冠心病、糖尿病等慢性疾病病史，否认脑血管疾病、精神疾病史，否认手术、外伤、输血史。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

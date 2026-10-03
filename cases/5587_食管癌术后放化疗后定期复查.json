@@ -1,0 +1,534 @@
+{
+  "case_id": "5587_食管癌术后放化疗后定期复查",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "66岁"
+  },
+  "chief_complaint": "男，66岁，退休工人 进食梗阻感5年11个月。于2018年8月16日***。",
+  "present_illness": "患者5年11个多月前无明显诱因出现进食梗阻感，以进食慢头等干硬食物为著，在当地乡镇医院消化道钡餐示“食管占位”。于2012年9月21日行胃镜检查示：距门齿约28－31cm，食道中段粘膜可见隆起及糜烂，表面可见污秽，管腔狭窄，镜身尚能通过，距门齿33－34cm食道下段粘膜可见隆起及糜烂，取活检，质脆。病理结果示：鳞状细胞癌。后转至上级医院，于2012年9月27日在全麻下行食管癌切除胃食管弓上吻合术，手术顺利，术后病理示：（胸中段食管）髓质型鳞状细胞癌Ⅲ级（切面积：6×1．8cm），浸透外膜；“上、下切线”未査见癌：食管周围淋巴结（4／5枚）、“胃左”淋巴结（2／5枚）、“责门旁”淋巴结（1／1枚）及“第6组”淋巴结（1／1枚）查见转\n移癌；“第9组”淋巴结（1枚）及“食管旁”淋巴结（2枚）未査见癌。术后第二天出现声音嘶哑，行喉镜检查示声带麻痹。于2012年11月19日至12月23日在我科行术后瘤床及淋巴结引流区适形放疗，DT量50Gy／25f。于11月20日同步口服替吉奥化疗1周期。于2013年1月4日、1月28日、2月20日、3月13日予PF方案全身化疗4周期：替加氟1．0d1－5＋亚叶酸钙\n0．2d1－5＋奈达铂120mgdl，胃肠道反应Ⅲ度，骨髓抑制Ⅱ度，予对症处理后好转。后定期复查，病情稳定。现患者为求进一步复查及治疗收入我科。患者目前精神可，饮食、睡眠可，大小便无异常，体重无明显下降。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "否认高血压、冠心病、糖尿病等慢性病史。否认肝炎、结核等传染性疾病史及密切接触史，无重大外伤及其它手术史，无药物及食物过敏史，预防接种史不详，无输血史。",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "5587_食管癌术后放化疗后定期复查",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "66岁"
+        },
+        "chief_complaint": "男，66岁，退休工人 进食梗阻感5年11个月。于2018年8月16日***。",
+        "present_illness": "患者5年11个多月前无明显诱因出现进食梗阻感，以进食慢头等干硬食物为著，在当地乡镇医院消化道钡餐示“食管占位”。于2012年9月21日行胃镜检查示：距门齿约28－31cm，食道中段粘膜可见隆起及糜烂，表面可见污秽，管腔狭窄，镜身尚能通过，距门齿33－34cm食道下段粘膜可见隆起及糜烂，取活检，质脆。病理结果示：鳞状细胞癌。后转至上级医院，于2012年9月27日在全麻下行食管癌切除胃食管弓上吻合术，手术顺利，术后病理示：（胸中段食管）髓质型鳞状细胞癌Ⅲ级（切面积：6×1．8cm），浸透外膜；“上、下切线”未査见癌：食管周围淋巴结（4／5枚）、“胃左”淋巴结（2／5枚）、“责门旁”淋巴结（1／1枚）及“第6组”淋巴结（1／1枚）查见转\n移癌；“第9组”淋巴结（1枚）及“食管旁”淋巴结（2枚）未査见癌。术后第二天出现声音嘶哑，行喉镜检查示声带麻痹。于2012年11月19日至12月23日在我科行术后瘤床及淋巴结引流区适形放疗，DT量50Gy／25f。于11月20日同步口服替吉奥化疗1周期。于2013年1月4日、1月28日、2月20日、3月13日予PF方案全身化疗4周期：替加氟1．0d1－5＋亚叶酸钙\n0．2d1－5＋奈达铂120mgdl，胃肠道反应Ⅲ度，骨髓抑制Ⅱ度，予对症处理后好转。后定期复查，病情稳定。现患者为求进一步复查及治疗收入我科。患者目前精神可，饮食、睡眠可，大小便无异常，体重无明显下降。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "否认高血压、冠心病、糖尿病等慢性病史。否认肝炎、结核等传染性疾病史及密切接触史，无重大外伤及其它手术史，无药物及食物过敏史，预防接种史不详，无输血史。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "5587_食管癌术后放化疗后定期复查",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "66岁"
+        },
+        "chief_complaint": "男，66岁，退休工人 进食梗阻感5年11个月。于2018年8月16日***。",
+        "present_illness": "患者5年11个多月前无明显诱因出现进食梗阻感，以进食慢头等干硬食物为著，在当地乡镇医院消化道钡餐示“食管占位”。于2012年9月21日行胃镜检查示：距门齿约28－31cm，食道中段粘膜可见隆起及糜烂，表面可见污秽，管腔狭窄，镜身尚能通过，距门齿33－34cm食道下段粘膜可见隆起及糜烂，取活检，质脆。病理结果示：鳞状细胞癌。后转至上级医院，于2012年9月27日在全麻下行食管癌切除胃食管弓上吻合术，手术顺利，术后病理示：（胸中段食管）髓质型鳞状细胞癌Ⅲ级（切面积：6×1．8cm），浸透外膜；“上、下切线”未査见癌：食管周围淋巴结（4／5枚）、“胃左”淋巴结（2／5枚）、“责门旁”淋巴结（1／1枚）及“第6组”淋巴结（1／1枚）查见转\n移癌；“第9组”淋巴结（1枚）及“食管旁”淋巴结（2枚）未査见癌。术后第二天出现声音嘶哑，行喉镜检查示声带麻痹。于2012年11月19日至12月23日在我科行术后瘤床及淋巴结引流区适形放疗，DT量50Gy／25f。于11月20日同步口服替吉奥化疗1周期。于2013年1月4日、1月28日、2月20日、3月13日予PF方案全身化疗4周期：替加氟1．0d1－5＋亚叶酸钙\n0．2d1－5＋奈达铂120mgdl，胃肠道反应Ⅲ度，骨髓抑制Ⅱ度，予对症处理后好转。后定期复查，病情稳定。现患者为求进一步复查及治疗收入我科。患者目前精神可，饮食、睡眠可，大小便无异常，体重无明显下降。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认高血压、冠心病、糖尿病等慢性病史。否认肝炎、结核等传染性疾病史及密切接触史，无重大外伤及其它手术史，无药物及食物过敏史，预防接种史不详，无输血史。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "5587_食管癌术后放化疗后定期复查",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "66岁"
+        },
+        "chief_complaint": "男，66岁，退休工人 进食梗阻感5年11个月。于2018年8月16日***。",
+        "present_illness": "患者5年11个多月前无明显诱因出现进食梗阻感，以进食慢头等干硬食物为著，在当地乡镇医院消化道钡餐示“食管占位”。于2012年9月21日行胃镜检查示：距门齿约28－31cm，食道中段粘膜可见隆起及糜烂，表面可见污秽，管腔狭窄，镜身尚能通过，距门齿33－34cm食道下段粘膜可见隆起及糜烂，取活检，质脆。病理结果示：鳞状细胞癌。后转至上级医院，于2012年9月27日在全麻下行食管癌切除胃食管弓上吻合术，手术顺利，术后病理示：（胸中段食管）髓质型鳞状细胞癌Ⅲ级（切面积：6×1．8cm），浸透外膜；“上、下切线”未査见癌：食管周围淋巴结（4／5枚）、“胃左”淋巴结（2／5枚）、“责门旁”淋巴结（1／1枚）及“第6组”淋巴结（1／1枚）查见转\n移癌；“第9组”淋巴结（1枚）及“食管旁”淋巴结（2枚）未査见癌。术后第二天出现声音嘶哑，行喉镜检查示声带麻痹。于2012年11月19日至12月23日在我科行术后瘤床及淋巴结引流区适形放疗，DT量50Gy／25f。于11月20日同步口服替吉奥化疗1周期。于2013年1月4日、1月28日、2月20日、3月13日予PF方案全身化疗4周期：替加氟1．0d1－5＋亚叶酸钙\n0．2d1－5＋奈达铂120mgdl，胃肠道反应Ⅲ度，骨髓抑制Ⅱ度，予对症处理后好转。后定期复查，病情稳定。现患者为求进一步复查及治疗收入我科。患者目前精神可，饮食、睡眠可，大小便无异常，体重无明显下降。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认高血压、冠心病、糖尿病等慢性病史。否认肝炎、结核等传染性疾病史及密切接触史，无重大外伤及其它手术史，无药物及食物过敏史，预防接种史不详，无输血史。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "5587_食管癌术后放化疗后定期复查",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "66岁"
+        },
+        "chief_complaint": "男，66岁，退休工人 进食梗阻感5年11个月。于2018年8月16日***。",
+        "present_illness": "患者5年11个多月前无明显诱因出现进食梗阻感，以进食慢头等干硬食物为著，在当地乡镇医院消化道钡餐示“食管占位”。于2012年9月21日行胃镜检查示：距门齿约28－31cm，食道中段粘膜可见隆起及糜烂，表面可见污秽，管腔狭窄，镜身尚能通过，距门齿33－34cm食道下段粘膜可见隆起及糜烂，取活检，质脆。病理结果示：鳞状细胞癌。后转至上级医院，于2012年9月27日在全麻下行食管癌切除胃食管弓上吻合术，手术顺利，术后病理示：（胸中段食管）髓质型鳞状细胞癌Ⅲ级（切面积：6×1．8cm），浸透外膜；“上、下切线”未査见癌：食管周围淋巴结（4／5枚）、“胃左”淋巴结（2／5枚）、“责门旁”淋巴结（1／1枚）及“第6组”淋巴结（1／1枚）查见转\n移癌；“第9组”淋巴结（1枚）及“食管旁”淋巴结（2枚）未査见癌。术后第二天出现声音嘶哑，行喉镜检查示声带麻痹。于2012年11月19日至12月23日在我科行术后瘤床及淋巴结引流区适形放疗，DT量50Gy／25f。于11月20日同步口服替吉奥化疗1周期。于2013年1月4日、1月28日、2月20日、3月13日予PF方案全身化疗4周期：替加氟1．0d1－5＋亚叶酸钙\n0．2d1－5＋奈达铂120mgdl，胃肠道反应Ⅲ度，骨髓抑制Ⅱ度，予对症处理后好转。后定期复查，病情稳定。现患者为求进一步复查及治疗收入我科。患者目前精神可，饮食、睡眠可，大小便无异常，体重无明显下降。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认高血压、冠心病、糖尿病等慢性病史。否认肝炎、结核等传染性疾病史及密切接触史，无重大外伤及其它手术史，无药物及食物过敏史，预防接种史不详，无输血史。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "5587_食管癌术后放化疗后定期复查",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "66岁"
+        },
+        "chief_complaint": "男，66岁，退休工人 进食梗阻感5年11个月。于2018年8月16日***。",
+        "present_illness": "患者5年11个多月前无明显诱因出现进食梗阻感，以进食慢头等干硬食物为著，在当地乡镇医院消化道钡餐示“食管占位”。于2012年9月21日行胃镜检查示：距门齿约28－31cm，食道中段粘膜可见隆起及糜烂，表面可见污秽，管腔狭窄，镜身尚能通过，距门齿33－34cm食道下段粘膜可见隆起及糜烂，取活检，质脆。病理结果示：鳞状细胞癌。后转至上级医院，于2012年9月27日在全麻下行食管癌切除胃食管弓上吻合术，手术顺利，术后病理示：（胸中段食管）髓质型鳞状细胞癌Ⅲ级（切面积：6×1．8cm），浸透外膜；“上、下切线”未査见癌：食管周围淋巴结（4／5枚）、“胃左”淋巴结（2／5枚）、“责门旁”淋巴结（1／1枚）及“第6组”淋巴结（1／1枚）查见转\n移癌；“第9组”淋巴结（1枚）及“食管旁”淋巴结（2枚）未査见癌。术后第二天出现声音嘶哑，行喉镜检查示声带麻痹。于2012年11月19日至12月23日在我科行术后瘤床及淋巴结引流区适形放疗，DT量50Gy／25f。于11月20日同步口服替吉奥化疗1周期。于2013年1月4日、1月28日、2月20日、3月13日予PF方案全身化疗4周期：替加氟1．0d1－5＋亚叶酸钙\n0．2d1－5＋奈达铂120mgdl，胃肠道反应Ⅲ度，骨髓抑制Ⅱ度，予对症处理后好转。后定期复查，病情稳定。现患者为求进一步复查及治疗收入我科。患者目前精神可，饮食、睡眠可，大小便无异常，体重无明显下降。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认高血压、冠心病、糖尿病等慢性病史。否认肝炎、结核等传染性疾病史及密切接触史，无重大外伤及其它手术史，无药物及食物过敏史，预防接种史不详，无输血史。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

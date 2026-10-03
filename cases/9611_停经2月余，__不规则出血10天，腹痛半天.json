@@ -1,0 +1,534 @@
+{
+  "case_id": "9611_停经2月余，**不规则出血10天，腹痛半天",
+  "personal_info": {
+    "性别": "女",
+    "年龄": "34岁"
+  },
+  "chief_complaint": "陈某，女性，34岁，2007年3月3日入院。 停经2月余，**不规则出血10天，腹痛半天。",
+  "present_illness": "患者既往月经尚规则，14Y,3-4D/30D，月经量尚可，无痛经。LMP2006-12-10。2007年1月未来经，当时查尿妊娠试验阴性。当时无腹痛，觉头晕不适。2月11日开始有出血，持续十余天，量较多，下腹痛痛。当时未予检查治疗。今天上午早餐后出现腹部隐痛，未予注意9：00突然腹部剧烈疼痛，遂至当地医院就诊，B超结果示：右侧附件区无回声，子宫直肠窝积液。深约1.2cm。予后穹窿穿刺，抽出不凝血约2ML。尿妊娠试验阳性。12：00腹部疼痛缓解。病程中诉头晕，无胸闷、心慌，无恶心、呕吐，无腹泻，无尿频、尿急、尿痛，无**下坠感。为求进一步诊疗转至我院，拟“宫外孕”收住院。发病来精神、睡眠、食欲可，大小便正常，体重无明显增减。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "否认“结核、肝炎、伤寒”等传染病史，否认“高血压、心脏病、糖尿病”等病史。否认药物、食物过敏史。预防接种史不详。5年前上环，去年取环 出生并长于原籍，否认疫水、疫区接触史。生活条件一般，否认烟、酒及其他不良嗜好。",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "9611_停经2月余，**不规则出血10天，腹痛半天",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "34岁"
+        },
+        "chief_complaint": "陈某，女性，34岁，2007年3月3日入院。 停经2月余，**不规则出血10天，腹痛半天。",
+        "present_illness": "患者既往月经尚规则，14Y,3-4D/30D，月经量尚可，无痛经。LMP2006-12-10。2007年1月未来经，当时查尿妊娠试验阴性。当时无腹痛，觉头晕不适。2月11日开始有出血，持续十余天，量较多，下腹痛痛。当时未予检查治疗。今天上午早餐后出现腹部隐痛，未予注意9：00突然腹部剧烈疼痛，遂至当地医院就诊，B超结果示：右侧附件区无回声，子宫直肠窝积液。深约1.2cm。予后穹窿穿刺，抽出不凝血约2ML。尿妊娠试验阳性。12：00腹部疼痛缓解。病程中诉头晕，无胸闷、心慌，无恶心、呕吐，无腹泻，无尿频、尿急、尿痛，无**下坠感。为求进一步诊疗转至我院，拟“宫外孕”收住院。发病来精神、睡眠、食欲可，大小便正常，体重无明显增减。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "否认“结核、肝炎、伤寒”等传染病史，否认“高血压、心脏病、糖尿病”等病史。否认药物、食物过敏史。预防接种史不详。5年前上环，去年取环 出生并长于原籍，否认疫水、疫区接触史。生活条件一般，否认烟、酒及其他不良嗜好。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "9611_停经2月余，**不规则出血10天，腹痛半天",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "34岁"
+        },
+        "chief_complaint": "陈某，女性，34岁，2007年3月3日入院。 停经2月余，**不规则出血10天，腹痛半天。",
+        "present_illness": "患者既往月经尚规则，14Y,3-4D/30D，月经量尚可，无痛经。LMP2006-12-10。2007年1月未来经，当时查尿妊娠试验阴性。当时无腹痛，觉头晕不适。2月11日开始有出血，持续十余天，量较多，下腹痛痛。当时未予检查治疗。今天上午早餐后出现腹部隐痛，未予注意9：00突然腹部剧烈疼痛，遂至当地医院就诊，B超结果示：右侧附件区无回声，子宫直肠窝积液。深约1.2cm。予后穹窿穿刺，抽出不凝血约2ML。尿妊娠试验阳性。12：00腹部疼痛缓解。病程中诉头晕，无胸闷、心慌，无恶心、呕吐，无腹泻，无尿频、尿急、尿痛，无**下坠感。为求进一步诊疗转至我院，拟“宫外孕”收住院。发病来精神、睡眠、食欲可，大小便正常，体重无明显增减。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认“结核、肝炎、伤寒”等传染病史，否认“高血压、心脏病、糖尿病”等病史。否认药物、食物过敏史。预防接种史不详。5年前上环，去年取环 出生并长于原籍，否认疫水、疫区接触史。生活条件一般，否认烟、酒及其他不良嗜好。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "9611_停经2月余，**不规则出血10天，腹痛半天",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "34岁"
+        },
+        "chief_complaint": "陈某，女性，34岁，2007年3月3日入院。 停经2月余，**不规则出血10天，腹痛半天。",
+        "present_illness": "患者既往月经尚规则，14Y,3-4D/30D，月经量尚可，无痛经。LMP2006-12-10。2007年1月未来经，当时查尿妊娠试验阴性。当时无腹痛，觉头晕不适。2月11日开始有出血，持续十余天，量较多，下腹痛痛。当时未予检查治疗。今天上午早餐后出现腹部隐痛，未予注意9：00突然腹部剧烈疼痛，遂至当地医院就诊，B超结果示：右侧附件区无回声，子宫直肠窝积液。深约1.2cm。予后穹窿穿刺，抽出不凝血约2ML。尿妊娠试验阳性。12：00腹部疼痛缓解。病程中诉头晕，无胸闷、心慌，无恶心、呕吐，无腹泻，无尿频、尿急、尿痛，无**下坠感。为求进一步诊疗转至我院，拟“宫外孕”收住院。发病来精神、睡眠、食欲可，大小便正常，体重无明显增减。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认“结核、肝炎、伤寒”等传染病史，否认“高血压、心脏病、糖尿病”等病史。否认药物、食物过敏史。预防接种史不详。5年前上环，去年取环 出生并长于原籍，否认疫水、疫区接触史。生活条件一般，否认烟、酒及其他不良嗜好。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "9611_停经2月余，**不规则出血10天，腹痛半天",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "34岁"
+        },
+        "chief_complaint": "陈某，女性，34岁，2007年3月3日入院。 停经2月余，**不规则出血10天，腹痛半天。",
+        "present_illness": "患者既往月经尚规则，14Y,3-4D/30D，月经量尚可，无痛经。LMP2006-12-10。2007年1月未来经，当时查尿妊娠试验阴性。当时无腹痛，觉头晕不适。2月11日开始有出血，持续十余天，量较多，下腹痛痛。当时未予检查治疗。今天上午早餐后出现腹部隐痛，未予注意9：00突然腹部剧烈疼痛，遂至当地医院就诊，B超结果示：右侧附件区无回声，子宫直肠窝积液。深约1.2cm。予后穹窿穿刺，抽出不凝血约2ML。尿妊娠试验阳性。12：00腹部疼痛缓解。病程中诉头晕，无胸闷、心慌，无恶心、呕吐，无腹泻，无尿频、尿急、尿痛，无**下坠感。为求进一步诊疗转至我院，拟“宫外孕”收住院。发病来精神、睡眠、食欲可，大小便正常，体重无明显增减。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认“结核、肝炎、伤寒”等传染病史，否认“高血压、心脏病、糖尿病”等病史。否认药物、食物过敏史。预防接种史不详。5年前上环，去年取环 出生并长于原籍，否认疫水、疫区接触史。生活条件一般，否认烟、酒及其他不良嗜好。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "9611_停经2月余，**不规则出血10天，腹痛半天",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "34岁"
+        },
+        "chief_complaint": "陈某，女性，34岁，2007年3月3日入院。 停经2月余，**不规则出血10天，腹痛半天。",
+        "present_illness": "患者既往月经尚规则，14Y,3-4D/30D，月经量尚可，无痛经。LMP2006-12-10。2007年1月未来经，当时查尿妊娠试验阴性。当时无腹痛，觉头晕不适。2月11日开始有出血，持续十余天，量较多，下腹痛痛。当时未予检查治疗。今天上午早餐后出现腹部隐痛，未予注意9：00突然腹部剧烈疼痛，遂至当地医院就诊，B超结果示：右侧附件区无回声，子宫直肠窝积液。深约1.2cm。予后穹窿穿刺，抽出不凝血约2ML。尿妊娠试验阳性。12：00腹部疼痛缓解。病程中诉头晕，无胸闷、心慌，无恶心、呕吐，无腹泻，无尿频、尿急、尿痛，无**下坠感。为求进一步诊疗转至我院，拟“宫外孕”收住院。发病来精神、睡眠、食欲可，大小便正常，体重无明显增减。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认“结核、肝炎、伤寒”等传染病史，否认“高血压、心脏病、糖尿病”等病史。否认药物、食物过敏史。预防接种史不详。5年前上环，去年取环 出生并长于原籍，否认疫水、疫区接触史。生活条件一般，否认烟、酒及其他不良嗜好。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

@@ -1,0 +1,534 @@
+{
+  "case_id": "13_宫颈癌直肠侵犯呼吸循环衰竭一例",
+  "personal_info": {
+    "性别": "女",
+    "年龄": "40岁"
+  },
+  "chief_complaint": "女性，40岁，丧偶，汉族，无业。 宫颈癌2年余，便血1天。",
+  "present_illness": "2012-5患者无明显诱因出现月经量增多,于我院行盆腔增强CT提示宫颈占位性病变,宫颈后方与直肠壁分界欠清楚,考虑宫颈癌,两侧盆腔多发肿大淋巴结。行宫颈占位活检病理:(宫颈)中分化鳞状细胞癌。于2013-6月于当地三级医院给予盆腔淋巴结引流区放疗并给予替加氟十顺铂化疗3周期行放疗增敏,放疗结束后给予TP方案化疗3周期。后定期复查,2014-2-24于该院复查发现肾功能不全,行腹盆腔CT发现宫颈两侧软组织病变累及右侧输尿管,右侧输尿管上段扩张,伴右肾灌注不良,右侧髂血管旁及腹膜后多发肿大淋巴结。行肾盂造影提示左侧输尿管下段狭窄,左肾积水伴中上段输尿管扩张,右肾无显影,遂行双侧输尿管置管术,左侧留置F7DJ管,右侧因输尿管狭窄未能留置。2014-4出现便后滴血,于该院查肠镜提示宫颈癌浸润直肠,活检病理:低分化鳞状细胞癌,请北京某医院会诊病理:少许鳞状细胞癌,结合病史考虑复发;行胸腹盆CT:宫颈饱满,直肠壁增厚明显,双侧肾盂积水,腹膜后、双侧髂血管区多发淋巴结转移,纵隔8区软组织增多,倾向转移。遂给予TP方案化疗2周期,末次化疗时间2014-7。化疗后出现V度骨髓抑制,肾功能不全,遂停止化疗,给予对症支持治疗后出院。1天前患者出现便血,为鲜血,时有血块,量约50ml,伴有里急后重,伴有乏力、心慌、气短,患者为行进一步治疗入院。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "既往20年前行剖宫产术:“慢性乙型病毒性肝炎小三阳”病史2年余,有输血史;否认“高血压、冠心病、糖尿病”等病史,否认“结核”等传染病史;否认外伤史;否认食物及药物过敏史。预防接种史不详,系统回顾无特殊。",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "13_宫颈癌直肠侵犯呼吸循环衰竭一例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "40岁"
+        },
+        "chief_complaint": "女性，40岁，丧偶，汉族，无业。 宫颈癌2年余，便血1天。",
+        "present_illness": "2012-5患者无明显诱因出现月经量增多,于我院行盆腔增强CT提示宫颈占位性病变,宫颈后方与直肠壁分界欠清楚,考虑宫颈癌,两侧盆腔多发肿大淋巴结。行宫颈占位活检病理:(宫颈)中分化鳞状细胞癌。于2013-6月于当地三级医院给予盆腔淋巴结引流区放疗并给予替加氟十顺铂化疗3周期行放疗增敏,放疗结束后给予TP方案化疗3周期。后定期复查,2014-2-24于该院复查发现肾功能不全,行腹盆腔CT发现宫颈两侧软组织病变累及右侧输尿管,右侧输尿管上段扩张,伴右肾灌注不良,右侧髂血管旁及腹膜后多发肿大淋巴结。行肾盂造影提示左侧输尿管下段狭窄,左肾积水伴中上段输尿管扩张,右肾无显影,遂行双侧输尿管置管术,左侧留置F7DJ管,右侧因输尿管狭窄未能留置。2014-4出现便后滴血,于该院查肠镜提示宫颈癌浸润直肠,活检病理:低分化鳞状细胞癌,请北京某医院会诊病理:少许鳞状细胞癌,结合病史考虑复发;行胸腹盆CT:宫颈饱满,直肠壁增厚明显,双侧肾盂积水,腹膜后、双侧髂血管区多发淋巴结转移,纵隔8区软组织增多,倾向转移。遂给予TP方案化疗2周期,末次化疗时间2014-7。化疗后出现V度骨髓抑制,肾功能不全,遂停止化疗,给予对症支持治疗后出院。1天前患者出现便血,为鲜血,时有血块,量约50ml,伴有里急后重,伴有乏力、心慌、气短,患者为行进一步治疗入院。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "既往20年前行剖宫产术:“慢性乙型病毒性肝炎小三阳”病史2年余,有输血史;否认“高血压、冠心病、糖尿病”等病史,否认“结核”等传染病史;否认外伤史;否认食物及药物过敏史。预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "13_宫颈癌直肠侵犯呼吸循环衰竭一例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "40岁"
+        },
+        "chief_complaint": "女性，40岁，丧偶，汉族，无业。 宫颈癌2年余，便血1天。",
+        "present_illness": "2012-5患者无明显诱因出现月经量增多,于我院行盆腔增强CT提示宫颈占位性病变,宫颈后方与直肠壁分界欠清楚,考虑宫颈癌,两侧盆腔多发肿大淋巴结。行宫颈占位活检病理:(宫颈)中分化鳞状细胞癌。于2013-6月于当地三级医院给予盆腔淋巴结引流区放疗并给予替加氟十顺铂化疗3周期行放疗增敏,放疗结束后给予TP方案化疗3周期。后定期复查,2014-2-24于该院复查发现肾功能不全,行腹盆腔CT发现宫颈两侧软组织病变累及右侧输尿管,右侧输尿管上段扩张,伴右肾灌注不良,右侧髂血管旁及腹膜后多发肿大淋巴结。行肾盂造影提示左侧输尿管下段狭窄,左肾积水伴中上段输尿管扩张,右肾无显影,遂行双侧输尿管置管术,左侧留置F7DJ管,右侧因输尿管狭窄未能留置。2014-4出现便后滴血,于该院查肠镜提示宫颈癌浸润直肠,活检病理:低分化鳞状细胞癌,请北京某医院会诊病理:少许鳞状细胞癌,结合病史考虑复发;行胸腹盆CT:宫颈饱满,直肠壁增厚明显,双侧肾盂积水,腹膜后、双侧髂血管区多发淋巴结转移,纵隔8区软组织增多,倾向转移。遂给予TP方案化疗2周期,末次化疗时间2014-7。化疗后出现V度骨髓抑制,肾功能不全,遂停止化疗,给予对症支持治疗后出院。1天前患者出现便血,为鲜血,时有血块,量约50ml,伴有里急后重,伴有乏力、心慌、气短,患者为行进一步治疗入院。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往20年前行剖宫产术:“慢性乙型病毒性肝炎小三阳”病史2年余,有输血史;否认“高血压、冠心病、糖尿病”等病史,否认“结核”等传染病史;否认外伤史;否认食物及药物过敏史。预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "13_宫颈癌直肠侵犯呼吸循环衰竭一例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "40岁"
+        },
+        "chief_complaint": "女性，40岁，丧偶，汉族，无业。 宫颈癌2年余，便血1天。",
+        "present_illness": "2012-5患者无明显诱因出现月经量增多,于我院行盆腔增强CT提示宫颈占位性病变,宫颈后方与直肠壁分界欠清楚,考虑宫颈癌,两侧盆腔多发肿大淋巴结。行宫颈占位活检病理:(宫颈)中分化鳞状细胞癌。于2013-6月于当地三级医院给予盆腔淋巴结引流区放疗并给予替加氟十顺铂化疗3周期行放疗增敏,放疗结束后给予TP方案化疗3周期。后定期复查,2014-2-24于该院复查发现肾功能不全,行腹盆腔CT发现宫颈两侧软组织病变累及右侧输尿管,右侧输尿管上段扩张,伴右肾灌注不良,右侧髂血管旁及腹膜后多发肿大淋巴结。行肾盂造影提示左侧输尿管下段狭窄,左肾积水伴中上段输尿管扩张,右肾无显影,遂行双侧输尿管置管术,左侧留置F7DJ管,右侧因输尿管狭窄未能留置。2014-4出现便后滴血,于该院查肠镜提示宫颈癌浸润直肠,活检病理:低分化鳞状细胞癌,请北京某医院会诊病理:少许鳞状细胞癌,结合病史考虑复发;行胸腹盆CT:宫颈饱满,直肠壁增厚明显,双侧肾盂积水,腹膜后、双侧髂血管区多发淋巴结转移,纵隔8区软组织增多,倾向转移。遂给予TP方案化疗2周期,末次化疗时间2014-7。化疗后出现V度骨髓抑制,肾功能不全,遂停止化疗,给予对症支持治疗后出院。1天前患者出现便血,为鲜血,时有血块,量约50ml,伴有里急后重,伴有乏力、心慌、气短,患者为行进一步治疗入院。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往20年前行剖宫产术:“慢性乙型病毒性肝炎小三阳”病史2年余,有输血史;否认“高血压、冠心病、糖尿病”等病史,否认“结核”等传染病史;否认外伤史;否认食物及药物过敏史。预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "13_宫颈癌直肠侵犯呼吸循环衰竭一例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "40岁"
+        },
+        "chief_complaint": "女性，40岁，丧偶，汉族，无业。 宫颈癌2年余，便血1天。",
+        "present_illness": "2012-5患者无明显诱因出现月经量增多,于我院行盆腔增强CT提示宫颈占位性病变,宫颈后方与直肠壁分界欠清楚,考虑宫颈癌,两侧盆腔多发肿大淋巴结。行宫颈占位活检病理:(宫颈)中分化鳞状细胞癌。于2013-6月于当地三级医院给予盆腔淋巴结引流区放疗并给予替加氟十顺铂化疗3周期行放疗增敏,放疗结束后给予TP方案化疗3周期。后定期复查,2014-2-24于该院复查发现肾功能不全,行腹盆腔CT发现宫颈两侧软组织病变累及右侧输尿管,右侧输尿管上段扩张,伴右肾灌注不良,右侧髂血管旁及腹膜后多发肿大淋巴结。行肾盂造影提示左侧输尿管下段狭窄,左肾积水伴中上段输尿管扩张,右肾无显影,遂行双侧输尿管置管术,左侧留置F7DJ管,右侧因输尿管狭窄未能留置。2014-4出现便后滴血,于该院查肠镜提示宫颈癌浸润直肠,活检病理:低分化鳞状细胞癌,请北京某医院会诊病理:少许鳞状细胞癌,结合病史考虑复发;行胸腹盆CT:宫颈饱满,直肠壁增厚明显,双侧肾盂积水,腹膜后、双侧髂血管区多发淋巴结转移,纵隔8区软组织增多,倾向转移。遂给予TP方案化疗2周期,末次化疗时间2014-7。化疗后出现V度骨髓抑制,肾功能不全,遂停止化疗,给予对症支持治疗后出院。1天前患者出现便血,为鲜血,时有血块,量约50ml,伴有里急后重,伴有乏力、心慌、气短,患者为行进一步治疗入院。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往20年前行剖宫产术:“慢性乙型病毒性肝炎小三阳”病史2年余,有输血史;否认“高血压、冠心病、糖尿病”等病史,否认“结核”等传染病史;否认外伤史;否认食物及药物过敏史。预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "13_宫颈癌直肠侵犯呼吸循环衰竭一例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "40岁"
+        },
+        "chief_complaint": "女性，40岁，丧偶，汉族，无业。 宫颈癌2年余，便血1天。",
+        "present_illness": "2012-5患者无明显诱因出现月经量增多,于我院行盆腔增强CT提示宫颈占位性病变,宫颈后方与直肠壁分界欠清楚,考虑宫颈癌,两侧盆腔多发肿大淋巴结。行宫颈占位活检病理:(宫颈)中分化鳞状细胞癌。于2013-6月于当地三级医院给予盆腔淋巴结引流区放疗并给予替加氟十顺铂化疗3周期行放疗增敏,放疗结束后给予TP方案化疗3周期。后定期复查,2014-2-24于该院复查发现肾功能不全,行腹盆腔CT发现宫颈两侧软组织病变累及右侧输尿管,右侧输尿管上段扩张,伴右肾灌注不良,右侧髂血管旁及腹膜后多发肿大淋巴结。行肾盂造影提示左侧输尿管下段狭窄,左肾积水伴中上段输尿管扩张,右肾无显影,遂行双侧输尿管置管术,左侧留置F7DJ管,右侧因输尿管狭窄未能留置。2014-4出现便后滴血,于该院查肠镜提示宫颈癌浸润直肠,活检病理:低分化鳞状细胞癌,请北京某医院会诊病理:少许鳞状细胞癌,结合病史考虑复发;行胸腹盆CT:宫颈饱满,直肠壁增厚明显,双侧肾盂积水,腹膜后、双侧髂血管区多发淋巴结转移,纵隔8区软组织增多,倾向转移。遂给予TP方案化疗2周期,末次化疗时间2014-7。化疗后出现V度骨髓抑制,肾功能不全,遂停止化疗,给予对症支持治疗后出院。1天前患者出现便血,为鲜血,时有血块,量约50ml,伴有里急后重,伴有乏力、心慌、气短,患者为行进一步治疗入院。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往20年前行剖宫产术:“慢性乙型病毒性肝炎小三阳”病史2年余,有输血史;否认“高血压、冠心病、糖尿病”等病史,否认“结核”等传染病史;否认外伤史;否认食物及药物过敏史。预防接种史不详,系统回顾无特殊。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

@@ -1,0 +1,534 @@
+{
+  "case_id": "10903_**肾动脉假性动脉瘤并异常勃起超声表现1例",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "36岁"
+  },
+  "chief_complaint": "患者女性，18岁，上海人",
+  "present_illness": "患者于2011年9月19日劳累后突发头部持续性胀痛，晨起时较重，严重时伴有畏光、视物模糊。9月24日，患者在上述症状基础上出现低热，温度在37.5~37.8℃之间波动，伴有恶心、反复非喷射性呕吐，呕吐物为胃内容物，在某三级医院就诊，查血白细胞正常范围，嗜酸性粒细胞15.7%，中性粒细胞百分比38.2%;先后行3次腰椎穿刺颅内压升高，最高达400mmH2O，脑脊液常规：细胞数升高波动于300~800×106/L，多核细胞37%～59%;脑脊液生化：蛋白700～900mg/L，葡萄糖1.30～1.80mmol/L，氯化物118～121mmol/L;病原学检查(细菌、真菌、分枝杆菌)未见异常;头颅磁共振成像(MRI)、肺部CT、腹部B超、脑电图均未见异常，考虑“中枢神经系统感染：细菌性脑膜炎可能性大”，曾予以“头孢西丁、左氧氟沙星、头孢曲松钠”等抗感染治疗10天，头痛、呕吐无缓解，仍有间歇性低热，为进一步诊治于2011年10月21日转入我科。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "入院后补充病史，患者有过敏性鼻炎病史多年，起病前有因“过敏性鼻炎”鼻腔吸入“藏药”史。患者8月份有至云南旅游史。",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "10903_**肾动脉假性动脉瘤并异常勃起超声表现1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "36岁"
+        },
+        "chief_complaint": "患者女性，18岁，上海人",
+        "present_illness": "患者于2011年9月19日劳累后突发头部持续性胀痛，晨起时较重，严重时伴有畏光、视物模糊。9月24日，患者在上述症状基础上出现低热，温度在37.5~37.8℃之间波动，伴有恶心、反复非喷射性呕吐，呕吐物为胃内容物，在某三级医院就诊，查血白细胞正常范围，嗜酸性粒细胞15.7%，中性粒细胞百分比38.2%;先后行3次腰椎穿刺颅内压升高，最高达400mmH2O，脑脊液常规：细胞数升高波动于300~800×106/L，多核细胞37%～59%;脑脊液生化：蛋白700～900mg/L，葡萄糖1.30～1.80mmol/L，氯化物118～121mmol/L;病原学检查(细菌、真菌、分枝杆菌)未见异常;头颅磁共振成像(MRI)、肺部CT、腹部B超、脑电图均未见异常，考虑“中枢神经系统感染：细菌性脑膜炎可能性大”，曾予以“头孢西丁、左氧氟沙星、头孢曲松钠”等抗感染治疗10天，头痛、呕吐无缓解，仍有间歇性低热，为进一步诊治于2011年10月21日转入我科。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "入院后补充病史，患者有过敏性鼻炎病史多年，起病前有因“过敏性鼻炎”鼻腔吸入“藏药”史。患者8月份有至云南旅游史。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "10903_**肾动脉假性动脉瘤并异常勃起超声表现1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "36岁"
+        },
+        "chief_complaint": "患者女性，18岁，上海人",
+        "present_illness": "患者于2011年9月19日劳累后突发头部持续性胀痛，晨起时较重，严重时伴有畏光、视物模糊。9月24日，患者在上述症状基础上出现低热，温度在37.5~37.8℃之间波动，伴有恶心、反复非喷射性呕吐，呕吐物为胃内容物，在某三级医院就诊，查血白细胞正常范围，嗜酸性粒细胞15.7%，中性粒细胞百分比38.2%;先后行3次腰椎穿刺颅内压升高，最高达400mmH2O，脑脊液常规：细胞数升高波动于300~800×106/L，多核细胞37%～59%;脑脊液生化：蛋白700～900mg/L，葡萄糖1.30～1.80mmol/L，氯化物118～121mmol/L;病原学检查(细菌、真菌、分枝杆菌)未见异常;头颅磁共振成像(MRI)、肺部CT、腹部B超、脑电图均未见异常，考虑“中枢神经系统感染：细菌性脑膜炎可能性大”，曾予以“头孢西丁、左氧氟沙星、头孢曲松钠”等抗感染治疗10天，头痛、呕吐无缓解，仍有间歇性低热，为进一步诊治于2011年10月21日转入我科。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "入院后补充病史，患者有过敏性鼻炎病史多年，起病前有因“过敏性鼻炎”鼻腔吸入“藏药”史。患者8月份有至云南旅游史。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "10903_**肾动脉假性动脉瘤并异常勃起超声表现1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "36岁"
+        },
+        "chief_complaint": "患者女性，18岁，上海人",
+        "present_illness": "患者于2011年9月19日劳累后突发头部持续性胀痛，晨起时较重，严重时伴有畏光、视物模糊。9月24日，患者在上述症状基础上出现低热，温度在37.5~37.8℃之间波动，伴有恶心、反复非喷射性呕吐，呕吐物为胃内容物，在某三级医院就诊，查血白细胞正常范围，嗜酸性粒细胞15.7%，中性粒细胞百分比38.2%;先后行3次腰椎穿刺颅内压升高，最高达400mmH2O，脑脊液常规：细胞数升高波动于300~800×106/L，多核细胞37%～59%;脑脊液生化：蛋白700～900mg/L，葡萄糖1.30～1.80mmol/L，氯化物118～121mmol/L;病原学检查(细菌、真菌、分枝杆菌)未见异常;头颅磁共振成像(MRI)、肺部CT、腹部B超、脑电图均未见异常，考虑“中枢神经系统感染：细菌性脑膜炎可能性大”，曾予以“头孢西丁、左氧氟沙星、头孢曲松钠”等抗感染治疗10天，头痛、呕吐无缓解，仍有间歇性低热，为进一步诊治于2011年10月21日转入我科。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "入院后补充病史，患者有过敏性鼻炎病史多年，起病前有因“过敏性鼻炎”鼻腔吸入“藏药”史。患者8月份有至云南旅游史。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "10903_**肾动脉假性动脉瘤并异常勃起超声表现1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "36岁"
+        },
+        "chief_complaint": "患者女性，18岁，上海人",
+        "present_illness": "患者于2011年9月19日劳累后突发头部持续性胀痛，晨起时较重，严重时伴有畏光、视物模糊。9月24日，患者在上述症状基础上出现低热，温度在37.5~37.8℃之间波动，伴有恶心、反复非喷射性呕吐，呕吐物为胃内容物，在某三级医院就诊，查血白细胞正常范围，嗜酸性粒细胞15.7%，中性粒细胞百分比38.2%;先后行3次腰椎穿刺颅内压升高，最高达400mmH2O，脑脊液常规：细胞数升高波动于300~800×106/L，多核细胞37%～59%;脑脊液生化：蛋白700～900mg/L，葡萄糖1.30～1.80mmol/L，氯化物118～121mmol/L;病原学检查(细菌、真菌、分枝杆菌)未见异常;头颅磁共振成像(MRI)、肺部CT、腹部B超、脑电图均未见异常，考虑“中枢神经系统感染：细菌性脑膜炎可能性大”，曾予以“头孢西丁、左氧氟沙星、头孢曲松钠”等抗感染治疗10天，头痛、呕吐无缓解，仍有间歇性低热，为进一步诊治于2011年10月21日转入我科。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "入院后补充病史，患者有过敏性鼻炎病史多年，起病前有因“过敏性鼻炎”鼻腔吸入“藏药”史。患者8月份有至云南旅游史。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "10903_**肾动脉假性动脉瘤并异常勃起超声表现1例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "36岁"
+        },
+        "chief_complaint": "患者女性，18岁，上海人",
+        "present_illness": "患者于2011年9月19日劳累后突发头部持续性胀痛，晨起时较重，严重时伴有畏光、视物模糊。9月24日，患者在上述症状基础上出现低热，温度在37.5~37.8℃之间波动，伴有恶心、反复非喷射性呕吐，呕吐物为胃内容物，在某三级医院就诊，查血白细胞正常范围，嗜酸性粒细胞15.7%，中性粒细胞百分比38.2%;先后行3次腰椎穿刺颅内压升高，最高达400mmH2O，脑脊液常规：细胞数升高波动于300~800×106/L，多核细胞37%～59%;脑脊液生化：蛋白700～900mg/L，葡萄糖1.30～1.80mmol/L，氯化物118～121mmol/L;病原学检查(细菌、真菌、分枝杆菌)未见异常;头颅磁共振成像(MRI)、肺部CT、腹部B超、脑电图均未见异常，考虑“中枢神经系统感染：细菌性脑膜炎可能性大”，曾予以“头孢西丁、左氧氟沙星、头孢曲松钠”等抗感染治疗10天，头痛、呕吐无缓解，仍有间歇性低热，为进一步诊治于2011年10月21日转入我科。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "入院后补充病史，患者有过敏性鼻炎病史多年，起病前有因“过敏性鼻炎”鼻腔吸入“藏药”史。患者8月份有至云南旅游史。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

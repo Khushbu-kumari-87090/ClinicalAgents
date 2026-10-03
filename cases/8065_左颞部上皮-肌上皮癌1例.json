@@ -1,0 +1,534 @@
+{
+  "case_id": "8065_左颞部上皮-肌上皮癌1例",
+  "personal_info": {
+    "性别": "女",
+    "年龄": "45岁"
+  },
+  "chief_complaint": "女45岁汉族 因“左颞部肿瘤切除术后8月”入院。",
+  "present_illness": "2013－02－18患者再次出现干咳症状，伴右侧胸背部疼痛，咳嗽时加剧，于2013－02－25入院。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "患者2012－03－29因发现左颞部肿块在我院耳鼻喉科局麻下行左颞部肿瘤扩大根治术，术中冰冻病理提示恶性肿瘤，遂全麻下行左功能性颈淋巴结清扫术2012－04－10术后病理示：AE1/AE3+，MSA+，SMA－，S－100－，P63－，左颞部上皮肌上皮癌；大小2.5cm×2.0cm×1.2cm，另送检区淋巴结3枚，未见癌转移；颈淋巴结未见肿瘤转移术后给予左颞部术后瘤床普通放疗2012－11月因出现咳嗽咳白色泡沫痰，在我院行胸部CT检查示：双肺多发转移。于2012－11－27在我科行“紫杉醇240mgD1+顺铂30mgD1～4”全身化疗方案1周期，化疗过程顺利，患者咳嗽咳痰症状明显减轻2012－12－11患者行肿瘤个体化治疗靶标检测结果示：ERCC1=8.825（高），TUBB3=0.4444（低），检测结果提示患者对铂类药物不敏感，对紫杉醇类长春碱类药物敏感故于2012－12－27、2013－01－23更换为“环磷酰胺1.2gD1+表阿霉素80mgD1+长春新碱2mgD1+达卡巴嗪0.2gD1～5”全身化疗2周期。",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "8065_左颞部上皮-肌上皮癌1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "45岁"
+        },
+        "chief_complaint": "女45岁汉族 因“左颞部肿瘤切除术后8月”入院。",
+        "present_illness": "2013－02－18患者再次出现干咳症状，伴右侧胸背部疼痛，咳嗽时加剧，于2013－02－25入院。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "患者2012－03－29因发现左颞部肿块在我院耳鼻喉科局麻下行左颞部肿瘤扩大根治术，术中冰冻病理提示恶性肿瘤，遂全麻下行左功能性颈淋巴结清扫术2012－04－10术后病理示：AE1/AE3+，MSA+，SMA－，S－100－，P63－，左颞部上皮肌上皮癌；大小2.5cm×2.0cm×1.2cm，另送检区淋巴结3枚，未见癌转移；颈淋巴结未见肿瘤转移术后给予左颞部术后瘤床普通放疗2012－11月因出现咳嗽咳白色泡沫痰，在我院行胸部CT检查示：双肺多发转移。于2012－11－27在我科行“紫杉醇240mgD1+顺铂30mgD1～4”全身化疗方案1周期，化疗过程顺利，患者咳嗽咳痰症状明显减轻2012－12－11患者行肿瘤个体化治疗靶标检测结果示：ERCC1=8.825（高），TUBB3=0.4444（低），检测结果提示患者对铂类药物不敏感，对紫杉醇类长春碱类药物敏感故于2012－12－27、2013－01－23更换为“环磷酰胺1.2gD1+表阿霉素80mgD1+长春新碱2mgD1+达卡巴嗪0.2gD1～5”全身化疗2周期。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "8065_左颞部上皮-肌上皮癌1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "45岁"
+        },
+        "chief_complaint": "女45岁汉族 因“左颞部肿瘤切除术后8月”入院。",
+        "present_illness": "2013－02－18患者再次出现干咳症状，伴右侧胸背部疼痛，咳嗽时加剧，于2013－02－25入院。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "患者2012－03－29因发现左颞部肿块在我院耳鼻喉科局麻下行左颞部肿瘤扩大根治术，术中冰冻病理提示恶性肿瘤，遂全麻下行左功能性颈淋巴结清扫术2012－04－10术后病理示：AE1/AE3+，MSA+，SMA－，S－100－，P63－，左颞部上皮肌上皮癌；大小2.5cm×2.0cm×1.2cm，另送检区淋巴结3枚，未见癌转移；颈淋巴结未见肿瘤转移术后给予左颞部术后瘤床普通放疗2012－11月因出现咳嗽咳白色泡沫痰，在我院行胸部CT检查示：双肺多发转移。于2012－11－27在我科行“紫杉醇240mgD1+顺铂30mgD1～4”全身化疗方案1周期，化疗过程顺利，患者咳嗽咳痰症状明显减轻2012－12－11患者行肿瘤个体化治疗靶标检测结果示：ERCC1=8.825（高），TUBB3=0.4444（低），检测结果提示患者对铂类药物不敏感，对紫杉醇类长春碱类药物敏感故于2012－12－27、2013－01－23更换为“环磷酰胺1.2gD1+表阿霉素80mgD1+长春新碱2mgD1+达卡巴嗪0.2gD1～5”全身化疗2周期。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "8065_左颞部上皮-肌上皮癌1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "45岁"
+        },
+        "chief_complaint": "女45岁汉族 因“左颞部肿瘤切除术后8月”入院。",
+        "present_illness": "2013－02－18患者再次出现干咳症状，伴右侧胸背部疼痛，咳嗽时加剧，于2013－02－25入院。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "患者2012－03－29因发现左颞部肿块在我院耳鼻喉科局麻下行左颞部肿瘤扩大根治术，术中冰冻病理提示恶性肿瘤，遂全麻下行左功能性颈淋巴结清扫术2012－04－10术后病理示：AE1/AE3+，MSA+，SMA－，S－100－，P63－，左颞部上皮肌上皮癌；大小2.5cm×2.0cm×1.2cm，另送检区淋巴结3枚，未见癌转移；颈淋巴结未见肿瘤转移术后给予左颞部术后瘤床普通放疗2012－11月因出现咳嗽咳白色泡沫痰，在我院行胸部CT检查示：双肺多发转移。于2012－11－27在我科行“紫杉醇240mgD1+顺铂30mgD1～4”全身化疗方案1周期，化疗过程顺利，患者咳嗽咳痰症状明显减轻2012－12－11患者行肿瘤个体化治疗靶标检测结果示：ERCC1=8.825（高），TUBB3=0.4444（低），检测结果提示患者对铂类药物不敏感，对紫杉醇类长春碱类药物敏感故于2012－12－27、2013－01－23更换为“环磷酰胺1.2gD1+表阿霉素80mgD1+长春新碱2mgD1+达卡巴嗪0.2gD1～5”全身化疗2周期。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "8065_左颞部上皮-肌上皮癌1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "45岁"
+        },
+        "chief_complaint": "女45岁汉族 因“左颞部肿瘤切除术后8月”入院。",
+        "present_illness": "2013－02－18患者再次出现干咳症状，伴右侧胸背部疼痛，咳嗽时加剧，于2013－02－25入院。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "患者2012－03－29因发现左颞部肿块在我院耳鼻喉科局麻下行左颞部肿瘤扩大根治术，术中冰冻病理提示恶性肿瘤，遂全麻下行左功能性颈淋巴结清扫术2012－04－10术后病理示：AE1/AE3+，MSA+，SMA－，S－100－，P63－，左颞部上皮肌上皮癌；大小2.5cm×2.0cm×1.2cm，另送检区淋巴结3枚，未见癌转移；颈淋巴结未见肿瘤转移术后给予左颞部术后瘤床普通放疗2012－11月因出现咳嗽咳白色泡沫痰，在我院行胸部CT检查示：双肺多发转移。于2012－11－27在我科行“紫杉醇240mgD1+顺铂30mgD1～4”全身化疗方案1周期，化疗过程顺利，患者咳嗽咳痰症状明显减轻2012－12－11患者行肿瘤个体化治疗靶标检测结果示：ERCC1=8.825（高），TUBB3=0.4444（低），检测结果提示患者对铂类药物不敏感，对紫杉醇类长春碱类药物敏感故于2012－12－27、2013－01－23更换为“环磷酰胺1.2gD1+表阿霉素80mgD1+长春新碱2mgD1+达卡巴嗪0.2gD1～5”全身化疗2周期。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "8065_左颞部上皮-肌上皮癌1例",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "45岁"
+        },
+        "chief_complaint": "女45岁汉族 因“左颞部肿瘤切除术后8月”入院。",
+        "present_illness": "2013－02－18患者再次出现干咳症状，伴右侧胸背部疼痛，咳嗽时加剧，于2013－02－25入院。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "患者2012－03－29因发现左颞部肿块在我院耳鼻喉科局麻下行左颞部肿瘤扩大根治术，术中冰冻病理提示恶性肿瘤，遂全麻下行左功能性颈淋巴结清扫术2012－04－10术后病理示：AE1/AE3+，MSA+，SMA－，S－100－，P63－，左颞部上皮肌上皮癌；大小2.5cm×2.0cm×1.2cm，另送检区淋巴结3枚，未见癌转移；颈淋巴结未见肿瘤转移术后给予左颞部术后瘤床普通放疗2012－11月因出现咳嗽咳白色泡沫痰，在我院行胸部CT检查示：双肺多发转移。于2012－11－27在我科行“紫杉醇240mgD1+顺铂30mgD1～4”全身化疗方案1周期，化疗过程顺利，患者咳嗽咳痰症状明显减轻2012－12－11患者行肿瘤个体化治疗靶标检测结果示：ERCC1=8.825（高），TUBB3=0.4444（低），检测结果提示患者对铂类药物不敏感，对紫杉醇类长春碱类药物敏感故于2012－12－27、2013－01－23更换为“环磷酰胺1.2gD1+表阿霉素80mgD1+长春新碱2mgD1+达卡巴嗪0.2gD1～5”全身化疗2周期。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

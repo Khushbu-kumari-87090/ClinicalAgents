@@ -1,0 +1,534 @@
+{
+  "case_id": "2534_52岁男性，上呼吸道症状合并低血氧饱和度",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "52岁"
+  },
+  "chief_complaint": "52岁，男性患者",
+  "present_illness": "3天前患者自感发热，疲倦，头痛，鼻窦鼻腔充血，喉咙痛，干咳，今日来到门诊。患者没有寒颤，没有胃肠道症状，没有气短、喘息、夜汗或胸部不适，患者诉呼吸道症状较之过去几次得过的肺炎而言并不重。 患者服用的药物包括短效胰岛素，甘精胰岛素，氨苯砜（200mg/d），赖诺普利，美托洛尔，胸痛时使用硝酸甘油。患者诉近3天来漏服了抗高血压药，2周以来没有服用阿伐他汀，也没有服用阿司匹林，雷尼替丁或拉坦前列素滴眼液。患者接受了流感和肺炎疫苗接种。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "患者患1型糖尿病17年，在外院随诊治疗。尽管糖化血红蛋白（HbA1c）较低，但血糖控制曾较差，故此采用血浆果糖胺（plasmafructosamine）水平评估血糖控制情况。8年前，患者曾有一次较长时间的意识改变和嗜睡，伴空腹血糖2.7mmol/L，静脉注射胰高血糖素和葡萄糖后缓解。18个月前患者曾有短暂的表达性失语，曾接受短暂的丙戊酸治疗。患者还患有高血压，劳力型心绞痛，高脂血症，超过8年的高胆红素血症，青光眼，疱疹性皮炎（为此已采用氨苯砜治疗8年以上）。血清肌内膜抗体阳性，患者曾尝试短暂无麸质饮食但没有坚持下去。患者还患有偏头痛，非典型胸痛以及周围神经变，表现为足部振动觉减退。18个月前接受丙戊酸、8个月前接受辛伐他丁和2个月前接受阿伐他汀治疗后分别发现转氨酶升高。结肠镜筛查发现结肠憩室以及管状腺瘤（直径4mm），已切除。",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "2534_52岁男性，上呼吸道症状合并低血氧饱和度",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "52岁"
+        },
+        "chief_complaint": "52岁，男性患者",
+        "present_illness": "3天前患者自感发热，疲倦，头痛，鼻窦鼻腔充血，喉咙痛，干咳，今日来到门诊。患者没有寒颤，没有胃肠道症状，没有气短、喘息、夜汗或胸部不适，患者诉呼吸道症状较之过去几次得过的肺炎而言并不重。 患者服用的药物包括短效胰岛素，甘精胰岛素，氨苯砜（200mg/d），赖诺普利，美托洛尔，胸痛时使用硝酸甘油。患者诉近3天来漏服了抗高血压药，2周以来没有服用阿伐他汀，也没有服用阿司匹林，雷尼替丁或拉坦前列素滴眼液。患者接受了流感和肺炎疫苗接种。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "患者患1型糖尿病17年，在外院随诊治疗。尽管糖化血红蛋白（HbA1c）较低，但血糖控制曾较差，故此采用血浆果糖胺（plasmafructosamine）水平评估血糖控制情况。8年前，患者曾有一次较长时间的意识改变和嗜睡，伴空腹血糖2.7mmol/L，静脉注射胰高血糖素和葡萄糖后缓解。18个月前患者曾有短暂的表达性失语，曾接受短暂的丙戊酸治疗。患者还患有高血压，劳力型心绞痛，高脂血症，超过8年的高胆红素血症，青光眼，疱疹性皮炎（为此已采用氨苯砜治疗8年以上）。血清肌内膜抗体阳性，患者曾尝试短暂无麸质饮食但没有坚持下去。患者还患有偏头痛，非典型胸痛以及周围神经变，表现为足部振动觉减退。18个月前接受丙戊酸、8个月前接受辛伐他丁和2个月前接受阿伐他汀治疗后分别发现转氨酶升高。结肠镜筛查发现结肠憩室以及管状腺瘤（直径4mm），已切除。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "2534_52岁男性，上呼吸道症状合并低血氧饱和度",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "52岁"
+        },
+        "chief_complaint": "52岁，男性患者",
+        "present_illness": "3天前患者自感发热，疲倦，头痛，鼻窦鼻腔充血，喉咙痛，干咳，今日来到门诊。患者没有寒颤，没有胃肠道症状，没有气短、喘息、夜汗或胸部不适，患者诉呼吸道症状较之过去几次得过的肺炎而言并不重。 患者服用的药物包括短效胰岛素，甘精胰岛素，氨苯砜（200mg/d），赖诺普利，美托洛尔，胸痛时使用硝酸甘油。患者诉近3天来漏服了抗高血压药，2周以来没有服用阿伐他汀，也没有服用阿司匹林，雷尼替丁或拉坦前列素滴眼液。患者接受了流感和肺炎疫苗接种。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "患者患1型糖尿病17年，在外院随诊治疗。尽管糖化血红蛋白（HbA1c）较低，但血糖控制曾较差，故此采用血浆果糖胺（plasmafructosamine）水平评估血糖控制情况。8年前，患者曾有一次较长时间的意识改变和嗜睡，伴空腹血糖2.7mmol/L，静脉注射胰高血糖素和葡萄糖后缓解。18个月前患者曾有短暂的表达性失语，曾接受短暂的丙戊酸治疗。患者还患有高血压，劳力型心绞痛，高脂血症，超过8年的高胆红素血症，青光眼，疱疹性皮炎（为此已采用氨苯砜治疗8年以上）。血清肌内膜抗体阳性，患者曾尝试短暂无麸质饮食但没有坚持下去。患者还患有偏头痛，非典型胸痛以及周围神经变，表现为足部振动觉减退。18个月前接受丙戊酸、8个月前接受辛伐他丁和2个月前接受阿伐他汀治疗后分别发现转氨酶升高。结肠镜筛查发现结肠憩室以及管状腺瘤（直径4mm），已切除。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "2534_52岁男性，上呼吸道症状合并低血氧饱和度",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "52岁"
+        },
+        "chief_complaint": "52岁，男性患者",
+        "present_illness": "3天前患者自感发热，疲倦，头痛，鼻窦鼻腔充血，喉咙痛，干咳，今日来到门诊。患者没有寒颤，没有胃肠道症状，没有气短、喘息、夜汗或胸部不适，患者诉呼吸道症状较之过去几次得过的肺炎而言并不重。 患者服用的药物包括短效胰岛素，甘精胰岛素，氨苯砜（200mg/d），赖诺普利，美托洛尔，胸痛时使用硝酸甘油。患者诉近3天来漏服了抗高血压药，2周以来没有服用阿伐他汀，也没有服用阿司匹林，雷尼替丁或拉坦前列素滴眼液。患者接受了流感和肺炎疫苗接种。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "患者患1型糖尿病17年，在外院随诊治疗。尽管糖化血红蛋白（HbA1c）较低，但血糖控制曾较差，故此采用血浆果糖胺（plasmafructosamine）水平评估血糖控制情况。8年前，患者曾有一次较长时间的意识改变和嗜睡，伴空腹血糖2.7mmol/L，静脉注射胰高血糖素和葡萄糖后缓解。18个月前患者曾有短暂的表达性失语，曾接受短暂的丙戊酸治疗。患者还患有高血压，劳力型心绞痛，高脂血症，超过8年的高胆红素血症，青光眼，疱疹性皮炎（为此已采用氨苯砜治疗8年以上）。血清肌内膜抗体阳性，患者曾尝试短暂无麸质饮食但没有坚持下去。患者还患有偏头痛，非典型胸痛以及周围神经变，表现为足部振动觉减退。18个月前接受丙戊酸、8个月前接受辛伐他丁和2个月前接受阿伐他汀治疗后分别发现转氨酶升高。结肠镜筛查发现结肠憩室以及管状腺瘤（直径4mm），已切除。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "2534_52岁男性，上呼吸道症状合并低血氧饱和度",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "52岁"
+        },
+        "chief_complaint": "52岁，男性患者",
+        "present_illness": "3天前患者自感发热，疲倦，头痛，鼻窦鼻腔充血，喉咙痛，干咳，今日来到门诊。患者没有寒颤，没有胃肠道症状，没有气短、喘息、夜汗或胸部不适，患者诉呼吸道症状较之过去几次得过的肺炎而言并不重。 患者服用的药物包括短效胰岛素，甘精胰岛素，氨苯砜（200mg/d），赖诺普利，美托洛尔，胸痛时使用硝酸甘油。患者诉近3天来漏服了抗高血压药，2周以来没有服用阿伐他汀，也没有服用阿司匹林，雷尼替丁或拉坦前列素滴眼液。患者接受了流感和肺炎疫苗接种。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "患者患1型糖尿病17年，在外院随诊治疗。尽管糖化血红蛋白（HbA1c）较低，但血糖控制曾较差，故此采用血浆果糖胺（plasmafructosamine）水平评估血糖控制情况。8年前，患者曾有一次较长时间的意识改变和嗜睡，伴空腹血糖2.7mmol/L，静脉注射胰高血糖素和葡萄糖后缓解。18个月前患者曾有短暂的表达性失语，曾接受短暂的丙戊酸治疗。患者还患有高血压，劳力型心绞痛，高脂血症，超过8年的高胆红素血症，青光眼，疱疹性皮炎（为此已采用氨苯砜治疗8年以上）。血清肌内膜抗体阳性，患者曾尝试短暂无麸质饮食但没有坚持下去。患者还患有偏头痛，非典型胸痛以及周围神经变，表现为足部振动觉减退。18个月前接受丙戊酸、8个月前接受辛伐他丁和2个月前接受阿伐他汀治疗后分别发现转氨酶升高。结肠镜筛查发现结肠憩室以及管状腺瘤（直径4mm），已切除。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "2534_52岁男性，上呼吸道症状合并低血氧饱和度",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "52岁"
+        },
+        "chief_complaint": "52岁，男性患者",
+        "present_illness": "3天前患者自感发热，疲倦，头痛，鼻窦鼻腔充血，喉咙痛，干咳，今日来到门诊。患者没有寒颤，没有胃肠道症状，没有气短、喘息、夜汗或胸部不适，患者诉呼吸道症状较之过去几次得过的肺炎而言并不重。 患者服用的药物包括短效胰岛素，甘精胰岛素，氨苯砜（200mg/d），赖诺普利，美托洛尔，胸痛时使用硝酸甘油。患者诉近3天来漏服了抗高血压药，2周以来没有服用阿伐他汀，也没有服用阿司匹林，雷尼替丁或拉坦前列素滴眼液。患者接受了流感和肺炎疫苗接种。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "患者患1型糖尿病17年，在外院随诊治疗。尽管糖化血红蛋白（HbA1c）较低，但血糖控制曾较差，故此采用血浆果糖胺（plasmafructosamine）水平评估血糖控制情况。8年前，患者曾有一次较长时间的意识改变和嗜睡，伴空腹血糖2.7mmol/L，静脉注射胰高血糖素和葡萄糖后缓解。18个月前患者曾有短暂的表达性失语，曾接受短暂的丙戊酸治疗。患者还患有高血压，劳力型心绞痛，高脂血症，超过8年的高胆红素血症，青光眼，疱疹性皮炎（为此已采用氨苯砜治疗8年以上）。血清肌内膜抗体阳性，患者曾尝试短暂无麸质饮食但没有坚持下去。患者还患有偏头痛，非典型胸痛以及周围神经变，表现为足部振动觉减退。18个月前接受丙戊酸、8个月前接受辛伐他丁和2个月前接受阿伐他汀治疗后分别发现转氨酶升高。结肠镜筛查发现结肠憩室以及管状腺瘤（直径4mm），已切除。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

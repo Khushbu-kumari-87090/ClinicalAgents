@@ -1,0 +1,534 @@
+{
+  "case_id": "6329_男 26岁 反复行动犹豫、不食、少动、冲动7年",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "26岁"
+  },
+  "chief_complaint": "**男26岁无业 因反复行动犹豫，不食、少动，冲动7+年入院。",
+  "present_illness": "7+年前患者无明显诱因出现做事反复思考，犹豫不决，得按一定的顺序，如走路时必须先出左脚，若先出了右脚，患者就会回到初始位置重新在走一次，多次跟家人说自己必须按程序做事，还说自己也知道没有必要，但是摆脱不了，自己非常难受。有时还要回想程序是要求自己怎样做的，就会感觉头痛、难受。有时感腰痛，不敢坐，担心坐坏沙发；动作缓慢，不知进退，担心墙垮。2005年8月首次住324医院半年，诊断抑郁症、强迫症，给予百忧解、氯丙嗪、电休克治疗，好转出院。上学几月后，因间断服药，病情波动，不吃饭、不愿意动，住重医附一院1个月，用百忧解和德国进口针剂治疗，好转出院。院外仍然不能坚持服药，病情反复，再次住市二精，诊断为强迫症、精分症可能性大；给予氯丙嗪、氯氮平等药治疗2+月，疗效差。出院后，患者症状逐渐加重，不吃东西，说自己得先想程序，不能先吃饭，8天不吃不喝，不洗漱，在床旁小便，先后住我院精神科2次，给予氯丙咪嗪，丙戊酸钠，舒比利治疗1月，好转出院。今年2月份出院后，患者回家后便开始拒绝服药，症状逐渐复发，坐车必须要比对车牌、颜色、位置是不是以前坐过的；吃饭要观察成色，检查是否和上次吃的米饭一样，如果被打断必须重来一次；说自己做事一定不能错，错了就不好，错了就无法做其他的事情，因此家属不经意打断患者时，患者便突发冲动、激惹，辱骂、殴打父母，说你们为什么要打断我，一切都完蛋了，我活不下去了，但是事后又向父母承认错误；半月前，患者出现想睡觉又睡不下去，反反复复起来又躺下，开始不进食、不喝水、不动，口中念念有词，反复念到“计算”“世界末日”“留余地”,家人无法管理，今日通知120,将其送入我科。患者意识清楚，无发热、抽搐，否认幻觉、妄想。体重明显减轻。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "6329_男 26岁 反复行动犹豫、不食、少动、冲动7年",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "26岁"
+        },
+        "chief_complaint": "**男26岁无业 因反复行动犹豫，不食、少动，冲动7+年入院。",
+        "present_illness": "7+年前患者无明显诱因出现做事反复思考，犹豫不决，得按一定的顺序，如走路时必须先出左脚，若先出了右脚，患者就会回到初始位置重新在走一次，多次跟家人说自己必须按程序做事，还说自己也知道没有必要，但是摆脱不了，自己非常难受。有时还要回想程序是要求自己怎样做的，就会感觉头痛、难受。有时感腰痛，不敢坐，担心坐坏沙发；动作缓慢，不知进退，担心墙垮。2005年8月首次住324医院半年，诊断抑郁症、强迫症，给予百忧解、氯丙嗪、电休克治疗，好转出院。上学几月后，因间断服药，病情波动，不吃饭、不愿意动，住重医附一院1个月，用百忧解和德国进口针剂治疗，好转出院。院外仍然不能坚持服药，病情反复，再次住市二精，诊断为强迫症、精分症可能性大；给予氯丙嗪、氯氮平等药治疗2+月，疗效差。出院后，患者症状逐渐加重，不吃东西，说自己得先想程序，不能先吃饭，8天不吃不喝，不洗漱，在床旁小便，先后住我院精神科2次，给予氯丙咪嗪，丙戊酸钠，舒比利治疗1月，好转出院。今年2月份出院后，患者回家后便开始拒绝服药，症状逐渐复发，坐车必须要比对车牌、颜色、位置是不是以前坐过的；吃饭要观察成色，检查是否和上次吃的米饭一样，如果被打断必须重来一次；说自己做事一定不能错，错了就不好，错了就无法做其他的事情，因此家属不经意打断患者时，患者便突发冲动、激惹，辱骂、殴打父母，说你们为什么要打断我，一切都完蛋了，我活不下去了，但是事后又向父母承认错误；半月前，患者出现想睡觉又睡不下去，反反复复起来又躺下，开始不进食、不喝水、不动，口中念念有词，反复念到“计算”“世界末日”“留余地”,家人无法管理，今日通知120,将其送入我科。患者意识清楚，无发热、抽搐，否认幻觉、妄想。体重明显减轻。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "6329_男 26岁 反复行动犹豫、不食、少动、冲动7年",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "26岁"
+        },
+        "chief_complaint": "**男26岁无业 因反复行动犹豫，不食、少动，冲动7+年入院。",
+        "present_illness": "7+年前患者无明显诱因出现做事反复思考，犹豫不决，得按一定的顺序，如走路时必须先出左脚，若先出了右脚，患者就会回到初始位置重新在走一次，多次跟家人说自己必须按程序做事，还说自己也知道没有必要，但是摆脱不了，自己非常难受。有时还要回想程序是要求自己怎样做的，就会感觉头痛、难受。有时感腰痛，不敢坐，担心坐坏沙发；动作缓慢，不知进退，担心墙垮。2005年8月首次住324医院半年，诊断抑郁症、强迫症，给予百忧解、氯丙嗪、电休克治疗，好转出院。上学几月后，因间断服药，病情波动，不吃饭、不愿意动，住重医附一院1个月，用百忧解和德国进口针剂治疗，好转出院。院外仍然不能坚持服药，病情反复，再次住市二精，诊断为强迫症、精分症可能性大；给予氯丙嗪、氯氮平等药治疗2+月，疗效差。出院后，患者症状逐渐加重，不吃东西，说自己得先想程序，不能先吃饭，8天不吃不喝，不洗漱，在床旁小便，先后住我院精神科2次，给予氯丙咪嗪，丙戊酸钠，舒比利治疗1月，好转出院。今年2月份出院后，患者回家后便开始拒绝服药，症状逐渐复发，坐车必须要比对车牌、颜色、位置是不是以前坐过的；吃饭要观察成色，检查是否和上次吃的米饭一样，如果被打断必须重来一次；说自己做事一定不能错，错了就不好，错了就无法做其他的事情，因此家属不经意打断患者时，患者便突发冲动、激惹，辱骂、殴打父母，说你们为什么要打断我，一切都完蛋了，我活不下去了，但是事后又向父母承认错误；半月前，患者出现想睡觉又睡不下去，反反复复起来又躺下，开始不进食、不喝水、不动，口中念念有词，反复念到“计算”“世界末日”“留余地”,家人无法管理，今日通知120,将其送入我科。患者意识清楚，无发热、抽搐，否认幻觉、妄想。体重明显减轻。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "6329_男 26岁 反复行动犹豫、不食、少动、冲动7年",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "26岁"
+        },
+        "chief_complaint": "**男26岁无业 因反复行动犹豫，不食、少动，冲动7+年入院。",
+        "present_illness": "7+年前患者无明显诱因出现做事反复思考，犹豫不决，得按一定的顺序，如走路时必须先出左脚，若先出了右脚，患者就会回到初始位置重新在走一次，多次跟家人说自己必须按程序做事，还说自己也知道没有必要，但是摆脱不了，自己非常难受。有时还要回想程序是要求自己怎样做的，就会感觉头痛、难受。有时感腰痛，不敢坐，担心坐坏沙发；动作缓慢，不知进退，担心墙垮。2005年8月首次住324医院半年，诊断抑郁症、强迫症，给予百忧解、氯丙嗪、电休克治疗，好转出院。上学几月后，因间断服药，病情波动，不吃饭、不愿意动，住重医附一院1个月，用百忧解和德国进口针剂治疗，好转出院。院外仍然不能坚持服药，病情反复，再次住市二精，诊断为强迫症、精分症可能性大；给予氯丙嗪、氯氮平等药治疗2+月，疗效差。出院后，患者症状逐渐加重，不吃东西，说自己得先想程序，不能先吃饭，8天不吃不喝，不洗漱，在床旁小便，先后住我院精神科2次，给予氯丙咪嗪，丙戊酸钠，舒比利治疗1月，好转出院。今年2月份出院后，患者回家后便开始拒绝服药，症状逐渐复发，坐车必须要比对车牌、颜色、位置是不是以前坐过的；吃饭要观察成色，检查是否和上次吃的米饭一样，如果被打断必须重来一次；说自己做事一定不能错，错了就不好，错了就无法做其他的事情，因此家属不经意打断患者时，患者便突发冲动、激惹，辱骂、殴打父母，说你们为什么要打断我，一切都完蛋了，我活不下去了，但是事后又向父母承认错误；半月前，患者出现想睡觉又睡不下去，反反复复起来又躺下，开始不进食、不喝水、不动，口中念念有词，反复念到“计算”“世界末日”“留余地”,家人无法管理，今日通知120,将其送入我科。患者意识清楚，无发热、抽搐，否认幻觉、妄想。体重明显减轻。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "6329_男 26岁 反复行动犹豫、不食、少动、冲动7年",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "26岁"
+        },
+        "chief_complaint": "**男26岁无业 因反复行动犹豫，不食、少动，冲动7+年入院。",
+        "present_illness": "7+年前患者无明显诱因出现做事反复思考，犹豫不决，得按一定的顺序，如走路时必须先出左脚，若先出了右脚，患者就会回到初始位置重新在走一次，多次跟家人说自己必须按程序做事，还说自己也知道没有必要，但是摆脱不了，自己非常难受。有时还要回想程序是要求自己怎样做的，就会感觉头痛、难受。有时感腰痛，不敢坐，担心坐坏沙发；动作缓慢，不知进退，担心墙垮。2005年8月首次住324医院半年，诊断抑郁症、强迫症，给予百忧解、氯丙嗪、电休克治疗，好转出院。上学几月后，因间断服药，病情波动，不吃饭、不愿意动，住重医附一院1个月，用百忧解和德国进口针剂治疗，好转出院。院外仍然不能坚持服药，病情反复，再次住市二精，诊断为强迫症、精分症可能性大；给予氯丙嗪、氯氮平等药治疗2+月，疗效差。出院后，患者症状逐渐加重，不吃东西，说自己得先想程序，不能先吃饭，8天不吃不喝，不洗漱，在床旁小便，先后住我院精神科2次，给予氯丙咪嗪，丙戊酸钠，舒比利治疗1月，好转出院。今年2月份出院后，患者回家后便开始拒绝服药，症状逐渐复发，坐车必须要比对车牌、颜色、位置是不是以前坐过的；吃饭要观察成色，检查是否和上次吃的米饭一样，如果被打断必须重来一次；说自己做事一定不能错，错了就不好，错了就无法做其他的事情，因此家属不经意打断患者时，患者便突发冲动、激惹，辱骂、殴打父母，说你们为什么要打断我，一切都完蛋了，我活不下去了，但是事后又向父母承认错误；半月前，患者出现想睡觉又睡不下去，反反复复起来又躺下，开始不进食、不喝水、不动，口中念念有词，反复念到“计算”“世界末日”“留余地”,家人无法管理，今日通知120,将其送入我科。患者意识清楚，无发热、抽搐，否认幻觉、妄想。体重明显减轻。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "6329_男 26岁 反复行动犹豫、不食、少动、冲动7年",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "26岁"
+        },
+        "chief_complaint": "**男26岁无业 因反复行动犹豫，不食、少动，冲动7+年入院。",
+        "present_illness": "7+年前患者无明显诱因出现做事反复思考，犹豫不决，得按一定的顺序，如走路时必须先出左脚，若先出了右脚，患者就会回到初始位置重新在走一次，多次跟家人说自己必须按程序做事，还说自己也知道没有必要，但是摆脱不了，自己非常难受。有时还要回想程序是要求自己怎样做的，就会感觉头痛、难受。有时感腰痛，不敢坐，担心坐坏沙发；动作缓慢，不知进退，担心墙垮。2005年8月首次住324医院半年，诊断抑郁症、强迫症，给予百忧解、氯丙嗪、电休克治疗，好转出院。上学几月后，因间断服药，病情波动，不吃饭、不愿意动，住重医附一院1个月，用百忧解和德国进口针剂治疗，好转出院。院外仍然不能坚持服药，病情反复，再次住市二精，诊断为强迫症、精分症可能性大；给予氯丙嗪、氯氮平等药治疗2+月，疗效差。出院后，患者症状逐渐加重，不吃东西，说自己得先想程序，不能先吃饭，8天不吃不喝，不洗漱，在床旁小便，先后住我院精神科2次，给予氯丙咪嗪，丙戊酸钠，舒比利治疗1月，好转出院。今年2月份出院后，患者回家后便开始拒绝服药，症状逐渐复发，坐车必须要比对车牌、颜色、位置是不是以前坐过的；吃饭要观察成色，检查是否和上次吃的米饭一样，如果被打断必须重来一次；说自己做事一定不能错，错了就不好，错了就无法做其他的事情，因此家属不经意打断患者时，患者便突发冲动、激惹，辱骂、殴打父母，说你们为什么要打断我，一切都完蛋了，我活不下去了，但是事后又向父母承认错误；半月前，患者出现想睡觉又睡不下去，反反复复起来又躺下，开始不进食、不喝水、不动，口中念念有词，反复念到“计算”“世界末日”“留余地”,家人无法管理，今日通知120,将其送入我科。患者意识清楚，无发热、抽搐，否认幻觉、妄想。体重明显减轻。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

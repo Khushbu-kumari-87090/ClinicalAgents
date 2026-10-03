@@ -1,0 +1,534 @@
+{
+  "case_id": "5501_肝癌免疫+靶向治疗",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "75岁"
+  },
+  "chief_complaint": "男性,75岁,工人 确诊肝癌9年余，拟行免疫治疗。",
+  "present_illness": "患者于9年多前在当地医院查体时发现“肝占位”，AF升高，具体不详，进一步腹部CT检查考虑为“肝癌.后就诊于上级医院，进一步行腹部核磁考虑为“原发性肝癌”，在该院多次行射频消融及TACE治疗.于2018年曾口服“索拉非尼”治疗2周余，因反应较重，自行停用。于2019年口服“阿帕替尼”治疗1个月，因耐受性差，自行停用.于2021年01月17日在我院行核磁共振检查示：“肝癌介入术后改变，肝内病灶与原片相仿，门静脉和肝静脉局部充盈缺损，考虑门静脉和肝静脉癌栓，左侧肾上腺结节，双肾多发囊性病灶可考虑，建议定期复查“，AFP829.8IU/ml，于221-03-15前往上级医院，查甲胎蛋白3021.7 ng/ml，AFP异质体比率46.5%。排除禁忌症，于2021-03-17行TACE，术后给予补液、水化等对症支持治疗，2021-03-18、2021-04-08、2021-04-29给卡瑞利珠单抗200mg治疗3次，口服瑞戈非尼片40mg qd治疗。现为求进一步系统治疗来院，门诊医师以“肝恶性肿瘤”收住院.患者自发病以来，神志清，精神可，食欲及夜间睡眠可，大小便无明显异常，体重无明显下降.",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "否认高血压、冠心病、糖尿病等慢性疾病病史否认肝炎、结核等传染性疾病病史及密切接触史.否认重大外伤史.否认食物、药物过敏史.否认输血史.预防接种史不详. 生于原籍，否认近14天内有国外及国内中高风险疫情地区、其他有病例报告社区的旅行史或居住史；否认近14天内与新型冠状病毒感染者(核酸检测阳性者)有接触史；否认近14天内曾接触过来自国外、国外中高风险疫情区及周边地区、来自有病例报告社区的发热有呼吸道症状的患者；否认有冷链运输物品及运输人员接触史无外地久居史，无其他疫区居住史.否认职业病史及治游史.生活规律，无烟酒嗜好。",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "5501_肝癌免疫+靶向治疗",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "75岁"
+        },
+        "chief_complaint": "男性,75岁,工人 确诊肝癌9年余，拟行免疫治疗。",
+        "present_illness": "患者于9年多前在当地医院查体时发现“肝占位”，AF升高，具体不详，进一步腹部CT检查考虑为“肝癌.后就诊于上级医院，进一步行腹部核磁考虑为“原发性肝癌”，在该院多次行射频消融及TACE治疗.于2018年曾口服“索拉非尼”治疗2周余，因反应较重，自行停用。于2019年口服“阿帕替尼”治疗1个月，因耐受性差，自行停用.于2021年01月17日在我院行核磁共振检查示：“肝癌介入术后改变，肝内病灶与原片相仿，门静脉和肝静脉局部充盈缺损，考虑门静脉和肝静脉癌栓，左侧肾上腺结节，双肾多发囊性病灶可考虑，建议定期复查“，AFP829.8IU/ml，于221-03-15前往上级医院，查甲胎蛋白3021.7 ng/ml，AFP异质体比率46.5%。排除禁忌症，于2021-03-17行TACE，术后给予补液、水化等对症支持治疗，2021-03-18、2021-04-08、2021-04-29给卡瑞利珠单抗200mg治疗3次，口服瑞戈非尼片40mg qd治疗。现为求进一步系统治疗来院，门诊医师以“肝恶性肿瘤”收住院.患者自发病以来，神志清，精神可，食欲及夜间睡眠可，大小便无明显异常，体重无明显下降.",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "否认高血压、冠心病、糖尿病等慢性疾病病史否认肝炎、结核等传染性疾病病史及密切接触史.否认重大外伤史.否认食物、药物过敏史.否认输血史.预防接种史不详. 生于原籍，否认近14天内有国外及国内中高风险疫情地区、其他有病例报告社区的旅行史或居住史；否认近14天内与新型冠状病毒感染者(核酸检测阳性者)有接触史；否认近14天内曾接触过来自国外、国外中高风险疫情区及周边地区、来自有病例报告社区的发热有呼吸道症状的患者；否认有冷链运输物品及运输人员接触史无外地久居史，无其他疫区居住史.否认职业病史及治游史.生活规律，无烟酒嗜好。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "5501_肝癌免疫+靶向治疗",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "75岁"
+        },
+        "chief_complaint": "男性,75岁,工人 确诊肝癌9年余，拟行免疫治疗。",
+        "present_illness": "患者于9年多前在当地医院查体时发现“肝占位”，AF升高，具体不详，进一步腹部CT检查考虑为“肝癌.后就诊于上级医院，进一步行腹部核磁考虑为“原发性肝癌”，在该院多次行射频消融及TACE治疗.于2018年曾口服“索拉非尼”治疗2周余，因反应较重，自行停用。于2019年口服“阿帕替尼”治疗1个月，因耐受性差，自行停用.于2021年01月17日在我院行核磁共振检查示：“肝癌介入术后改变，肝内病灶与原片相仿，门静脉和肝静脉局部充盈缺损，考虑门静脉和肝静脉癌栓，左侧肾上腺结节，双肾多发囊性病灶可考虑，建议定期复查“，AFP829.8IU/ml，于221-03-15前往上级医院，查甲胎蛋白3021.7 ng/ml，AFP异质体比率46.5%。排除禁忌症，于2021-03-17行TACE，术后给予补液、水化等对症支持治疗，2021-03-18、2021-04-08、2021-04-29给卡瑞利珠单抗200mg治疗3次，口服瑞戈非尼片40mg qd治疗。现为求进一步系统治疗来院，门诊医师以“肝恶性肿瘤”收住院.患者自发病以来，神志清，精神可，食欲及夜间睡眠可，大小便无明显异常，体重无明显下降.",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认高血压、冠心病、糖尿病等慢性疾病病史否认肝炎、结核等传染性疾病病史及密切接触史.否认重大外伤史.否认食物、药物过敏史.否认输血史.预防接种史不详. 生于原籍，否认近14天内有国外及国内中高风险疫情地区、其他有病例报告社区的旅行史或居住史；否认近14天内与新型冠状病毒感染者(核酸检测阳性者)有接触史；否认近14天内曾接触过来自国外、国外中高风险疫情区及周边地区、来自有病例报告社区的发热有呼吸道症状的患者；否认有冷链运输物品及运输人员接触史无外地久居史，无其他疫区居住史.否认职业病史及治游史.生活规律，无烟酒嗜好。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "5501_肝癌免疫+靶向治疗",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "75岁"
+        },
+        "chief_complaint": "男性,75岁,工人 确诊肝癌9年余，拟行免疫治疗。",
+        "present_illness": "患者于9年多前在当地医院查体时发现“肝占位”，AF升高，具体不详，进一步腹部CT检查考虑为“肝癌.后就诊于上级医院，进一步行腹部核磁考虑为“原发性肝癌”，在该院多次行射频消融及TACE治疗.于2018年曾口服“索拉非尼”治疗2周余，因反应较重，自行停用。于2019年口服“阿帕替尼”治疗1个月，因耐受性差，自行停用.于2021年01月17日在我院行核磁共振检查示：“肝癌介入术后改变，肝内病灶与原片相仿，门静脉和肝静脉局部充盈缺损，考虑门静脉和肝静脉癌栓，左侧肾上腺结节，双肾多发囊性病灶可考虑，建议定期复查“，AFP829.8IU/ml，于221-03-15前往上级医院，查甲胎蛋白3021.7 ng/ml，AFP异质体比率46.5%。排除禁忌症，于2021-03-17行TACE，术后给予补液、水化等对症支持治疗，2021-03-18、2021-04-08、2021-04-29给卡瑞利珠单抗200mg治疗3次，口服瑞戈非尼片40mg qd治疗。现为求进一步系统治疗来院，门诊医师以“肝恶性肿瘤”收住院.患者自发病以来，神志清，精神可，食欲及夜间睡眠可，大小便无明显异常，体重无明显下降.",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认高血压、冠心病、糖尿病等慢性疾病病史否认肝炎、结核等传染性疾病病史及密切接触史.否认重大外伤史.否认食物、药物过敏史.否认输血史.预防接种史不详. 生于原籍，否认近14天内有国外及国内中高风险疫情地区、其他有病例报告社区的旅行史或居住史；否认近14天内与新型冠状病毒感染者(核酸检测阳性者)有接触史；否认近14天内曾接触过来自国外、国外中高风险疫情区及周边地区、来自有病例报告社区的发热有呼吸道症状的患者；否认有冷链运输物品及运输人员接触史无外地久居史，无其他疫区居住史.否认职业病史及治游史.生活规律，无烟酒嗜好。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "5501_肝癌免疫+靶向治疗",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "75岁"
+        },
+        "chief_complaint": "男性,75岁,工人 确诊肝癌9年余，拟行免疫治疗。",
+        "present_illness": "患者于9年多前在当地医院查体时发现“肝占位”，AF升高，具体不详，进一步腹部CT检查考虑为“肝癌.后就诊于上级医院，进一步行腹部核磁考虑为“原发性肝癌”，在该院多次行射频消融及TACE治疗.于2018年曾口服“索拉非尼”治疗2周余，因反应较重，自行停用。于2019年口服“阿帕替尼”治疗1个月，因耐受性差，自行停用.于2021年01月17日在我院行核磁共振检查示：“肝癌介入术后改变，肝内病灶与原片相仿，门静脉和肝静脉局部充盈缺损，考虑门静脉和肝静脉癌栓，左侧肾上腺结节，双肾多发囊性病灶可考虑，建议定期复查“，AFP829.8IU/ml，于221-03-15前往上级医院，查甲胎蛋白3021.7 ng/ml，AFP异质体比率46.5%。排除禁忌症，于2021-03-17行TACE，术后给予补液、水化等对症支持治疗，2021-03-18、2021-04-08、2021-04-29给卡瑞利珠单抗200mg治疗3次，口服瑞戈非尼片40mg qd治疗。现为求进一步系统治疗来院，门诊医师以“肝恶性肿瘤”收住院.患者自发病以来，神志清，精神可，食欲及夜间睡眠可，大小便无明显异常，体重无明显下降.",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认高血压、冠心病、糖尿病等慢性疾病病史否认肝炎、结核等传染性疾病病史及密切接触史.否认重大外伤史.否认食物、药物过敏史.否认输血史.预防接种史不详. 生于原籍，否认近14天内有国外及国内中高风险疫情地区、其他有病例报告社区的旅行史或居住史；否认近14天内与新型冠状病毒感染者(核酸检测阳性者)有接触史；否认近14天内曾接触过来自国外、国外中高风险疫情区及周边地区、来自有病例报告社区的发热有呼吸道症状的患者；否认有冷链运输物品及运输人员接触史无外地久居史，无其他疫区居住史.否认职业病史及治游史.生活规律，无烟酒嗜好。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "5501_肝癌免疫+靶向治疗",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "75岁"
+        },
+        "chief_complaint": "男性,75岁,工人 确诊肝癌9年余，拟行免疫治疗。",
+        "present_illness": "患者于9年多前在当地医院查体时发现“肝占位”，AF升高，具体不详，进一步腹部CT检查考虑为“肝癌.后就诊于上级医院，进一步行腹部核磁考虑为“原发性肝癌”，在该院多次行射频消融及TACE治疗.于2018年曾口服“索拉非尼”治疗2周余，因反应较重，自行停用。于2019年口服“阿帕替尼”治疗1个月，因耐受性差，自行停用.于2021年01月17日在我院行核磁共振检查示：“肝癌介入术后改变，肝内病灶与原片相仿，门静脉和肝静脉局部充盈缺损，考虑门静脉和肝静脉癌栓，左侧肾上腺结节，双肾多发囊性病灶可考虑，建议定期复查“，AFP829.8IU/ml，于221-03-15前往上级医院，查甲胎蛋白3021.7 ng/ml，AFP异质体比率46.5%。排除禁忌症，于2021-03-17行TACE，术后给予补液、水化等对症支持治疗，2021-03-18、2021-04-08、2021-04-29给卡瑞利珠单抗200mg治疗3次，口服瑞戈非尼片40mg qd治疗。现为求进一步系统治疗来院，门诊医师以“肝恶性肿瘤”收住院.患者自发病以来，神志清，精神可，食欲及夜间睡眠可，大小便无明显异常，体重无明显下降.",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认高血压、冠心病、糖尿病等慢性疾病病史否认肝炎、结核等传染性疾病病史及密切接触史.否认重大外伤史.否认食物、药物过敏史.否认输血史.预防接种史不详. 生于原籍，否认近14天内有国外及国内中高风险疫情地区、其他有病例报告社区的旅行史或居住史；否认近14天内与新型冠状病毒感染者(核酸检测阳性者)有接触史；否认近14天内曾接触过来自国外、国外中高风险疫情区及周边地区、来自有病例报告社区的发热有呼吸道症状的患者；否认有冷链运输物品及运输人员接触史无外地久居史，无其他疫区居住史.否认职业病史及治游史.生活规律，无烟酒嗜好。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

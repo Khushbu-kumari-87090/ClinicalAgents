@@ -1,0 +1,534 @@
+{
+  "case_id": "1593_十二指肠溃疡案",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "50岁"
+  },
+  "chief_complaint": "患者，应某，男，50岁，1992年11月20日诊。 以上腹部疼痛伴纳差乏力，消瘦2年在本乡医院经X线钡餐透视诊为“十二指肠球部溃疡”，经西医用抗溃疡治疗，病情时轻时重，特来本所就诊。诊见患者腹痛隐隐，饥饿时痛甚，泛吐清水，四肢不温，怕冷，大便溏薄，舌淡苔白，脉缓弱。辩证为中气虚寒，气血不足。治以温中健脾，调补气血。方选黄芪建中汤合良附丸。桂枝15g，炙甘草12g，大枣7枚，芍药30g，生姜15g，胶饴60g，黄芪50g，良姜15g，香附15g，红参10g，五灵脂15g。水煎服，5剂。二诊：上方服至3剂腹痛止，肢冷转暖，5剂服完，诸证消失。后用本方加鱼膘胶10g，共服10剂后X线钡餐复查溃疡愈合，随访10年未复发。",
+  "present_illness": "",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "1593_十二指肠溃疡案",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "50岁"
+        },
+        "chief_complaint": "患者，应某，男，50岁，1992年11月20日诊。 以上腹部疼痛伴纳差乏力，消瘦2年在本乡医院经X线钡餐透视诊为“十二指肠球部溃疡”，经西医用抗溃疡治疗，病情时轻时重，特来本所就诊。诊见患者腹痛隐隐，饥饿时痛甚，泛吐清水，四肢不温，怕冷，大便溏薄，舌淡苔白，脉缓弱。辩证为中气虚寒，气血不足。治以温中健脾，调补气血。方选黄芪建中汤合良附丸。桂枝15g，炙甘草12g，大枣7枚，芍药30g，生姜15g，胶饴60g，黄芪50g，良姜15g，香附15g，红参10g，五灵脂15g。水煎服，5剂。二诊：上方服至3剂腹痛止，肢冷转暖，5剂服完，诸证消失。后用本方加鱼膘胶10g，共服10剂后X线钡餐复查溃疡愈合，随访10年未复发。",
+        "present_illness": "",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "1593_十二指肠溃疡案",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "50岁"
+        },
+        "chief_complaint": "患者，应某，男，50岁，1992年11月20日诊。 以上腹部疼痛伴纳差乏力，消瘦2年在本乡医院经X线钡餐透视诊为“十二指肠球部溃疡”，经西医用抗溃疡治疗，病情时轻时重，特来本所就诊。诊见患者腹痛隐隐，饥饿时痛甚，泛吐清水，四肢不温，怕冷，大便溏薄，舌淡苔白，脉缓弱。辩证为中气虚寒，气血不足。治以温中健脾，调补气血。方选黄芪建中汤合良附丸。桂枝15g，炙甘草12g，大枣7枚，芍药30g，生姜15g，胶饴60g，黄芪50g，良姜15g，香附15g，红参10g，五灵脂15g。水煎服，5剂。二诊：上方服至3剂腹痛止，肢冷转暖，5剂服完，诸证消失。后用本方加鱼膘胶10g，共服10剂后X线钡餐复查溃疡愈合，随访10年未复发。",
+        "present_illness": "",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "1593_十二指肠溃疡案",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "50岁"
+        },
+        "chief_complaint": "患者，应某，男，50岁，1992年11月20日诊。 以上腹部疼痛伴纳差乏力，消瘦2年在本乡医院经X线钡餐透视诊为“十二指肠球部溃疡”，经西医用抗溃疡治疗，病情时轻时重，特来本所就诊。诊见患者腹痛隐隐，饥饿时痛甚，泛吐清水，四肢不温，怕冷，大便溏薄，舌淡苔白，脉缓弱。辩证为中气虚寒，气血不足。治以温中健脾，调补气血。方选黄芪建中汤合良附丸。桂枝15g，炙甘草12g，大枣7枚，芍药30g，生姜15g，胶饴60g，黄芪50g，良姜15g，香附15g，红参10g，五灵脂15g。水煎服，5剂。二诊：上方服至3剂腹痛止，肢冷转暖，5剂服完，诸证消失。后用本方加鱼膘胶10g，共服10剂后X线钡餐复查溃疡愈合，随访10年未复发。",
+        "present_illness": "",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "1593_十二指肠溃疡案",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "50岁"
+        },
+        "chief_complaint": "患者，应某，男，50岁，1992年11月20日诊。 以上腹部疼痛伴纳差乏力，消瘦2年在本乡医院经X线钡餐透视诊为“十二指肠球部溃疡”，经西医用抗溃疡治疗，病情时轻时重，特来本所就诊。诊见患者腹痛隐隐，饥饿时痛甚，泛吐清水，四肢不温，怕冷，大便溏薄，舌淡苔白，脉缓弱。辩证为中气虚寒，气血不足。治以温中健脾，调补气血。方选黄芪建中汤合良附丸。桂枝15g，炙甘草12g，大枣7枚，芍药30g，生姜15g，胶饴60g，黄芪50g，良姜15g，香附15g，红参10g，五灵脂15g。水煎服，5剂。二诊：上方服至3剂腹痛止，肢冷转暖，5剂服完，诸证消失。后用本方加鱼膘胶10g，共服10剂后X线钡餐复查溃疡愈合，随访10年未复发。",
+        "present_illness": "",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "1593_十二指肠溃疡案",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "50岁"
+        },
+        "chief_complaint": "患者，应某，男，50岁，1992年11月20日诊。 以上腹部疼痛伴纳差乏力，消瘦2年在本乡医院经X线钡餐透视诊为“十二指肠球部溃疡”，经西医用抗溃疡治疗，病情时轻时重，特来本所就诊。诊见患者腹痛隐隐，饥饿时痛甚，泛吐清水，四肢不温，怕冷，大便溏薄，舌淡苔白，脉缓弱。辩证为中气虚寒，气血不足。治以温中健脾，调补气血。方选黄芪建中汤合良附丸。桂枝15g，炙甘草12g，大枣7枚，芍药30g，生姜15g，胶饴60g，黄芪50g，良姜15g，香附15g，红参10g，五灵脂15g。水煎服，5剂。二诊：上方服至3剂腹痛止，肢冷转暖，5剂服完，诸证消失。后用本方加鱼膘胶10g，共服10剂后X线钡餐复查溃疡愈合，随访10年未复发。",
+        "present_illness": "",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

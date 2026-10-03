@@ -1,0 +1,534 @@
+{
+  "case_id": "1940_中医妙招治腹泻",
+  "personal_info": {
+    "性别": "女",
+    "年龄": "未知"
+  },
+  "chief_complaint": "XXX，女，76，体瘦， XXX，女，50，体肥，",
+  "present_illness": "全身冷，肚子（全腹）尤甚，双手脚不觉冷，平时喜食热食（每顿饭必加茴香），食后自觉肚子很舒服大便也会较好，稍干一些，但会头蒙不清，眼睛模糊，眼屎多，吃凉的后头部会觉得很舒服，但肚子很凉，腹泻，以往吃中药过热过凉都不太舒服，失眠（从年轻时就失眠）甚则每日只能睡两三个小时，口干不欲饮，饮则自觉舌淡无味，饮水后不久则欲小便。左手麻木；舌暗红中前几无苔，舌后根腻舌底红丝缕缕（自述舌头被吃热的给烫坏了），病已数十年，久治不愈，很无奈，近来流涎，左脉沉，关缓大（摸不到前后边际貌似大）尺有根，右寸脉细小，关缓按之无力尺有根。 双手掌指关节肿疼（西医检查类风湿）全身关节疼胀（不肿）游走性牵引痛，怕贼风，白天轻晚上重，去夏重冬天轻，夏天穿棉袄不觉热，不出汗，饭后小腹痛，痛则如厕，如厕后疼痛好转，或不如厕食消后亦不疼，晚上小便不利，点滴而出，白天无碍，近两月胸口闷（貌似生气感，但并无生气史），自述食冷很舒服。舌淡红，苔中后稍腻；左脉沉弱关轻按稍有重按无，右关脉旺、弦，双尺尚有根。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "1940_中医妙招治腹泻",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "未知"
+        },
+        "chief_complaint": "XXX，女，76，体瘦， XXX，女，50，体肥，",
+        "present_illness": "全身冷，肚子（全腹）尤甚，双手脚不觉冷，平时喜食热食（每顿饭必加茴香），食后自觉肚子很舒服大便也会较好，稍干一些，但会头蒙不清，眼睛模糊，眼屎多，吃凉的后头部会觉得很舒服，但肚子很凉，腹泻，以往吃中药过热过凉都不太舒服，失眠（从年轻时就失眠）甚则每日只能睡两三个小时，口干不欲饮，饮则自觉舌淡无味，饮水后不久则欲小便。左手麻木；舌暗红中前几无苔，舌后根腻舌底红丝缕缕（自述舌头被吃热的给烫坏了），病已数十年，久治不愈，很无奈，近来流涎，左脉沉，关缓大（摸不到前后边际貌似大）尺有根，右寸脉细小，关缓按之无力尺有根。 双手掌指关节肿疼（西医检查类风湿）全身关节疼胀（不肿）游走性牵引痛，怕贼风，白天轻晚上重，去夏重冬天轻，夏天穿棉袄不觉热，不出汗，饭后小腹痛，痛则如厕，如厕后疼痛好转，或不如厕食消后亦不疼，晚上小便不利，点滴而出，白天无碍，近两月胸口闷（貌似生气感，但并无生气史），自述食冷很舒服。舌淡红，苔中后稍腻；左脉沉弱关轻按稍有重按无，右关脉旺、弦，双尺尚有根。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "1940_中医妙招治腹泻",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "未知"
+        },
+        "chief_complaint": "XXX，女，76，体瘦， XXX，女，50，体肥，",
+        "present_illness": "全身冷，肚子（全腹）尤甚，双手脚不觉冷，平时喜食热食（每顿饭必加茴香），食后自觉肚子很舒服大便也会较好，稍干一些，但会头蒙不清，眼睛模糊，眼屎多，吃凉的后头部会觉得很舒服，但肚子很凉，腹泻，以往吃中药过热过凉都不太舒服，失眠（从年轻时就失眠）甚则每日只能睡两三个小时，口干不欲饮，饮则自觉舌淡无味，饮水后不久则欲小便。左手麻木；舌暗红中前几无苔，舌后根腻舌底红丝缕缕（自述舌头被吃热的给烫坏了），病已数十年，久治不愈，很无奈，近来流涎，左脉沉，关缓大（摸不到前后边际貌似大）尺有根，右寸脉细小，关缓按之无力尺有根。 双手掌指关节肿疼（西医检查类风湿）全身关节疼胀（不肿）游走性牵引痛，怕贼风，白天轻晚上重，去夏重冬天轻，夏天穿棉袄不觉热，不出汗，饭后小腹痛，痛则如厕，如厕后疼痛好转，或不如厕食消后亦不疼，晚上小便不利，点滴而出，白天无碍，近两月胸口闷（貌似生气感，但并无生气史），自述食冷很舒服。舌淡红，苔中后稍腻；左脉沉弱关轻按稍有重按无，右关脉旺、弦，双尺尚有根。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "1940_中医妙招治腹泻",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "未知"
+        },
+        "chief_complaint": "XXX，女，76，体瘦， XXX，女，50，体肥，",
+        "present_illness": "全身冷，肚子（全腹）尤甚，双手脚不觉冷，平时喜食热食（每顿饭必加茴香），食后自觉肚子很舒服大便也会较好，稍干一些，但会头蒙不清，眼睛模糊，眼屎多，吃凉的后头部会觉得很舒服，但肚子很凉，腹泻，以往吃中药过热过凉都不太舒服，失眠（从年轻时就失眠）甚则每日只能睡两三个小时，口干不欲饮，饮则自觉舌淡无味，饮水后不久则欲小便。左手麻木；舌暗红中前几无苔，舌后根腻舌底红丝缕缕（自述舌头被吃热的给烫坏了），病已数十年，久治不愈，很无奈，近来流涎，左脉沉，关缓大（摸不到前后边际貌似大）尺有根，右寸脉细小，关缓按之无力尺有根。 双手掌指关节肿疼（西医检查类风湿）全身关节疼胀（不肿）游走性牵引痛，怕贼风，白天轻晚上重，去夏重冬天轻，夏天穿棉袄不觉热，不出汗，饭后小腹痛，痛则如厕，如厕后疼痛好转，或不如厕食消后亦不疼，晚上小便不利，点滴而出，白天无碍，近两月胸口闷（貌似生气感，但并无生气史），自述食冷很舒服。舌淡红，苔中后稍腻；左脉沉弱关轻按稍有重按无，右关脉旺、弦，双尺尚有根。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "1940_中医妙招治腹泻",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "未知"
+        },
+        "chief_complaint": "XXX，女，76，体瘦， XXX，女，50，体肥，",
+        "present_illness": "全身冷，肚子（全腹）尤甚，双手脚不觉冷，平时喜食热食（每顿饭必加茴香），食后自觉肚子很舒服大便也会较好，稍干一些，但会头蒙不清，眼睛模糊，眼屎多，吃凉的后头部会觉得很舒服，但肚子很凉，腹泻，以往吃中药过热过凉都不太舒服，失眠（从年轻时就失眠）甚则每日只能睡两三个小时，口干不欲饮，饮则自觉舌淡无味，饮水后不久则欲小便。左手麻木；舌暗红中前几无苔，舌后根腻舌底红丝缕缕（自述舌头被吃热的给烫坏了），病已数十年，久治不愈，很无奈，近来流涎，左脉沉，关缓大（摸不到前后边际貌似大）尺有根，右寸脉细小，关缓按之无力尺有根。 双手掌指关节肿疼（西医检查类风湿）全身关节疼胀（不肿）游走性牵引痛，怕贼风，白天轻晚上重，去夏重冬天轻，夏天穿棉袄不觉热，不出汗，饭后小腹痛，痛则如厕，如厕后疼痛好转，或不如厕食消后亦不疼，晚上小便不利，点滴而出，白天无碍，近两月胸口闷（貌似生气感，但并无生气史），自述食冷很舒服。舌淡红，苔中后稍腻；左脉沉弱关轻按稍有重按无，右关脉旺、弦，双尺尚有根。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "1940_中医妙招治腹泻",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "未知"
+        },
+        "chief_complaint": "XXX，女，76，体瘦， XXX，女，50，体肥，",
+        "present_illness": "全身冷，肚子（全腹）尤甚，双手脚不觉冷，平时喜食热食（每顿饭必加茴香），食后自觉肚子很舒服大便也会较好，稍干一些，但会头蒙不清，眼睛模糊，眼屎多，吃凉的后头部会觉得很舒服，但肚子很凉，腹泻，以往吃中药过热过凉都不太舒服，失眠（从年轻时就失眠）甚则每日只能睡两三个小时，口干不欲饮，饮则自觉舌淡无味，饮水后不久则欲小便。左手麻木；舌暗红中前几无苔，舌后根腻舌底红丝缕缕（自述舌头被吃热的给烫坏了），病已数十年，久治不愈，很无奈，近来流涎，左脉沉，关缓大（摸不到前后边际貌似大）尺有根，右寸脉细小，关缓按之无力尺有根。 双手掌指关节肿疼（西医检查类风湿）全身关节疼胀（不肿）游走性牵引痛，怕贼风，白天轻晚上重，去夏重冬天轻，夏天穿棉袄不觉热，不出汗，饭后小腹痛，痛则如厕，如厕后疼痛好转，或不如厕食消后亦不疼，晚上小便不利，点滴而出，白天无碍，近两月胸口闷（貌似生气感，但并无生气史），自述食冷很舒服。舌淡红，苔中后稍腻；左脉沉弱关轻按稍有重按无，右关脉旺、弦，双尺尚有根。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

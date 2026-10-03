@@ -1,0 +1,534 @@
+{
+  "case_id": "9398_特殊肾综合征出血热一例",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "23岁"
+  },
+  "chief_complaint": "入院3h后，患者突发胸部闷痛，伴憋气、出汗，持续不缓解，急诊行心电图（ECG）检查示，I、aVL、V2~V6导联ST段抬高0.1~0.5mV。首次PCI在患者胸痛发作后约3h给予PCI。冠状动脉造影（CAG）结果提示，前降支中段远端完全闭塞（图1~2），其内可见“血栓影”。从闭塞近端起逐渐向远端反复球囊扩张，血流恢复很差。由近至远置入2枚西罗莫司洗脱支架，血流恢复至3级（图3），同时给予替罗非班等抗血小板治疗后患者返回病房。术后，患者疼痛有所缓解，ECG示Ⅰ、aVL导联ST段有所回落，V2~V6导联ST段回落大于50%（图4），肌酸激酶（CK）为2474U/L，9h达峰值。继续给予患者静脉泵入替罗非班、肝素钠抗凝及口服抗血小板药物治疗。术后8.5h，患者突发寒颤、高热，体温39.5°C，即刻抽取血培养，并给予头孢呋辛抗感染治疗。再次介入治疗首次PCI后13h，患者再次出现胸痛，ECG示Ⅰ、aVL、V2~V6导联ST段弓背上抬0.1~0.8mV。再次行急诊CAG检查，给予主动脉内球囊反搏（IABP），CAG示前降支中段远端支架完全闭塞，使用血栓抽吸导管吸出少量血栓，但仍无复流（图6），无奈结束介入操作。维持IABP，将患者送回病房，加强抗凝治疗。便携式床旁对比增强超声心动图（ECHO）检查示，间隔中下段、心尖、左室前壁中下段无运动，余室壁运动轻度增强，左室射血分数（LVEF）为51%（M型），估测肺动脉收缩压为51mmHg，各瓣膜未见明确赘生物。患者血流动力学不稳定，行脉搏指数连续心输出量监测（PiCCO），同时给予无创呼吸机辅助呼吸。患者症状再次缓解，ST段明显回落，CK为1591U/L，10.5h达峰。床旁胸片示，双肺散在片状密度增高影。多科会诊意见如下：考虑患者IE可能性大，将抗生素换为万古霉素、美罗培南和甲硝唑。患者同时合并血管炎，给予3天甲强龙200mg/d治疗。经积极抗感染、补液治疗后，患者病情逐渐好转，生命体征平稳，2天后停用多巴胺及IABP。入院第4天，患者4次血培养的结果均显示，对苯唑西林敏感的金黄色葡萄球菌（MSSA）感染。复查ECHO检查示，左室心尖部室壁瘤形成（图7），主动脉瓣赘生物形成（6mm×7mm，图8），轻度主动脉关闭不全。复查胸片示，双肺散在片状密度增高影，考虑为金黄色葡萄球菌肺炎。再次多科会诊，考虑患者IE及金黄色葡萄球菌肺炎诊断成立，停用激素和抗凝药物，给予头孢美唑钠及利奈唑胺抗感染治疗，同时静脉注射丙种球蛋白（IVIG）及人血白蛋白，增强机体抵抗力，并给予营养支持治疗。此后，虽根据患者病情更改了部分抗生素的使用，但始综合用利奈唑胺。经上述积极治疗后，患者一般情况好转，无胸闷、胸痛主诉，食欲好，进食量恢复正常，可在床旁活动。入院后第11天，患者出现左小腿外侧肌间脓肿，直径约3.5cm，外科给予切开并抽吸脓液治疗。第14天，患者出现右鼻腔出血，予以明胶海绵局部填塞，上述症状好转。同时将阿司匹林减量至100mg/d。第15天至18天，患者出现快速心房颤动（房颤），心律为150~160次/分，予以静脉毛花苷C（西地兰）0.4mg及艾司络尔减慢心室率，使用胺碘酮后转复为窦律。第21天，患者休息时气短加重，不能平卧。ECHO示重度主动脉关闭不全，赘生物较前缩小（2×3mm），LVEF为45%,可疑瓣周小脓肿（图5）。当日立即行急诊心外科手术。",
+  "present_illness": "曾自服抗感冒药，体温未测，当地医院测血压220/120mmHg（1mmHg=0，133kPa），头颅CT未见异常，考虑高血压脑病，给予脱水、降压、镇静等药物，效果不佳。3年前患者曾因血压升高（190/110mmHg），行尿常规、肾功能检查，结果正常，予特拉唑嗪、硝苯地平控释片、雷公藤多苷片等治疗；",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "2年前行肾活组织穿刺病理诊断为硬化性IgA肾病（LeeⅣ级），加用双嘧达莫等。患者居住于肾综合征出血热流行地区。",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "9398_特殊肾综合征出血热一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "23岁"
+        },
+        "chief_complaint": "入院3h后，患者突发胸部闷痛，伴憋气、出汗，持续不缓解，急诊行心电图（ECG）检查示，I、aVL、V2~V6导联ST段抬高0.1~0.5mV。首次PCI在患者胸痛发作后约3h给予PCI。冠状动脉造影（CAG）结果提示，前降支中段远端完全闭塞（图1~2），其内可见“血栓影”。从闭塞近端起逐渐向远端反复球囊扩张，血流恢复很差。由近至远置入2枚西罗莫司洗脱支架，血流恢复至3级（图3），同时给予替罗非班等抗血小板治疗后患者返回病房。术后，患者疼痛有所缓解，ECG示Ⅰ、aVL导联ST段有所回落，V2~V6导联ST段回落大于50%（图4），肌酸激酶（CK）为2474U/L，9h达峰值。继续给予患者静脉泵入替罗非班、肝素钠抗凝及口服抗血小板药物治疗。术后8.5h，患者突发寒颤、高热，体温39.5°C，即刻抽取血培养，并给予头孢呋辛抗感染治疗。再次介入治疗首次PCI后13h，患者再次出现胸痛，ECG示Ⅰ、aVL、V2~V6导联ST段弓背上抬0.1~0.8mV。再次行急诊CAG检查，给予主动脉内球囊反搏（IABP），CAG示前降支中段远端支架完全闭塞，使用血栓抽吸导管吸出少量血栓，但仍无复流（图6），无奈结束介入操作。维持IABP，将患者送回病房，加强抗凝治疗。便携式床旁对比增强超声心动图（ECHO）检查示，间隔中下段、心尖、左室前壁中下段无运动，余室壁运动轻度增强，左室射血分数（LVEF）为51%（M型），估测肺动脉收缩压为51mmHg，各瓣膜未见明确赘生物。患者血流动力学不稳定，行脉搏指数连续心输出量监测（PiCCO），同时给予无创呼吸机辅助呼吸。患者症状再次缓解，ST段明显回落，CK为1591U/L，10.5h达峰。床旁胸片示，双肺散在片状密度增高影。多科会诊意见如下：考虑患者IE可能性大，将抗生素换为万古霉素、美罗培南和甲硝唑。患者同时合并血管炎，给予3天甲强龙200mg/d治疗。经积极抗感染、补液治疗后，患者病情逐渐好转，生命体征平稳，2天后停用多巴胺及IABP。入院第4天，患者4次血培养的结果均显示，对苯唑西林敏感的金黄色葡萄球菌（MSSA）感染。复查ECHO检查示，左室心尖部室壁瘤形成（图7），主动脉瓣赘生物形成（6mm×7mm，图8），轻度主动脉关闭不全。复查胸片示，双肺散在片状密度增高影，考虑为金黄色葡萄球菌肺炎。再次多科会诊，考虑患者IE及金黄色葡萄球菌肺炎诊断成立，停用激素和抗凝药物，给予头孢美唑钠及利奈唑胺抗感染治疗，同时静脉注射丙种球蛋白（IVIG）及人血白蛋白，增强机体抵抗力，并给予营养支持治疗。此后，虽根据患者病情更改了部分抗生素的使用，但始综合用利奈唑胺。经上述积极治疗后，患者一般情况好转，无胸闷、胸痛主诉，食欲好，进食量恢复正常，可在床旁活动。入院后第11天，患者出现左小腿外侧肌间脓肿，直径约3.5cm，外科给予切开并抽吸脓液治疗。第14天，患者出现右鼻腔出血，予以明胶海绵局部填塞，上述症状好转。同时将阿司匹林减量至100mg/d。第15天至18天，患者出现快速心房颤动（房颤），心律为150~160次/分，予以静脉毛花苷C（西地兰）0.4mg及艾司络尔减慢心室率，使用胺碘酮后转复为窦律。第21天，患者休息时气短加重，不能平卧。ECHO示重度主动脉关闭不全，赘生物较前缩小（2×3mm），LVEF为45%,可疑瓣周小脓肿（图5）。当日立即行急诊心外科手术。",
+        "present_illness": "曾自服抗感冒药，体温未测，当地医院测血压220/120mmHg（1mmHg=0，133kPa），头颅CT未见异常，考虑高血压脑病，给予脱水、降压、镇静等药物，效果不佳。3年前患者曾因血压升高（190/110mmHg），行尿常规、肾功能检查，结果正常，予特拉唑嗪、硝苯地平控释片、雷公藤多苷片等治疗；",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "2年前行肾活组织穿刺病理诊断为硬化性IgA肾病（LeeⅣ级），加用双嘧达莫等。患者居住于肾综合征出血热流行地区。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "9398_特殊肾综合征出血热一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "23岁"
+        },
+        "chief_complaint": "入院3h后，患者突发胸部闷痛，伴憋气、出汗，持续不缓解，急诊行心电图（ECG）检查示，I、aVL、V2~V6导联ST段抬高0.1~0.5mV。首次PCI在患者胸痛发作后约3h给予PCI。冠状动脉造影（CAG）结果提示，前降支中段远端完全闭塞（图1~2），其内可见“血栓影”。从闭塞近端起逐渐向远端反复球囊扩张，血流恢复很差。由近至远置入2枚西罗莫司洗脱支架，血流恢复至3级（图3），同时给予替罗非班等抗血小板治疗后患者返回病房。术后，患者疼痛有所缓解，ECG示Ⅰ、aVL导联ST段有所回落，V2~V6导联ST段回落大于50%（图4），肌酸激酶（CK）为2474U/L，9h达峰值。继续给予患者静脉泵入替罗非班、肝素钠抗凝及口服抗血小板药物治疗。术后8.5h，患者突发寒颤、高热，体温39.5°C，即刻抽取血培养，并给予头孢呋辛抗感染治疗。再次介入治疗首次PCI后13h，患者再次出现胸痛，ECG示Ⅰ、aVL、V2~V6导联ST段弓背上抬0.1~0.8mV。再次行急诊CAG检查，给予主动脉内球囊反搏（IABP），CAG示前降支中段远端支架完全闭塞，使用血栓抽吸导管吸出少量血栓，但仍无复流（图6），无奈结束介入操作。维持IABP，将患者送回病房，加强抗凝治疗。便携式床旁对比增强超声心动图（ECHO）检查示，间隔中下段、心尖、左室前壁中下段无运动，余室壁运动轻度增强，左室射血分数（LVEF）为51%（M型），估测肺动脉收缩压为51mmHg，各瓣膜未见明确赘生物。患者血流动力学不稳定，行脉搏指数连续心输出量监测（PiCCO），同时给予无创呼吸机辅助呼吸。患者症状再次缓解，ST段明显回落，CK为1591U/L，10.5h达峰。床旁胸片示，双肺散在片状密度增高影。多科会诊意见如下：考虑患者IE可能性大，将抗生素换为万古霉素、美罗培南和甲硝唑。患者同时合并血管炎，给予3天甲强龙200mg/d治疗。经积极抗感染、补液治疗后，患者病情逐渐好转，生命体征平稳，2天后停用多巴胺及IABP。入院第4天，患者4次血培养的结果均显示，对苯唑西林敏感的金黄色葡萄球菌（MSSA）感染。复查ECHO检查示，左室心尖部室壁瘤形成（图7），主动脉瓣赘生物形成（6mm×7mm，图8），轻度主动脉关闭不全。复查胸片示，双肺散在片状密度增高影，考虑为金黄色葡萄球菌肺炎。再次多科会诊，考虑患者IE及金黄色葡萄球菌肺炎诊断成立，停用激素和抗凝药物，给予头孢美唑钠及利奈唑胺抗感染治疗，同时静脉注射丙种球蛋白（IVIG）及人血白蛋白，增强机体抵抗力，并给予营养支持治疗。此后，虽根据患者病情更改了部分抗生素的使用，但始综合用利奈唑胺。经上述积极治疗后，患者一般情况好转，无胸闷、胸痛主诉，食欲好，进食量恢复正常，可在床旁活动。入院后第11天，患者出现左小腿外侧肌间脓肿，直径约3.5cm，外科给予切开并抽吸脓液治疗。第14天，患者出现右鼻腔出血，予以明胶海绵局部填塞，上述症状好转。同时将阿司匹林减量至100mg/d。第15天至18天，患者出现快速心房颤动（房颤），心律为150~160次/分，予以静脉毛花苷C（西地兰）0.4mg及艾司络尔减慢心室率，使用胺碘酮后转复为窦律。第21天，患者休息时气短加重，不能平卧。ECHO示重度主动脉关闭不全，赘生物较前缩小（2×3mm），LVEF为45%,可疑瓣周小脓肿（图5）。当日立即行急诊心外科手术。",
+        "present_illness": "曾自服抗感冒药，体温未测，当地医院测血压220/120mmHg（1mmHg=0，133kPa），头颅CT未见异常，考虑高血压脑病，给予脱水、降压、镇静等药物，效果不佳。3年前患者曾因血压升高（190/110mmHg），行尿常规、肾功能检查，结果正常，予特拉唑嗪、硝苯地平控释片、雷公藤多苷片等治疗；",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "2年前行肾活组织穿刺病理诊断为硬化性IgA肾病（LeeⅣ级），加用双嘧达莫等。患者居住于肾综合征出血热流行地区。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "9398_特殊肾综合征出血热一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "23岁"
+        },
+        "chief_complaint": "入院3h后，患者突发胸部闷痛，伴憋气、出汗，持续不缓解，急诊行心电图（ECG）检查示，I、aVL、V2~V6导联ST段抬高0.1~0.5mV。首次PCI在患者胸痛发作后约3h给予PCI。冠状动脉造影（CAG）结果提示，前降支中段远端完全闭塞（图1~2），其内可见“血栓影”。从闭塞近端起逐渐向远端反复球囊扩张，血流恢复很差。由近至远置入2枚西罗莫司洗脱支架，血流恢复至3级（图3），同时给予替罗非班等抗血小板治疗后患者返回病房。术后，患者疼痛有所缓解，ECG示Ⅰ、aVL导联ST段有所回落，V2~V6导联ST段回落大于50%（图4），肌酸激酶（CK）为2474U/L，9h达峰值。继续给予患者静脉泵入替罗非班、肝素钠抗凝及口服抗血小板药物治疗。术后8.5h，患者突发寒颤、高热，体温39.5°C，即刻抽取血培养，并给予头孢呋辛抗感染治疗。再次介入治疗首次PCI后13h，患者再次出现胸痛，ECG示Ⅰ、aVL、V2~V6导联ST段弓背上抬0.1~0.8mV。再次行急诊CAG检查，给予主动脉内球囊反搏（IABP），CAG示前降支中段远端支架完全闭塞，使用血栓抽吸导管吸出少量血栓，但仍无复流（图6），无奈结束介入操作。维持IABP，将患者送回病房，加强抗凝治疗。便携式床旁对比增强超声心动图（ECHO）检查示，间隔中下段、心尖、左室前壁中下段无运动，余室壁运动轻度增强，左室射血分数（LVEF）为51%（M型），估测肺动脉收缩压为51mmHg，各瓣膜未见明确赘生物。患者血流动力学不稳定，行脉搏指数连续心输出量监测（PiCCO），同时给予无创呼吸机辅助呼吸。患者症状再次缓解，ST段明显回落，CK为1591U/L，10.5h达峰。床旁胸片示，双肺散在片状密度增高影。多科会诊意见如下：考虑患者IE可能性大，将抗生素换为万古霉素、美罗培南和甲硝唑。患者同时合并血管炎，给予3天甲强龙200mg/d治疗。经积极抗感染、补液治疗后，患者病情逐渐好转，生命体征平稳，2天后停用多巴胺及IABP。入院第4天，患者4次血培养的结果均显示，对苯唑西林敏感的金黄色葡萄球菌（MSSA）感染。复查ECHO检查示，左室心尖部室壁瘤形成（图7），主动脉瓣赘生物形成（6mm×7mm，图8），轻度主动脉关闭不全。复查胸片示，双肺散在片状密度增高影，考虑为金黄色葡萄球菌肺炎。再次多科会诊，考虑患者IE及金黄色葡萄球菌肺炎诊断成立，停用激素和抗凝药物，给予头孢美唑钠及利奈唑胺抗感染治疗，同时静脉注射丙种球蛋白（IVIG）及人血白蛋白，增强机体抵抗力，并给予营养支持治疗。此后，虽根据患者病情更改了部分抗生素的使用，但始综合用利奈唑胺。经上述积极治疗后，患者一般情况好转，无胸闷、胸痛主诉，食欲好，进食量恢复正常，可在床旁活动。入院后第11天，患者出现左小腿外侧肌间脓肿，直径约3.5cm，外科给予切开并抽吸脓液治疗。第14天，患者出现右鼻腔出血，予以明胶海绵局部填塞，上述症状好转。同时将阿司匹林减量至100mg/d。第15天至18天，患者出现快速心房颤动（房颤），心律为150~160次/分，予以静脉毛花苷C（西地兰）0.4mg及艾司络尔减慢心室率，使用胺碘酮后转复为窦律。第21天，患者休息时气短加重，不能平卧。ECHO示重度主动脉关闭不全，赘生物较前缩小（2×3mm），LVEF为45%,可疑瓣周小脓肿（图5）。当日立即行急诊心外科手术。",
+        "present_illness": "曾自服抗感冒药，体温未测，当地医院测血压220/120mmHg（1mmHg=0，133kPa），头颅CT未见异常，考虑高血压脑病，给予脱水、降压、镇静等药物，效果不佳。3年前患者曾因血压升高（190/110mmHg），行尿常规、肾功能检查，结果正常，予特拉唑嗪、硝苯地平控释片、雷公藤多苷片等治疗；",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "2年前行肾活组织穿刺病理诊断为硬化性IgA肾病（LeeⅣ级），加用双嘧达莫等。患者居住于肾综合征出血热流行地区。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "9398_特殊肾综合征出血热一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "23岁"
+        },
+        "chief_complaint": "入院3h后，患者突发胸部闷痛，伴憋气、出汗，持续不缓解，急诊行心电图（ECG）检查示，I、aVL、V2~V6导联ST段抬高0.1~0.5mV。首次PCI在患者胸痛发作后约3h给予PCI。冠状动脉造影（CAG）结果提示，前降支中段远端完全闭塞（图1~2），其内可见“血栓影”。从闭塞近端起逐渐向远端反复球囊扩张，血流恢复很差。由近至远置入2枚西罗莫司洗脱支架，血流恢复至3级（图3），同时给予替罗非班等抗血小板治疗后患者返回病房。术后，患者疼痛有所缓解，ECG示Ⅰ、aVL导联ST段有所回落，V2~V6导联ST段回落大于50%（图4），肌酸激酶（CK）为2474U/L，9h达峰值。继续给予患者静脉泵入替罗非班、肝素钠抗凝及口服抗血小板药物治疗。术后8.5h，患者突发寒颤、高热，体温39.5°C，即刻抽取血培养，并给予头孢呋辛抗感染治疗。再次介入治疗首次PCI后13h，患者再次出现胸痛，ECG示Ⅰ、aVL、V2~V6导联ST段弓背上抬0.1~0.8mV。再次行急诊CAG检查，给予主动脉内球囊反搏（IABP），CAG示前降支中段远端支架完全闭塞，使用血栓抽吸导管吸出少量血栓，但仍无复流（图6），无奈结束介入操作。维持IABP，将患者送回病房，加强抗凝治疗。便携式床旁对比增强超声心动图（ECHO）检查示，间隔中下段、心尖、左室前壁中下段无运动，余室壁运动轻度增强，左室射血分数（LVEF）为51%（M型），估测肺动脉收缩压为51mmHg，各瓣膜未见明确赘生物。患者血流动力学不稳定，行脉搏指数连续心输出量监测（PiCCO），同时给予无创呼吸机辅助呼吸。患者症状再次缓解，ST段明显回落，CK为1591U/L，10.5h达峰。床旁胸片示，双肺散在片状密度增高影。多科会诊意见如下：考虑患者IE可能性大，将抗生素换为万古霉素、美罗培南和甲硝唑。患者同时合并血管炎，给予3天甲强龙200mg/d治疗。经积极抗感染、补液治疗后，患者病情逐渐好转，生命体征平稳，2天后停用多巴胺及IABP。入院第4天，患者4次血培养的结果均显示，对苯唑西林敏感的金黄色葡萄球菌（MSSA）感染。复查ECHO检查示，左室心尖部室壁瘤形成（图7），主动脉瓣赘生物形成（6mm×7mm，图8），轻度主动脉关闭不全。复查胸片示，双肺散在片状密度增高影，考虑为金黄色葡萄球菌肺炎。再次多科会诊，考虑患者IE及金黄色葡萄球菌肺炎诊断成立，停用激素和抗凝药物，给予头孢美唑钠及利奈唑胺抗感染治疗，同时静脉注射丙种球蛋白（IVIG）及人血白蛋白，增强机体抵抗力，并给予营养支持治疗。此后，虽根据患者病情更改了部分抗生素的使用，但始综合用利奈唑胺。经上述积极治疗后，患者一般情况好转，无胸闷、胸痛主诉，食欲好，进食量恢复正常，可在床旁活动。入院后第11天，患者出现左小腿外侧肌间脓肿，直径约3.5cm，外科给予切开并抽吸脓液治疗。第14天，患者出现右鼻腔出血，予以明胶海绵局部填塞，上述症状好转。同时将阿司匹林减量至100mg/d。第15天至18天，患者出现快速心房颤动（房颤），心律为150~160次/分，予以静脉毛花苷C（西地兰）0.4mg及艾司络尔减慢心室率，使用胺碘酮后转复为窦律。第21天，患者休息时气短加重，不能平卧。ECHO示重度主动脉关闭不全，赘生物较前缩小（2×3mm），LVEF为45%,可疑瓣周小脓肿（图5）。当日立即行急诊心外科手术。",
+        "present_illness": "曾自服抗感冒药，体温未测，当地医院测血压220/120mmHg（1mmHg=0，133kPa），头颅CT未见异常，考虑高血压脑病，给予脱水、降压、镇静等药物，效果不佳。3年前患者曾因血压升高（190/110mmHg），行尿常规、肾功能检查，结果正常，予特拉唑嗪、硝苯地平控释片、雷公藤多苷片等治疗；",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "2年前行肾活组织穿刺病理诊断为硬化性IgA肾病（LeeⅣ级），加用双嘧达莫等。患者居住于肾综合征出血热流行地区。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "9398_特殊肾综合征出血热一例",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "23岁"
+        },
+        "chief_complaint": "入院3h后，患者突发胸部闷痛，伴憋气、出汗，持续不缓解，急诊行心电图（ECG）检查示，I、aVL、V2~V6导联ST段抬高0.1~0.5mV。首次PCI在患者胸痛发作后约3h给予PCI。冠状动脉造影（CAG）结果提示，前降支中段远端完全闭塞（图1~2），其内可见“血栓影”。从闭塞近端起逐渐向远端反复球囊扩张，血流恢复很差。由近至远置入2枚西罗莫司洗脱支架，血流恢复至3级（图3），同时给予替罗非班等抗血小板治疗后患者返回病房。术后，患者疼痛有所缓解，ECG示Ⅰ、aVL导联ST段有所回落，V2~V6导联ST段回落大于50%（图4），肌酸激酶（CK）为2474U/L，9h达峰值。继续给予患者静脉泵入替罗非班、肝素钠抗凝及口服抗血小板药物治疗。术后8.5h，患者突发寒颤、高热，体温39.5°C，即刻抽取血培养，并给予头孢呋辛抗感染治疗。再次介入治疗首次PCI后13h，患者再次出现胸痛，ECG示Ⅰ、aVL、V2~V6导联ST段弓背上抬0.1~0.8mV。再次行急诊CAG检查，给予主动脉内球囊反搏（IABP），CAG示前降支中段远端支架完全闭塞，使用血栓抽吸导管吸出少量血栓，但仍无复流（图6），无奈结束介入操作。维持IABP，将患者送回病房，加强抗凝治疗。便携式床旁对比增强超声心动图（ECHO）检查示，间隔中下段、心尖、左室前壁中下段无运动，余室壁运动轻度增强，左室射血分数（LVEF）为51%（M型），估测肺动脉收缩压为51mmHg，各瓣膜未见明确赘生物。患者血流动力学不稳定，行脉搏指数连续心输出量监测（PiCCO），同时给予无创呼吸机辅助呼吸。患者症状再次缓解，ST段明显回落，CK为1591U/L，10.5h达峰。床旁胸片示，双肺散在片状密度增高影。多科会诊意见如下：考虑患者IE可能性大，将抗生素换为万古霉素、美罗培南和甲硝唑。患者同时合并血管炎，给予3天甲强龙200mg/d治疗。经积极抗感染、补液治疗后，患者病情逐渐好转，生命体征平稳，2天后停用多巴胺及IABP。入院第4天，患者4次血培养的结果均显示，对苯唑西林敏感的金黄色葡萄球菌（MSSA）感染。复查ECHO检查示，左室心尖部室壁瘤形成（图7），主动脉瓣赘生物形成（6mm×7mm，图8），轻度主动脉关闭不全。复查胸片示，双肺散在片状密度增高影，考虑为金黄色葡萄球菌肺炎。再次多科会诊，考虑患者IE及金黄色葡萄球菌肺炎诊断成立，停用激素和抗凝药物，给予头孢美唑钠及利奈唑胺抗感染治疗，同时静脉注射丙种球蛋白（IVIG）及人血白蛋白，增强机体抵抗力，并给予营养支持治疗。此后，虽根据患者病情更改了部分抗生素的使用，但始综合用利奈唑胺。经上述积极治疗后，患者一般情况好转，无胸闷、胸痛主诉，食欲好，进食量恢复正常，可在床旁活动。入院后第11天，患者出现左小腿外侧肌间脓肿，直径约3.5cm，外科给予切开并抽吸脓液治疗。第14天，患者出现右鼻腔出血，予以明胶海绵局部填塞，上述症状好转。同时将阿司匹林减量至100mg/d。第15天至18天，患者出现快速心房颤动（房颤），心律为150~160次/分，予以静脉毛花苷C（西地兰）0.4mg及艾司络尔减慢心室率，使用胺碘酮后转复为窦律。第21天，患者休息时气短加重，不能平卧。ECHO示重度主动脉关闭不全，赘生物较前缩小（2×3mm），LVEF为45%,可疑瓣周小脓肿（图5）。当日立即行急诊心外科手术。",
+        "present_illness": "曾自服抗感冒药，体温未测，当地医院测血压220/120mmHg（1mmHg=0，133kPa），头颅CT未见异常，考虑高血压脑病，给予脱水、降压、镇静等药物，效果不佳。3年前患者曾因血压升高（190/110mmHg），行尿常规、肾功能检查，结果正常，予特拉唑嗪、硝苯地平控释片、雷公藤多苷片等治疗；",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "2年前行肾活组织穿刺病理诊断为硬化性IgA肾病（LeeⅣ级），加用双嘧达莫等。患者居住于肾综合征出血热流行地区。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

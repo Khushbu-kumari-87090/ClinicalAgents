@@ -1,0 +1,534 @@
+{
+  "case_id": "985_从一例病例看急性胰腺炎的诊治",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "41岁"
+  },
+  "chief_complaint": "患者，男，41岁，汉族 以“上腹部疼痛12小时”为主诉入院。",
+  "present_illness": "患者自诉2天前中午饮白酒约500g，1天前中午再次饮白酒约100g，1天前下午自觉胸闷不适，故在家休息，未进食水。入院当天凌晨2点左右，患者少量进食进水后，出现上腹部持续性隐痛不适，未予处理。晨起患者感上腹痛痛逐渐加剧，故自服“胃康宁胶囊”治疗，但腹痛仍不缓解，且逐渐加重呈持续***痛不适，故12点左右就诊于当地街道门诊，以“胃肠炎”诊断给予静脉滴注奥美拉唑注射液、补液治疗，并肌注山莨菪碱注射液解痉止痛。经治疗后患者疼痛不缓解，故至我院就诊，门诊给予相应检查后，以“腹痛待查”收住我科。　　病程中，患者神志清，精神欠佳，无发热寒颤，下午入院时呕吐1次，呕吐物为白色泡沫状胃内容物，无腹泻黄疸，睡眠不佳，小便正常，晨起解少量黑色干便1次。",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "否认高血压病、冠心病、糖尿病等慢性疾病史。1982年行阑尾切除术。否认药物、食物及其他过敏史。 患者吸烟史20年，约20支/天，饮酒史20年，每周1~2次，每次约400~500g。",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "985_从一例病例看急性胰腺炎的诊治",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "41岁"
+        },
+        "chief_complaint": "患者，男，41岁，汉族 以“上腹部疼痛12小时”为主诉入院。",
+        "present_illness": "患者自诉2天前中午饮白酒约500g，1天前中午再次饮白酒约100g，1天前下午自觉胸闷不适，故在家休息，未进食水。入院当天凌晨2点左右，患者少量进食进水后，出现上腹部持续性隐痛不适，未予处理。晨起患者感上腹痛痛逐渐加剧，故自服“胃康宁胶囊”治疗，但腹痛仍不缓解，且逐渐加重呈持续***痛不适，故12点左右就诊于当地街道门诊，以“胃肠炎”诊断给予静脉滴注奥美拉唑注射液、补液治疗，并肌注山莨菪碱注射液解痉止痛。经治疗后患者疼痛不缓解，故至我院就诊，门诊给予相应检查后，以“腹痛待查”收住我科。　　病程中，患者神志清，精神欠佳，无发热寒颤，下午入院时呕吐1次，呕吐物为白色泡沫状胃内容物，无腹泻黄疸，睡眠不佳，小便正常，晨起解少量黑色干便1次。",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "否认高血压病、冠心病、糖尿病等慢性疾病史。1982年行阑尾切除术。否认药物、食物及其他过敏史。 患者吸烟史20年，约20支/天，饮酒史20年，每周1~2次，每次约400~500g。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "985_从一例病例看急性胰腺炎的诊治",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "41岁"
+        },
+        "chief_complaint": "患者，男，41岁，汉族 以“上腹部疼痛12小时”为主诉入院。",
+        "present_illness": "患者自诉2天前中午饮白酒约500g，1天前中午再次饮白酒约100g，1天前下午自觉胸闷不适，故在家休息，未进食水。入院当天凌晨2点左右，患者少量进食进水后，出现上腹部持续性隐痛不适，未予处理。晨起患者感上腹痛痛逐渐加剧，故自服“胃康宁胶囊”治疗，但腹痛仍不缓解，且逐渐加重呈持续***痛不适，故12点左右就诊于当地街道门诊，以“胃肠炎”诊断给予静脉滴注奥美拉唑注射液、补液治疗，并肌注山莨菪碱注射液解痉止痛。经治疗后患者疼痛不缓解，故至我院就诊，门诊给予相应检查后，以“腹痛待查”收住我科。　　病程中，患者神志清，精神欠佳，无发热寒颤，下午入院时呕吐1次，呕吐物为白色泡沫状胃内容物，无腹泻黄疸，睡眠不佳，小便正常，晨起解少量黑色干便1次。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认高血压病、冠心病、糖尿病等慢性疾病史。1982年行阑尾切除术。否认药物、食物及其他过敏史。 患者吸烟史20年，约20支/天，饮酒史20年，每周1~2次，每次约400~500g。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "985_从一例病例看急性胰腺炎的诊治",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "41岁"
+        },
+        "chief_complaint": "患者，男，41岁，汉族 以“上腹部疼痛12小时”为主诉入院。",
+        "present_illness": "患者自诉2天前中午饮白酒约500g，1天前中午再次饮白酒约100g，1天前下午自觉胸闷不适，故在家休息，未进食水。入院当天凌晨2点左右，患者少量进食进水后，出现上腹部持续性隐痛不适，未予处理。晨起患者感上腹痛痛逐渐加剧，故自服“胃康宁胶囊”治疗，但腹痛仍不缓解，且逐渐加重呈持续***痛不适，故12点左右就诊于当地街道门诊，以“胃肠炎”诊断给予静脉滴注奥美拉唑注射液、补液治疗，并肌注山莨菪碱注射液解痉止痛。经治疗后患者疼痛不缓解，故至我院就诊，门诊给予相应检查后，以“腹痛待查”收住我科。　　病程中，患者神志清，精神欠佳，无发热寒颤，下午入院时呕吐1次，呕吐物为白色泡沫状胃内容物，无腹泻黄疸，睡眠不佳，小便正常，晨起解少量黑色干便1次。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认高血压病、冠心病、糖尿病等慢性疾病史。1982年行阑尾切除术。否认药物、食物及其他过敏史。 患者吸烟史20年，约20支/天，饮酒史20年，每周1~2次，每次约400~500g。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "985_从一例病例看急性胰腺炎的诊治",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "41岁"
+        },
+        "chief_complaint": "患者，男，41岁，汉族 以“上腹部疼痛12小时”为主诉入院。",
+        "present_illness": "患者自诉2天前中午饮白酒约500g，1天前中午再次饮白酒约100g，1天前下午自觉胸闷不适，故在家休息，未进食水。入院当天凌晨2点左右，患者少量进食进水后，出现上腹部持续性隐痛不适，未予处理。晨起患者感上腹痛痛逐渐加剧，故自服“胃康宁胶囊”治疗，但腹痛仍不缓解，且逐渐加重呈持续***痛不适，故12点左右就诊于当地街道门诊，以“胃肠炎”诊断给予静脉滴注奥美拉唑注射液、补液治疗，并肌注山莨菪碱注射液解痉止痛。经治疗后患者疼痛不缓解，故至我院就诊，门诊给予相应检查后，以“腹痛待查”收住我科。　　病程中，患者神志清，精神欠佳，无发热寒颤，下午入院时呕吐1次，呕吐物为白色泡沫状胃内容物，无腹泻黄疸，睡眠不佳，小便正常，晨起解少量黑色干便1次。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认高血压病、冠心病、糖尿病等慢性疾病史。1982年行阑尾切除术。否认药物、食物及其他过敏史。 患者吸烟史20年，约20支/天，饮酒史20年，每周1~2次，每次约400~500g。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "985_从一例病例看急性胰腺炎的诊治",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "41岁"
+        },
+        "chief_complaint": "患者，男，41岁，汉族 以“上腹部疼痛12小时”为主诉入院。",
+        "present_illness": "患者自诉2天前中午饮白酒约500g，1天前中午再次饮白酒约100g，1天前下午自觉胸闷不适，故在家休息，未进食水。入院当天凌晨2点左右，患者少量进食进水后，出现上腹部持续性隐痛不适，未予处理。晨起患者感上腹痛痛逐渐加剧，故自服“胃康宁胶囊”治疗，但腹痛仍不缓解，且逐渐加重呈持续***痛不适，故12点左右就诊于当地街道门诊，以“胃肠炎”诊断给予静脉滴注奥美拉唑注射液、补液治疗，并肌注山莨菪碱注射液解痉止痛。经治疗后患者疼痛不缓解，故至我院就诊，门诊给予相应检查后，以“腹痛待查”收住我科。　　病程中，患者神志清，精神欠佳，无发热寒颤，下午入院时呕吐1次，呕吐物为白色泡沫状胃内容物，无腹泻黄疸，睡眠不佳，小便正常，晨起解少量黑色干便1次。",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "否认高血压病、冠心病、糖尿病等慢性疾病史。1982年行阑尾切除术。否认药物、食物及其他过敏史。 患者吸烟史20年，约20支/天，饮酒史20年，每周1~2次，每次约400~500g。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

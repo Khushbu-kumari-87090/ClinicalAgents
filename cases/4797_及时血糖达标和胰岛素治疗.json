@@ -1,0 +1,534 @@
+{
+  "case_id": "4797_及时血糖达标和胰岛素治疗",
+  "personal_info": {
+    "性别": "女",
+    "年龄": "55岁"
+  },
+  "chief_complaint": "患者女性，55岁，诊断为2型糖尿病5年。除控制饮食和坚持运动外，患者还接受多种药物治疗。近1年易疲劳，视物模糊，常口渴。查空腹血糖（FPG）10mmol/L，餐后血糖（PPG）15mmol/L，糖化血红蛋白（HbA1c）8.5%。考虑为口服降糖药失效，需立即开始胰岛素治疗。从典型病例看普遍问题：胰岛素使用不及时，血糖不能及时达标。该病例很有代表性，随着口服降糖药失效，血糖控制开始变差，使得并发症的发生风险增加。研究显示，HbA1c越早达标，肾脏、眼和心脏的损害就越小。该患者在1年前血糖升高时就应该开始胰岛素治疗，但由于对胰岛素不了解，俱怕注射，同时担心治疗费用可能增加，因此患者未开始胰岛素治疗。目前，我国糖尿病患者的血糖达标率仅为四分之一，未及时开始胰岛素治疗是主要原因之一。事实上，血糖升高所致并发症不仅会危及生命，也会由于对并发症的治疗导致费用增加。中国、美国和欧洲的糖尿病指南均明确提出，在众多降糖方案中，胰岛素的降糖效果最显著，明显超过各类口服药。如能消除患者对胰岛素治疗的误解，使其接受胰岛素注射治疗，同时降低治疗费用，相信许多患者会愿意及时使用胰岛素。在并发症发生后再使用胰岛素，则无法起到预防作用。因此，须解决糖尿病患者胰岛素治疗的三大难题。难题1害怕成瘾，对胰岛素治疗存在诸多误解方法参加“看图对话”糖尿病健康教育小组患病后，该患者对糖尿病自我管理了解较多，但对胰岛素一直心怀顾虑，认为开始胰岛素治疗即意味着“没救了”，因此在血糖居高不下、医生多次劝说的情况下，仍不愿开始胰岛素治疗。随后，患者参加了“看图对话”糖尿病健康教育小组讨论，走出了对胰岛素治疗的误区，做好了开始胰岛素治疗的准备。“看图对话”是一种全新的糖尿病健康教育模式，已在超过105个国家得到推广应用。不同于既往听讲的形式，7、8例糖尿病患者面对4张糖尿病地图，通过问答方式与辅导员逐一讨论，深入了解糖尿病控制方法。据参加过“看图对话”的糖尿病患者反应，通过小组讨论才知道胰岛素治疗不会成瘾，胰岛素是控制血糖的最有效手段。今年“看图对话”已在我国1600多家医院举办了2.5万余场小组讨论，累计有20万患者参加。难题2惧怕注射，常导致因小失大办法《中国糖尿病药物注射技术指南》发布，注射有章可循2011年8月，中华医学会糖尿病学分会发布了《中国糖尿病药物注射技术指南》，对胰岛素注射从准备到结束做出明确推荐意见。针对注射疼痛，指南强调，疼痛主要由注射针头使用不当引起，因此只要做到注射针头一针一换，就可明显减少注射疼痛，缓解患者对注射的恐惧。许多患者认为注射是医护人员才能掌握的技术，实际上随着注射笔的上市，注射已成为多数人可轻松掌握的技术。《中国糖尿病药物注射技术指南》归纳了胰岛素注射笔使用的9个步骤，指导患者规范掌握注射技术，实现血糖达标。注射胰岛素，小痛苦换来大受益。难题3担心费用，胰岛素治疗费事费钱方法进口人胰岛素在社区医院可以处方，全部报销随着胰岛素使用者增多，患者希望在社区医院就能买到可以报销的进口人胰岛素。进口人胰岛素在社区医院的价格会较其他二、三级医院便宜15%，且取药更快、更方便。在近期公布的各省市基本药物目录中，由于已达到临床必需、安全有效、使用方便的基本药物要求，美国礼来公司的进口人胰岛素——重组人胰岛素注射液（优泌林）系列被纳入北京、上海、天津、山东、江苏、广东、新疆等省市的社区医院报销范围，为糖尿病患者降低了治疗费用、提供了便利。",
+  "present_illness": "",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "4797_及时血糖达标和胰岛素治疗",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "55岁"
+        },
+        "chief_complaint": "患者女性，55岁，诊断为2型糖尿病5年。除控制饮食和坚持运动外，患者还接受多种药物治疗。近1年易疲劳，视物模糊，常口渴。查空腹血糖（FPG）10mmol/L，餐后血糖（PPG）15mmol/L，糖化血红蛋白（HbA1c）8.5%。考虑为口服降糖药失效，需立即开始胰岛素治疗。从典型病例看普遍问题：胰岛素使用不及时，血糖不能及时达标。该病例很有代表性，随着口服降糖药失效，血糖控制开始变差，使得并发症的发生风险增加。研究显示，HbA1c越早达标，肾脏、眼和心脏的损害就越小。该患者在1年前血糖升高时就应该开始胰岛素治疗，但由于对胰岛素不了解，俱怕注射，同时担心治疗费用可能增加，因此患者未开始胰岛素治疗。目前，我国糖尿病患者的血糖达标率仅为四分之一，未及时开始胰岛素治疗是主要原因之一。事实上，血糖升高所致并发症不仅会危及生命，也会由于对并发症的治疗导致费用增加。中国、美国和欧洲的糖尿病指南均明确提出，在众多降糖方案中，胰岛素的降糖效果最显著，明显超过各类口服药。如能消除患者对胰岛素治疗的误解，使其接受胰岛素注射治疗，同时降低治疗费用，相信许多患者会愿意及时使用胰岛素。在并发症发生后再使用胰岛素，则无法起到预防作用。因此，须解决糖尿病患者胰岛素治疗的三大难题。难题1害怕成瘾，对胰岛素治疗存在诸多误解方法参加“看图对话”糖尿病健康教育小组患病后，该患者对糖尿病自我管理了解较多，但对胰岛素一直心怀顾虑，认为开始胰岛素治疗即意味着“没救了”，因此在血糖居高不下、医生多次劝说的情况下，仍不愿开始胰岛素治疗。随后，患者参加了“看图对话”糖尿病健康教育小组讨论，走出了对胰岛素治疗的误区，做好了开始胰岛素治疗的准备。“看图对话”是一种全新的糖尿病健康教育模式，已在超过105个国家得到推广应用。不同于既往听讲的形式，7、8例糖尿病患者面对4张糖尿病地图，通过问答方式与辅导员逐一讨论，深入了解糖尿病控制方法。据参加过“看图对话”的糖尿病患者反应，通过小组讨论才知道胰岛素治疗不会成瘾，胰岛素是控制血糖的最有效手段。今年“看图对话”已在我国1600多家医院举办了2.5万余场小组讨论，累计有20万患者参加。难题2惧怕注射，常导致因小失大办法《中国糖尿病药物注射技术指南》发布，注射有章可循2011年8月，中华医学会糖尿病学分会发布了《中国糖尿病药物注射技术指南》，对胰岛素注射从准备到结束做出明确推荐意见。针对注射疼痛，指南强调，疼痛主要由注射针头使用不当引起，因此只要做到注射针头一针一换，就可明显减少注射疼痛，缓解患者对注射的恐惧。许多患者认为注射是医护人员才能掌握的技术，实际上随着注射笔的上市，注射已成为多数人可轻松掌握的技术。《中国糖尿病药物注射技术指南》归纳了胰岛素注射笔使用的9个步骤，指导患者规范掌握注射技术，实现血糖达标。注射胰岛素，小痛苦换来大受益。难题3担心费用，胰岛素治疗费事费钱方法进口人胰岛素在社区医院可以处方，全部报销随着胰岛素使用者增多，患者希望在社区医院就能买到可以报销的进口人胰岛素。进口人胰岛素在社区医院的价格会较其他二、三级医院便宜15%，且取药更快、更方便。在近期公布的各省市基本药物目录中，由于已达到临床必需、安全有效、使用方便的基本药物要求，美国礼来公司的进口人胰岛素——重组人胰岛素注射液（优泌林）系列被纳入北京、上海、天津、山东、江苏、广东、新疆等省市的社区医院报销范围，为糖尿病患者降低了治疗费用、提供了便利。",
+        "present_illness": "",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "4797_及时血糖达标和胰岛素治疗",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "55岁"
+        },
+        "chief_complaint": "患者女性，55岁，诊断为2型糖尿病5年。除控制饮食和坚持运动外，患者还接受多种药物治疗。近1年易疲劳，视物模糊，常口渴。查空腹血糖（FPG）10mmol/L，餐后血糖（PPG）15mmol/L，糖化血红蛋白（HbA1c）8.5%。考虑为口服降糖药失效，需立即开始胰岛素治疗。从典型病例看普遍问题：胰岛素使用不及时，血糖不能及时达标。该病例很有代表性，随着口服降糖药失效，血糖控制开始变差，使得并发症的发生风险增加。研究显示，HbA1c越早达标，肾脏、眼和心脏的损害就越小。该患者在1年前血糖升高时就应该开始胰岛素治疗，但由于对胰岛素不了解，俱怕注射，同时担心治疗费用可能增加，因此患者未开始胰岛素治疗。目前，我国糖尿病患者的血糖达标率仅为四分之一，未及时开始胰岛素治疗是主要原因之一。事实上，血糖升高所致并发症不仅会危及生命，也会由于对并发症的治疗导致费用增加。中国、美国和欧洲的糖尿病指南均明确提出，在众多降糖方案中，胰岛素的降糖效果最显著，明显超过各类口服药。如能消除患者对胰岛素治疗的误解，使其接受胰岛素注射治疗，同时降低治疗费用，相信许多患者会愿意及时使用胰岛素。在并发症发生后再使用胰岛素，则无法起到预防作用。因此，须解决糖尿病患者胰岛素治疗的三大难题。难题1害怕成瘾，对胰岛素治疗存在诸多误解方法参加“看图对话”糖尿病健康教育小组患病后，该患者对糖尿病自我管理了解较多，但对胰岛素一直心怀顾虑，认为开始胰岛素治疗即意味着“没救了”，因此在血糖居高不下、医生多次劝说的情况下，仍不愿开始胰岛素治疗。随后，患者参加了“看图对话”糖尿病健康教育小组讨论，走出了对胰岛素治疗的误区，做好了开始胰岛素治疗的准备。“看图对话”是一种全新的糖尿病健康教育模式，已在超过105个国家得到推广应用。不同于既往听讲的形式，7、8例糖尿病患者面对4张糖尿病地图，通过问答方式与辅导员逐一讨论，深入了解糖尿病控制方法。据参加过“看图对话”的糖尿病患者反应，通过小组讨论才知道胰岛素治疗不会成瘾，胰岛素是控制血糖的最有效手段。今年“看图对话”已在我国1600多家医院举办了2.5万余场小组讨论，累计有20万患者参加。难题2惧怕注射，常导致因小失大办法《中国糖尿病药物注射技术指南》发布，注射有章可循2011年8月，中华医学会糖尿病学分会发布了《中国糖尿病药物注射技术指南》，对胰岛素注射从准备到结束做出明确推荐意见。针对注射疼痛，指南强调，疼痛主要由注射针头使用不当引起，因此只要做到注射针头一针一换，就可明显减少注射疼痛，缓解患者对注射的恐惧。许多患者认为注射是医护人员才能掌握的技术，实际上随着注射笔的上市，注射已成为多数人可轻松掌握的技术。《中国糖尿病药物注射技术指南》归纳了胰岛素注射笔使用的9个步骤，指导患者规范掌握注射技术，实现血糖达标。注射胰岛素，小痛苦换来大受益。难题3担心费用，胰岛素治疗费事费钱方法进口人胰岛素在社区医院可以处方，全部报销随着胰岛素使用者增多，患者希望在社区医院就能买到可以报销的进口人胰岛素。进口人胰岛素在社区医院的价格会较其他二、三级医院便宜15%，且取药更快、更方便。在近期公布的各省市基本药物目录中，由于已达到临床必需、安全有效、使用方便的基本药物要求，美国礼来公司的进口人胰岛素——重组人胰岛素注射液（优泌林）系列被纳入北京、上海、天津、山东、江苏、广东、新疆等省市的社区医院报销范围，为糖尿病患者降低了治疗费用、提供了便利。",
+        "present_illness": "",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "4797_及时血糖达标和胰岛素治疗",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "55岁"
+        },
+        "chief_complaint": "患者女性，55岁，诊断为2型糖尿病5年。除控制饮食和坚持运动外，患者还接受多种药物治疗。近1年易疲劳，视物模糊，常口渴。查空腹血糖（FPG）10mmol/L，餐后血糖（PPG）15mmol/L，糖化血红蛋白（HbA1c）8.5%。考虑为口服降糖药失效，需立即开始胰岛素治疗。从典型病例看普遍问题：胰岛素使用不及时，血糖不能及时达标。该病例很有代表性，随着口服降糖药失效，血糖控制开始变差，使得并发症的发生风险增加。研究显示，HbA1c越早达标，肾脏、眼和心脏的损害就越小。该患者在1年前血糖升高时就应该开始胰岛素治疗，但由于对胰岛素不了解，俱怕注射，同时担心治疗费用可能增加，因此患者未开始胰岛素治疗。目前，我国糖尿病患者的血糖达标率仅为四分之一，未及时开始胰岛素治疗是主要原因之一。事实上，血糖升高所致并发症不仅会危及生命，也会由于对并发症的治疗导致费用增加。中国、美国和欧洲的糖尿病指南均明确提出，在众多降糖方案中，胰岛素的降糖效果最显著，明显超过各类口服药。如能消除患者对胰岛素治疗的误解，使其接受胰岛素注射治疗，同时降低治疗费用，相信许多患者会愿意及时使用胰岛素。在并发症发生后再使用胰岛素，则无法起到预防作用。因此，须解决糖尿病患者胰岛素治疗的三大难题。难题1害怕成瘾，对胰岛素治疗存在诸多误解方法参加“看图对话”糖尿病健康教育小组患病后，该患者对糖尿病自我管理了解较多，但对胰岛素一直心怀顾虑，认为开始胰岛素治疗即意味着“没救了”，因此在血糖居高不下、医生多次劝说的情况下，仍不愿开始胰岛素治疗。随后，患者参加了“看图对话”糖尿病健康教育小组讨论，走出了对胰岛素治疗的误区，做好了开始胰岛素治疗的准备。“看图对话”是一种全新的糖尿病健康教育模式，已在超过105个国家得到推广应用。不同于既往听讲的形式，7、8例糖尿病患者面对4张糖尿病地图，通过问答方式与辅导员逐一讨论，深入了解糖尿病控制方法。据参加过“看图对话”的糖尿病患者反应，通过小组讨论才知道胰岛素治疗不会成瘾，胰岛素是控制血糖的最有效手段。今年“看图对话”已在我国1600多家医院举办了2.5万余场小组讨论，累计有20万患者参加。难题2惧怕注射，常导致因小失大办法《中国糖尿病药物注射技术指南》发布，注射有章可循2011年8月，中华医学会糖尿病学分会发布了《中国糖尿病药物注射技术指南》，对胰岛素注射从准备到结束做出明确推荐意见。针对注射疼痛，指南强调，疼痛主要由注射针头使用不当引起，因此只要做到注射针头一针一换，就可明显减少注射疼痛，缓解患者对注射的恐惧。许多患者认为注射是医护人员才能掌握的技术，实际上随着注射笔的上市，注射已成为多数人可轻松掌握的技术。《中国糖尿病药物注射技术指南》归纳了胰岛素注射笔使用的9个步骤，指导患者规范掌握注射技术，实现血糖达标。注射胰岛素，小痛苦换来大受益。难题3担心费用，胰岛素治疗费事费钱方法进口人胰岛素在社区医院可以处方，全部报销随着胰岛素使用者增多，患者希望在社区医院就能买到可以报销的进口人胰岛素。进口人胰岛素在社区医院的价格会较其他二、三级医院便宜15%，且取药更快、更方便。在近期公布的各省市基本药物目录中，由于已达到临床必需、安全有效、使用方便的基本药物要求，美国礼来公司的进口人胰岛素——重组人胰岛素注射液（优泌林）系列被纳入北京、上海、天津、山东、江苏、广东、新疆等省市的社区医院报销范围，为糖尿病患者降低了治疗费用、提供了便利。",
+        "present_illness": "",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "4797_及时血糖达标和胰岛素治疗",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "55岁"
+        },
+        "chief_complaint": "患者女性，55岁，诊断为2型糖尿病5年。除控制饮食和坚持运动外，患者还接受多种药物治疗。近1年易疲劳，视物模糊，常口渴。查空腹血糖（FPG）10mmol/L，餐后血糖（PPG）15mmol/L，糖化血红蛋白（HbA1c）8.5%。考虑为口服降糖药失效，需立即开始胰岛素治疗。从典型病例看普遍问题：胰岛素使用不及时，血糖不能及时达标。该病例很有代表性，随着口服降糖药失效，血糖控制开始变差，使得并发症的发生风险增加。研究显示，HbA1c越早达标，肾脏、眼和心脏的损害就越小。该患者在1年前血糖升高时就应该开始胰岛素治疗，但由于对胰岛素不了解，俱怕注射，同时担心治疗费用可能增加，因此患者未开始胰岛素治疗。目前，我国糖尿病患者的血糖达标率仅为四分之一，未及时开始胰岛素治疗是主要原因之一。事实上，血糖升高所致并发症不仅会危及生命，也会由于对并发症的治疗导致费用增加。中国、美国和欧洲的糖尿病指南均明确提出，在众多降糖方案中，胰岛素的降糖效果最显著，明显超过各类口服药。如能消除患者对胰岛素治疗的误解，使其接受胰岛素注射治疗，同时降低治疗费用，相信许多患者会愿意及时使用胰岛素。在并发症发生后再使用胰岛素，则无法起到预防作用。因此，须解决糖尿病患者胰岛素治疗的三大难题。难题1害怕成瘾，对胰岛素治疗存在诸多误解方法参加“看图对话”糖尿病健康教育小组患病后，该患者对糖尿病自我管理了解较多，但对胰岛素一直心怀顾虑，认为开始胰岛素治疗即意味着“没救了”，因此在血糖居高不下、医生多次劝说的情况下，仍不愿开始胰岛素治疗。随后，患者参加了“看图对话”糖尿病健康教育小组讨论，走出了对胰岛素治疗的误区，做好了开始胰岛素治疗的准备。“看图对话”是一种全新的糖尿病健康教育模式，已在超过105个国家得到推广应用。不同于既往听讲的形式，7、8例糖尿病患者面对4张糖尿病地图，通过问答方式与辅导员逐一讨论，深入了解糖尿病控制方法。据参加过“看图对话”的糖尿病患者反应，通过小组讨论才知道胰岛素治疗不会成瘾，胰岛素是控制血糖的最有效手段。今年“看图对话”已在我国1600多家医院举办了2.5万余场小组讨论，累计有20万患者参加。难题2惧怕注射，常导致因小失大办法《中国糖尿病药物注射技术指南》发布，注射有章可循2011年8月，中华医学会糖尿病学分会发布了《中国糖尿病药物注射技术指南》，对胰岛素注射从准备到结束做出明确推荐意见。针对注射疼痛，指南强调，疼痛主要由注射针头使用不当引起，因此只要做到注射针头一针一换，就可明显减少注射疼痛，缓解患者对注射的恐惧。许多患者认为注射是医护人员才能掌握的技术，实际上随着注射笔的上市，注射已成为多数人可轻松掌握的技术。《中国糖尿病药物注射技术指南》归纳了胰岛素注射笔使用的9个步骤，指导患者规范掌握注射技术，实现血糖达标。注射胰岛素，小痛苦换来大受益。难题3担心费用，胰岛素治疗费事费钱方法进口人胰岛素在社区医院可以处方，全部报销随着胰岛素使用者增多，患者希望在社区医院就能买到可以报销的进口人胰岛素。进口人胰岛素在社区医院的价格会较其他二、三级医院便宜15%，且取药更快、更方便。在近期公布的各省市基本药物目录中，由于已达到临床必需、安全有效、使用方便的基本药物要求，美国礼来公司的进口人胰岛素——重组人胰岛素注射液（优泌林）系列被纳入北京、上海、天津、山东、江苏、广东、新疆等省市的社区医院报销范围，为糖尿病患者降低了治疗费用、提供了便利。",
+        "present_illness": "",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "4797_及时血糖达标和胰岛素治疗",
+        "personal_info": {
+          "性别": "女",
+          "年龄": "55岁"
+        },
+        "chief_complaint": "患者女性，55岁，诊断为2型糖尿病5年。除控制饮食和坚持运动外，患者还接受多种药物治疗。近1年易疲劳，视物模糊，常口渴。查空腹血糖（FPG）10mmol/L，餐后血糖（PPG）15mmol/L，糖化血红蛋白（HbA1c）8.5%。考虑为口服降糖药失效，需立即开始胰岛素治疗。从典型病例看普遍问题：胰岛素使用不及时，血糖不能及时达标。该病例很有代表性，随着口服降糖药失效，血糖控制开始变差，使得并发症的发生风险增加。研究显示，HbA1c越早达标，肾脏、眼和心脏的损害就越小。该患者在1年前血糖升高时就应该开始胰岛素治疗，但由于对胰岛素不了解，俱怕注射，同时担心治疗费用可能增加，因此患者未开始胰岛素治疗。目前，我国糖尿病患者的血糖达标率仅为四分之一，未及时开始胰岛素治疗是主要原因之一。事实上，血糖升高所致并发症不仅会危及生命，也会由于对并发症的治疗导致费用增加。中国、美国和欧洲的糖尿病指南均明确提出，在众多降糖方案中，胰岛素的降糖效果最显著，明显超过各类口服药。如能消除患者对胰岛素治疗的误解，使其接受胰岛素注射治疗，同时降低治疗费用，相信许多患者会愿意及时使用胰岛素。在并发症发生后再使用胰岛素，则无法起到预防作用。因此，须解决糖尿病患者胰岛素治疗的三大难题。难题1害怕成瘾，对胰岛素治疗存在诸多误解方法参加“看图对话”糖尿病健康教育小组患病后，该患者对糖尿病自我管理了解较多，但对胰岛素一直心怀顾虑，认为开始胰岛素治疗即意味着“没救了”，因此在血糖居高不下、医生多次劝说的情况下，仍不愿开始胰岛素治疗。随后，患者参加了“看图对话”糖尿病健康教育小组讨论，走出了对胰岛素治疗的误区，做好了开始胰岛素治疗的准备。“看图对话”是一种全新的糖尿病健康教育模式，已在超过105个国家得到推广应用。不同于既往听讲的形式，7、8例糖尿病患者面对4张糖尿病地图，通过问答方式与辅导员逐一讨论，深入了解糖尿病控制方法。据参加过“看图对话”的糖尿病患者反应，通过小组讨论才知道胰岛素治疗不会成瘾，胰岛素是控制血糖的最有效手段。今年“看图对话”已在我国1600多家医院举办了2.5万余场小组讨论，累计有20万患者参加。难题2惧怕注射，常导致因小失大办法《中国糖尿病药物注射技术指南》发布，注射有章可循2011年8月，中华医学会糖尿病学分会发布了《中国糖尿病药物注射技术指南》，对胰岛素注射从准备到结束做出明确推荐意见。针对注射疼痛，指南强调，疼痛主要由注射针头使用不当引起，因此只要做到注射针头一针一换，就可明显减少注射疼痛，缓解患者对注射的恐惧。许多患者认为注射是医护人员才能掌握的技术，实际上随着注射笔的上市，注射已成为多数人可轻松掌握的技术。《中国糖尿病药物注射技术指南》归纳了胰岛素注射笔使用的9个步骤，指导患者规范掌握注射技术，实现血糖达标。注射胰岛素，小痛苦换来大受益。难题3担心费用，胰岛素治疗费事费钱方法进口人胰岛素在社区医院可以处方，全部报销随着胰岛素使用者增多，患者希望在社区医院就能买到可以报销的进口人胰岛素。进口人胰岛素在社区医院的价格会较其他二、三级医院便宜15%，且取药更快、更方便。在近期公布的各省市基本药物目录中，由于已达到临床必需、安全有效、使用方便的基本药物要求，美国礼来公司的进口人胰岛素——重组人胰岛素注射液（优泌林）系列被纳入北京、上海、天津、山东、江苏、广东、新疆等省市的社区医院报销范围，为糖尿病患者降低了治疗费用、提供了便利。",
+        "present_illness": "",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}

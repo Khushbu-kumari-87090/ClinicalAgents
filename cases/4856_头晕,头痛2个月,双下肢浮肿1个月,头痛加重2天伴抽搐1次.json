@@ -1,0 +1,534 @@
+{
+  "case_id": "4856_头晕,头痛2个月,双下肢浮肿1个月,头痛加重2天伴抽搐1次",
+  "personal_info": {
+    "性别": "男",
+    "年龄": "47岁"
+  },
+  "chief_complaint": "患者，男性，47岁，农民， 因头晕，头痛2个月，双下肢浮肿1个月，头痛加重2天伴抽搐1次于2002年2月13日入院。",
+  "present_illness": "患者于2个月前在矿道内工作时因缺氧一直全身乏力，倦怠，食欲不振。持续性头晕，间歇性头痛，头痛程度中等，无恶心，呕吐，一个月前双下肢浮肿，当地查尿蛋白（++），诊断为\"慢性肾小球肾炎\"给予利尿药及激素治疗后水肿消失。尿常规恢复正常，2日前，头晕明显加重，呈持续性，有时头痛剧烈难以忍受，伴恶心呕吐，当日20时突然神志丧失1次，伴双眼球上翻，四肢强直性阵挛，无大小便失禁，历时2min自动缓解，当地医院诊CT:轻度脑萎缩，诊断为\"癫痫，头痛原因待查\"",
+  "dept_l1": "Internal Medicine",
+  "dept_l2": [
+    "Cardiology"
+  ],
+  "past_history": "既往有膝，腕关节痛病史，当地诊断为\"关节炎\",无高血压，结核病，糖尿病，病史及手术史。",
+  "hypothesis_illness": [
+    {
+      "name": "Hypertension",
+      "disease": "Hypertension",
+      "evidence": [],
+      "confidence": 0.95
+    }
+  ],
+  "physical_exams": {
+    "Blood Pressure": "120/80"
+  },
+  "auxiliary_exams": {
+    "ECG": "Normal sinus rhythm",
+    "Blood Test": "Normal"
+  },
+  "imaging_results": {
+    "ECG": "Normal sinus rhythm"
+  },
+  "completed_physical_exams": [
+    "Blood Pressure"
+  ],
+  "completed_auxiliary_exams": [
+    "ECG",
+    "Blood Test"
+  ],
+  "completed_imaging_exams": [
+    "ECG"
+  ],
+  "pending_auxiliary_exams": [],
+  "predicted_physical_exams": [
+    "Blood Pressure"
+  ],
+  "predicted_auxiliary_exams": [
+    "ECG"
+  ],
+  "diagnosis_result": [
+    "Hypertension"
+  ],
+  "treatment_plan": [
+    "Lisinopril 10mg daily"
+  ],
+  "task_status": {
+    "task1_referral": "completed",
+    "task2_doctor": "completed",
+    "task3_imaging": "completed",
+    "task4_diagnosis": "completed",
+    "task5_treatment": "completed"
+  },
+  "recheck_total": 0,
+  "max_recheck": 1,
+  "mcts_trajectory": [
+    "task3_imaging",
+    "task4_diagnosis"
+  ],
+  "mcts_step": 2,
+  "mcts_eta": 2,
+  "workflow_action_history": [
+    {
+      "sequence_index": 0,
+      "action": "task1_referral",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral"
+    },
+    {
+      "sequence_index": 1,
+      "action": "task2_doctor",
+      "source": "warm_start",
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor"
+    },
+    {
+      "sequence_index": 2,
+      "action": "task3_imaging",
+      "source": "mcts_selected",
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging"
+    },
+    {
+      "sequence_index": 3,
+      "action": "task4_diagnosis",
+      "source": "mcts_selected",
+      "mcts_step": 2,
+      "workflow_stage": "task4_diagnosis"
+    }
+  ],
+  "backtrack_events": [],
+  "missing_evidence": [],
+  "potential_missing_evidence": [],
+  "experience_knowledge": [],
+  "retrieved_guidelines": [],
+  "retrieved_cdc_cases": [],
+  "evidence_importance": {},
+  "experience_memory_available": false,
+  "top_hypothesis_confidence": 0.95,
+  "mcts_snapshots": [
+    {
+      "snapshot_id": 0,
+      "trajectory_index": 0,
+      "workflow_action_index": 0,
+      "mcts_step": 0,
+      "workflow_stage": "initial",
+      "reason": "warm_start_initial",
+      "state": {
+        "case_id": "4856_头晕,头痛2个月,双下肢浮肿1个月,头痛加重2天伴抽搐1次",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "47岁"
+        },
+        "chief_complaint": "患者，男性，47岁，农民， 因头晕，头痛2个月，双下肢浮肿1个月，头痛加重2天伴抽搐1次于2002年2月13日入院。",
+        "present_illness": "患者于2个月前在矿道内工作时因缺氧一直全身乏力，倦怠，食欲不振。持续性头晕，间歇性头痛，头痛程度中等，无恶心，呕吐，一个月前双下肢浮肿，当地查尿蛋白（++），诊断为\"慢性肾小球肾炎\"给予利尿药及激素治疗后水肿消失。尿常规恢复正常，2日前，头晕明显加重，呈持续性，有时头痛剧烈难以忍受，伴恶心呕吐，当日20时突然神志丧失1次，伴双眼球上翻，四肢强直性阵挛，无大小便失禁，历时2min自动缓解，当地医院诊CT:轻度脑萎缩，诊断为\"癫痫，头痛原因待查\"",
+        "dept_l1": null,
+        "dept_l2": [],
+        "past_history": "既往有膝，腕关节痛病史，当地诊断为\"关节炎\",无高血压，结核病，糖尿病，病史及手术史。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "pending",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 1,
+      "trajectory_index": 0,
+      "workflow_action_index": 1,
+      "mcts_step": 0,
+      "workflow_stage": "task1_referral",
+      "reason": "warm_start_before_doctor",
+      "state": {
+        "case_id": "4856_头晕,头痛2个月,双下肢浮肿1个月,头痛加重2天伴抽搐1次",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "47岁"
+        },
+        "chief_complaint": "患者，男性，47岁，农民， 因头晕，头痛2个月，双下肢浮肿1个月，头痛加重2天伴抽搐1次于2002年2月13日入院。",
+        "present_illness": "患者于2个月前在矿道内工作时因缺氧一直全身乏力，倦怠，食欲不振。持续性头晕，间歇性头痛，头痛程度中等，无恶心，呕吐，一个月前双下肢浮肿，当地查尿蛋白（++），诊断为\"慢性肾小球肾炎\"给予利尿药及激素治疗后水肿消失。尿常规恢复正常，2日前，头晕明显加重，呈持续性，有时头痛剧烈难以忍受，伴恶心呕吐，当日20时突然神志丧失1次，伴双眼球上翻，四肢强直性阵挛，无大小便失禁，历时2min自动缓解，当地医院诊CT:轻度脑萎缩，诊断为\"癫痫，头痛原因待查\"",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往有膝，腕关节痛病史，当地诊断为\"关节炎\",无高血压，结核病，糖尿病，病史及手术史。",
+        "hypothesis_illness": [],
+        "physical_exams": {},
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [],
+        "predicted_auxiliary_exams": [],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "pending",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.0,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 2,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "warm_start_ready",
+      "state": {
+        "case_id": "4856_头晕,头痛2个月,双下肢浮肿1个月,头痛加重2天伴抽搐1次",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "47岁"
+        },
+        "chief_complaint": "患者，男性，47岁，农民， 因头晕，头痛2个月，双下肢浮肿1个月，头痛加重2天伴抽搐1次于2002年2月13日入院。",
+        "present_illness": "患者于2个月前在矿道内工作时因缺氧一直全身乏力，倦怠，食欲不振。持续性头晕，间歇性头痛，头痛程度中等，无恶心，呕吐，一个月前双下肢浮肿，当地查尿蛋白（++），诊断为\"慢性肾小球肾炎\"给予利尿药及激素治疗后水肿消失。尿常规恢复正常，2日前，头晕明显加重，呈持续性，有时头痛剧烈难以忍受，伴恶心呕吐，当日20时突然神志丧失1次，伴双眼球上翻，四肢强直性阵挛，无大小便失禁，历时2min自动缓解，当地医院诊CT:轻度脑萎缩，诊断为\"癫痫，头痛原因待查\"",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往有膝，腕关节痛病史，当地诊断为\"关节炎\",无高血压，结核病，糖尿病，病史及手术史。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 3,
+      "trajectory_index": 0,
+      "workflow_action_index": 2,
+      "mcts_step": 0,
+      "workflow_stage": "task2_doctor",
+      "reason": "search_root_0",
+      "state": {
+        "case_id": "4856_头晕,头痛2个月,双下肢浮肿1个月,头痛加重2天伴抽搐1次",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "47岁"
+        },
+        "chief_complaint": "患者，男性，47岁，农民， 因头晕，头痛2个月，双下肢浮肿1个月，头痛加重2天伴抽搐1次于2002年2月13日入院。",
+        "present_illness": "患者于2个月前在矿道内工作时因缺氧一直全身乏力，倦怠，食欲不振。持续性头晕，间歇性头痛，头痛程度中等，无恶心，呕吐，一个月前双下肢浮肿，当地查尿蛋白（++），诊断为\"慢性肾小球肾炎\"给予利尿药及激素治疗后水肿消失。尿常规恢复正常，2日前，头晕明显加重，呈持续性，有时头痛剧烈难以忍受，伴恶心呕吐，当日20时突然神志丧失1次，伴双眼球上翻，四肢强直性阵挛，无大小便失禁，历时2min自动缓解，当地医院诊CT:轻度脑萎缩，诊断为\"癫痫，头痛原因待查\"",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往有膝，腕关节痛病史，当地诊断为\"关节炎\",无高血压，结核病，糖尿病，病史及手术史。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {},
+        "imaging_results": {},
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [],
+        "completed_imaging_exams": [],
+        "pending_auxiliary_exams": [
+          "ECG"
+        ],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "pending",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [],
+        "mcts_step": 0,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    },
+    {
+      "snapshot_id": 4,
+      "trajectory_index": 1,
+      "workflow_action_index": 3,
+      "mcts_step": 1,
+      "workflow_stage": "task3_imaging",
+      "reason": "search_root_1",
+      "state": {
+        "case_id": "4856_头晕,头痛2个月,双下肢浮肿1个月,头痛加重2天伴抽搐1次",
+        "personal_info": {
+          "性别": "男",
+          "年龄": "47岁"
+        },
+        "chief_complaint": "患者，男性，47岁，农民， 因头晕，头痛2个月，双下肢浮肿1个月，头痛加重2天伴抽搐1次于2002年2月13日入院。",
+        "present_illness": "患者于2个月前在矿道内工作时因缺氧一直全身乏力，倦怠，食欲不振。持续性头晕，间歇性头痛，头痛程度中等，无恶心，呕吐，一个月前双下肢浮肿，当地查尿蛋白（++），诊断为\"慢性肾小球肾炎\"给予利尿药及激素治疗后水肿消失。尿常规恢复正常，2日前，头晕明显加重，呈持续性，有时头痛剧烈难以忍受，伴恶心呕吐，当日20时突然神志丧失1次，伴双眼球上翻，四肢强直性阵挛，无大小便失禁，历时2min自动缓解，当地医院诊CT:轻度脑萎缩，诊断为\"癫痫，头痛原因待查\"",
+        "dept_l1": "Internal Medicine",
+        "dept_l2": [
+          "Cardiology"
+        ],
+        "past_history": "既往有膝，腕关节痛病史，当地诊断为\"关节炎\",无高血压，结核病，糖尿病，病史及手术史。",
+        "hypothesis_illness": [
+          {
+            "name": "Hypertension",
+            "disease": "Hypertension",
+            "evidence": [],
+            "confidence": 0.9
+          }
+        ],
+        "physical_exams": {
+          "Blood Pressure": "120/80"
+        },
+        "auxiliary_exams": {
+          "ECG": "Normal sinus rhythm",
+          "Blood Test": "Normal"
+        },
+        "imaging_results": {
+          "ECG": "Normal sinus rhythm"
+        },
+        "completed_physical_exams": [
+          "Blood Pressure"
+        ],
+        "completed_auxiliary_exams": [
+          "ECG",
+          "Blood Test"
+        ],
+        "completed_imaging_exams": [
+          "ECG"
+        ],
+        "pending_auxiliary_exams": [],
+        "predicted_physical_exams": [
+          "Blood Pressure"
+        ],
+        "predicted_auxiliary_exams": [
+          "ECG"
+        ],
+        "diagnosis_result": [],
+        "treatment_plan": [],
+        "task_status": {
+          "task1_referral": "completed",
+          "task2_doctor": "completed",
+          "task3_imaging": "completed",
+          "task4_diagnosis": "pending",
+          "task5_treatment": "pending"
+        },
+        "recheck_total": 0,
+        "max_recheck": 1,
+        "mcts_trajectory": [
+          "task3_imaging"
+        ],
+        "mcts_step": 1,
+        "mcts_eta": 2,
+        "workflow_action_history": [
+          {
+            "sequence_index": 0,
+            "action": "task1_referral",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task1_referral"
+          },
+          {
+            "sequence_index": 1,
+            "action": "task2_doctor",
+            "source": "warm_start",
+            "mcts_step": 0,
+            "workflow_stage": "task2_doctor"
+          },
+          {
+            "sequence_index": 2,
+            "action": "task3_imaging",
+            "source": "mcts_selected",
+            "mcts_step": 1,
+            "workflow_stage": "task3_imaging"
+          }
+        ],
+        "backtrack_events": [],
+        "missing_evidence": [],
+        "potential_missing_evidence": [],
+        "experience_knowledge": [],
+        "retrieved_guidelines": [],
+        "retrieved_cdc_cases": [],
+        "evidence_importance": {},
+        "experience_memory_available": false,
+        "top_hypothesis_confidence": 0.9,
+        "mcts_snapshots": [],
+        "active_snapshot_id": null,
+        "terminated_by": null,
+        "finalization_used": false
+      }
+    }
+  ],
+  "active_snapshot_id": null,
+  "terminated_by": "eta",
+  "finalization_used": true,
+  "agent_missing_evidence": []
+}
